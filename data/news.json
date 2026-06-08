@@ -1,13 +1,16 @@
 {
-  "updated_at": "2026-06-08 12:15 UTC",
+  "updated_at": "2026-06-08 12:42 UTC",
   "items": [
     {
       "section": "Sanità",
-      "time": "08 giu 2026, 11:22 UTC",
-      "title": "ASL Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica",
-      "summary": "La ASL n. 3 di Nuoro annuncia un passo avanti nella digitalizzazione: la Farmacia Ospedaliera ottiene accesso operativo alla cartella clinica elettronica integrata nel sistema informativo aziendale.",
-      "why": "È una notizia ad alto impatto perché riguarda processi sanitari, tracciabilità e continuità delle cure nell'ospedale e nella rete ASL nuorese.",
-      "tags": ["Nuoro", "ASL", "sanità digitale", "ospedale"],
+      "time": "08 Jun 2026, 11:22 UTC",
+      "title": "Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica",
+      "summary": "La ASL n. 3 di Nuoro ha annunciato un importante avanzamento nei processi di informatizzazione sanitaria. La Farmacia Ospedaliera ha infatti ottenuto l’accesso operativo alla cartella clinica elettronica integrata nel sistema informativo clinico aziendale. L’operazione rientra nel più ampio programma di digitalizzazione promosso dalla Regione Autonoma della…",
+      "why": "Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.",
+      "tags": [
+        "Nuoro",
+        "Sanità"
+      ],
       "sources": [
         {
           "name": "Cronache Nuoresi",
@@ -16,12 +19,31 @@
       ]
     },
     {
-      "section": "Comune / Tributi",
-      "time": "08 giu 2026, 10:27 UTC",
-      "title": "Nuoro: accordo sulla rottamazione dei tributi comunali",
-      "summary": "In Commissione Bilancio del Comune di Nuoro è stata raggiunta un'intesa sul regolamento per la definizione agevolata dei tributi comunali. Il gruppo SiAmo Nuoro chiede ora di estendere l'approccio anche alle cartelle erariali.",
-      "why": "Può interessare cittadini e imprese con pendenze tributarie locali: è una misura con effetti concreti su pagamenti, sanzioni e rapporto con il Comune.",
-      "tags": ["Nuoro", "Comune", "tributi", "rottamazione"],
+      "section": "News",
+      "time": "08 Jun 2026, 10:35 UTC",
+      "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
+      "summary": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna ANSA",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna"
+      ],
+      "sources": [
+        {
+          "name": "ANSA Sardegna / Google News",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 10:27 UTC",
+      "title": "Rottamazione tributi grazie a SiAmo Nuoro: ora si estenda alle cartelle erariali",
+      "summary": "La Commissione Bilancio del Comune di Nuoro ha raggiunto un’intesa sul regolamento che disciplina la definizione agevolata dei tributi comunali. Attraverso un confronto serio e un’attività di mediazione che ha visto il coinvolgimento attivo dei gruppi di opposizione, si è giunti alla definizione di un testo condiviso, in grado di recepire proposte e migliora…",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Nuoro",
+        "Elezioni"
+      ],
       "sources": [
         {
           "name": "Cronache Nuoresi",
@@ -30,12 +52,67 @@
       ]
     },
     {
-      "section": "Agricoltura / Europa",
-      "time": "08 giu 2026, 09:08 UTC",
-      "title": "Fondi UE agricoli e riarmo: a Nuoro Agus chiede di anticipare la programmazione",
-      "summary": "Durante un convegno a Nuoro sulla questione incendi, l'assessore regionale Francesco Agus ha parlato del rischio che una parte dei fondi agricoli europei venga dirottata verso il riarmo, invitando ad anticipare la programmazione.",
-      "why": "Tema strategico per aree interne e comparto agricolo: eventuali spostamenti di fondi UE possono incidere su prevenzione incendi, sviluppo rurale e investimenti locali.",
-      "tags": ["Nuoro", "agricoltura", "fondi UE", "incendi", "Regione Sardegna"],
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 10:25 UTC",
+      "title": "Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum",
+      "summary": "Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum ANSA",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni"
+      ],
+      "sources": [
+        {
+          "name": "ANSA Sardegna / Google News",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 09:48 UTC",
+      "title": "Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco",
+      "summary": "Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco La Nuova Sardegna",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni"
+      ],
+      "sources": [
+        {
+          "name": "La Nuova Sardegna / Google News",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5"
+        }
+      ]
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 09:19 UTC",
+      "title": "Bortigali, Patrizia Tomassetti è la prima sindaca del paese",
+      "summary": "Bortigali, Patrizia Tomassetti è la prima sindaca del paese L'Unione Sarda.it",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Bortigali"
+      ],
+      "sources": [
+        {
+          "name": "L'Unione Sarda / Google News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGdXbllxSDRiM1lqNnNKQWtZN3ZPUWpxbmkyZFJSNWUyTTVrTjZWWUUwSC1CT1VfelQzbkRZeWhKZTctMEdIVGZDYm80QnRIbVJZRW53M3hVd1c3SlJ3VlR2NE1YWUZ3YXlBOENPR1QwMXBHNkN5ZTJ2MmI2TDlkU1g3c2lGRzBISFdOVXo3Yi1hZC16blJoUGx5cS1aRmFKYzc1SkVfZHZQLUxWSGRZeEhYWmZTWldtUWZrd0ZxOVQ0Zw?oc=5"
+        }
+      ]
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 09:08 UTC",
+      "title": "Nuoro. Fondi UE agricoli dirottati per il riarmo in Europa. Agus: “Serve anticipare la programmazione”",
+      "summary": "NUORO – L’agricoltura è il settore maggiormente indiziato a cedere una parte dei fondi comunitari per il riarmo europeo, dopo lo scoppio degli ultimi conflitti bellici. L’ha confermato giovedì scorso a Nuoro, durante il convegno sulla questione degli incendi, l’assessore regionale Francesco Agus, esponente dei Progressisti: «Il pericolo è presente, anche se…",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Nuoro",
+        "Elezioni"
+      ],
       "sources": [
         {
           "name": "Cronache Nuoresi",
@@ -44,38 +121,53 @@
       ]
     },
     {
-      "section": "Elezioni comunali",
-      "time": "08 giu 2026, mattina",
-      "title": "Comunali in Sardegna: affluenza e risultati, focus sul Nuorese",
-      "summary": "Le elezioni comunali in Sardegna registrano un'affluenza finale del 43,65%, con record nel Nuorese. Dalle fonti emergono aggiornamenti su diversi comuni dell'area: Olzai, Tiana, Ottana, Bortigali, Osidda e altri centri.",
-      "why": "Le amministrative definiscono nuovi equilibri nei comuni del territorio. La convergenza di più fonti indica che il tema è il filone principale della giornata per il Nuorese.",
-      "tags": ["Nuorese", "elezioni", "comunali", "sindaci"],
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 08:11 UTC",
+      "title": "Comunali in Sardegna. Alle 23 si chiude con il 43,65%: Record dell’affluenza nel Nuorese",
+      "summary": "Dopo un leggero aumento registrato nella rilevazione delle ore 12, la serata di ieri aveva inizialmente mostrato un netto calo nell’affluenza alle urne per il turno delle elezioni comunali in Sardegna. Alle ore 19, infatti, la percentuale dei votanti sull’isola si era fermata al 34,59% degli aventi diritto, un dato inferiore rispetto al 37,89% registrato […]…",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Nuoro",
+        "Elezioni"
+      ],
       "sources": [
         {
           "name": "Cronache Nuoresi",
           "url": "https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/"
-        },
-        {
-          "name": "La Nuova Sardegna / Google News",
-          "url": "https://news.google.com/rss/search?q=site%3Alanuovasardegna.it%20Nuoro%20La%20Nuova%20Sardegna%20when%3A1d&hl=it&gl=IT&ceid=IT%3Ait"
-        },
-        {
-          "name": "L'Unione Sarda / Google News",
-          "url": "https://news.google.com/rss/search?q=site%3Aunionesarda.it%20Nuoro%20Unione%20Sarda%20when%3A1d&hl=it&gl=IT&ceid=IT%3Ait"
         }
       ]
     },
     {
-      "section": "Cultura / Società",
-      "time": "07 giu 2026, 12:32 UTC",
-      "title": "Nuoro: Pride ai giardini di piazza Vittorio Emanuele",
-      "summary": "I giardini di piazza Vittorio Emanuele hanno ospitato il Pride nuorese promosso dal Collettivo Istravanad@s, con una giornata dedicata ai diritti civili e al contrasto dei pregiudizi.",
-      "why": "È una notizia sociale e culturale rilevante per la città, utile da mantenere nel riepilogo perché pubblicata nel weekend e ancora attuale nella giornata odierna.",
-      "tags": ["Nuoro", "diritti civili", "Pride", "società"],
+      "section": "Elezioni / Politica",
+      "time": "08 Jun 2026, 05:11 UTC",
+      "title": "Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi",
+      "summary": "Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi L'Unione Sarda.it",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni"
+      ],
       "sources": [
         {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/07/orgoglio-arcobaleno-a-nuoro-piazza-vittorio-emanuele-contro-i-pregiudizi/"
+          "name": "L'Unione Sarda / Google News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5"
+        }
+      ]
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "07 Jun 2026, 21:46 UTC",
+      "title": "Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20%",
+      "summary": "Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20% ANSA",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni"
+      ],
+      "sources": [
+        {
+          "name": "ANSA Sardegna / Google News",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5"
         }
       ]
     }
