@@ -3,353 +3,396 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gazzettino Sardo — News Nuoro</title>
-  <meta name="description" content="Rassegna quotidiana correlata delle notizie su Nuoro e provincia." />
+  <title>Gazzettino Sardo</title>
+  <meta name="description" content="Lista quotidiana delle notizie su Nuoro e provincia." />
   <style>
     :root {
-      --pink:#f6a0c7;
-      --ink:#101116;
-      --muted:#6f727b;
-      --soft:#f7f7f8;
-      --line:#e7e7ea;
-      --panel:#ffffff;
+      --paper:#fffaf3;
+      --ink:#171717;
+      --muted:#76706a;
+      --line:#e2d9cd;
+      --accent:#b62424;
+      --soft:#f5eee4;
     }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    * { box-sizing:border-box; }
     body {
       margin:0;
-      min-height:100vh;
-      background:var(--pink);
+      background:#efe6da;
       color:var(--ink);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      letter-spacing:-0.012em;
+      font-family: Georgia, "Times New Roman", serif;
     }
-    .stage {
-      width:min(1120px, calc(100vw - 40px));
-      margin: clamp(18px, 5vw, 56px) auto;
-      min-height: calc(100vh - 112px);
-      background:var(--panel);
-      border-radius:0;
-      box-shadow: 0 28px 70px rgba(80, 24, 52, .16);
-      display:grid;
-      grid-template-columns: 64px 1fr;
-      overflow:hidden;
+    a { color:inherit; }
+    .page {
+      width:min(980px, calc(100vw - 28px));
+      margin:28px auto;
+      background:var(--paper);
+      border:1px solid var(--line);
+      box-shadow:0 20px 70px rgba(60,40,25,.12);
+      padding:28px clamp(18px,4vw,46px) 42px;
     }
-    .rail {
-      border-right:1px solid var(--line);
+    .masthead {
+      text-align:center;
+      border-bottom:3px double var(--ink);
+      padding-bottom:18px;
+      margin-bottom:14px;
+    }
+    .eyebrow {
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin-bottom:8px;
+    }
+    h1 {
+      margin:0;
+      font-size:clamp(44px, 8vw, 86px);
+      line-height:.88;
+      letter-spacing:-.065em;
+      font-weight:900;
+    }
+    .subtitle {
+      max-width:700px;
+      margin:14px auto 0;
+      color:#4f4a45;
+      font-size:17px;
+      line-height:1.45;
+    }
+    .info-bar {
       display:flex;
-      flex-direction:column;
-      align-items:center;
-      padding:22px 0;
-      background:#fff;
+      justify-content:space-between;
+      gap:12px;
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+      padding:9px 0;
+      margin:14px 0 26px;
+      color:var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:12px;
+      font-weight:650;
     }
-    .logo {
-      width:28px; height:28px; border:1.5px solid #15161c; border-radius:999px;
-      display:grid; place-items:center; font-weight:900; font-size:14px;
+    .section-nav {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:center;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:#6d6760;
+      margin-top:14px;
     }
-    .hamb { margin:auto 0; font-size:18px; transform:rotate(90deg); color:#2d2f36; opacity:.78; }
-    .dot-stack { display:grid; gap:12px; margin-top:auto; }
-    .dot { width:18px; height:18px; border-radius:999px; border:1px solid #e2e2e6; background:#f2f3f5; }
-    .dot:first-child { background:#1683ff; }
-    .content { min-width:0; overflow:hidden; }
-    .topbar {
+    .section-nav span {
+      border:1px solid var(--line);
+      background:#fff6ea;
+      padding:5px 8px;
+      border-radius:999px;
+    }
+    .article-list {
       display:grid;
-      grid-template-columns: 1fr minmax(180px, 280px);
-      gap:22px;
-      align-items:center;
-      padding:28px 34px 10px;
+      gap:0;
     }
-    .nav { display:flex; gap:18px; white-space:nowrap; overflow:hidden; }
-    .nav-chip { color:#858891; text-decoration:none; font-size:12px; font-weight:700; }
-    .nav-chip:first-child, .nav-chip:hover { color:#16171d; }
-    .search { border-bottom:1.5px solid #20222a; display:flex; align-items:center; gap:8px; padding:5px 0; }
-    .search input { border:0; outline:0; width:100%; font-size:12px; font-weight:700; background:transparent; }
-    .controls { padding:0 34px 20px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-    .control-pill { border:1px solid #d9dbe0; color:#393b43; border-radius:999px; padding:7px 13px; font-size:11px; font-weight:800; background:#fff; }
-    .control-pill.primary { background:#11131a; color:#fff; border-color:#11131a; }
-    .hero { padding:0 34px 18px; }
-    .brand-line { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
-    .brand-dot { width:18px; height:18px; border-radius:999px; background:#1683ff; }
-    .brand-title { font-size:13px; font-weight:900; }
-    .brand-sub { font-size:10px; text-transform:uppercase; color:#979aa3; font-weight:800; margin-left:6px; }
-    h1 { margin:0; font-size:clamp(34px, 5.7vw, 68px); line-height:.96; letter-spacing:-0.06em; max-width:820px; }
-    .deck { max-width:720px; color:#666a73; line-height:1.52; margin:16px 0 0; font-size:14px; }
-    .updated { margin-top:12px; color:#9a9da5; font-size:11px; font-weight:750; }
-    .masonry {
-      padding: 10px 34px 42px;
+    .article-row {
       display:grid;
-      grid-template-columns: repeat(3, minmax(220px, 1fr));
-      gap:30px 34px;
-      align-items:start;
+      grid-template-columns:58px 1fr;
+      gap:18px;
+      padding:24px 0;
+      border-bottom:1px solid var(--line);
     }
-    .story-card { min-width:0; padding-top:2px; border-top:1px solid var(--line); }
-    .story-card.feature { grid-row: span 2; }
-    .story-card.wide { grid-column: span 2; }
-    .story-top { display:grid; grid-template-columns:auto 1fr auto; gap:9px; align-items:center; margin:14px 0 12px; }
-    .author-mark { width:22px; height:22px; border-radius:999px; background:var(--story-color); display:grid; place-items:center; font-size:11px; font-weight:900; color:#111; }
-    .story-kicker { font-size:11px; font-weight:900; color:#25272e; }
-    .story-actions { display:flex; gap:5px; }
-    .mini-btn { border:1px solid #dbdde2; border-radius:999px; padding:4px 8px; font-size:10px; line-height:1; color:#2f323a; text-decoration:none; background:#fff; font-weight:800; }
-    .mini-btn.dark { display:none; }
-    .label-row { display:flex; gap:5px; flex-wrap:wrap; min-height:18px; }
-    .tag { background:#f3f4f6; color:#676a73; border-radius:999px; padding:3px 7px; font-size:9px; text-transform:uppercase; font-weight:850; }
-    .story-card h2 { margin:10px 0 9px; font-size:clamp(22px, 2.2vw, 32px); line-height:1.06; letter-spacing:-.048em; }
-    .story-card:not(.feature) h2 { font-size:21px; line-height:1.12; }
-    .summary { margin:0; color:#5e626b; line-height:1.5; font-size:13px; }
-    .why { margin:12px 0 0; color:#2a2d34; line-height:1.45; font-size:12px; border-left:2px solid var(--story-color); padding-left:10px; }
-    .story-foot { margin-top:20px; display:flex; gap:12px; color:#9a9da5; font-size:11px; align-items:center; flex-wrap:wrap; }
-    .score { color:#252830; font-weight:850; }
-    .sources { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
-    .source-link { color:#61646d; font-size:11px; text-decoration:none; border-bottom:1px solid #d6d8dd; }
-    footer { padding:0 34px 30px; color:#9498a1; font-size:12px; }
-    @media (max-width: 900px) {
-      .stage { grid-template-columns:1fr; margin:0; width:100%; min-height:100vh; }
-      .rail { display:none; }
-      .topbar { grid-template-columns:1fr; padding:22px 20px 10px; }
-      .nav { gap:14px; overflow:auto; padding-bottom:4px; }
-      .controls, .hero, .masonry, footer { padding-left:20px; padding-right:20px; }
-      .masonry { grid-template-columns:1fr; gap:28px; }
-      .story-card.feature, .story-card.wide { grid-column:auto; grid-row:auto; }
-      h1 { font-size:44px; }
+    .article-row:first-child {
+      padding-top:4px;
+    }
+    .article-number {
+      text-decoration:none;
+      color:var(--accent);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:22px;
+      font-weight:850;
+      line-height:1;
+      padding-top:5px;
+    }
+    .article-meta {
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-bottom:7px;
+      color:var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      font-weight:750;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+    .article-meta span:not(:last-child)::after {
+      content:"·";
+      margin-left:10px;
+      color:#b7aca0;
+    }
+    h2 {
+      margin:0;
+      font-size:clamp(24px, 3.2vw, 38px);
+      line-height:1.03;
+      letter-spacing:-.035em;
+      font-weight:850;
+    }
+    h2 a { text-decoration:none; }
+    h2 a:hover { color:var(--accent); }
+    .summary {
+      margin:10px 0 0;
+      color:#35312d;
+      line-height:1.55;
+      font-size:16px;
+    }
+    .why {
+      margin:10px 0 0;
+      color:#5d5650;
+      line-height:1.5;
+      font-size:14px;
+    }
+    .article-bottom {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      flex-wrap:wrap;
+      margin-top:13px;
+    }
+    .tags, .sources {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }
+    .tag {
+      color:#6f655c;
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:4px 8px;
+      font-size:11px;
+      font-weight:700;
+    }
+    .source-link {
+      color:var(--accent);
+      text-decoration:none;
+      border-bottom:1px solid rgba(182,36,36,.35);
+      font-size:12px;
+      font-weight:750;
+    }
+    footer {
+      margin-top:26px;
+      color:var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:12px;
+      line-height:1.5;
+    }
+    @media (max-width:700px) {
+      .page { width:100%; margin:0; min-height:100vh; border:0; padding:22px 18px 34px; }
+      h1 { font-size:48px; }
+      .info-bar { flex-direction:column; align-items:center; text-align:center; }
+      .article-row { grid-template-columns:1fr; gap:8px; padding:22px 0; }
+      .article-number { font-size:13px; padding:0; }
+      .article-number::before { content:"Articolo "; color:var(--muted); }
+      .article-meta { gap:5px; }
+      .article-meta span:not(:last-child)::after { display:none; }
+      .summary { font-size:15px; }
     }
   </style>
 </head>
 <body>
-  <div class="stage">
-    <aside class="rail" aria-label="Navigazione laterale">
-      <div class="logo">G</div>
-      <div class="hamb">≡</div>
-      <div class="dot-stack"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-    </aside>
-    <div class="content">
-      <header class="topbar">
-        <nav class="nav" aria-label="Categorie"><a href="#" class="nav-chip"># Sanità</a><a href="#" class="nav-chip"># News</a><a href="#" class="nav-chip"># Elezioni / Politica</a></nav>
-        <div class="search"><input aria-label="Cerca" placeholder="Search" /><span>⌕</span></div>
-      </header>
-      <div class="controls">
-        <span class="control-pill primary">+ daily brief</span>
-        <span class="control-pill">news</span>
-        <span class="control-pill">nuoro</span>
-        <span class="control-pill">today</span>
-      </div>
-      <section class="hero">
-        <div class="brand-line"><span class="brand-dot"></span><span class="brand-title">Gazzettino Sardo</span><span class="brand-sub">Hermes news desk</span></div>
-        <h1>News Nuoro — oggi</h1>
-        <p class="deck">Rassegna correlata delle notizie della giornata su Nuoro e provincia. Le schede raggruppano fonti diverse e mettono in evidenza rilevanza, contesto e link originali.</p>
-        <div class="updated">Aggiornato: 2026-06-08 12:42 UTC · Fonti monitorate: La Nuova Sardegna, L'Unione Sarda, Cronache Nuoresi, ANSA Sardegna</div>
-      </section>
-      <main class="masonry">
-<article class="story-card feature" style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>S</span></div>
-    <div class="story-kicker">SANITÀ</div>
-    <div class="story-actions">
-      <a href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+  <div class="page">
+    <header class="masthead">
+      <div class="eyebrow">Rassegna quotidiana · Nuoro e provincia</div>
+      <h1>Gazzettino Sardo</h1>
+      <p class="subtitle">Le notizie principali della giornata, ordinate come una lista di articoli con sintesi, contesto e link alle fonti originali.</p>
+      <nav class="section-nav" aria-label="Sezioni"><span>Sanità</span><span>News</span><span>Elezioni / Politica</span></nav>
+    </header>
+    <div class="info-bar">
+      <span>Aggiornato: 2026-06-08 12:42 UTC</span>
+      <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
+    </div>
+    <main class="article-list">
+<article class="article-row">
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">01</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Sanità</span>
+      <span>08 Jun 2026, 11:22 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica</a></h2>
+    <p class="summary">La ASL n. 3 di Nuoro ha annunciato un importante avanzamento nei processi di informatizzazione sanitaria. La Farmacia Ospedaliera ha infatti ottenuto l’accesso operativo alla cartella clinica elettronica integrata nel sistema informativo clinico aziendale. L’operazione rientra nel più ampio programma di digitalizzazione promosso dalla Regione Autonoma della…</p>
+    <p class="why"><strong>Perché conta:</strong> Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Nuoro</span><span class="tag">Sanità</span></div>
+      <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Nuoro</span><span class="tag">#Sanità</span></div>
-  <h2>Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica</h2>
-  <p class="summary">La ASL n. 3 di Nuoro ha annunciato un importante avanzamento nei processi di informatizzazione sanitaria. La Farmacia Ospedaliera ha infatti ottenuto l’accesso operativo alla cartella clinica elettronica integrata nel sistema informativo clinico aziendale. L’operazione rientra nel più ampio programma di digitalizzazione promosso dalla Regione Autonoma della…</p>
-  <p class="why"><strong>Perché conta:</strong> Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 1</span>
-    <span>08 Jun 2026, 11:22 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>N</span></div>
-    <div class="story-kicker">NEWS</div>
-    <div class="story-actions">
-      <a href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener">02</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>News</span>
+      <span>08 Jun 2026, 10:35 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener">Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna</a></h2>
+    <p class="summary">Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna ANSA</p>
+    <p class="why"><strong>Perché conta:</strong> Da monitorare per impatto locale su Nuoro e provincia.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Sardegna</span></div>
+      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener">ANSA Sardegna / Google News</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Sardegna</span></div>
-  <h2>Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna</h2>
-  <p class="summary">Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna ANSA</p>
-  <p class="why"><strong>Perché conta:</strong> Da monitorare per impatto locale su Nuoro e provincia.</p>
-  <div class="story-foot">
-    <span class="score">◎ 2</span>
-    <span>08 Jun 2026, 10:35 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener">ANSA Sardegna / Google News</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/" target="_blank" rel="noopener">03</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 10:27 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/" target="_blank" rel="noopener">Rottamazione tributi grazie a SiAmo Nuoro: ora si estenda alle cartelle erariali</a></h2>
+    <p class="summary">La Commissione Bilancio del Comune di Nuoro ha raggiunto un’intesa sul regolamento che disciplina la definizione agevolata dei tributi comunali. Attraverso un confronto serio e un’attività di mediazione che ha visto il coinvolgimento attivo dei gruppi di opposizione, si è giunti alla definizione di un testo condiviso, in grado di recepire proposte e migliora…</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Nuoro</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Nuoro</span><span class="tag">#Elezioni</span></div>
-  <h2>Rottamazione tributi grazie a SiAmo Nuoro: ora si estenda alle cartelle erariali</h2>
-  <p class="summary">La Commissione Bilancio del Comune di Nuoro ha raggiunto un’intesa sul regolamento che disciplina la definizione agevolata dei tributi comunali. Attraverso un confronto serio e un’attività di mediazione che ha visto il coinvolgimento attivo dei gruppi di opposizione, si è giunti alla definizione di un testo condiviso, in grado di recepire proposte e migliora…</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 3</span>
-    <span>08 Jun 2026, 10:27 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
 </article>
 
-<article class="story-card wide" style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5" target="_blank" rel="noopener">04</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 10:25 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5" target="_blank" rel="noopener">Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum</a></h2>
+    <p class="summary">Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum ANSA</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Sardegna</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5" target="_blank" rel="noopener">ANSA Sardegna / Google News</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Sardegna</span><span class="tag">#Elezioni</span></div>
-  <h2>Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum</h2>
-  <p class="summary">Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum ANSA</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 4</span>
-    <span>08 Jun 2026, 10:25 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5" target="_blank" rel="noopener">ANSA Sardegna / Google News</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5" target="_blank" rel="noopener">05</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 09:48 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5" target="_blank" rel="noopener">Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco</a></h2>
+    <p class="summary">Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco La Nuova Sardegna</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Sardegna</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5" target="_blank" rel="noopener">La Nuova Sardegna / Google News</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Sardegna</span><span class="tag">#Elezioni</span></div>
-  <h2>Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco</h2>
-  <p class="summary">Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco La Nuova Sardegna</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 5</span>
-    <span>08 Jun 2026, 09:48 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5" target="_blank" rel="noopener">La Nuova Sardegna / Google News</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGdXbllxSDRiM1lqNnNKQWtZN3ZPUWpxbmkyZFJSNWUyTTVrTjZWWUUwSC1CT1VfelQzbkRZeWhKZTctMEdIVGZDYm80QnRIbVJZRW53M3hVd1c3SlJ3VlR2NE1YWUZ3YXlBOENPR1QwMXBHNkN5ZTJ2MmI2TDlkU1g3c2lGRzBISFdOVXo3Yi1hZC16blJoUGx5cS1aRmFKYzc1SkVfZHZQLUxWSGRZeEhYWmZTWldtUWZrd0ZxOVQ0Zw?oc=5" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGdXbllxSDRiM1lqNnNKQWtZN3ZPUWpxbmkyZFJSNWUyTTVrTjZWWUUwSC1CT1VfelQzbkRZeWhKZTctMEdIVGZDYm80QnRIbVJZRW53M3hVd1c3SlJ3VlR2NE1YWUZ3YXlBOENPR1QwMXBHNkN5ZTJ2MmI2TDlkU1g3c2lGRzBISFdOVXo3Yi1hZC16blJoUGx5cS1aRmFKYzc1SkVfZHZQLUxWSGRZeEhYWmZTWldtUWZrd0ZxOVQ0Zw?oc=5" target="_blank" rel="noopener">06</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 09:19 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGdXbllxSDRiM1lqNnNKQWtZN3ZPUWpxbmkyZFJSNWUyTTVrTjZWWUUwSC1CT1VfelQzbkRZeWhKZTctMEdIVGZDYm80QnRIbVJZRW53M3hVd1c3SlJ3VlR2NE1YWUZ3YXlBOENPR1QwMXBHNkN5ZTJ2MmI2TDlkU1g3c2lGRzBISFdOVXo3Yi1hZC16blJoUGx5cS1aRmFKYzc1SkVfZHZQLUxWSGRZeEhYWmZTWldtUWZrd0ZxOVQ0Zw?oc=5" target="_blank" rel="noopener">Bortigali, Patrizia Tomassetti è la prima sindaca del paese</a></h2>
+    <p class="summary">Bortigali, Patrizia Tomassetti è la prima sindaca del paese L&#x27;Unione Sarda.it</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Sardegna</span><span class="tag">Elezioni</span><span class="tag">Bortigali</span></div>
+      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGdXbllxSDRiM1lqNnNKQWtZN3ZPUWpxbmkyZFJSNWUyTTVrTjZWWUUwSC1CT1VfelQzbkRZeWhKZTctMEdIVGZDYm80QnRIbVJZRW53M3hVd1c3SlJ3VlR2NE1YWUZ3YXlBOENPR1QwMXBHNkN5ZTJ2MmI2TDlkU1g3c2lGRzBISFdOVXo3Yi1hZC16blJoUGx5cS1aRmFKYzc1SkVfZHZQLUxWSGRZeEhYWmZTWldtUWZrd0ZxOVQ0Zw?oc=5" target="_blank" rel="noopener">L&#x27;Unione Sarda / Google News</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Sardegna</span><span class="tag">#Elezioni</span><span class="tag">#Bortigali</span></div>
-  <h2>Bortigali, Patrizia Tomassetti è la prima sindaca del paese</h2>
-  <p class="summary">Bortigali, Patrizia Tomassetti è la prima sindaca del paese L&#x27;Unione Sarda.it</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 6</span>
-    <span>08 Jun 2026, 09:19 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGdXbllxSDRiM1lqNnNKQWtZN3ZPUWpxbmkyZFJSNWUyTTVrTjZWWUUwSC1CT1VfelQzbkRZeWhKZTctMEdIVGZDYm80QnRIbVJZRW53M3hVd1c3SlJ3VlR2NE1YWUZ3YXlBOENPR1QwMXBHNkN5ZTJ2MmI2TDlkU1g3c2lGRzBISFdOVXo3Yi1hZC16blJoUGx5cS1aRmFKYzc1SkVfZHZQLUxWSGRZeEhYWmZTWldtUWZrd0ZxOVQ0Zw?oc=5" target="_blank" rel="noopener">L&#x27;Unione Sarda / Google News</a></div>
 </article>
 
-<article class="story-card wide" style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://www.cronachenuoresi.it/2026/06/08/nuoro-fondi-ue-agricoli-dirottati-per-il-riarmo-in-europa-agus-serve-anticipare-la-programmazione/" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/nuoro-fondi-ue-agricoli-dirottati-per-il-riarmo-in-europa-agus-serve-anticipare-la-programmazione/" target="_blank" rel="noopener">07</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 09:08 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://www.cronachenuoresi.it/2026/06/08/nuoro-fondi-ue-agricoli-dirottati-per-il-riarmo-in-europa-agus-serve-anticipare-la-programmazione/" target="_blank" rel="noopener">Nuoro. Fondi UE agricoli dirottati per il riarmo in Europa. Agus: “Serve anticipare la programmazione”</a></h2>
+    <p class="summary">NUORO – L’agricoltura è il settore maggiormente indiziato a cedere una parte dei fondi comunitari per il riarmo europeo, dopo lo scoppio degli ultimi conflitti bellici. L’ha confermato giovedì scorso a Nuoro, durante il convegno sulla questione degli incendi, l’assessore regionale Francesco Agus, esponente dei Progressisti: «Il pericolo è presente, anche se…</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Nuoro</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/nuoro-fondi-ue-agricoli-dirottati-per-il-riarmo-in-europa-agus-serve-anticipare-la-programmazione/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Nuoro</span><span class="tag">#Elezioni</span></div>
-  <h2>Nuoro. Fondi UE agricoli dirottati per il riarmo in Europa. Agus: “Serve anticipare la programmazione”</h2>
-  <p class="summary">NUORO – L’agricoltura è il settore maggiormente indiziato a cedere una parte dei fondi comunitari per il riarmo europeo, dopo lo scoppio degli ultimi conflitti bellici. L’ha confermato giovedì scorso a Nuoro, durante il convegno sulla questione degli incendi, l’assessore regionale Francesco Agus, esponente dei Progressisti: «Il pericolo è presente, anche se…</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 7</span>
-    <span>08 Jun 2026, 09:08 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/nuoro-fondi-ue-agricoli-dirottati-per-il-riarmo-in-europa-agus-serve-anticipare-la-programmazione/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/" target="_blank" rel="noopener">08</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 08:11 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/" target="_blank" rel="noopener">Comunali in Sardegna. Alle 23 si chiude con il 43,65%: Record dell’affluenza nel Nuorese</a></h2>
+    <p class="summary">Dopo un leggero aumento registrato nella rilevazione delle ore 12, la serata di ieri aveva inizialmente mostrato un netto calo nell’affluenza alle urne per il turno delle elezioni comunali in Sardegna. Alle ore 19, infatti, la percentuale dei votanti sull’isola si era fermata al 34,59% degli aventi diritto, un dato inferiore rispetto al 37,89% registrato […]…</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Nuoro</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Nuoro</span><span class="tag">#Elezioni</span></div>
-  <h2>Comunali in Sardegna. Alle 23 si chiude con il 43,65%: Record dell’affluenza nel Nuorese</h2>
-  <p class="summary">Dopo un leggero aumento registrato nella rilevazione delle ore 12, la serata di ieri aveva inizialmente mostrato un netto calo nell’affluenza alle urne per il turno delle elezioni comunali in Sardegna. Alle ore 19, infatti, la percentuale dei votanti sull’isola si era fermata al 34,59% degli aventi diritto, un dato inferiore rispetto al 37,89% registrato […]…</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 8</span>
-    <span>08 Jun 2026, 08:11 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">09</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>08 Jun 2026, 05:11 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi</a></h2>
+    <p class="summary">Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi L&#x27;Unione Sarda.it</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Sardegna</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">L&#x27;Unione Sarda / Google News</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Sardegna</span><span class="tag">#Elezioni</span></div>
-  <h2>Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi</h2>
-  <p class="summary">Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi L&#x27;Unione Sarda.it</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 9</span>
-    <span>08 Jun 2026, 05:11 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">L&#x27;Unione Sarda / Google News</a></div>
 </article>
 
-<article class="story-card " style="--story-color:#74d7ff">
-  <div class="story-top">
-    <div class="author-mark"><span>E</span></div>
-    <div class="story-kicker">ELEZIONI / POLITICA</div>
-    <div class="story-actions">
-      <a href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5" target="_blank" rel="noopener">10</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Elezioni / Politica</span>
+      <span>07 Jun 2026, 21:46 UTC</span>
+      <span>1 fonti</span>
+    </div>
+    <h2><a href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5" target="_blank" rel="noopener">Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20%</a></h2>
+    <p class="summary">Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20% ANSA</p>
+    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Sardegna</span><span class="tag">Elezioni</span></div>
+      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5" target="_blank" rel="noopener">ANSA Sardegna / Google News</a></div>
     </div>
   </div>
-  <div class="label-row"><span class="tag">#Sardegna</span><span class="tag">#Elezioni</span></div>
-  <h2>Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20%</h2>
-  <p class="summary">Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20% ANSA</p>
-  <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.</p>
-  <div class="story-foot">
-    <span class="score">◎ 10</span>
-    <span>07 Jun 2026, 21:46 UTC</span>
-    <span>1 fonti</span>
-  </div>
-  <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5" target="_blank" rel="noopener">ANSA Sardegna / Google News</a></div>
 </article></main>
-      <footer>Nota: questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
-    </div>
+    <footer>Questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
   </div>
 </body>
 </html>
