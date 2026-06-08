@@ -1,364 +1,5 @@
 {
   "updated_at": "2026-06-08 15:34 UTC",
-  "items": [
-    {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
-      "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Tiana",
-        "Austis",
-        "Atzara"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea"
-        },
-        {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5"
-        },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "08 Jun, 15:34"
-        },
-        {
-          "source": "ANSA Sardegna",
-          "title": "Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5",
-          "time": "08 Jun, 10:25"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5",
-          "time": "08 Jun, 09:48"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Elezioni, 148 Comuni al voto in Sardegna: urne aperte fino alle 15, affluenza al 46,45%",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcUU2RU03TmNHaWQyZlFFN2xoRW5YanNOZ1I2dU5ZellXcmZMQjBkdV9fdmNNTFdPNGFnN3NNUTUzZU9BSHhGODBGeWo4bHlmeHlKRmhKV3RBMHhIeF9SbUR5bk5VcGNQc3R2VWtjOS0xMWR4US1pWGpOWlVneUZrV3o1UGRnMWVmbnNYbUJxblpCNHRqQ0hWZXZZb2JTQU4wajZmNHlNVDV3SzVQcG1HYzhET2pQTHNWZGRSZ0Y5RXBwUFJtQ1Y0M3J4VVBiZw?oc=5",
-          "time": "08 Jun, 05:34"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Festa rinviata a Ilbono: niente quorum",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbU5ObThCRlRvb3N2M2d1S2RUOVdVQ1dQTktTUjJwYUpVci1lb25uUV9DRWxKVjJnR3dpRFdlTmJHY1hVeWdoUm9Rd3lqVS15cl9mLVpjWHRCYndDU3hFSTNRbkVMTXROTXExV29KMlEwUmJrMnBSZ0FzYVd4Y1RFckZBcDlvaS1wS1hvSzVpRDhFMWNVSTB2TXpYYmlLb0JPN3lGdkNmVXdwV2VxdjVB?oc=5",
-          "time": "07 Jun, 21:09"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Elezioni amministrative, Austis ha un nuovo sindaco. Ecco chi è",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXM5U2RjQ0swUVM4dDlLNWRGeVpXNmJ1WkZnejdsbEpVbWxoUjRnemFObTZ2YVBuMXZnQS1sVnJnWV80MFV2OXZkVDVqNy1UTEhsOUMtWXIweEdwOHAyT3F4dzNIT3B1Z3k1RTQwcXN0MHRPeUZMT0VMYW44NTdfN2V5bWdYbjBMZkp3MFdySi1ldG44aVlEejRfYzdNcDJYQldsdVV1Mm5oLTJMdDBpQVBpTXJoYjgtQVo2bGZlbnF6c0c1VWhvSXM2MGNLd2c?oc=5",
-          "time": "07 Jun, 19:47"
-        }
-      ],
-      "grouped_count": 12
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 13:46 UTC",
-      "title": "Comunali in Sardegna. Alle 23 si chiude con il 43,65%: Record dell’affluenza nel Nuorese",
-      "summary": "Dopo un leggero aumento registrato nella rilevazione delle ore 12, la serata di ieri aveva inizialmente mostrato un netto calo nell’affluenza alle urne per il turno delle elezioni comunali in Sardegna. Alle ore 19, infatti, la percentuale dei votanti sull’isola si era fermata al 34,59% degli aventi diritto, un dato inferiore rispetto al 37,89% registrato […]…",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
-      "tags": [
-        "Nuoro",
-        "Elezioni",
-        "Nuorese"
-      ],
-      "sources": [
-        {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWFrUHRYdDhTVV9sRFpLdTBfeGZTalVwMEtJcW0zN28xZE12ZXlKUE5VRUU3UFVJMEt5V0MzT1lYb091X1UtMURtaFp4RVFlaGE4N194cGtuc0c4Mlpxbk14YmJtdXNNUmFvajYtcW0tR3BRald3dkJZWlpCeGJ6LUVPTjctYXpCaTFBZmlFV0NKbDF4S1EzdmxwZGdYQTRwT1pyZVNoY1FzTDlVaFR4TVpMeVpTUVJhRVRwU3c0ZjZ2RTY5bkVta0FtMjVhWDV4MnAtbkJtZXJ6T190WU9yNW9SVXAzN0tXQlHSAe8BQVVfeXFMT3pFZ3BKSlV0MGFQd2k2QVN0LS01b29mZkZEVERkRTNoMXFxRG4xc05iX0lYWGtoY2dvdEt6MTVkWjhWZjN1MDNSYzRRdDh0T2V0ZTF3RXFUakExSV9sMERQTzBhbnljU183cmNnMjlSMjBRVmNsanQ2Tk1vbGRwSTF0V2lYWGN5R21SZ20zQ0hqVVlyOGRsMlVPWk9rYjRubkpubWpwQzZhbDBIQ0ZrNVNheDlaLVotNGJkdnVLc0ZOUGZaVjYzeEEzcnBEcXhoVUpaSC1lMlhuQ28zQ1U5aWU4dnZWaEVmZF9jT1QwdGM?oc=5"
-        },
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "ANSA Sardegna",
-          "title": "Comunali: +2% affluenza al primo turno in Sardegna, 61,6%contro il 59,6%",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZWFrUHRYdDhTVV9sRFpLdTBfeGZTalVwMEtJcW0zN28xZE12ZXlKUE5VRUU3UFVJMEt5V0MzT1lYb091X1UtMURtaFp4RVFlaGE4N194cGtuc0c4Mlpxbk14YmJtdXNNUmFvajYtcW0tR3BRald3dkJZWlpCeGJ6LUVPTjctYXpCaTFBZmlFV0NKbDF4S1EzdmxwZGdYQTRwT1pyZVNoY1FzTDlVaFR4TVpMeVpTUVJhRVRwU3c0ZjZ2RTY5bkVta0FtMjVhWDV4MnAtbkJtZXJ6T190WU9yNW9SVXAzN0tXQlHSAe8BQVVfeXFMT3pFZ3BKSlV0MGFQd2k2QVN0LS01b29mZkZEVERkRTNoMXFxRG4xc05iX0lYWGtoY2dvdEt6MTVkWjhWZjN1MDNSYzRRdDh0T2V0ZTF3RXFUakExSV9sMERQTzBhbnljU183cmNnMjlSMjBRVmNsanQ2Tk1vbGRwSTF0V2lYWGN5R21SZ20zQ0hqVVlyOGRsMlVPWk9rYjRubkpubWpwQzZhbDBIQ0ZrNVNheDlaLVotNGJkdnVLc0ZOUGZaVjYzeEEzcnBEcXhoVUpaSC1lMlhuQ28zQ1U5aWU4dnZWaEVmZF9jT1QwdGM?oc=5",
-          "time": "08 Jun, 13:46"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Comunali in Sardegna. Alle 23 si chiude con il 43,65%: Record dell’affluenza nel Nuorese",
-          "url": "https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/",
-          "time": "08 Jun, 08:11"
-        },
-        {
-          "source": "ANSA Sardegna",
-          "title": "Comunali: alle 23 affluenza cresce al primo turno in Sardegna 46,45% contro 44,20%",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWkZfcVBnSE9QNWM3czVKbHl3YjFLT29yaU1yNFVpOEkxejNmNWJNWUpQcmR1Z0NFN2pVdTlFNmJfRTNxOFJQeUgzLWdZc2w0TzZKbDFpWjZxVE9rUHQ5cVpyVGZsWFlwOFBjMTBKb3d4VHpiR28xa3UtM052QXpxRVJkTFhKbldKSmtsVjM0MzN1RnFHc2pJMWtILUJhemR4WkZiZGUxRkQ2N2h6a0FCWHZtTTVSRTZfRVktcllQTFBfWFFIUnA3MVJpcXJ1VkY4QkVRSUVka29yZkl0VXhBMHdCMmRIMTQyM1BDNm4zTWNWQ2ZzNWloZ0NoQdIBgAJBVV95cUxOTVlDT1N5TlZhYkxzQzhQRTJzXzk3VlZNWklwOFpfRXRrTnQxbWY2UHMwNjhmemFWd2lLRmZMSjJybUpMVWVhUmduTVV4alFzbDRCUHRHV2cxdVpzaGk0azZVdmtYN2RvUnV3alNNVVZYblFBSlFZYk1LVlJ3NGs4SllZWVFwTkNKaFJmRVNUTTJad2ZHLU1UMndvc2FGWkFPYWMyWU9SVUdKcW5LWVNyRTBDNmFFV1g0VkQ5MFVqanEySjdHU1BoZlVGaEpVeXpYWENKS1RWd2xSZ0c4eENnTDlxQ2NyLUtGdC1ucDBvYUZ6TUNVR0w1dF9VRENjeFNS?oc=5",
-          "time": "07 Jun, 21:46"
-        },
-        {
-          "source": "ANSA Sardegna",
-          "title": "Comunali: affluenza in netto calo al primo turno in Sardegna, 34,5% contro 37,8",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQTlTTzdHeXhQa3dOUVJkZjVqdTVBN3phdEsteFZ0bEt1VTlZSVBpQnBNZkZXbnpIOG04U1dvQUVzYnl5N05qUXd0bnY4eEFJMzljaGloeE9PeHVjS0c4WlYwWEpvOHNKQk5vSDcwZWlDZ2hLdU5TVklnVkNsZk10dHBJalIwX2RTeWozRzJUUmdfN0h1dXppX3VXWUx3V0dET05ObmlwcDdqN1llVmY1RXE3UFdDN3FjNXhkaDNWQkc5MWVqUGdHWkVHNFBPOUtjNmk5WGw5T294U054T3B4VTl0UG84VGwyeHd5dlZIanVRc3dmc0hz0gH8AUFVX3lxTFBOWkR0eEdsSElqc05xT3ZWVUNOdkt1by13NG5MclNHQ0kycWViM0d2OF9Nc0Y3ZWxtOU5kekRzT3k4MlUyUFpiY3NfaXZFNE5CcGdBbTltZUpiMkFYdTlUVkdUUnZiczVmUDhQZ0xPa2tDakpTU0pLeWpEZmhRcUlyNmlSNElTRzhGTm5Lb2FHb1hlSG9TOVV0NXNiTGFmdDk0WVFpOGZVWm0zbmRlVG5ra2NRc2RfT2pIcjZING1sWGxrMVJMaEZrZXc5SjFzNUZKLVg0NHRVOVdDYnc2aV9NWHpCSEoxV291Sm5DcllrSlpGa3VnaHpNZzdKbw?oc=5",
-          "time": "07 Jun, 17:47"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Comunali: affluenza in crescita nel Nuorese a mezzogiorno, trend positivo nei 148 centri della Sardegna",
-          "url": "https://www.cronachenuoresi.it/2026/06/07/elezioni-comunali-affluenza-in-crescita-nel-nuorese-a-mezzogiorno-trend-positivo-nei-148-centri-della-sardegna/",
-          "time": "07 Jun, 14:16"
-        },
-        {
-          "source": "ANSA Sardegna",
-          "title": "In Sardegna affluenza in leggero aumento, alle 12 al 16,90%",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdEhCbWJ3LV9pRE53d1EycGlycWZNUENya0xjYUpmWmJQVm9CMlVOTkFYVEJzaERUTW5jZFl5ZnQ4NEEycUplWFpmS25NbTNmaW1Wc01FZlJfYXRad0dtWjNmTmVYdlhreTFOc0lQcFdmM0ZGVWZOQUlqeVZpX1hGNDd3SjhzVmJ5Z2lDRy1RTmh6MVNkMW1MeExEc2t6Z3U2bmx2SGxXZ29PYTBEdkNHTWF4S0xRRW9JTXljamVjREYwdk93eUNpRTM1TGpGbXFsSUxNYlUyOUZZU2MwMnJR0gHkAUFVX3lxTE1USW9SWnU5bThjaHBHdUhpMHlMNHdIdTFOanBNc0p4elFYNkhIYkZ0b2NWd3pBMXlMMkgxWGdUWDhyUURBMlpnYXFfUDdYbjcyVTFFbGhpYms5U1o5eTdvN0szTHJucnNPNWc4dGJzeVRtd1ZPOTRwTWFtWGhfYzc5amwxUFZDc005TGN0M0lhd1RTNUdid01XX0pwQ1ZYV3ZDVDc5OUl4dWhuV2xTR3owTkxqLVhUZmp3UjJCMUpoSUxGVTN5Q0F5VUZuU3gxT0hwR2hlWG1BY0haYzZDV3h5NXpCOQ?oc=5",
-          "time": "07 Jun, 10:34"
-        }
-      ],
-      "grouped_count": 6
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-      "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Olzai",
-        "Osidda"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
-        },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTGJKc0pWbTctblZqTlNkTFByOTVCNW9WNDU4ckN3ODlOSW5SMWZuYVFQVW9Lc1Y2WXFHblpZOHlPclhLV3RRNXdNd1pPay16a0h3QkhHeFZBOGwzWERVYk0yOG9Ia3BtbzFsdmxMWFh2aC0zUUZuNERoUlFfOEdMMU43ZVd4eUhhb3VRUTFlWWxoSzVJVUVBcG1DbXNWSUhSR0w5MElrYmU4c0ZRX1hOYXpCYw?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
-          "time": "08 Jun, 15:34"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Elezioni comunali, Olzai ha il suo sindaco: superato il quorum – Ecco chi è",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTGJKc0pWbTctblZqTlNkTFByOTVCNW9WNDU4ckN3ODlOSW5SMWZuYVFQVW9Lc1Y2WXFHblpZOHlPclhLV3RRNXdNd1pPay16a0h3QkhHeFZBOGwzWERVYk0yOG9Ia3BtbzFsdmxMWFh2aC0zUUZuNERoUlFfOEdMMU43ZVd4eUhhb3VRUTFlWWxoSzVJVUVBcG1DbXNWSUhSR0w5MElrYmU4c0ZRX1hOYXpCYw?oc=5",
-          "time": "07 Jun, 16:22"
-        }
-      ],
-      "grouped_count": 3
-    },
-    {
-      "section": "News",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Macomer, al via la riqualificazione delle strade interne per 2 milioni e mezzo di euro",
-      "summary": "Macomer, al via la riqualificazione delle strade interne per 2 milioni e mezzo di euro",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Macomer"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-per-2-milioni-e-mezzo-di-euro-jg42rz00"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, al via la riqualificazione delle strade interne per 2 milioni e mezzo di euro",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-per-2-milioni-e-mezzo-di-euro-jg42rz00",
-          "time": "08 Jun, 15:34"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, al via la riqualificazione delle strade interne e periferiche",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd",
-          "time": "08 Jun, 15:34"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-      "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Seulo",
-        "Ollolai"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
-          "time": "08 Jun, 15:34"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-      "summary": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Seulo"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
-          "time": "08 Jun, 15:34"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-      "summary": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Ottana"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
-          "time": "08 Jun, 15:34"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
-      "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Ottana"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "08 Jun, 15:34"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "08 Jun 2026, 10:35 UTC",
-      "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
-      "summary": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna ANSA",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna"
-      ],
-      "sources": [
-        {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "ANSA Sardegna",
-          "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5",
-          "time": "08 Jun, 10:35"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "08 Jun 2026, 15:34 UTC",
-      "title": "Macomer, un albero per ricordare lo studoso Luca Demontis",
-      "summary": "Macomer, un albero per ricordare lo studoso Luca Demontis",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Macomer"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-albero-per-ricordare-lo-studoso-luca-demontis-emo2ikt4"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, un albero per ricordare lo studoso Luca Demontis",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-albero-per-ricordare-lo-studoso-luca-demontis-emo2ikt4",
-          "time": "08 Jun, 15:34"
-        }
-      ],
-      "grouped_count": 1
-    }
-  ],
   "fuel": {
     "title": "Benzina a Nuoro",
     "updated_at": "2026-06-08 15:34 UTC",
@@ -422,5 +63,156 @@
         "distance_km": "16.7"
       }
     ]
-  }
+  },
+  "items": [
+    {
+      "section": "Cronaca",
+      "time": "2026-06-08T15:33:54.984400+00:00",
+      "title": "Schianto sulla 129 bis a Macomer, motociclista grave soccorso con l’elicottero",
+      "summary": "Un motociclista è rimasto gravemente ferito in un incidente sulla statale 129 bis, a Macomer. Secondo L'Unione Sarda, per il soccorso è stato attivato l’elisoccorso.",
+      "why": "La 129 bis è un asse rilevante per i collegamenti del Marghine e l’incidente richiama l’attenzione sulla sicurezza stradale locale.",
+      "tags": ["Macomer", "Cronaca", "Viabilità"],
+      "sources": [{"name": "L'Unione Sarda", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-sulla-statale-129-bis-elisoccorso-per-un-motociclista-e-grave-mrq00y8l"}],
+      "variants": [{"source": "L'Unione Sarda", "title": "Schianto sulla statale 129 bis a Macomer: elisoccorso per un motociclista, è grave", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-sulla-statale-129-bis-elisoccorso-per-un-motociclista-e-grave-mrq00y8l", "time": "2026-06-08T15:33:54.984400+00:00"}],
+      "grouped_count": 1
+    },
+    {
+      "section": "Cronaca",
+      "time": "2026-06-08T15:33:54.981822+00:00",
+      "title": "Auto si ribalta a Nuoro, ferito un giovane",
+      "summary": "A Nuoro un’auto si è ribaltata e un giovane è rimasto ferito. L'Unione Sarda riferisce che nell’incidente un seggiolino è finito sulla strada.",
+      "why": "L’episodio riguarda la sicurezza sulle strade cittadine e ha richiesto attenzione per le possibili conseguenze dell’impatto.",
+      "tags": ["Nuoro", "Cronaca", "Incidenti"],
+      "sources": [{"name": "L'Unione Sarda", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/auto-si-ribalta-a-nuoro-ferito-un-giovane-in-strada-vola-un-seggiolino-mg6vt206"}],
+      "variants": [{"source": "L'Unione Sarda", "title": "Auto si ribalta a Nuoro: ferito un giovane, in strada vola un seggiolino", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/auto-si-ribalta-a-nuoro-ferito-un-giovane-in-strada-vola-un-seggiolino-mg6vt206", "time": "2026-06-08T15:33:54.981822+00:00"}],
+      "grouped_count": 1
+    },
+    {
+      "section": "Cronaca",
+      "time": "2026-06-08T13:32:21+00:00",
+      "title": "San Teodoro, minaccia stagionali con un coltello: arrestato",
+      "summary": "A San Teodoro un uomo armato di coltello avrebbe terrorizzato quattro lavoratori stagionali, chiedendo che venissero chiamati i Carabinieri. L’intervento dei militari della Compagnia di Siniscola ha portato all’arresto, secondo Cronache Nuoresi e La Nuova Sardegna.",
+      "why": "La vicenda tocca la sicurezza nelle località turistiche e il lavoro stagionale, temi sensibili per il territorio costiero vicino al Nuorese.",
+      "tags": ["San Teodoro", "Carabinieri", "Cronaca"],
+      "sources": [
+        {"name": "Cronache Nuoresi", "url": "https://www.cronachenuoresi.it/2026/06/08/chiamate-i-carabinieri-mi-devo-fare-arrestare-uomo-armato-di-coltello-terrorizza-quattro-stagionali/"},
+        {"name": "La Nuova Sardegna", "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOVFpVQzRacV8tWEZOZEJmRTZCcnNkQ3o1dHFWUlA2a3RxRDQwZThybkFfVlBXRzdORnJvelJMM0NRcEl3SXhJTlJpYTdOR1lnQm85NlZZVGhWWTBfeFI5aU1JdWNtSjBNRlpRYVp5alBmMC1HdVczS3UxOUN2b21pOUdLbjRmUjhGVnJla3diVzhZVlBTQms4emRGbDdwWjZHQW5uVk9sR1BsTG9nckVySXF4YnVXQUhDaFFFN2Z2VzRfNnB1bE9pNTZKeUpNb2tHVVJfVWFCLUcyY203TkhmSjJHYmwtZE82VDR3dkRwa2RMOVNJcFExZktuY1E0SXJHc2w0LXBRd1ZTTVAzdWd5NU83Q3NwVGlyMWtUeXMtQUc?oc=5"}
+      ],
+      "variants": [
+        {"source": "Cronache Nuoresi", "title": "«Chiamate i Carabinieri, mi devo fare arrestare»: uomo armato di coltello terrorizza quattro stagionali", "url": "https://www.cronachenuoresi.it/2026/06/08/chiamate-i-carabinieri-mi-devo-fare-arrestare-uomo-armato-di-coltello-terrorizza-quattro-stagionali/", "time": "2026-06-08T13:32:21+00:00"},
+        {"source": "La Nuova Sardegna", "title": "Notte di terrore a San Teodoro, entra nel cortile con un coltellaccio e minaccia di morte i lavoratori stagionali: arrestato", "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOVFpVQzRacV8tWEZOZEJmRTZCcnNkQ3o1dHFWUlA2a3RxRDQwZThybkFfVlBXRzdORnJvelJMM0NRcEl3SXhJTlJpYTdOR1lnQm85NlZZVGhWWTBfeFI5aU1JdWNtSjBNRlpRYVp5alBmMC1HdVczS3UxOUN2b21pOUdLbjRmUjhGVnJla3diVzhZVlBTQms4emRGbDdwWjZHQW5uVk9sR1BsTG9nckVySXF4YnVXQUhDaFFFN2Z2VzRfNnB1bE9pNTZKeUpNb2tHVVJfVWFCLUcyY203TkhmSjJHYmwtZE82VDR3dkRwa2RMOVNJcFExZktuY1E0SXJHc2w0LXBRd1ZTTVAzdWd5NU83Q3NwVGlyMWtUeXMtQUc?oc=5", "time": "2026-06-08T12:31:00+00:00"}
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Sanità",
+      "time": "2026-06-08T11:22:33+00:00",
+      "title": "Sanità digitale, la farmacia ospedaliera della Asl di Nuoro entra nella cartella clinica elettronica",
+      "summary": "La Asl n. 3 di Nuoro ha annunciato l’accesso operativo della Farmacia ospedaliera alla cartella clinica elettronica integrata. L’intervento rientra nel programma di digitalizzazione regionale coordinato dal Dipartimento ICT di ARES.",
+      "why": "L’integrazione dei dati farmaceutici può incidere sull’organizzazione dei percorsi di cura e sulla gestione ospedaliera nel Nuorese.",
+      "tags": ["Nuoro", "Sanità", "Digitale"],
+      "sources": [{"name": "Cronache Nuoresi", "url": "https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/"}],
+      "variants": [{"source": "Cronache Nuoresi", "title": "Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica", "url": "https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/", "time": "2026-06-08T11:22:33+00:00"}],
+      "grouped_count": 1
+    },
+    {
+      "section": "Sanità",
+      "time": "2026-06-08T10:35:00+00:00",
+      "title": "Protesi d’anca su misura in 3D e trapianto d’osso, intervento segnalato come prima volta in Sardegna",
+      "summary": "ANSA Sardegna riporta un intervento di nuova anca con protesi su misura realizzata in 3D e trapianto d’osso. La notizia viene presentata come una prima volta nell’isola.",
+      "why": "L’innovazione chirurgica regionale è rilevante per l’accesso a cure specialistiche avanzate anche per i pazienti sardi.",
+      "tags": ["Sardegna", "Sanità", "Chirurgia"],
+      "sources": [{"name": "ANSA Sardegna", "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5"}],
+      "variants": [
+        {"source": "ANSA Sardegna", "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna", "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5", "time": "2026-06-08T10:35:00+00:00"},
+        {"source": "ANSA Sardegna", "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna", "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRHVJdDB2a2hRekYwbkl5ZURHbl9fMnBRZm9ZTXZSMy1SRVVjS1RlNng5bE56aFdaOXRIOC1JdWV2RWZJYmN2UlNDOF9pUHM1NnlYMjFHNy10THpNX0V3RjdpZjN0dVFGSU56ZUw5WDlyMEp4ZTZmMFlRSkV3MUQ2NXNWT1RmbHNhaVJqWUdXdWZscUwzV2QxT2Nha3UxajdFejc5LWozUUVNUW9VTExsOEVYb25vaURVU1FURTY1NktIS2k5N2ZuWERFMVIxaTRpYnlQbmtaWElwdGI1OWRnUmx1UEc1R2F0amVMRGtiZUVXRHhoZjBVT2JOcnhxMHFrUjF0SkxOeE5INTBfMEtZdE130gGXAkFVX3lxTFB5T2tYbFd2M2tDNUxxVkZFVXVVNHo5azdEbTBob1E4bmc5Q21lUlBXbTZVNTZsVjlQUWdtWVR1TnB2dTZGVE11Qk52ZWpQWHVEaUtXNlotSE1yRU5EM3JPMk1YWUNOOEZlZWlDNzlxdzVlWlRnNGZWUHNKMURmbWd2UkZYVlVVMXZRTDV1YUl5a1FMUUZHUV9NUlNCVWJrQlVMVnRGNjBzdGtkend6SWo1dzhyWENHWUZnN3kxdjVuZ3k1aE8yYkEtd3VWVVpERDVXMEt3allMUE5uVjd3MWRJYXZyS1JnRXg0NFdWM1NYM1E1MnNaN2tFaXkyWW9BUE45YUZXVEVJZGJTeF9OQXQzVVFyNVM1OA?oc=5", "time": "2026-06-08T10:35:00+00:00"}
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "2026-06-08T15:20:00+00:00",
+      "title": "Ottana, confermati i domiciliari per Franco Saba rieletto sindaco",
+      "summary": "Il Tribunale del Riesame ha confermato gli arresti domiciliari per Franco Saba, rieletto sindaco di Ottana. Le cronache locali riferiscono anche della mobilitazione del paese a sostegno del primo cittadino.",
+      "why": "La vicenda intreccia amministrazione comunale e procedimenti giudiziari, con effetti diretti sulla vita politica di Ottana.",
+      "tags": ["Ottana", "Elezioni", "Politica"],
+      "sources": [
+        {"name": "L'Unione Sarda", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"},
+        {"name": "La Nuova Sardegna", "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUGdabF85S3RaOG5pYUtFVVlOblhUWWV2V1RuMnhielVTakxCMHBKTnVBT0h5M3k4eVBUajRFcTR1aVlQTlZaSzhvR1llQUxDbGlnUmJkUHNsb0VhTS1hT1lHVkFuY3R2N0dVbFZVaVEwSHJIa0tGdnc4X0ZhMXg0aFdvMTVpMUdPZWNMV0FpOFpaSHQ1OGE2VUlEMTU3TkJwU2dpeHZYdEcxcU15TmpsR09rSUNsWGllMVRhT1g4Vk0zbEdEcnF3M1c0XzNiR0ZEYzd5ams5RzNBU0tDOVMweHlNeE9pa0VnRG83Qnc0bw?oc=5"}
+      ],
+      "variants": [
+        {"source": "L'Unione Sarda", "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2", "time": "2026-06-08T15:33:54.968291+00:00"},
+        {"source": "L'Unione Sarda", "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana", "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVUNwekoxZV9mY2JNRTBSenBnNE44dVQxS0xfS0F6VkgxcGhIZXI1QjM1MkVKdUs4OURBTHhPelN5bVZ2em5zVzc3ODVOenpxNkNJTHRaUjlRU3dGbVFkdzVIQkQyeUZib3lYakZxRkZNVUZGcU1fUHNSMzZJajJmdXBZOFo2RmpiQkNRTVhMaXg3VDcyV294LUdxNWo0TWc4U3M4bzBmVmNmd1ByVHNadXN2Vm84RDk2cDFETmJXT05xYkltZWxCa0tLU2M0RDNkV0x5SEJycU9Udw?oc=5", "time": "2026-06-08T15:20:00+00:00"},
+        {"source": "L'Unione Sarda", "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k", "time": "2026-06-08T15:33:54.970031+00:00"},
+        {"source": "La Nuova Sardegna", "title": "Ottana rielegge Saba, ma il sindaco è agli arresti domiciliari – Ecco cosa succede", "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUGdabF85S3RaOG5pYUtFVVlOblhUWWV2V1RuMnhielVTakxCMHBKTnVBT0h5M3k4eVBUajRFcTR1aVlQTlZaSzhvR1llQUxDbGlnUmJkUHNsb0VhTS1hT1lHVkFuY3R2N0dVbFZVaVEwSHJIa0tGdnc4X0ZhMXg0aFdvMTVpMUdPZWNMV0FpOFpaSHQ1OGE2VUlEMTU3TkJwU2dpeHZYdEcxcU15TmpsR09rSUNsWGllMVRhT1g4Vk0zbEdEcnF3M1c0XzNiR0ZEYzd5ams5RzNBU0tDOVMweHlNeE9pa0VnRG83Qnc0bw?oc=5", "time": "2026-06-07T19:52:00+00:00"}
+      ],
+      "grouped_count": 4
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "2026-06-08T15:16:00+00:00",
+      "title": "Comunali in Sardegna, a Quartu Milia oltre il 62% nei dati ufficiosi",
+      "summary": "ANSA Sardegna segnala i dati ufficiosi del campo largo a Quartu, con Milia indicato oltre il 62%. La notizia arriva nel quadro del voto amministrativo nei comuni sardi.",
+      "why": "Il risultato di Quartu pesa sugli equilibri politici regionali e viene seguito anche dai territori impegnati nelle comunali.",
+      "tags": ["Sardegna", "Quartu", "Elezioni"],
+      "sources": [{"name": "ANSA Sardegna", "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZlppNFc2VG9KNmt0UVA1UFRJdlU5UDA0Nm1UUmNfMnBDNWFtMzI0MzZkdERXY1R0SzdUbVZkc05HUHZSemJTX1EyNGFUdjhsSnNicUQyTWJoM2xzUlp4UDFkUFUwTGRiLTBJUGpKTXMxOV9xTjVnc01rMDR0RFF2aE9ST3EwcVhnb1A3NEFibEt6c3RsQmFRQVNmXzg4TzFTQ3pDVFJudXpVMEQ3QlJMTGNTVndoUkVmU1VsdW9pWnNncGdlVGplTk5xRUdjRFRzZExXaWRta0xscFJmYUp0MVRiVklBbldHUmtYODc1M2rSAfYBQVVfeXFMUElkMVk4MllySURSVFEzeW5rNDJjVGJlUm9LRU1qWnUzYWZ3SG9SUEU0aGFfdE9KZW1KWVZCZkQ1THdaUXlycVhMbllyZ21fYlFzdkU2ZERCSnBkMXBKQXV1RlFzaGcyMmxiNFFqN1l5WUVJOU5ZU3lXb0h6ZmxWN3lWTXVlT0RIZTdkN28td2lUNUZTLWlrY3pzcFBBODRBRHdyWU8zRnRnUm1UX0xTQzI0MTBtQmZJT1hHZzd4QmdPZ0R0M0VyWXRLZmM4elB3b3VXa0laaVFJdFdaN0pjRXYwRVhSdHVZc21VQWU5V1Vna0otWVJB?oc=5"}],
+      "variants": [{"source": "ANSA Sardegna", "title": "Comunali Sardegna, dati ufficiosi del campo largo a Quartu, Milia oltre 62%", "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZlppNFc2VG9KNmt0UVA1UFRJdlU5UDA0Nm1UUmNfMnBDNWFtMzI0MzZkdERXY1R0SzdUbVZkc05HUHZSemJTX1EyNGFUdjhsSnNicUQyTWJoM2xzUlp4UDFkUFUwTGRiLTBJUGpKTXMxOV9xTjVnc01rMDR0RFF2aE9ST3EwcVhnb1A3NEFibEt6c3RsQmFRQVNmXzg4TzFTQ3pDVFJudXpVMEQ3QlJMTGNTVndoUkVmU1VsdW9pWnNncGdlVGplTk5xRUdjRFRzZExXaWRta0xscFJmYUp0MVRiVklBbldHUmtYODc1M2rSAfYBQVVfeXFMUElkMVk4MllySURSVFEzeW5rNDJjVGJlUm9LRU1qWnUzYWZ3SG9SUEU0aGFfdE9KZW1KWVZCZkQ1THdaUXlycVhMbllyZ21fYlFzdkU2ZERCSnBkMXBKQXV1RlFzaGcyMmxiNFFqN1l5WUVJOU5ZU3lXb0h6ZmxWN3lWTXVlT0RIZTdkN28td2lUNUZTLWlrY3pzcFBBODRBRHdyWU8zRnRnUm1UX0xTQzI0MTBtQmZJT1hHZzd4QmdPZ0R0M0VyWXRLZmM4elB3b3VXa0laaVFJdFdaN0pjRXYwRVhSdHVZc21VQWU5V1Vna0otWVJB?oc=5", "time": "2026-06-08T15:16:00+00:00"}],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "2026-06-08T15:33:54.971683+00:00",
+      "title": "Nei piccoli comuni del Nuorese quorum raggiunto e nuovi sindaci eletti",
+      "summary": "Nel voto amministrativo risultano raggiunti i quorum in diversi centri del Nuorese e dell’area interna. Tra le notizie raccolte figurano Osidda e Olzai, con Serafino Doneddu e Angelo Loddo indicati come nuovi sindaci, Seulo con la terza elezione di Enrico Murgia, e Atzara, Austis e Tiana con nuovi primi cittadini.",
+      "why": "Le elezioni nei piccoli comuni determinano la guida amministrativa di territori dove il quorum è spesso decisivo per la validità del voto.",
+      "tags": ["Nuorese", "Comuni", "Elezioni"],
+      "sources": [
+        {"name": "L'Unione Sarda", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"},
+        {"name": "La Nuova Sardegna", "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWVLSW5WZnBZX05wLWxtM2xMbU4wS0xXeDFxVnBGNi1QeGc3ek9PcE90ZXlqNWg4c0RJazRBc0haSVNSNHQ0aDlfYm9zRmlQSENFRUdrb29DSEtiWDRtRG1vd2czR05tbWR0TzdwMW9IX29rQ1hraXVGS3FQd2dTNTJxcVQ0bGM2SEFGbFN3TlhNODBkQzJGM19tWkxfZjIyT25Ja3kzTGZSNHljcHVOcE52ckVUdmktWFlTUmdGWnBGRXE4V2RUVmQxMlpLSTZmRmVpVw?oc=5"}
+      ],
+      "variants": [
+        {"source": "L'Unione Sarda", "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj", "time": "2026-06-08T15:33:54.971683+00:00"},
+        {"source": "L'Unione Sarda", "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a", "time": "2026-06-08T15:33:54.970844+00:00"},
+        {"source": "L'Unione Sarda", "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea", "time": "2026-06-08T15:33:54.969178+00:00"},
+        {"source": "La Nuova Sardegna", "title": "Elezioni amministrative, eletti i primi sindaci: ecco chi sono – La diretta", "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWVLSW5WZnBZX05wLWxtM2xMbU4wS0xXeDFxVnBGNi1QeGc3ek9PcE90ZXlqNWg4c0RJazRBc0haSVNSNHQ0aDlfYm9zRmlQSENFRUdrb29DSEtiWDRtRG1vd2czR05tbWR0TzdwMW9IX29rQ1hraXVGS3FQd2dTNTJxcVQ0bGM2SEFGbFN3TlhNODBkQzJGM19tWkxfZjIyT25Ja3kzTGZSNHljcHVOcE52ckVUdmktWFlTUmdGWnBGRXE4V2RUVmQxMlpLSTZmRmVpVw?oc=5", "time": "2026-06-07T16:51:00+00:00"}
+      ],
+      "grouped_count": 4
+    },
+    {
+      "section": "News",
+      "time": "2026-06-08T15:33:54.980983+00:00",
+      "title": "Macomer, partono gli interventi sulle strade interne e periferiche",
+      "summary": "A Macomer prende avvio la riqualificazione della viabilità interna e periferica. L'Unione Sarda segnala un investimento di 2 milioni e mezzo di euro per i lavori sulle strade.",
+      "why": "Gli interventi sulla rete viaria incidono sulla mobilità quotidiana dei residenti e sulla manutenzione urbana del Marghine.",
+      "tags": ["Macomer", "Strade", "Lavori pubblici"],
+      "sources": [{"name": "L'Unione Sarda", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-per-2-milioni-e-mezzo-di-euro-jg42rz00"}],
+      "variants": [
+        {"source": "L'Unione Sarda", "title": "Macomer, al via la riqualificazione delle strade interne per 2 milioni e mezzo di euro", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-per-2-milioni-e-mezzo-di-euro-jg42rz00", "time": "2026-06-08T15:33:54.980983+00:00"},
+        {"source": "L'Unione Sarda", "title": "Macomer, al via la riqualificazione delle strade interne e periferiche", "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd", "time": "2026-06-08T15:33:54.980132+00:00"}
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "2026-06-08T13:53:12+00:00",
+      "title": "Nuoro, da domani ripartono i servizi educativi estivi alla Podda e alla Biscollai",
+      "summary": "La Giunta comunale di Nuoro ha approvato il provvedimento per l’avvio dei servizi educativi estivi dal 9 giugno. Le attività ripartono nelle strutture scolastiche già autorizzate, tra cui la Podda e la Biscollai.",
+      "why": "Il servizio offre un sostegno alle famiglie subito dopo la fine dell’anno scolastico.",
+      "tags": ["Nuoro", "Scuola", "Famiglie"],
+      "sources": [{"name": "Cronache Nuoresi", "url": "https://www.cronachenuoresi.it/2026/06/08/nuoro-servizi-educativi-estivi-al-via-da-domani-ripartono-le-attivita-alla-podda-e-alla-biscollai/"}],
+      "variants": [{"source": "Cronache Nuoresi", "title": "Nuoro, servizi educativi estivi al via da domani: ripartono le attività alla Podda e alla Biscollai", "url": "https://www.cronachenuoresi.it/2026/06/08/nuoro-servizi-educativi-estivi-al-via-da-domani-ripartono-le-attivita-alla-podda-e-alla-biscollai/", "time": "2026-06-08T13:53:12+00:00"}],
+      "grouped_count": 1
+    },
+    {
+      "section": "Economia / Tributi",
+      "time": "2026-06-08T10:27:40+00:00",
+      "title": "Nuoro, intesa in commissione sulla rottamazione dei tributi comunali",
+      "summary": "La Commissione Bilancio del Comune di Nuoro ha raggiunto un’intesa sul regolamento per la definizione agevolata dei tributi comunali. Cronache Nuoresi riferisce il ruolo di mediazione e confronto con i gruppi di opposizione e la richiesta di estendere il tema alle cartelle erariali.",
+      "why": "La misura può interessare cittadini e imprese alle prese con pendenze tributarie comunali.",
+      "tags": ["Nuoro", "Tributi", "Comune"],
+      "sources": [{"name": "Cronache Nuoresi", "url": "https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/"}],
+      "variants": [{"source": "Cronache Nuoresi", "title": "Rottamazione tributi grazie a SiAmo Nuoro: ora si estenda alle cartelle erariali", "url": "https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/", "time": "2026-06-08T10:27:40+00:00"}],
+      "grouped_count": 1
+    }
+  ]
 }
