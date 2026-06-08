@@ -25,11 +25,21 @@ def render_item(item, index):
     section = item.get('section', 'News')
     tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in item.get("tags", [])[:3])
     sources = item.get("sources", [])
+    variants = item.get("variants", [])
     links = "".join(
         f'<a class="source-link" href="{esc(src.get("url"))}" target="_blank" rel="noopener">{esc(src.get("name", "fonte"))}</a>'
-        for src in sources[:3]
+        for src in sources[:4]
     )
     primary = esc(sources[0].get('url')) if sources else '#'
+    grouped_count = int(item.get('grouped_count') or len(variants) or 1)
+    grouped_badge = f'<span class="grouped-badge">Raggruppa {grouped_count} articoli</span>' if grouped_count > 1 else ''
+    variants_html = ''
+    if grouped_count > 1 and variants:
+        variant_rows = ''.join(
+            f'<li><a href="{esc(v.get("url"))}" target="_blank" rel="noopener">{esc(v.get("title"))}</a><span>{esc(v.get("source"))} · {esc(v.get("time"))}</span></li>'
+            for v in variants[:6]
+        )
+        variants_html = f'<details class="variants"><summary>Articoli collegati</summary><ul>{variant_rows}</ul></details>'
     return f"""
 <article class="article-row">
   <a class="article-number" href="{primary}" target="_blank" rel="noopener">{index + 1:02d}</a>
@@ -38,10 +48,12 @@ def render_item(item, index):
       <span>{esc(section)}</span>
       <span>{esc(item.get('time', ''))}</span>
       <span>{len(sources)} fonti</span>
+      {grouped_badge}
     </div>
     <h2><a href="{primary}" target="_blank" rel="noopener">{esc(item.get('title', 'Senza titolo'))}</a></h2>
     <p class="summary">{esc(item.get('summary', ''))}</p>
     <p class="why"><strong>Perché conta:</strong> {esc(item.get('why', 'Da monitorare.'))}</p>
+    {variants_html}
     <div class="article-bottom">
       <div class="tags">{tags}</div>
       <div class="sources">{links}</div>
@@ -248,6 +260,42 @@ def main():
       font-size:11px;
       font-weight:700;
     }}
+    .grouped-badge {{
+      color:var(--accent);
+      background:#fff1ec;
+      border:1px solid #efc7bc;
+      border-radius:999px;
+      padding:2px 7px;
+      letter-spacing:.04em;
+    }}
+    .variants {{
+      margin-top:12px;
+      border-left:2px solid var(--line);
+      padding-left:12px;
+      color:#625b55;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:12px;
+    }}
+    .variants summary {{
+      cursor:pointer;
+      color:var(--accent);
+      font-weight:800;
+      margin-bottom:7px;
+    }}
+    .variants ul {{
+      margin:8px 0 0;
+      padding-left:16px;
+      display:grid;
+      gap:7px;
+    }}
+    .variants li span {{
+      display:block;
+      color:#958b82;
+      font-size:11px;
+      margin-top:2px;
+    }}
+    .variants a {{ text-decoration:none; }}
+    .variants a:hover {{ color:var(--accent); }}
     .source-link {{
       color:var(--accent);
       text-decoration:none;
