@@ -61,10 +61,33 @@ def render_item(item, index):
   </div>
 </article>"""
 
+def render_fuel(fuel):
+    if not fuel or not fuel.get('items'):
+        return ''
+    cards = []
+    for item in fuel.get('items', [])[:6]:
+        cards.append(f"""
+        <li>
+          <strong>{esc(item.get('price', ''))} €/L</strong>
+          <span>{esc(item.get('brand', ''))} · {esc(item.get('mode', ''))} · {esc(item.get('distance_km', ''))} km</span>
+          <small>{esc(item.get('address', ''))}, {esc(item.get('city', ''))} · agg. {esc(item.get('updated', ''))}</small>
+        </li>""")
+    return f"""
+    <section class="fuel-box" aria-label="Prezzi benzina Nuoro">
+      <div>
+        <p class="fuel-kicker">Prezzi carburante</p>
+        <h2>Benzina a Nuoro</h2>
+        <p>{esc(fuel.get('summary', 'Prezzi benzina rilevati vicino a Nuoro.'))}</p>
+      </div>
+      <ol>{''.join(cards)}</ol>
+    </section>"""
+
+
 def main():
     data = load_data()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     updated = data.get("updated_at") or now
+    fuel_html = render_fuel(data.get('fuel'))
     items = data.get("items", [])
     if not items:
         items = [{
@@ -180,6 +203,44 @@ def main():
       display:grid;
       gap:0;
     }}
+    .fuel-box {{
+      display:grid;
+      grid-template-columns:minmax(220px, 1fr) minmax(260px, 1.4fr);
+      gap:22px;
+      margin:4px 0 28px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:#fff6ea;
+    }}
+    .fuel-box h2 {{
+      margin:2px 0 8px;
+      font-size:clamp(24px, 3vw, 34px);
+    }}
+    .fuel-box p {{
+      margin:0;
+      color:#5d5650;
+      line-height:1.45;
+      font-size:14px;
+    }}
+    .fuel-kicker {{
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      color:var(--accent) !important;
+      font-size:11px !important;
+      font-weight:850;
+      margin-bottom:6px !important;
+    }}
+    .fuel-box ol {{
+      margin:0;
+      padding-left:20px;
+      display:grid;
+      gap:9px;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }}
+    .fuel-box li strong {{ color:var(--accent); font-size:14px; }}
+    .fuel-box li span {{ display:block; font-weight:750; font-size:12px; color:#332f2b; }}
+    .fuel-box li small {{ display:block; color:#7d746c; font-size:11px; line-height:1.35; }}
     .article-row {{
       display:grid;
       grid-template-columns:58px 1fr;
@@ -335,6 +396,7 @@ def main():
       <span>Aggiornato: {esc(updated)}</span>
       <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
     </div>
+    {fuel_html}
     <main class="article-list">{rows}</main>
     <footer>Questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
   </div>
