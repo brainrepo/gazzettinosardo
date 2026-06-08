@@ -25,11 +25,21 @@ def render_item(item, index):
     section = item.get('section', 'News')
     tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in item.get("tags", [])[:3])
     sources = item.get("sources", [])
+    variants = item.get("variants", [])
     links = "".join(
         f'<a class="source-link" href="{esc(src.get("url"))}" target="_blank" rel="noopener">{esc(src.get("name", "fonte"))}</a>'
-        for src in sources[:3]
+        for src in sources[:4]
     )
     primary = esc(sources[0].get('url')) if sources else '#'
+    grouped_count = int(item.get('grouped_count') or len(variants) or 1)
+    grouped_badge = f'<span class="grouped-badge">Raggruppa {grouped_count} articoli</span>' if grouped_count > 1 else ''
+    variants_html = ''
+    if grouped_count > 1 and variants:
+        variant_rows = ''.join(
+            f'<li><a href="{esc(v.get("url"))}" target="_blank" rel="noopener">{esc(v.get("title"))}</a><span>{esc(v.get("source"))} · {esc(v.get("time"))}</span></li>'
+            for v in variants[:6]
+        )
+        variants_html = f'<details class="variants"><summary>Articoli collegati</summary><ul>{variant_rows}</ul></details>'
     return f"""
 <article class="article-row">
   <a class="article-number" href="{primary}" target="_blank" rel="noopener">{index + 1:02d}</a>
@@ -38,10 +48,12 @@ def render_item(item, index):
       <span>{esc(section)}</span>
       <span>{esc(item.get('time', ''))}</span>
       <span>{len(sources)} fonti</span>
+      {grouped_badge}
     </div>
     <h2><a href="{primary}" target="_blank" rel="noopener">{esc(item.get('title', 'Senza titolo'))}</a></h2>
     <p class="summary">{esc(item.get('summary', ''))}</p>
     <p class="why"><strong>Perché conta:</strong> {esc(item.get('why', 'Da monitorare.'))}</p>
+    {variants_html}
     <div class="article-bottom">
       <div class="tags">{tags}</div>
       <div class="sources">{links}</div>
@@ -49,10 +61,33 @@ def render_item(item, index):
   </div>
 </article>"""
 
+def render_fuel(fuel):
+    if not fuel or not fuel.get('items'):
+        return ''
+    cards = []
+    for item in fuel.get('items', [])[:6]:
+        cards.append(f"""
+        <li>
+          <strong>{esc(item.get('price', ''))} €/L</strong>
+          <span>{esc(item.get('brand', ''))} · {esc(item.get('mode', ''))} · {esc(item.get('distance_km', ''))} km</span>
+          <small>{esc(item.get('address', ''))}, {esc(item.get('city', ''))} · agg. {esc(item.get('updated', ''))}</small>
+        </li>""")
+    return f"""
+    <section class="fuel-box" aria-label="Prezzi benzina Nuoro">
+      <div>
+        <p class="fuel-kicker">Prezzi carburante</p>
+        <h2>Benzina a Nuoro</h2>
+        <p>{esc(fuel.get('summary', 'Prezzi benzina rilevati vicino a Nuoro.'))}</p>
+      </div>
+      <ol>{''.join(cards)}</ol>
+    </section>"""
+
+
 def main():
     data = load_data()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     updated = data.get("updated_at") or now
+    fuel_html = render_fuel(data.get('fuel'))
     items = data.get("items", [])
     if not items:
         items = [{
@@ -168,6 +203,44 @@ def main():
       display:grid;
       gap:0;
     }}
+    .fuel-box {{
+      display:grid;
+      grid-template-columns:minmax(220px, 1fr) minmax(260px, 1.4fr);
+      gap:22px;
+      margin:4px 0 28px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:#fff6ea;
+    }}
+    .fuel-box h2 {{
+      margin:2px 0 8px;
+      font-size:clamp(24px, 3vw, 34px);
+    }}
+    .fuel-box p {{
+      margin:0;
+      color:#5d5650;
+      line-height:1.45;
+      font-size:14px;
+    }}
+    .fuel-kicker {{
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      color:var(--accent) !important;
+      font-size:11px !important;
+      font-weight:850;
+      margin-bottom:6px !important;
+    }}
+    .fuel-box ol {{
+      margin:0;
+      padding-left:20px;
+      display:grid;
+      gap:9px;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }}
+    .fuel-box li strong {{ color:var(--accent); font-size:14px; }}
+    .fuel-box li span {{ display:block; font-weight:750; font-size:12px; color:#332f2b; }}
+    .fuel-box li small {{ display:block; color:#7d746c; font-size:11px; line-height:1.35; }}
     .article-row {{
       display:grid;
       grid-template-columns:58px 1fr;
@@ -248,6 +321,42 @@ def main():
       font-size:11px;
       font-weight:700;
     }}
+    .grouped-badge {{
+      color:var(--accent);
+      background:#fff1ec;
+      border:1px solid #efc7bc;
+      border-radius:999px;
+      padding:2px 7px;
+      letter-spacing:.04em;
+    }}
+    .variants {{
+      margin-top:12px;
+      border-left:2px solid var(--line);
+      padding-left:12px;
+      color:#625b55;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:12px;
+    }}
+    .variants summary {{
+      cursor:pointer;
+      color:var(--accent);
+      font-weight:800;
+      margin-bottom:7px;
+    }}
+    .variants ul {{
+      margin:8px 0 0;
+      padding-left:16px;
+      display:grid;
+      gap:7px;
+    }}
+    .variants li span {{
+      display:block;
+      color:#958b82;
+      font-size:11px;
+      margin-top:2px;
+    }}
+    .variants a {{ text-decoration:none; }}
+    .variants a:hover {{ color:var(--accent); }}
     .source-link {{
       color:var(--accent);
       text-decoration:none;
@@ -287,6 +396,7 @@ def main():
       <span>Aggiornato: {esc(updated)}</span>
       <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
     </div>
+    {fuel_html}
     <main class="article-list">{rows}</main>
     <footer>Questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
   </div>
