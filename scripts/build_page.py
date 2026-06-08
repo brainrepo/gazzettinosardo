@@ -114,7 +114,7 @@ def render_events(events):
         rows.append(f"""
         <li class="event-row">
           <a href="{esc(item.get('url', '#'))}" target="_blank" rel="noopener">
-            <span class="event-date">{esc(item.get('date', 'Prossimamente'))}</span>
+            <span class="event-date"><em>Quando</em>{esc(item.get('date', 'Data da verificare'))}</span>
             <strong>{esc(item.get('title', 'Evento'))}</strong>
           </a>
           <p>{esc(item.get('summary', ''))}</p>
@@ -361,12 +361,26 @@ def main():
     .event-row a {{ display:grid; gap:5px; text-decoration:none; }}
     .event-row a:hover strong {{ color:var(--accent); }}
     .event-date {{
+      display:inline-flex;
+      width:max-content;
+      align-items:center;
+      gap:7px;
+      background:#fff1ec;
+      border:1px solid #efc7bc;
+      border-radius:999px;
+      padding:4px 9px;
       font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-      font-size:11px;
-      font-weight:850;
+      font-size:12px;
+      font-weight:900;
       color:var(--accent);
       text-transform:uppercase;
-      letter-spacing:.08em;
+      letter-spacing:.06em;
+    }}
+    .event-date em {{
+      font-style:normal;
+      color:#7d746c;
+      font-size:10px;
+      letter-spacing:.1em;
     }}
     .event-row strong {{ font-size:18px; line-height:1.08; }}
     .event-row p {{ margin:8px 0 8px; font-size:13px; }}
