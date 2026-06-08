@@ -1,4 +1,83 @@
 {
-  "updated_at": "",
-  "items": []
+  "updated_at": "2026-06-08 12:15 UTC",
+  "items": [
+    {
+      "section": "Sanità",
+      "time": "08 giu 2026, 11:22 UTC",
+      "title": "ASL Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica",
+      "summary": "La ASL n. 3 di Nuoro annuncia un passo avanti nella digitalizzazione: la Farmacia Ospedaliera ottiene accesso operativo alla cartella clinica elettronica integrata nel sistema informativo aziendale.",
+      "why": "È una notizia ad alto impatto perché riguarda processi sanitari, tracciabilità e continuità delle cure nell'ospedale e nella rete ASL nuorese.",
+      "tags": ["Nuoro", "ASL", "sanità digitale", "ospedale"],
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/"
+        }
+      ]
+    },
+    {
+      "section": "Comune / Tributi",
+      "time": "08 giu 2026, 10:27 UTC",
+      "title": "Nuoro: accordo sulla rottamazione dei tributi comunali",
+      "summary": "In Commissione Bilancio del Comune di Nuoro è stata raggiunta un'intesa sul regolamento per la definizione agevolata dei tributi comunali. Il gruppo SiAmo Nuoro chiede ora di estendere l'approccio anche alle cartelle erariali.",
+      "why": "Può interessare cittadini e imprese con pendenze tributarie locali: è una misura con effetti concreti su pagamenti, sanzioni e rapporto con il Comune.",
+      "tags": ["Nuoro", "Comune", "tributi", "rottamazione"],
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/08/rottamazione-tributi-grazie-a-siamo-nuoro-ora-si-estenda-alle-cartelle-erariali/"
+        }
+      ]
+    },
+    {
+      "section": "Agricoltura / Europa",
+      "time": "08 giu 2026, 09:08 UTC",
+      "title": "Fondi UE agricoli e riarmo: a Nuoro Agus chiede di anticipare la programmazione",
+      "summary": "Durante un convegno a Nuoro sulla questione incendi, l'assessore regionale Francesco Agus ha parlato del rischio che una parte dei fondi agricoli europei venga dirottata verso il riarmo, invitando ad anticipare la programmazione.",
+      "why": "Tema strategico per aree interne e comparto agricolo: eventuali spostamenti di fondi UE possono incidere su prevenzione incendi, sviluppo rurale e investimenti locali.",
+      "tags": ["Nuoro", "agricoltura", "fondi UE", "incendi", "Regione Sardegna"],
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/08/nuoro-fondi-ue-agricoli-dirottati-per-il-riarmo-in-europa-agus-serve-anticipare-la-programmazione/"
+        }
+      ]
+    },
+    {
+      "section": "Elezioni comunali",
+      "time": "08 giu 2026, mattina",
+      "title": "Comunali in Sardegna: affluenza e risultati, focus sul Nuorese",
+      "summary": "Le elezioni comunali in Sardegna registrano un'affluenza finale del 43,65%, con record nel Nuorese. Dalle fonti emergono aggiornamenti su diversi comuni dell'area: Olzai, Tiana, Ottana, Bortigali, Osidda e altri centri.",
+      "why": "Le amministrative definiscono nuovi equilibri nei comuni del territorio. La convergenza di più fonti indica che il tema è il filone principale della giornata per il Nuorese.",
+      "tags": ["Nuorese", "elezioni", "comunali", "sindaci"],
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/08/comunali-in-sardegna-alle-23-si-chiude-con-il-4365-record-dellaffluenza-nel-nuorese/"
+        },
+        {
+          "name": "La Nuova Sardegna / Google News",
+          "url": "https://news.google.com/rss/search?q=site%3Alanuovasardegna.it%20Nuoro%20La%20Nuova%20Sardegna%20when%3A1d&hl=it&gl=IT&ceid=IT%3Ait"
+        },
+        {
+          "name": "L'Unione Sarda / Google News",
+          "url": "https://news.google.com/rss/search?q=site%3Aunionesarda.it%20Nuoro%20Unione%20Sarda%20when%3A1d&hl=it&gl=IT&ceid=IT%3Ait"
+        }
+      ]
+    },
+    {
+      "section": "Cultura / Società",
+      "time": "07 giu 2026, 12:32 UTC",
+      "title": "Nuoro: Pride ai giardini di piazza Vittorio Emanuele",
+      "summary": "I giardini di piazza Vittorio Emanuele hanno ospitato il Pride nuorese promosso dal Collettivo Istravanad@s, con una giornata dedicata ai diritti civili e al contrasto dei pregiudizi.",
+      "why": "È una notizia sociale e culturale rilevante per la città, utile da mantenere nel riepilogo perché pubblicata nel weekend e ancora attuale nella giornata odierna.",
+      "tags": ["Nuoro", "diritti civili", "Pride", "società"],
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/07/orgoglio-arcobaleno-a-nuoro-piazza-vittorio-emanuele-contro-i-pregiudizi/"
+        }
+      ]
+    }
+  ]
 }
