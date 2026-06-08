@@ -159,6 +159,56 @@
     .fuel-box li strong { color:var(--accent); font-size:14px; }
     .fuel-box li span { display:block; font-weight:750; font-size:12px; color:#332f2b; }
     .fuel-box li small { display:block; color:#7d746c; font-size:11px; line-height:1.35; }
+    .events-box {
+      margin:0 0 28px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:#fffaf3;
+    }
+    .events-head {
+      display:grid;
+      gap:6px;
+      margin-bottom:14px;
+      padding-bottom:13px;
+      border-bottom:1px solid var(--line);
+    }
+    .events-kicker {
+      margin:0 !important;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      color:var(--accent) !important;
+      font-size:11px !important;
+      font-weight:850;
+    }
+    .events-box h2 { margin:0; font-size:clamp(24px, 3vw, 34px); }
+    .events-box p { margin:0; color:#5d5650; line-height:1.45; font-size:14px; }
+    .events-box small { color:#7d746c; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size:11px; }
+    .events-box ol {
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
+      gap:12px;
+    }
+    .event-row {
+      border:1px solid var(--line);
+      background:#fff6ea;
+      padding:13px 14px;
+    }
+    .event-row a { display:grid; gap:5px; text-decoration:none; }
+    .event-row a:hover strong { color:var(--accent); }
+    .event-date {
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      font-weight:850;
+      color:var(--accent);
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+    .event-row strong { font-size:18px; line-height:1.08; }
+    .event-row p { margin:8px 0 8px; font-size:13px; }
     .article-row {
       display:grid;
       grid-template-columns:58px 1fr;
@@ -294,6 +344,7 @@
       h1 { font-size:48px; }
       .info-bar { flex-direction:column; align-items:center; text-align:center; }
       .fuel-groups { grid-template-columns:1fr; }
+      .events-box ol { grid-template-columns:1fr; }
       .article-row { grid-template-columns:1fr; gap:8px; padding:22px 0; }
       .article-number { font-size:13px; padding:0; }
       .article-number::before { content:"Articolo "; color:var(--muted); }
@@ -384,6 +435,80 @@
               <small>Statale 389 di Budduso&#x27; e del Correboi, Km. 2, dir. NUORO - 08100, Nuoro · agg. 05/06/2026 11:58:08</small>
             </li></ol>
         </div></div>
+    </section>
+    
+    <section class="events-box" aria-label="Eventi in Sardegna centrale">
+      <div class="events-head">
+        <p class="events-kicker">Agenda</p>
+        <h2>Eventi in Sardegna centrale</h2>
+        <p>Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.</p>
+        <small>Fonti: MAN Nuoro · Biblioteca Satta · Sardegna Turismo · ISRE</small>
+      </div>
+      <ol>
+        <li class="event-row">
+          <a href="https://www.museoman.it/event/futurama-nostalgia-di-futuro/" target="_blank" rel="noopener">
+            <span class="event-date">In corso</span>
+            <strong>FUTURAMA. NOSTALGIA DI FUTURO</strong>
+          </a>
+          <p>A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 4 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…</p>
+          <small>Mostre · Nuoro · MAN Nuoro</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.museoman.it/event/monica-biancardi-il-capitale-che-cresce/" target="_blank" rel="noopener">
+            <span class="event-date">In corso</span>
+            <strong>Monica Biancardi. Il capitale che cresce</strong>
+          </a>
+          <p>Inaugurazione ore 18:00 Dal 24 aprile al 14 giugno 2026, il MAN ospita la mostra Il capitale che cresce di Monica Biancardi, progetto vincitore del PAC – Piano per l’Arte […]</p>
+          <small>Mostre · Nuoro · MAN Nuoro</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.museoman.it/event/pellizza-e-ballero-la-divina-luce/" target="_blank" rel="noopener">
+            <span class="event-date">In corso</span>
+            <strong>Pellizza e Ballero. La divina luce</strong>
+          </a>
+          <p>PELLIZZA E BALLERO LA DIVINA LUCE dal 13 marzo al 14 giugno 2026 a cura di Chiara Gatti da un progetto di Rita Moro con il contributo scientiﬁco di Gabriella […]</p>
+          <small>Mostre · Nuoro · MAN Nuoro</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.museoman.it/2026/05/14/corso-di-lingua-sarda-con-giorgio-asproni/" target="_blank" rel="noopener">
+            <span class="event-date">Pubblicato 14 May</span>
+            <strong>Corso di Lingua sarda “con Giorgio Asproni”</strong>
+          </a>
+          <p>L’Istituto Bellieni organizza un ciclo di lezioni per una corretta scrittura del sardo analizzando una delle massime figure dell’Ottocento isolano NUORO. Imparare a scrivere in…</p>
+          <small>Incontri · Nuoro · MAN Nuoro</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.museoman.it/2026/05/21/esce-3350-gr-photographs-and-letters-on-obstetric-violence-il-nuovo-libro-di-valeria-cherchi-edito-da-mousse-publishing/" target="_blank" rel="noopener">
+            <span class="event-date">Pubblicato 21 May</span>
+            <strong>Esce 3,350 gr. Photographs and Letters on Obstetric Violence, il nuovo libro di Valeria Cherchi edito da Mousse Publishing</strong>
+          </a>
+          <p>In un contesto in cui la violenza ostetrica continua a rimanere una realtà spesso invisibile, esce 3,350 gr. Photographs and Letters on Obstetric Violence, il nuovo libro di Val…</p>
+          <small>Incontri · Nuoro · MAN Nuoro</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.museoman.it/2026/05/26/festa-della-pagella/" target="_blank" rel="noopener">
+            <span class="event-date">Pubblicato 26 May</span>
+            <strong>Festa della pagella</strong>
+          </a>
+          <p>Anche quest’anno il MAN festeggia la fine dell’anno scolastico con gli alunni e le maestre che durante l’inverno riempiono le sale e, numerosissimi, frequentano i laboratori Did…</p>
+          <small>Cultura · Nuoro · MAN Nuoro</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.bibliotecasatta.it/il-giorno-del-pregiudizio/" target="_blank" rel="noopener">
+            <span class="event-date">Pubblicato 04 Jun</span>
+            <strong>Il Giorno del PREGiudizio</strong>
+          </a>
+          <p>Sabato 6 giugno 2026, Nuoro ospita la seconda edizione della manifestazione Il Giorno del PREGiudizio. L’evento si inserisce nel circuito del Sardegna Pride e della ricorrenza i…</p>
+          <small>Cultura · Nuoro · Biblioteca Satta</small>
+        </li>
+        <li class="event-row">
+          <a href="https://www.museoman.it/2026/05/14/parole-di-grazia/" target="_blank" rel="noopener">
+            <span class="event-date">Pubblicato 14 May</span>
+            <strong>Le parole di Grazia</strong>
+          </a>
+          <p>In occasione delle celebrazioni per i 100 anni dal Nobel di Grazia Deledda, il MAN partecipa all’iniziativa del Distretto Culturale del Nuorese Parole di grazia con una visita g…</p>
+          <small>Cultura · Nuoro · MAN Nuoro</small>
+        </li></ol>
     </section>
     <main class="article-list">
 <article class="article-row">
