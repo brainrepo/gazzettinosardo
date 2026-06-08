@@ -106,11 +106,39 @@ def render_fuel(fuel):
     </section>"""
 
 
+def render_events(events):
+    if not events or not events.get('items'):
+        return ''
+    rows = []
+    for item in events.get('items', [])[:8]:
+        rows.append(f"""
+        <li class="event-row">
+          <a href="{esc(item.get('url', '#'))}" target="_blank" rel="noopener">
+            <span class="event-date">{esc(item.get('date', 'Prossimamente'))}</span>
+            <strong>{esc(item.get('title', 'Evento'))}</strong>
+          </a>
+          <p>{esc(item.get('summary', ''))}</p>
+          <small>{esc(item.get('category', 'Evento'))} · {esc(item.get('place', 'Sardegna'))} · {esc(item.get('source', 'fonte'))}</small>
+        </li>""")
+    sources = ' · '.join(events.get('sources', [])[:5])
+    return f"""
+    <section class="events-box" aria-label="Eventi in Sardegna centrale">
+      <div class="events-head">
+        <p class="events-kicker">Agenda</p>
+        <h2>{esc(events.get('title', 'Eventi in Sardegna centrale'))}</h2>
+        <p>{esc(events.get('summary', 'Appuntamenti selezionati dalle fonti locali.'))}</p>
+        <small>Fonti: {esc(sources)}</small>
+      </div>
+      <ol>{''.join(rows)}</ol>
+    </section>"""
+
+
 def main():
     data = load_data()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     updated = data.get("updated_at") or now
     fuel_html = render_fuel(data.get('fuel'))
+    events_html = render_events(data.get('events'))
     items = data.get("items", [])
     if not items:
         items = [{
@@ -292,6 +320,56 @@ def main():
     .fuel-box li strong {{ color:var(--accent); font-size:14px; }}
     .fuel-box li span {{ display:block; font-weight:750; font-size:12px; color:#332f2b; }}
     .fuel-box li small {{ display:block; color:#7d746c; font-size:11px; line-height:1.35; }}
+    .events-box {{
+      margin:0 0 28px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:#fffaf3;
+    }}
+    .events-head {{
+      display:grid;
+      gap:6px;
+      margin-bottom:14px;
+      padding-bottom:13px;
+      border-bottom:1px solid var(--line);
+    }}
+    .events-kicker {{
+      margin:0 !important;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      color:var(--accent) !important;
+      font-size:11px !important;
+      font-weight:850;
+    }}
+    .events-box h2 {{ margin:0; font-size:clamp(24px, 3vw, 34px); }}
+    .events-box p {{ margin:0; color:#5d5650; line-height:1.45; font-size:14px; }}
+    .events-box small {{ color:#7d746c; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size:11px; }}
+    .events-box ol {{
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
+      gap:12px;
+    }}
+    .event-row {{
+      border:1px solid var(--line);
+      background:#fff6ea;
+      padding:13px 14px;
+    }}
+    .event-row a {{ display:grid; gap:5px; text-decoration:none; }}
+    .event-row a:hover strong {{ color:var(--accent); }}
+    .event-date {{
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      font-weight:850;
+      color:var(--accent);
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }}
+    .event-row strong {{ font-size:18px; line-height:1.08; }}
+    .event-row p {{ margin:8px 0 8px; font-size:13px; }}
     .article-row {{
       display:grid;
       grid-template-columns:58px 1fr;
@@ -427,6 +505,7 @@ def main():
       h1 {{ font-size:48px; }}
       .info-bar {{ flex-direction:column; align-items:center; text-align:center; }}
       .fuel-groups {{ grid-template-columns:1fr; }}
+      .events-box ol {{ grid-template-columns:1fr; }}
       .article-row {{ grid-template-columns:1fr; gap:8px; padding:22px 0; }}
       .article-number {{ font-size:13px; padding:0; }}
       .article-number::before {{ content:"Articolo "; color:var(--muted); }}
@@ -449,6 +528,7 @@ def main():
       <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
     </div>
     {fuel_html}
+    {events_html}
     <main class="article-list">{rows}</main>
     <footer>Questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
   </div>
