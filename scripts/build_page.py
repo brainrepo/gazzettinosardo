@@ -62,24 +62,47 @@ def render_item(item, index):
 </article>"""
 
 def render_fuel(fuel):
-    if not fuel or not fuel.get('items'):
+    if not fuel:
         return ''
-    cards = []
-    for item in fuel.get('items', [])[:6]:
-        cards.append(f"""
-        <li>
-          <strong>{esc(item.get('price', ''))} €/L</strong>
-          <span>{esc(item.get('brand', ''))} · {esc(item.get('mode', ''))} · {esc(item.get('distance_km', ''))} km</span>
-          <small>{esc(item.get('address', ''))}, {esc(item.get('city', ''))} · agg. {esc(item.get('updated', ''))}</small>
-        </li>""")
+    groups = fuel.get('groups') or []
+    # Backward compatibility with the previous benzina-only shape.
+    if not groups and fuel.get('items'):
+        groups = [{
+            'kind': 'benzina',
+            'title': fuel.get('title', 'Benzina'),
+            'summary': fuel.get('summary', ''),
+            'items': fuel.get('items', []),
+        }]
+    groups = [g for g in groups if g.get('items')]
+    if not groups:
+        return ''
+
+    group_html = []
+    for group in groups[:2]:
+        cards = []
+        for item in group.get('items', [])[:5]:
+            cards.append(f"""
+            <li>
+              <strong>{esc(item.get('price', ''))} €/L</strong>
+              <span>{esc(item.get('brand', ''))} · {esc(item.get('mode', ''))} · {esc(item.get('distance_km', ''))} km</span>
+              <small>{esc(item.get('address', ''))}, {esc(item.get('city', ''))} · agg. {esc(item.get('updated', ''))}</small>
+            </li>""")
+        group_html.append(f"""
+        <div class="fuel-group fuel-{esc(group.get('kind', 'carburante'))}">
+          <h3>{esc(group.get('title', 'Carburante'))}</h3>
+          <p>{esc(group.get('summary', 'Prezzi rilevati vicino a Nuoro.'))}</p>
+          <ol>{''.join(cards)}</ol>
+        </div>""")
+
     return f"""
-    <section class="fuel-box" aria-label="Prezzi benzina Nuoro">
-      <div>
+    <section class="fuel-box" aria-label="Prezzi benzina e diesel Nuoro">
+      <div class="fuel-head">
         <p class="fuel-kicker">Prezzi carburante</p>
-        <h2>Benzina a Nuoro</h2>
-        <p>{esc(fuel.get('summary', 'Prezzi benzina rilevati vicino a Nuoro.'))}</p>
+        <h2>{esc(fuel.get('title', 'Benzina e diesel a Nuoro'))}</h2>
+        <p>{esc(fuel.get('summary', 'Prezzi benzina e diesel rilevati vicino a Nuoro.'))}</p>
+        <small>Fonte: <a href="{esc(fuel.get('source_url', 'https://www.mimit.gov.it/images/exportCSV/'))}" target="_blank" rel="noopener">{esc(fuel.get('source', 'MIMIT Osservaprezzi carburanti'))}</a></small>
       </div>
-      <ol>{''.join(cards)}</ol>
+      <div class="fuel-groups">{''.join(group_html)}</div>
     </section>"""
 
 
@@ -205,22 +228,40 @@ def main():
     }}
     .fuel-box {{
       display:grid;
-      grid-template-columns:minmax(220px, 1fr) minmax(260px, 1.4fr);
-      gap:22px;
+      gap:18px;
       margin:4px 0 28px;
       padding:18px 20px;
       border:1px solid var(--line);
       background:#fff6ea;
     }}
+    .fuel-head {{
+      display:grid;
+      gap:6px;
+      border-bottom:1px solid var(--line);
+      padding-bottom:14px;
+    }}
     .fuel-box h2 {{
-      margin:2px 0 8px;
+      margin:2px 0 2px;
       font-size:clamp(24px, 3vw, 34px);
+    }}
+    .fuel-box h3 {{
+      margin:0 0 7px;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:15px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:#332f2b;
     }}
     .fuel-box p {{
       margin:0;
       color:#5d5650;
       line-height:1.45;
       font-size:14px;
+    }}
+    .fuel-box small {{
+      color:#7d746c;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
     }}
     .fuel-kicker {{
       font-family: Inter, ui-sans-serif, system-ui, sans-serif;
@@ -229,10 +270,20 @@ def main():
       color:var(--accent) !important;
       font-size:11px !important;
       font-weight:850;
-      margin-bottom:6px !important;
+      margin-bottom:0 !important;
+    }}
+    .fuel-groups {{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
+      gap:16px;
+    }}
+    .fuel-group {{
+      background:#fffaf3;
+      border:1px solid var(--line);
+      padding:14px;
     }}
     .fuel-box ol {{
-      margin:0;
+      margin:12px 0 0;
       padding-left:20px;
       display:grid;
       gap:9px;
@@ -375,6 +426,7 @@ def main():
       .page {{ width:100%; margin:0; min-height:100vh; border:0; padding:22px 18px 34px; }}
       h1 {{ font-size:48px; }}
       .info-bar {{ flex-direction:column; align-items:center; text-align:center; }}
+      .fuel-groups {{ grid-template-columns:1fr; }}
       .article-row {{ grid-template-columns:1fr; gap:8px; padding:22px 0; }}
       .article-number {{ font-size:13px; padding:0; }}
       .article-number::before {{ content:"Articolo "; color:var(--muted); }}
