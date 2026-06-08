@@ -93,6 +93,44 @@
       display:grid;
       gap:0;
     }
+    .fuel-box {
+      display:grid;
+      grid-template-columns:minmax(220px, 1fr) minmax(260px, 1.4fr);
+      gap:22px;
+      margin:4px 0 28px;
+      padding:18px 20px;
+      border:1px solid var(--line);
+      background:#fff6ea;
+    }
+    .fuel-box h2 {
+      margin:2px 0 8px;
+      font-size:clamp(24px, 3vw, 34px);
+    }
+    .fuel-box p {
+      margin:0;
+      color:#5d5650;
+      line-height:1.45;
+      font-size:14px;
+    }
+    .fuel-kicker {
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      color:var(--accent) !important;
+      font-size:11px !important;
+      font-weight:850;
+      margin-bottom:6px !important;
+    }
+    .fuel-box ol {
+      margin:0;
+      padding-left:20px;
+      display:grid;
+      gap:9px;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }
+    .fuel-box li strong { color:var(--accent); font-size:14px; }
+    .fuel-box li span { display:block; font-weight:750; font-size:12px; color:#332f2b; }
+    .fuel-box li small { display:block; color:#7d746c; font-size:11px; line-height:1.35; }
     .article-row {
       display:grid;
       grid-template-columns:58px 1fr;
@@ -242,12 +280,51 @@
       <div class="eyebrow">Rassegna quotidiana · Nuoro e provincia</div>
       <h1>Gazzettino Sardo</h1>
       <p class="subtitle">Le notizie principali della giornata, ordinate come una lista di articoli con sintesi, contesto e link alle fonti originali.</p>
-      <nav class="section-nav" aria-label="Sezioni"><span>Elezioni / Politica</span><span>News</span><span>Cronaca</span></nav>
+      <nav class="section-nav" aria-label="Sezioni"><span>Elezioni / Politica</span><span>News</span><span>Cronaca</span><span>Sanità</span></nav>
     </header>
     <div class="info-bar">
-      <span>Aggiornato: 2026-06-08 14:33 UTC</span>
+      <span>Aggiornato: 2026-06-08 14:47 UTC</span>
       <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
     </div>
+    
+    <section class="fuel-box" aria-label="Prezzi benzina Nuoro">
+      <div>
+        <p class="fuel-kicker">Prezzi carburante</p>
+        <h2>Benzina a Nuoro</h2>
+        <p>I prezzi più convenienti della benzina entro 20 km da Nuoro. Prezzo minimo rilevato: 1.919 €/L.</p>
+      </div>
+      <ol>
+        <li>
+          <strong>1.919 €/L</strong>
+          <span>Api-Ip · self · 0.4 km</span>
+          <small>PIAZZA ITALIA 15 08100, Nuoro · agg. 06/06/2026 08:10:52</small>
+        </li>
+        <li>
+          <strong>1.919 €/L</strong>
+          <span>Agip Eni · self · 1.0 km</span>
+          <small>Viale Sardegna 20 08100, Nuoro · agg. 07/06/2026 07:20:11</small>
+        </li>
+        <li>
+          <strong>1.919 €/L</strong>
+          <span>Q8 · self · 1.1 km</span>
+          <small>VIALE DELLA SOLITUDINE SNC 08100, Nuoro · agg. 07/06/2026 01:45:40</small>
+        </li>
+        <li>
+          <strong>1.919 €/L</strong>
+          <span>Agip Eni · self · 1.9 km</span>
+          <small>VIA SAN GIOVANNI BOSCO 13 08100, Nuoro · agg. 06/06/2026 12:32:09</small>
+        </li>
+        <li>
+          <strong>1.919 €/L</strong>
+          <span>Pompe Bianche · servito · 16.7 km</span>
+          <small>S.S. 131 D.C.N. Km 71,200 lato destro verso di percorrenza Olbia-Abbasanta s.n.c. 08020, Lula · agg. 05/06/2026 10:42:33</small>
+        </li>
+        <li>
+          <strong>1.919 €/L</strong>
+          <span>Pompe Bianche · self · 16.7 km</span>
+          <small>S.S. 131 D.C.N. Km 71,200 lato destro verso di percorrenza Olbia-Abbasanta s.n.c. 08020, Lula · agg. 05/06/2026 10:42:33</small>
+        </li></ol>
+    </section>
     <main class="article-list">
 <article class="article-row">
   <a class="article-number" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5" target="_blank" rel="noopener">01</a>
@@ -310,27 +387,7 @@
 </article>
 
 <article class="article-row">
-  <a class="article-number" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">04</a>
-  <div class="article-body">
-    <div class="article-meta">
-      <span>Elezioni / Politica</span>
-      <span>08 Jun 2026, 05:11 UTC</span>
-      <span>2 fonti</span>
-      <span class="grouped-badge">Raggruppa 2 articoli</span>
-    </div>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi</a></h2>
-    <p class="summary">Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi L&#x27;Unione Sarda.it</p>
-    <p class="why"><strong>Perché conta:</strong> Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.</p>
-    <details class="variants"><summary>Articoli collegati</summary><ul><li><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi</a><span>L&#x27;Unione Sarda · 08 Jun, 05:11</span></li><li><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWVLSW5WZnBZX05wLWxtM2xMbU4wS0xXeDFxVnBGNi1QeGc3ek9PcE90ZXlqNWg4c0RJazRBc0haSVNSNHQ0aDlfYm9zRmlQSENFRUdrb29DSEtiWDRtRG1vd2czR05tbWR0TzdwMW9IX29rQ1hraXVGS3FQd2dTNTJxcVQ0bGM2SEFGbFN3TlhNODBkQzJGM19tWkxfZjIyT25Ja3kzTGZSNHljcHVOcE52ckVUdmktWFlTUmdGWnBGRXE4V2RUVmQxMlpLSTZmRmVpVw?oc=5" target="_blank" rel="noopener">Elezioni amministrative, eletti i primi sindaci: ecco chi sono – La diretta</a><span>La Nuova Sardegna · 07 Jun, 16:51</span></li></ul></details>
-    <div class="article-bottom">
-      <div class="tags"><span class="tag">Sardegna</span><span class="tag">Elezioni</span></div>
-      <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5" target="_blank" rel="noopener">L&#x27;Unione Sarda</a><a class="source-link" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWVLSW5WZnBZX05wLWxtM2xMbU4wS0xXeDFxVnBGNi1QeGc3ek9PcE90ZXlqNWg4c0RJazRBc0haSVNSNHQ0aDlfYm9zRmlQSENFRUdrb29DSEtiWDRtRG1vd2czR05tbWR0TzdwMW9IX29rQ1hraXVGS3FQd2dTNTJxcVQ0bGM2SEFGbFN3TlhNODBkQzJGM19tWkxfZjIyT25Ja3kzTGZSNHljcHVOcE52ckVUdmktWFlTUmdGWnBGRXE4V2RUVmQxMlpLSTZmRmVpVw?oc=5" target="_blank" rel="noopener">La Nuova Sardegna</a></div>
-    </div>
-  </div>
-</article>
-
-<article class="article-row">
-  <a class="article-number" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener">05</a>
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5" target="_blank" rel="noopener">04</a>
   <div class="article-body">
     <div class="article-meta">
       <span>News</span>
@@ -350,7 +407,7 @@
 </article>
 
 <article class="article-row">
-  <a class="article-number" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQQXgwcDlzaXNUNGliblQxaHJXYjZYQmdBR0VzeUQxTDVnSG9fZXhXWGZndTBQUzl4dWxXQ3BhT3pKalVOVzZnd2xtYUh2Q2F0ckFPeDZxRGpoOWFWcjBzRThBVDJxUHVKdDNId1lSVWpMYmd2YjJ4eGIxRWU4bkxiMTV5a0pEQWtVSEtRdVBoUUZrc1lWN0RBRm85R08zbDBCV1AzWHMwX2c5V3o2RGM3VnZTTTNNNFU5RU0xd2R5ZzZxTjFa?oc=5" target="_blank" rel="noopener">06</a>
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQQXgwcDlzaXNUNGliblQxaHJXYjZYQmdBR0VzeUQxTDVnSG9fZXhXWGZndTBQUzl4dWxXQ3BhT3pKalVOVzZnd2xtYUh2Q2F0ckFPeDZxRGpoOWFWcjBzRThBVDJxUHVKdDNId1lSVWpMYmd2YjJ4eGIxRWU4bkxiMTV5a0pEQWtVSEtRdVBoUUZrc1lWN0RBRm85R08zbDBCV1AzWHMwX2c5V3o2RGM3VnZTTTNNNFU5RU0xd2R5ZzZxTjFa?oc=5" target="_blank" rel="noopener">05</a>
   <div class="article-body">
     <div class="article-meta">
       <span>Elezioni / Politica</span>
@@ -370,7 +427,7 @@
 </article>
 
 <article class="article-row">
-  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/nuoro-servizi-educativi-estivi-al-via-da-domani-ripartono-le-attivita-alla-podda-e-alla-biscollai/" target="_blank" rel="noopener">07</a>
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/nuoro-servizi-educativi-estivi-al-via-da-domani-ripartono-le-attivita-alla-podda-e-alla-biscollai/" target="_blank" rel="noopener">06</a>
   <div class="article-body">
     <div class="article-meta">
       <span>Elezioni / Politica</span>
@@ -390,7 +447,7 @@
 </article>
 
 <article class="article-row">
-  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/chiamate-i-carabinieri-mi-devo-fare-arrestare-uomo-armato-di-coltello-terrorizza-quattro-stagionali/" target="_blank" rel="noopener">08</a>
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/chiamate-i-carabinieri-mi-devo-fare-arrestare-uomo-armato-di-coltello-terrorizza-quattro-stagionali/" target="_blank" rel="noopener">07</a>
   <div class="article-body">
     <div class="article-meta">
       <span>Cronaca</span>
@@ -410,7 +467,7 @@
 </article>
 
 <article class="article-row">
-  <a class="article-number" href="https://news.google.com/rss/articles/CBMioAJBVV95cUxOVFpVQzRacV8tWEZOZEJmRTZCcnNkQ3o1dHFWUlA2a3RxRDQwZThybkFfVlBXRzdORnJvelJMM0NRcEl3SXhJTlJpYTdOR1lnQm85NlZZVGhWWTBfeFI5aU1JdWNtSjBNRlpRYVp5alBmMC1HdVczS3UxOUN2b21pOUdLbjRmUjhGVnJla3diVzhZVlBTQms4emRGbDdwWjZHQW5uVk9sR1BsTG9nckVySXF4YnVXQUhDaFFFN2Z2VzRfNnB1bE9pNTZKeUpNb2tHVVJfVWFCLUcyY203TkhmSjJHYmwtZE82VDR3dkRwa2RMOVNJcFExZktuY1E0SXJHc2w0LXBRd1ZTTVAzdWd5NU83Q3NwVGlyMWtUeXMtQUc?oc=5" target="_blank" rel="noopener">09</a>
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMioAJBVV95cUxOVFpVQzRacV8tWEZOZEJmRTZCcnNkQ3o1dHFWUlA2a3RxRDQwZThybkFfVlBXRzdORnJvelJMM0NRcEl3SXhJTlJpYTdOR1lnQm85NlZZVGhWWTBfeFI5aU1JdWNtSjBNRlpRYVp5alBmMC1HdVczS3UxOUN2b21pOUdLbjRmUjhGVnJla3diVzhZVlBTQms4emRGbDdwWjZHQW5uVk9sR1BsTG9nckVySXF4YnVXQUhDaFFFN2Z2VzRfNnB1bE9pNTZKeUpNb2tHVVJfVWFCLUcyY203TkhmSjJHYmwtZE82VDR3dkRwa2RMOVNJcFExZktuY1E0SXJHc2w0LXBRd1ZTTVAzdWd5NU83Q3NwVGlyMWtUeXMtQUc?oc=5" target="_blank" rel="noopener">08</a>
   <div class="article-body">
     <div class="article-meta">
       <span>Cronaca</span>
@@ -430,7 +487,7 @@
 </article>
 
 <article class="article-row">
-  <a class="article-number" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMzZMbXBoZW9YVDI2aVVteU9mazgzd2dmZXpteTBKSDR2TUY3T1lwVkJPVTdtVWhqZmV6SThnLUU5WWpCVVZZYk1TX1FzSTNDMEtOYm0wbVNtRklkRVlpQ21ua0RKekVqYnF6cy1MX1VLaUVoMFBxc2ZwZVdHS09PakxFajgydWhzZlhOR0xmY2ZaSzFjY3pNVHhQTGoxUHN2MC1jQkVPZWpVYXNVQVJsejhtRkhZdlJRZ0VOSGZqVWNGcnA3MG9CTEpHMzRwMWZWWEJ6djZfQXJTWVZJdGNhZGFKOVpVLXcyV0tuZURqVHhFNjZQTkxB0gH8AUFVX3lxTE1KTnROYWxJdUpWZ2w5MWpLdXNlY2NwT25uejV3VERBWld6bU9oazhFU2tSODlncU1GYkxISFFhdnV1amljelFqY2YzLUVVVDlvRUVKaXdPVktEQmpPLXhMdGdmb1oyWW9FUm9WR2d1VU5IY0lfcjh1aDdGaHRrT2h2TDc2M0NIWTB0UUN3NFhFby1ubGg0bF9vVUVVVXZ2b1FrNDhyUGloQm1iQlF4UFZjaGRtVmZMYV9BSUhQbnVqVlR2amgwb3Bncl9IUWIzcjZ1d1Fjb2dMRzdiOTZuWDlhTF9lQUEzYnZkN1ZURjhvMDJ1NDZmUWw3LW1VMA?oc=5" target="_blank" rel="noopener">10</a>
+  <a class="article-number" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMzZMbXBoZW9YVDI2aVVteU9mazgzd2dmZXpteTBKSDR2TUY3T1lwVkJPVTdtVWhqZmV6SThnLUU5WWpCVVZZYk1TX1FzSTNDMEtOYm0wbVNtRklkRVlpQ21ua0RKekVqYnF6cy1MX1VLaUVoMFBxc2ZwZVdHS09PakxFajgydWhzZlhOR0xmY2ZaSzFjY3pNVHhQTGoxUHN2MC1jQkVPZWpVYXNVQVJsejhtRkhZdlJRZ0VOSGZqVWNGcnA3MG9CTEpHMzRwMWZWWEJ6djZfQXJTWVZJdGNhZGFKOVpVLXcyV0tuZURqVHhFNjZQTkxB0gH8AUFVX3lxTE1KTnROYWxJdUpWZ2w5MWpLdXNlY2NwT25uejV3VERBWld6bU9oazhFU2tSODlncU1GYkxISFFhdnV1amljelFqY2YzLUVVVDlvRUVKaXdPVktEQmpPLXhMdGdmb1oyWW9FUm9WR2d1VU5IY0lfcjh1aDdGaHRrT2h2TDc2M0NIWTB0UUN3NFhFby1ubGg0bF9vVUVVVXZ2b1FrNDhyUGloQm1iQlF4UFZjaGRtVmZMYV9BSUhQbnVqVlR2amgwb3Bncl9IUWIzcjZ1d1Fjb2dMRzdiOTZuWDlhTF9lQUEzYnZkN1ZURjhvMDJ1NDZmUWw3LW1VMA?oc=5" target="_blank" rel="noopener">09</a>
   <div class="article-body">
     <div class="article-meta">
       <span>News</span>
@@ -445,6 +502,26 @@
     <div class="article-bottom">
       <div class="tags"><span class="tag">Sardegna</span></div>
       <div class="sources"><a class="source-link" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMzZMbXBoZW9YVDI2aVVteU9mazgzd2dmZXpteTBKSDR2TUY3T1lwVkJPVTdtVWhqZmV6SThnLUU5WWpCVVZZYk1TX1FzSTNDMEtOYm0wbVNtRklkRVlpQ21ua0RKekVqYnF6cy1MX1VLaUVoMFBxc2ZwZVdHS09PakxFajgydWhzZlhOR0xmY2ZaSzFjY3pNVHhQTGoxUHN2MC1jQkVPZWpVYXNVQVJsejhtRkhZdlJRZ0VOSGZqVWNGcnA3MG9CTEpHMzRwMWZWWEJ6djZfQXJTWVZJdGNhZGFKOVpVLXcyV0tuZURqVHhFNjZQTkxB0gH8AUFVX3lxTE1KTnROYWxJdUpWZ2w5MWpLdXNlY2NwT25uejV3VERBWld6bU9oazhFU2tSODlncU1GYkxISFFhdnV1amljelFqY2YzLUVVVDlvRUVKaXdPVktEQmpPLXhMdGdmb1oyWW9FUm9WR2d1VU5IY0lfcjh1aDdGaHRrT2h2TDc2M0NIWTB0UUN3NFhFby1ubGg0bF9vVUVVVXZ2b1FrNDhyUGloQm1iQlF4UFZjaGRtVmZMYV9BSUhQbnVqVlR2amgwb3Bncl9IUWIzcjZ1d1Fjb2dMRzdiOTZuWDlhTF9lQUEzYnZkN1ZURjhvMDJ1NDZmUWw3LW1VMA?oc=5" target="_blank" rel="noopener">ANSA Sardegna</a></div>
+    </div>
+  </div>
+</article>
+
+<article class="article-row">
+  <a class="article-number" href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">10</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>Sanità</span>
+      <span>08 Jun 2026, 11:22 UTC</span>
+      <span>1 fonti</span>
+      
+    </div>
+    <h2><a href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica</a></h2>
+    <p class="summary">La ASL n. 3 di Nuoro ha annunciato un importante avanzamento nei processi di informatizzazione sanitaria. La Farmacia Ospedaliera ha infatti ottenuto l’accesso operativo alla cartella clinica elettronica integrata nel sistema informativo clinico aziendale. L’operazione rientra nel più ampio programma di digitalizzazione promosso dalla Regione Autonoma della…</p>
+    <p class="why"><strong>Perché conta:</strong> Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.</p>
+    
+    <div class="article-bottom">
+      <div class="tags"><span class="tag">Nuoro</span><span class="tag">Sanità</span></div>
+      <div class="sources"><a class="source-link" href="https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/" target="_blank" rel="noopener">Cronache Nuoresi</a></div>
     </div>
   </div>
 </article></main>
