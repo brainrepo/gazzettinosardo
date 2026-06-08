@@ -13,16 +13,6 @@ DEFAULT_SOURCES = [
     {"name": "Cronache Nuoresi", "url": "https://www.cronachenuoresi.it/"},
 ]
 
-SECTION_COLORS = {
-    "Sanità": "#74d7ff",
-    "Comune / Tributi": "#f68bff",
-    "Agricoltura / Europa": "#9df7c8",
-    "Elezioni comunali": "#ffd166",
-    "Cultura / Società": "#c4a7ff",
-    "Cronaca": "#ff8a8a",
-    "Setup": "#74d7ff",
-}
-
 def load_data():
     if DATA.exists():
         return json.loads(DATA.read_text(encoding="utf-8"))
@@ -31,42 +21,32 @@ def load_data():
 def esc(x):
     return html.escape(str(x or ""), quote=True)
 
-def section_class(section):
-    safe = ''.join(ch.lower() if ch.isalnum() else '-' for ch in str(section or 'news'))
-    return 'section-' + '-'.join(part for part in safe.split('-') if part)
-
 def render_item(item, index):
     section = item.get('section', 'News')
-    color = SECTION_COLORS.get(section, '#74d7ff')
-    tags = "".join(f'<span class="tag">#{esc(t)}</span>' for t in item.get("tags", [])[:4])
+    tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in item.get("tags", [])[:3])
     sources = item.get("sources", [])
     links = "".join(
         f'<a class="source-link" href="{esc(src.get("url"))}" target="_blank" rel="noopener">{esc(src.get("name", "fonte"))}</a>'
         for src in sources[:3]
     )
     primary = esc(sources[0].get('url')) if sources else '#'
-    kicker = esc(section).upper()
-    card_size = 'feature' if index == 0 else ('wide' if index in (3, 6) else '')
     return f"""
-<article class="story-card {card_size}" style="--story-color:{color}">
-  <div class="story-top">
-    <div class="author-mark"><span>{esc(section[:1] or 'N')}</span></div>
-    <div class="story-kicker">{kicker}</div>
-    <div class="story-actions">
-      <a href="{primary}" target="_blank" rel="noopener" class="mini-btn">↗ Fonte</a>
-      <button class="mini-btn dark" type="button">Nuoro</button>
+<article class="article-row">
+  <a class="article-number" href="{primary}" target="_blank" rel="noopener">{index + 1:02d}</a>
+  <div class="article-body">
+    <div class="article-meta">
+      <span>{esc(section)}</span>
+      <span>{esc(item.get('time', ''))}</span>
+      <span>{len(sources)} fonti</span>
+    </div>
+    <h2><a href="{primary}" target="_blank" rel="noopener">{esc(item.get('title', 'Senza titolo'))}</a></h2>
+    <p class="summary">{esc(item.get('summary', ''))}</p>
+    <p class="why"><strong>Perché conta:</strong> {esc(item.get('why', 'Da monitorare.'))}</p>
+    <div class="article-bottom">
+      <div class="tags">{tags}</div>
+      <div class="sources">{links}</div>
     </div>
   </div>
-  <div class="label-row">{tags}</div>
-  <h2>{esc(item.get('title', 'Senza titolo'))}</h2>
-  <p class="summary">{esc(item.get('summary', ''))}</p>
-  <p class="why"><strong>Perché conta:</strong> {esc(item.get('why', 'Da monitorare.'))}</p>
-  <div class="story-foot">
-    <span class="score">◎ {index + 1}</span>
-    <span>{esc(item.get('time', ''))}</span>
-    <span>{len(sources)} fonti</span>
-  </div>
-  <div class="sources">{links}</div>
 </article>"""
 
 def main():
@@ -78,164 +58,237 @@ def main():
         items = [{
             "section": "Setup",
             "time": now,
-            "title": "News Nuoro è pronto",
-            "summary": "La pagina è stata inizializzata. Il prossimo passo è collegare il job Hermes orario che raccoglie le fonti locali e aggiorna automaticamente questa pagina.",
+            "title": "Gazzettino Sardo è pronto",
+            "summary": "La pagina è stata inizializzata. Il prossimo aggiornamento popolerà automaticamente la lista degli articoli della giornata.",
             "why": "Serve come base pubblica per il monitoraggio quotidiano delle notizie su Nuoro e provincia.",
-            "tags": ["Nuoro", "setup", "Hermes"],
+            "tags": ["Nuoro", "setup"],
             "sources": DEFAULT_SOURCES,
         }]
-    sections = []
+    nav_sections = []
     seen = set()
     for item in items:
         sec = item.get('section', 'News')
         if sec not in seen:
             seen.add(sec)
-            sections.append(sec)
-    nav = ''.join(f'<a href="#" class="nav-chip"># {esc(sec)}</a>' for sec in sections[:10])
-    cards = "\n".join(render_item(i, idx) for idx, i in enumerate(items))
+            nav_sections.append(sec)
+    nav = ''.join(f'<span>{esc(sec)}</span>' for sec in nav_sections[:8])
+    rows = "\n".join(render_item(i, idx) for idx, i in enumerate(items))
     html_doc = f"""<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gazzettino Sardo — News Nuoro</title>
-  <meta name="description" content="Rassegna quotidiana correlata delle notizie su Nuoro e provincia." />
+  <title>Gazzettino Sardo</title>
+  <meta name="description" content="Lista quotidiana delle notizie su Nuoro e provincia." />
   <style>
     :root {{
-      --pink:#f6a0c7;
-      --ink:#101116;
-      --muted:#6f727b;
-      --soft:#f7f7f8;
-      --line:#e7e7ea;
-      --panel:#ffffff;
+      --paper:#fffaf3;
+      --ink:#171717;
+      --muted:#76706a;
+      --line:#e2d9cd;
+      --accent:#b62424;
+      --soft:#f5eee4;
     }}
-    * {{ box-sizing: border-box; }}
-    html {{ scroll-behavior: smooth; }}
+    * {{ box-sizing:border-box; }}
     body {{
       margin:0;
-      min-height:100vh;
-      background:var(--pink);
+      background:#efe6da;
       color:var(--ink);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      letter-spacing:-0.012em;
+      font-family: Georgia, "Times New Roman", serif;
     }}
-    .stage {{
-      width:min(1120px, calc(100vw - 40px));
-      margin: clamp(18px, 5vw, 56px) auto;
-      min-height: calc(100vh - 112px);
-      background:var(--panel);
-      border-radius:0;
-      box-shadow: 0 28px 70px rgba(80, 24, 52, .16);
-      display:grid;
-      grid-template-columns: 64px 1fr;
-      overflow:hidden;
+    a {{ color:inherit; }}
+    .page {{
+      width:min(980px, calc(100vw - 28px));
+      margin:28px auto;
+      background:var(--paper);
+      border:1px solid var(--line);
+      box-shadow:0 20px 70px rgba(60,40,25,.12);
+      padding:28px clamp(18px,4vw,46px) 42px;
     }}
-    .rail {{
-      border-right:1px solid var(--line);
+    .masthead {{
+      text-align:center;
+      border-bottom:3px double var(--ink);
+      padding-bottom:18px;
+      margin-bottom:14px;
+    }}
+    .eyebrow {{
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin-bottom:8px;
+    }}
+    h1 {{
+      margin:0;
+      font-size:clamp(44px, 8vw, 86px);
+      line-height:.88;
+      letter-spacing:-.065em;
+      font-weight:900;
+    }}
+    .subtitle {{
+      max-width:700px;
+      margin:14px auto 0;
+      color:#4f4a45;
+      font-size:17px;
+      line-height:1.45;
+    }}
+    .info-bar {{
       display:flex;
-      flex-direction:column;
-      align-items:center;
-      padding:22px 0;
-      background:#fff;
+      justify-content:space-between;
+      gap:12px;
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+      padding:9px 0;
+      margin:14px 0 26px;
+      color:var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:12px;
+      font-weight:650;
     }}
-    .logo {{
-      width:28px; height:28px; border:1.5px solid #15161c; border-radius:999px;
-      display:grid; place-items:center; font-weight:900; font-size:14px;
+    .section-nav {{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:center;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:#6d6760;
+      margin-top:14px;
     }}
-    .hamb {{ margin:auto 0; font-size:18px; transform:rotate(90deg); color:#2d2f36; opacity:.78; }}
-    .dot-stack {{ display:grid; gap:12px; margin-top:auto; }}
-    .dot {{ width:18px; height:18px; border-radius:999px; border:1px solid #e2e2e6; background:#f2f3f5; }}
-    .dot:first-child {{ background:#1683ff; }}
-    .content {{ min-width:0; overflow:hidden; }}
-    .topbar {{
+    .section-nav span {{
+      border:1px solid var(--line);
+      background:#fff6ea;
+      padding:5px 8px;
+      border-radius:999px;
+    }}
+    .article-list {{
       display:grid;
-      grid-template-columns: 1fr minmax(180px, 280px);
-      gap:22px;
-      align-items:center;
-      padding:28px 34px 10px;
+      gap:0;
     }}
-    .nav {{ display:flex; gap:18px; white-space:nowrap; overflow:hidden; }}
-    .nav-chip {{ color:#858891; text-decoration:none; font-size:12px; font-weight:700; }}
-    .nav-chip:first-child, .nav-chip:hover {{ color:#16171d; }}
-    .search {{ border-bottom:1.5px solid #20222a; display:flex; align-items:center; gap:8px; padding:5px 0; }}
-    .search input {{ border:0; outline:0; width:100%; font-size:12px; font-weight:700; background:transparent; }}
-    .controls {{ padding:0 34px 20px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }}
-    .control-pill {{ border:1px solid #d9dbe0; color:#393b43; border-radius:999px; padding:7px 13px; font-size:11px; font-weight:800; background:#fff; }}
-    .control-pill.primary {{ background:#11131a; color:#fff; border-color:#11131a; }}
-    .hero {{ padding:0 34px 18px; }}
-    .brand-line {{ display:flex; align-items:center; gap:10px; margin-bottom:12px; }}
-    .brand-dot {{ width:18px; height:18px; border-radius:999px; background:#1683ff; }}
-    .brand-title {{ font-size:13px; font-weight:900; }}
-    .brand-sub {{ font-size:10px; text-transform:uppercase; color:#979aa3; font-weight:800; margin-left:6px; }}
-    h1 {{ margin:0; font-size:clamp(34px, 5.7vw, 68px); line-height:.96; letter-spacing:-0.06em; max-width:820px; }}
-    .deck {{ max-width:720px; color:#666a73; line-height:1.52; margin:16px 0 0; font-size:14px; }}
-    .updated {{ margin-top:12px; color:#9a9da5; font-size:11px; font-weight:750; }}
-    .masonry {{
-      padding: 10px 34px 42px;
+    .article-row {{
       display:grid;
-      grid-template-columns: repeat(3, minmax(220px, 1fr));
-      gap:30px 34px;
-      align-items:start;
+      grid-template-columns:58px 1fr;
+      gap:18px;
+      padding:24px 0;
+      border-bottom:1px solid var(--line);
     }}
-    .story-card {{ min-width:0; padding-top:2px; border-top:1px solid var(--line); }}
-    .story-card.feature {{ grid-row: span 2; }}
-    .story-card.wide {{ grid-column: span 2; }}
-    .story-top {{ display:grid; grid-template-columns:auto 1fr auto; gap:9px; align-items:center; margin:14px 0 12px; }}
-    .author-mark {{ width:22px; height:22px; border-radius:999px; background:var(--story-color); display:grid; place-items:center; font-size:11px; font-weight:900; color:#111; }}
-    .story-kicker {{ font-size:11px; font-weight:900; color:#25272e; }}
-    .story-actions {{ display:flex; gap:5px; }}
-    .mini-btn {{ border:1px solid #dbdde2; border-radius:999px; padding:4px 8px; font-size:10px; line-height:1; color:#2f323a; text-decoration:none; background:#fff; font-weight:800; }}
-    .mini-btn.dark {{ display:none; }}
-    .label-row {{ display:flex; gap:5px; flex-wrap:wrap; min-height:18px; }}
-    .tag {{ background:#f3f4f6; color:#676a73; border-radius:999px; padding:3px 7px; font-size:9px; text-transform:uppercase; font-weight:850; }}
-    .story-card h2 {{ margin:10px 0 9px; font-size:clamp(22px, 2.2vw, 32px); line-height:1.06; letter-spacing:-.048em; }}
-    .story-card:not(.feature) h2 {{ font-size:21px; line-height:1.12; }}
-    .summary {{ margin:0; color:#5e626b; line-height:1.5; font-size:13px; }}
-    .why {{ margin:12px 0 0; color:#2a2d34; line-height:1.45; font-size:12px; border-left:2px solid var(--story-color); padding-left:10px; }}
-    .story-foot {{ margin-top:20px; display:flex; gap:12px; color:#9a9da5; font-size:11px; align-items:center; flex-wrap:wrap; }}
-    .score {{ color:#252830; font-weight:850; }}
-    .sources {{ margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }}
-    .source-link {{ color:#61646d; font-size:11px; text-decoration:none; border-bottom:1px solid #d6d8dd; }}
-    footer {{ padding:0 34px 30px; color:#9498a1; font-size:12px; }}
-    @media (max-width: 900px) {{
-      .stage {{ grid-template-columns:1fr; margin:0; width:100%; min-height:100vh; }}
-      .rail {{ display:none; }}
-      .topbar {{ grid-template-columns:1fr; padding:22px 20px 10px; }}
-      .nav {{ gap:14px; overflow:auto; padding-bottom:4px; }}
-      .controls, .hero, .masonry, footer {{ padding-left:20px; padding-right:20px; }}
-      .masonry {{ grid-template-columns:1fr; gap:28px; }}
-      .story-card.feature, .story-card.wide {{ grid-column:auto; grid-row:auto; }}
-      h1 {{ font-size:44px; }}
+    .article-row:first-child {{
+      padding-top:4px;
+    }}
+    .article-number {{
+      text-decoration:none;
+      color:var(--accent);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:22px;
+      font-weight:850;
+      line-height:1;
+      padding-top:5px;
+    }}
+    .article-meta {{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-bottom:7px;
+      color:var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:11px;
+      font-weight:750;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }}
+    .article-meta span:not(:last-child)::after {{
+      content:"·";
+      margin-left:10px;
+      color:#b7aca0;
+    }}
+    h2 {{
+      margin:0;
+      font-size:clamp(24px, 3.2vw, 38px);
+      line-height:1.03;
+      letter-spacing:-.035em;
+      font-weight:850;
+    }}
+    h2 a {{ text-decoration:none; }}
+    h2 a:hover {{ color:var(--accent); }}
+    .summary {{
+      margin:10px 0 0;
+      color:#35312d;
+      line-height:1.55;
+      font-size:16px;
+    }}
+    .why {{
+      margin:10px 0 0;
+      color:#5d5650;
+      line-height:1.5;
+      font-size:14px;
+    }}
+    .article-bottom {{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      flex-wrap:wrap;
+      margin-top:13px;
+    }}
+    .tags, .sources {{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }}
+    .tag {{
+      color:#6f655c;
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:4px 8px;
+      font-size:11px;
+      font-weight:700;
+    }}
+    .source-link {{
+      color:var(--accent);
+      text-decoration:none;
+      border-bottom:1px solid rgba(182,36,36,.35);
+      font-size:12px;
+      font-weight:750;
+    }}
+    footer {{
+      margin-top:26px;
+      color:var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size:12px;
+      line-height:1.5;
+    }}
+    @media (max-width:700px) {{
+      .page {{ width:100%; margin:0; min-height:100vh; border:0; padding:22px 18px 34px; }}
+      h1 {{ font-size:48px; }}
+      .info-bar {{ flex-direction:column; align-items:center; text-align:center; }}
+      .article-row {{ grid-template-columns:1fr; gap:8px; padding:22px 0; }}
+      .article-number {{ font-size:13px; padding:0; }}
+      .article-number::before {{ content:"Articolo "; color:var(--muted); }}
+      .article-meta {{ gap:5px; }}
+      .article-meta span:not(:last-child)::after {{ display:none; }}
+      .summary {{ font-size:15px; }}
     }}
   </style>
 </head>
 <body>
-  <div class="stage">
-    <aside class="rail" aria-label="Navigazione laterale">
-      <div class="logo">G</div>
-      <div class="hamb">≡</div>
-      <div class="dot-stack"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-    </aside>
-    <div class="content">
-      <header class="topbar">
-        <nav class="nav" aria-label="Categorie">{nav}</nav>
-        <div class="search"><input aria-label="Cerca" placeholder="Search" /><span>⌕</span></div>
-      </header>
-      <div class="controls">
-        <span class="control-pill primary">+ daily brief</span>
-        <span class="control-pill">news</span>
-        <span class="control-pill">nuoro</span>
-        <span class="control-pill">today</span>
-      </div>
-      <section class="hero">
-        <div class="brand-line"><span class="brand-dot"></span><span class="brand-title">Gazzettino Sardo</span><span class="brand-sub">Hermes news desk</span></div>
-        <h1>News Nuoro — oggi</h1>
-        <p class="deck">Rassegna correlata delle notizie della giornata su Nuoro e provincia. Le schede raggruppano fonti diverse e mettono in evidenza rilevanza, contesto e link originali.</p>
-        <div class="updated">Aggiornato: {esc(updated)} · Fonti monitorate: La Nuova Sardegna, L'Unione Sarda, Cronache Nuoresi, ANSA Sardegna</div>
-      </section>
-      <main class="masonry">{cards}</main>
-      <footer>Nota: questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
+  <div class="page">
+    <header class="masthead">
+      <div class="eyebrow">Rassegna quotidiana · Nuoro e provincia</div>
+      <h1>Gazzettino Sardo</h1>
+      <p class="subtitle">Le notizie principali della giornata, ordinate come una lista di articoli con sintesi, contesto e link alle fonti originali.</p>
+      <nav class="section-nav" aria-label="Sezioni">{nav}</nav>
+    </header>
+    <div class="info-bar">
+      <span>Aggiornato: {esc(updated)}</span>
+      <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
     </div>
+    <main class="article-list">{rows}</main>
+    <footer>Questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
   </div>
 </body>
 </html>"""
