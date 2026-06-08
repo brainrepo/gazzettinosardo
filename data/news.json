@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08 14:33 UTC",
+  "updated_at": "2026-06-08 14:47 UTC",
   "items": [
     {
       "section": "Elezioni / Politica",
@@ -175,42 +175,6 @@
       "grouped_count": 4
     },
     {
-      "section": "Elezioni / Politica",
-      "time": "08 Jun 2026, 05:11 UTC",
-      "title": "Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi",
-      "summary": "Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi L'Unione Sarda.it",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
-      "tags": [
-        "Sardegna",
-        "Elezioni"
-      ],
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5"
-        },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWVLSW5WZnBZX05wLWxtM2xMbU4wS0xXeDFxVnBGNi1QeGc3ek9PcE90ZXlqNWg4c0RJazRBc0haSVNSNHQ0aDlfYm9zRmlQSENFRUdrb29DSEtiWDRtRG1vd2czR05tbWR0TzdwMW9IX29rQ1hraXVGS3FQd2dTNTJxcVQ0bGM2SEFGbFN3TlhNODBkQzJGM19tWkxfZjIyT25Ja3kzTGZSNHljcHVOcE52ckVUdmktWFlTUmdGWnBGRXE4V2RUVmQxMlpLSTZmRmVpVw?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Amministrative, in Sardegna eletti sessanta sindaci: tutti i nomi",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRkhqMFJraDg3LVhfVV9CNmtyd3B3VGx4MXZkRktkY0l4NkpLSWp4cGEzOHU0WUZ6UEZ1dnpFZ09mYV9rWXdsTm1NNkVRRk8tbHYwcWdnYS1UU2xZTDlhcHE5aFlMSFFCYS1XRnRJUExBWDN1VWVHcW9vRmFrY0lHQ0hHc0lBLTJrcHhiOWtnOGtpRWkzOWFicDk5aFZYc0JYZkxqTmpSUnFRenc?oc=5",
-          "time": "08 Jun, 05:11"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Elezioni amministrative, eletti i primi sindaci: ecco chi sono – La diretta",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRWVLSW5WZnBZX05wLWxtM2xMbU4wS0xXeDFxVnBGNi1QeGc3ek9PcE90ZXlqNWg4c0RJazRBc0haSVNSNHQ0aDlfYm9zRmlQSENFRUdrb29DSEtiWDRtRG1vd2czR05tbWR0TzdwMW9IX29rQ1hraXVGS3FQd2dTNTJxcVQ0bGM2SEFGbFN3TlhNODBkQzJGM19tWkxfZjIyT25Ja3kzTGZSNHljcHVOcE52ckVUdmktWFlTUmdGWnBGRXE4V2RUVmQxMlpLSTZmRmVpVw?oc=5",
-          "time": "07 Jun, 16:51"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
       "section": "News",
       "time": "08 Jun 2026, 10:35 UTC",
       "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
@@ -371,6 +335,96 @@
         }
       ],
       "grouped_count": 1
+    },
+    {
+      "section": "Sanità",
+      "time": "08 Jun 2026, 11:22 UTC",
+      "title": "Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica",
+      "summary": "La ASL n. 3 di Nuoro ha annunciato un importante avanzamento nei processi di informatizzazione sanitaria. La Farmacia Ospedaliera ha infatti ottenuto l’accesso operativo alla cartella clinica elettronica integrata nel sistema informativo clinico aziendale. L’operazione rientra nel più ampio programma di digitalizzazione promosso dalla Regione Autonoma della…",
+      "why": "Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.",
+      "tags": [
+        "Nuoro",
+        "Sanità"
+      ],
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Sanità digitale, la svolta della ASL di Nuoro: la Farmacia Ospedaliera entra nella cartella clinica elettronica",
+          "url": "https://www.cronachenuoresi.it/2026/06/08/sanita-digitale-la-svolta-della-asl-di-nuoro-la-farmacia-ospedaliera-entra-nella-cartella-clinica-elettronica/",
+          "time": "08 Jun, 11:22"
+        }
+      ],
+      "grouped_count": 1
     }
-  ]
+  ],
+  "fuel": {
+    "title": "Benzina a Nuoro",
+    "updated_at": "2026-06-08 14:47 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti della benzina entro 20 km da Nuoro. Prezzo minimo rilevato: 1.919 €/L.",
+    "items": [
+      {
+        "price": "1.919",
+        "mode": "self",
+        "brand": "Api-Ip",
+        "address": "PIAZZA ITALIA 15 08100",
+        "city": "Nuoro",
+        "updated": "06/06/2026 08:10:52",
+        "distance_km": "0.4"
+      },
+      {
+        "price": "1.919",
+        "mode": "self",
+        "brand": "Agip Eni",
+        "address": "Viale Sardegna 20 08100",
+        "city": "Nuoro",
+        "updated": "07/06/2026 07:20:11",
+        "distance_km": "1.0"
+      },
+      {
+        "price": "1.919",
+        "mode": "self",
+        "brand": "Q8",
+        "address": "VIALE DELLA SOLITUDINE SNC 08100",
+        "city": "Nuoro",
+        "updated": "07/06/2026 01:45:40",
+        "distance_km": "1.1"
+      },
+      {
+        "price": "1.919",
+        "mode": "self",
+        "brand": "Agip Eni",
+        "address": "VIA SAN GIOVANNI BOSCO 13 08100",
+        "city": "Nuoro",
+        "updated": "06/06/2026 12:32:09",
+        "distance_km": "1.9"
+      },
+      {
+        "price": "1.919",
+        "mode": "servito",
+        "brand": "Pompe Bianche",
+        "address": "S.S. 131 D.C.N. Km 71,200 lato destro verso di percorrenza Olbia-Abbasanta s.n.c. 08020",
+        "city": "Lula",
+        "updated": "05/06/2026 10:42:33",
+        "distance_km": "16.7"
+      },
+      {
+        "price": "1.919",
+        "mode": "self",
+        "brand": "Pompe Bianche",
+        "address": "S.S. 131 D.C.N. Km 71,200 lato destro verso di percorrenza Olbia-Abbasanta s.n.c. 08020",
+        "city": "Lula",
+        "updated": "05/06/2026 10:42:33",
+        "distance_km": "16.7"
+      }
+    ]
+  }
 }
