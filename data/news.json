@@ -498,5 +498,108 @@
       ],
       "grouped_count": 1
     }
-  ]
+  ],
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-08 17:03 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "In corso",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 4 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Monica Biancardi. Il capitale che cresce",
+        "date": "In corso",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "Inaugurazione ore 18:00 Dal 24 aprile al 14 giugno 2026, il MAN ospita la mostra Il capitale che cresce di Monica Biancardi, progetto vincitore del PAC – Piano per l’Arte […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/monica-biancardi-il-capitale-che-cresce/"
+      },
+      {
+        "title": "Pellizza e Ballero. La divina luce",
+        "date": "In corso",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "PELLIZZA E BALLERO LA DIVINA LUCE dal 13 marzo al 14 giugno 2026 a cura di Chiara Gatti da un progetto di Rita Moro con il contributo scientiﬁco di Gabriella […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/pellizza-e-ballero-la-divina-luce/"
+      },
+      {
+        "title": "Corso di Lingua sarda “con Giorgio Asproni”",
+        "date": "Pubblicato 14 May",
+        "place": "Nuoro",
+        "category": "Incontri",
+        "summary": "L’Istituto Bellieni organizza un ciclo di lezioni per una corretta scrittura del sardo analizzando una delle massime figure dell’Ottocento isolano NUORO. Imparare a scrivere in…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/2026/05/14/corso-di-lingua-sarda-con-giorgio-asproni/"
+      },
+      {
+        "title": "Esce 3,350 gr. Photographs and Letters on Obstetric Violence, il nuovo libro di Valeria Cherchi edito da Mousse Publishing",
+        "date": "Pubblicato 21 May",
+        "place": "Nuoro",
+        "category": "Incontri",
+        "summary": "In un contesto in cui la violenza ostetrica continua a rimanere una realtà spesso invisibile, esce 3,350 gr. Photographs and Letters on Obstetric Violence, il nuovo libro di Val…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/2026/05/21/esce-3350-gr-photographs-and-letters-on-obstetric-violence-il-nuovo-libro-di-valeria-cherchi-edito-da-mousse-publishing/"
+      },
+      {
+        "title": "Festa della pagella",
+        "date": "Pubblicato 26 May",
+        "place": "Nuoro",
+        "category": "Cultura",
+        "summary": "Anche quest’anno il MAN festeggia la fine dell’anno scolastico con gli alunni e le maestre che durante l’inverno riempiono le sale e, numerosissimi, frequentano i laboratori Did…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/2026/05/26/festa-della-pagella/"
+      },
+      {
+        "title": "Il Giorno del PREGiudizio",
+        "date": "Pubblicato 04 Jun",
+        "place": "Nuoro",
+        "category": "Cultura",
+        "summary": "Sabato 6 giugno 2026, Nuoro ospita la seconda edizione della manifestazione Il Giorno del PREGiudizio. L’evento si inserisce nel circuito del Sardegna Pride e della ricorrenza i…",
+        "source": "Biblioteca Satta",
+        "url": "https://www.bibliotecasatta.it/il-giorno-del-pregiudizio/"
+      },
+      {
+        "title": "Le parole di Grazia",
+        "date": "Pubblicato 14 May",
+        "place": "Nuoro",
+        "category": "Cultura",
+        "summary": "In occasione delle celebrazioni per i 100 anni dal Nobel di Grazia Deledda, il MAN partecipa all’iniziativa del Distretto Culturale del Nuorese Parole di grazia con una visita g…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/2026/05/14/parole-di-grazia/"
+      },
+      {
+        "title": "Visite guidate di Maggio",
+        "date": "Pubblicato 11 May",
+        "place": "Nuoro",
+        "category": "Cultura",
+        "summary": "Nel mese di maggio il MAN propone un nuovo ciclo di visite guidate alla mostra “Pellizza e Ballero. La divina luce”, un percorso dedicato alla luce, al paesaggio e alle trasform…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/2026/05/11/visite-guidate-di-maggio/"
+      },
+      {
+        "title": "Convegni e seminari ISRE",
+        "date": "Da monitorare",
+        "place": "Nuoro",
+        "category": "Cultura",
+        "summary": "Sezione ufficiale ISRE per iniziative culturali, seminari e presentazioni.",
+        "source": "ISRE",
+        "url": "https://www.isresardegna.it/index.php?xsl=527&s=16&v=9&c=4088&es=4272&na=1&n=10"
+      }
+    ]
+  }
 }
