@@ -1,0 +1,583 @@
+{
+  "updated_at": "2026-06-09 18:27 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-09 18:26 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.909 €/L, diesel da 1.969 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.909 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIA ANTONIO SEGNI 2 08100",
+            "city": "Nuoro",
+            "updated": "07/06/2026 08:56:05",
+            "distance_km": "1.5"
+          },
+          {
+            "price": "1.910",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIA SAN GIOVANNI BOSCO 13 08100",
+            "city": "Nuoro",
+            "updated": "08/06/2026 07:04:51",
+            "distance_km": "1.9"
+          },
+          {
+            "price": "1.919",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "06/06/2026 08:10:52",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.919",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "07/06/2026 08:14:21",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.919",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "07/06/2026 07:20:11",
+            "distance_km": "1.0"
+          },
+          {
+            "price": "1.919",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "07/06/2026 01:45:40",
+            "distance_km": "1.1"
+          }
+        ],
+        "cheapest": "1.909"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.969 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "06/06/2026 08:10:52",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.969",
+            "mode": "servito",
+            "brand": "Pompe Bianche",
+            "address": "LOCALITA' SU PRADU S.S. 389 KM 76,5  08020",
+            "city": "Orune",
+            "updated": "06/06/2026 07:52:06",
+            "distance_km": "10.6"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Pompe Bianche",
+            "address": "LOCALITA' SU PRADU S.S. 389 KM 76,5  08020",
+            "city": "Orune",
+            "updated": "06/06/2026 07:52:06",
+            "distance_km": "10.6"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "S.S. N. 129 KM. 61+100  08020",
+            "city": "Orotelli",
+            "updated": "07/06/2026 09:07:15",
+            "distance_km": "16.2"
+          },
+          {
+            "price": "1.977",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "Statale 389 di Budduso' e del Correboi, Km. 2, dir. NUORO - 08100",
+            "city": "Nuoro",
+            "updated": "05/06/2026 11:58:08",
+            "distance_km": "5.7"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Esso",
+            "address": "TRIESTE SNC 08100",
+            "city": "Nuoro",
+            "updated": "05/06/2026 17:26:44",
+            "distance_km": "0.6"
+          }
+        ],
+        "cheapest": "1.969"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-09 18:27 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "Pellizza e Ballero. La divina luce",
+        "date": "13 mar–14 giu 2026",
+        "start_date": "2026-03-13",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "PELLIZZA E BALLERO LA DIVINA LUCE dal 13 marzo al 14 giugno 2026 a cura di Chiara Gatti da un progetto di Rita Moro con il contributo scientiﬁco di Gabriella […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/pellizza-e-ballero-la-divina-luce/"
+      },
+      {
+        "title": "Monica Biancardi. Il capitale che cresce",
+        "date": "24 apr–14 giu 2026",
+        "start_date": "2026-04-24",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "Inaugurazione ore 18:00 Dal 24 aprile al 14 giugno 2026, il MAN ospita la mostra Il capitale che cresce di Monica Biancardi, progetto vincitore del PAC – Piano per l’Arte […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/monica-biancardi-il-capitale-che-cresce/"
+      },
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "4 lug–15 nov 2026",
+        "start_date": "2026-07-04",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 4 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna - Villagrande Strisaili",
+        "date": "13 giu–14 giu 2026",
+        "start_date": "2026-06-13",
+        "end_date": "2026-06-14",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Sabato 13 e domenica 14 giugno 2026, Primavera nel cuore della Sardegna fa tappa nell'Ogliastra più profonda, a Villagrande Strisaili. Nonostante sorga sulle pendici meridionali…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-villagrande-strisaili"
+      },
+      {
+        "title": "Fressada. Mostra di tappeti sardi",
+        "date": "14 giu–21 giu 2026",
+        "start_date": "2026-06-14",
+        "end_date": "2026-06-21",
+        "place": "Sardegna",
+        "category": "Mostre",
+        "summary": "Al via da domenica 14 al 21 giugno 2026 l’esposizione “Fressada. Mostra di Tappeti Sardi” negli spazi di Su Palatu a Villanova Monteleone. Sei comunità in mostra per celebrare u…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/fressada-mostra-di-tappeti-sardi"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 18:26 UTC",
+      "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Tiana",
+        "Austis",
+        "Atzara"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea"
+        },
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
+          "time": "09 Jun, 18:26"
+        },
+        {
+          "source": "ANSA Sardegna",
+          "title": "Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5",
+          "time": "08 Jun, 10:25"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5",
+          "time": "08 Jun, 09:48"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "News",
+      "time": "09 Jun 2026, 18:26 UTC",
+      "title": "Moto contro auto a Nuoro, centauro gravissimo",
+      "summary": "Moto contro auto a Nuoro, centauro gravissimo",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMEFLMHpsRjNZNGlSMW1TVm5zMWpXVC1kRjBENG56XzZkWWxGc3BSZWNIb1FESnRyUUNiRGRTYnJUT0ZsX0ZPUmFsdkhMOWEzdjdrY1I1SWM4TGs0TnpDS1VFLW5CN0lIdnlqTUhCVHkzemJqbWZRTFR3UjIxZ3M4cGtDd2Fwb1BQS3hiaVNWQXg2MjQtUFhoVFFmZThyb3R2dkdZQVI1U1VEcnhQVWk2MVFfZFhEamlZRWRxSFBUQS01Tm5lZk9qc2JJUGJKdw?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "09 Jun, 18:26"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Nuoro, moto contro auto: gravissimo un 24enne – Cosa sappiamo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMEFLMHpsRjNZNGlSMW1TVm5zMWpXVC1kRjBENG56XzZkWWxGc3BSZWNIb1FESnRyUUNiRGRTYnJUT0ZsX0ZPUmFsdkhMOWEzdjdrY1I1SWM4TGs0TnpDS1VFLW5CN0lIdnlqTUhCVHkzemJqbWZRTFR3UjIxZ3M4cGtDd2Fwb1BQS3hiaVNWQXg2MjQtUFhoVFFmZThyb3R2dkdZQVI1U1VEcnhQVWk2MVFfZFhEamlZRWRxSFBUQS01Tm5lZk9qc2JJUGJKdw?oc=5",
+          "time": "08 Jun, 18:18"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 18:26 UTC",
+      "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
+      "summary": "OTTANA – Il prefetto di Nuoro, Alessandra Nigro, ha adottato in data odierna il provvedimento di sospensione dalla carica di sindaco nei confronti di Franco Saba, proclamato eletto alla guida del comune di Ottana in esito alle consultazioni elettorali del 7 e 8 giugno 2026. L’atto prefettizio è stato emanato ai sensi della cosiddetta legge […] L'articolo Ott…",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Nuoro",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/09/ottana-il-prefetto-firma-la-sospensione-del-nuovo-sindaco-franco-saba-dopo-il-plebiscito/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "09 Jun, 18:26"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
+          "url": "https://www.cronachenuoresi.it/2026/06/09/ottana-il-prefetto-firma-la-sospensione-del-nuovo-sindaco-franco-saba-dopo-il-plebiscito/",
+          "time": "09 Jun, 07:43"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 18:26 UTC",
+      "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
+          "time": "09 Jun, 18:26"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "09 Jun 2026, 18:26 UTC",
+      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Mamoiada"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
+          "time": "09 Jun, 18:26"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Cronaca",
+      "time": "09 Jun 2026, 18:26 UTC",
+      "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+      "summary": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "tags": [
+        "Nuoro",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "09 Jun, 18:26"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 13:04 UTC",
+      "title": "Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento",
+      "summary": "Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento La Nuova Sardegna",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100880770:1781010291/image%20(2).jpg?f=detail_558&h=720&w=1280&$p$f$h$w=5e9a868",
+        "alt": "Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/elezioni-a-ottana-il-colpo-di-coda-di-saba-prima-di-essere-sospeso-nomina-la-giunta-ed-evita-il-commissariamento-1.100880771",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQN1VHMTB0Mk55TVJGaHRieTQ3dnoyMU9DQmNXNzJRNTlNRkd4RER5VHIwcWMzX3hpZnQ3c255TEhIVFRVdE1qSHlVWThZZnF3YjVFMk9FVjVZdjZ3V1JZTl9waUJVRHVvd3VqX1hjZG1wVTFmSWNCbkJKNE5qU2hyMTF6NEs0Rl9ZWUNSQVVBTjNtS0xXOGlfT0Y3aG1LRUxNMFFVOHhOMW45akdGT2d2WlRkN3Mya0g0RlhWSmdPWEY0YVFMdUxQS3p0MWFxc2c4QWd5amVPMS04cXkyVUFlSDVHaEpESENaMkpiQVl2LXdHWUhLZV8tTmhnMDR5YlBBanlLbTdKTkZ6eklGWThEdWFKRQ?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQN1VHMTB0Mk55TVJGaHRieTQ3dnoyMU9DQmNXNzJRNTlNRkd4RER5VHIwcWMzX3hpZnQ3c255TEhIVFRVdE1qSHlVWThZZnF3YjVFMk9FVjVZdjZ3V1JZTl9waUJVRHVvd3VqX1hjZG1wVTFmSWNCbkJKNE5qU2hyMTF6NEs0Rl9ZWUNSQVVBTjNtS0xXOGlfT0Y3aG1LRUxNMFFVOHhOMW45akdGT2d2WlRkN3Mya0g0RlhWSmdPWEY0YVFMdUxQS3p0MWFxc2c4QWd5amVPMS04cXkyVUFlSDVHaEpESENaMkpiQVl2LXdHWUhLZV8tTmhnMDR5YlBBanlLbTdKTkZ6eklGWThEdWFKRQ?oc=5",
+          "time": "09 Jun, 13:04"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "p L’indiscrezione Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento di Alessandro Mele",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/elezioni-a-ottana-il-colpo-di-coda-di-saba-prima-di-essere-sospeso-nomina-la-giunta-ed-evita-il-commissariamento-1.100880771",
+          "time": "09 Jun, 00:00"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 09:55 UTC",
+      "title": "Comunali in Sardegna, 147 sindaci eletti e ballottaggio a Tempio Pausania",
+      "summary": "Comunali in Sardegna, 147 sindaci eletti e ballottaggio a Tempio Pausania ANSA",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVWFYcXUyYnBPX1h2azBkcHk5d3JmWVo4NHNWU0RFRzRQN0NONGd5cC1Gcy1XUC11eXZ5LXFEenZRcjEzNWJZZlVRcTdxdnp4UzVHM1FuOWI2UFJwcFltMFNjNk81XzE4RFYzajVPN2dqR1FKOFNCbDdnSWtQZzU1WS1sOXVqbmVLS3JuWWNHdDhrUXBVaHJuY2dVMUg1UzRlVWVodF84TmNrcWNyRFI2cGo1UkMyOVAwakdheFE5T1FsbXg3OXF5TVBXQ2JxUDZJelR4RDBsY3FEWkhkODJkVjlvdEZScmVueVl1YmxLYWx1X0hJ0gH6AUFVX3lxTE9UNmFXeFJBcFJjeTZ2cTBUUHhrTTVtQlJYTVVuRURVZk85WndFTVU5WWFfREZCNjFzLUdmeFpreTVvRHlZMXhvZE5RYy13c2JxLXFRMTNvRXZHV05VV255cnBzdjVQT1pRaXV4aldsQTFQR1V2MTBBa2ZwcWdMZ2JtdENZN3BzNllGU1Yyd21uR3NXcElnbW5GaWI0azlJQTF4cWs3R0ZaenltUWpCSDRXdU9fQ240MzJPTjJFWGFmWFFkS3Azd0xsOThZVmxXMmV4MkpvRE1JcXY4ZlZuTDlRSk9OZS1ZMDljV0NTTzRIQlV1TDRIVkhldnc?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "ANSA Sardegna",
+          "title": "Comunali in Sardegna, 147 sindaci eletti e ballottaggio a Tempio Pausania",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVWFYcXUyYnBPX1h2azBkcHk5d3JmWVo4NHNWU0RFRzRQN0NONGd5cC1Gcy1XUC11eXZ5LXFEenZRcjEzNWJZZlVRcTdxdnp4UzVHM1FuOWI2UFJwcFltMFNjNk81XzE4RFYzajVPN2dqR1FKOFNCbDdnSWtQZzU1WS1sOXVqbmVLS3JuWWNHdDhrUXBVaHJuY2dVMUg1UzRlVWVodF84TmNrcWNyRFI2cGo1UkMyOVAwakdheFE5T1FsbXg3OXF5TVBXQ2JxUDZJelR4RDBsY3FEWkhkODJkVjlvdEZScmVueVl1YmxLYWx1X0hJ0gH6AUFVX3lxTE9UNmFXeFJBcFJjeTZ2cTBUUHhrTTVtQlJYTVVuRURVZk85WndFTVU5WWFfREZCNjFzLUdmeFpreTVvRHlZMXhvZE5RYy13c2JxLXFRMTNvRXZHV05VV255cnBzdjVQT1pRaXV4aldsQTFQR1V2MTBBa2ZwcWdMZ2JtdENZN3BzNllGU1Yyd21uR3NXcElnbW5GaWI0azlJQTF4cWs3R0ZaenltUWpCSDRXdU9fQ240MzJPTjJFWGFmWFFkS3Azd0xsOThZVmxXMmV4MkpvRE1JcXY4ZlZuTDlRSk9OZS1ZMDljV0NTTzRIQlV1TDRIVkhldnc?oc=5",
+          "time": "09 Jun, 09:55"
+        },
+        {
+          "source": "ANSA Sardegna",
+          "title": "Le comunali in Sardegna premiano i sindaci uscenti",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT2VQcUNlQVdSWnFnV3ZsVWlNSzRER0hmWm9aVHdQTUd6SGhmd3A3dF9XbFpySDhEeWl0LUxycVJoLWxyLUFvRUNYbHVQY2J3S293UTZFN0JEZjhVYWhhQ1lsX2xQaVBhMzNQNm1OWERYVExnaGhDU3p0UGptTm1GSHFNbXBpVmpvamctWWhlRzRyU016Rmxud1JndU5PLUNUUjFDdlgwa1hOV1M1UDR1bDI4NU90eFpyVWJlS2xLcXVLa0hLUjFOb0RlcXJtb2FqWmwyZ3hIMNIB3AFBVV95cUxQUTdlREl2cDhaNTU2eFBIYjQtRU5iZ1VPbUFLSGV5UGxETllaUjd0d0dNY0RRRk5YWEJzS2tJYjdmdmdRdTBxUi13TTVobjRPZUE0UmtONmdjWWl3V2x6dzRpNUwwRGh6alZzN2dQMGMydzZOZVAxMVdJQnRacU9FSWVkT2g1UC1zbjJPMEhyeE5pajc1WUVWLW1UUmxQY1d6U1JEd0x6azVIY3lIcUFwb0haNlo1ZmlLTE9PXzh3bUwxanl2Y2VRelBpUTVlT190N1pfbkYwSUEzbjVo?oc=5",
+          "time": "08 Jun, 18:10"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "09 Jun 2026, 08:56 UTC",
+      "title": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+      "summary": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna La Nuova Sardegna",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100880647:1780995414/s_5bacff92b4.jpeg?f=detail_558&h=720&w=1280&$p$f$h$w=332a1ba",
+        "alt": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/yan-1956-jean-dieuzaide-e-il-suo-viaggio-in-sardegna-1.100880648",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWW5LTUR6NG00aEZNRGJ0eU1UTzlVUk4wb050dGZKcDdxNW1jQ3lSSjF0ellUa1VjM3JHM1kwNzY5Z2VOS3ZBUWxvcnFHM1FyZkt4WVpMazNGTndkRXJsdzNYX0ZwWU0ybVRIdkt3VjctNm5fbXpYVWJTYlhnamJ5d21YdE1BZk5EcjlXWUpOZTdEMjAzYm1vU3pQbW1QQkRfZUIwajhzaHhGUlNPU2d2Tl8ya0hFallXWmRQa0tkUlF2SEE?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWW5LTUR6NG00aEZNRGJ0eU1UTzlVUk4wb050dGZKcDdxNW1jQ3lSSjF0ellUa1VjM3JHM1kwNzY5Z2VOS3ZBUWxvcnFHM1FyZkt4WVpMazNGTndkRXJsdzNYX0ZwWU0ybVRIdkt3VjctNm5fbXpYVWJTYlhnamJ5d21YdE1BZk5EcjlXWUpOZTdEMjAzYm1vU3pQbW1QQkRfZUIwajhzaHhGUlNPU2d2Tl8ya0hFallXWmRQa0tkUlF2SEE?oc=5",
+          "time": "09 Jun, 08:56"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "L’evento Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/yan-1956-jean-dieuzaide-e-il-suo-viaggio-in-sardegna-1.100880648",
+          "time": "09 Jun, 00:00"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "08 Jun 2026, 10:35 UTC",
+      "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
+      "summary": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna ANSA",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "ANSA Sardegna",
+          "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5",
+          "time": "08 Jun, 10:35"
+        }
+      ],
+      "grouped_count": 2
+    }
+  ]
+}
