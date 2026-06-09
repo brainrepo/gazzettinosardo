@@ -1,6 +1,12 @@
 {
   "snapshots": [
     {
+      "file": "data/history/2026-06-09-11-52-UTC-2.json",
+      "updated_at": "2026-06-09 11:52 UTC",
+      "items_count": 10,
+      "archived_at": "2026-06-09 14:01 UTC"
+    },
+    {
       "file": "data/history/2026-06-09-11-52-UTC.json",
       "updated_at": "2026-06-09 11:52 UTC",
       "items_count": 10,
