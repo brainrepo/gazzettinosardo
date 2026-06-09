@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-09 14:01 UTC",
+  "updated_at": "2026-06-09 16:08 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-09 14:00 UTC",
+    "updated_at": "2026-06-09 16:08 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-09 14:01 UTC",
+    "updated_at": "2026-06-09 16:08 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -238,14 +238,220 @@
   "items": [
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 13:04 UTC",
-      "title": "Ottana, Saba proclamato sindaco e subito sospeso: il caso resta aperto",
-      "summary": "Dopo il voto a Ottana, Franco Saba è stato proclamato sindaco ma il prefetto di Nuoro ne ha disposto la sospensione. La Nuova Sardegna riferisce anche della nomina della giunta prima del provvedimento, mentre altri aggiornamenti richiamano il tema dei domiciliari e del possibile commissariamento.",
-      "why": "È la vicenda politico-amministrativa più rilevante nel Nuorese dopo le comunali: riguarda la guida del Comune di Ottana e gli effetti istituzionali della sospensione.",
+      "time": "09 Jun 2026, 16:07 UTC",
+      "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
       "tags": [
-        "Ottana",
+        "Sardegna",
         "Elezioni",
-        "Nuorese"
+        "Tiana",
+        "Austis",
+        "Atzara"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea"
+        },
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
+          "time": "09 Jun, 16:07"
+        },
+        {
+          "source": "ANSA Sardegna",
+          "title": "Urne aperte in Sardegna fino alle 15, primi sindaci vincono sfida quorum",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPd2QxTnVUZmJFTTZjdGNoYnItMUxrMXplczhjUzk4OVBscjA5TlJIOV8tQmtJY29uRmF5QlNNTlE4eDNPY09PdE42Nkk4ZXhVd2hDN3Mxb2VfUUd2Y2tPOWd1cWJPOW1iMkdPQW9WQ0VGSXlJWmYyYTl1MFhvbUJlNUVRV3djWi1hS3BOaFpDMFI1S0xTY3JxclA5a1NLRllib2s5MGJHdV9VMHhoM0d6QWVVNFFuSTgyb1JMV0RDYjdpOUpmWnk0b2VkNHpBbU9JLU1xbkNPVTF6Zl9HMDdRSFlUWTBpOUFqTTZNaVlKbWItTDTSAfgBQVVfeXFMT1ZwalZWaVNMVWg1d0tKRHZ4X0JPQTljQjMwQjNTT2VRbjJReXVQZFhkT28tR0RSTWFiSzFqZHhDZFBFd3FZRUV2cVFELW5zVk92Q2tHU1F2NFVCZEw0WTZsZkJ0VU5jV2xGRmZxZjVIYV9tY1k2VzM2bkJQUlBPMzZDQUVocFRScjhBX0FqbGlaTzN0SG5Na1kwQ3FVUHVFQXJaSXpnaXpTUlF4MXZFRFVBZmNIRDYzV05nM2ZOTHZ4Mmw4SmZQM0ZNUmJVdHpUWnFwdmE3R2s0d25HazNKR0JtVEV5Y3ZfeXRxRUtnOW9PU29PSEgtdWQ?oc=5",
+          "time": "08 Jun, 10:25"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Quorum superato anche a Ilbono, Giampietro Murru eletto sindaco",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0E5bEM5clEzZHZlM2tjcHVoOEd2ZnFZVVpuMWpvbnRpVHJGdXJIMnZIWDNMWlR6T3hxSjVZWWxKWDFwbDZSalIxSllLUTNwQ0ZNZlVmMFJSTmxUbUNVX0lmTGxNdDF2X0R5UFo5UmFybi11ZGRmY2g5TWl6YkNWZ0swNWxFNGtvQ2huVEtTWmtwdXIxVS0wWHI4ZmhVN1VOMnlVWXVSOC1EWGVlMHdYbWd3NkNaZHJJTFpiM19CcjNCU1NTZ2NGb2VGdVlyckdx?oc=5",
+          "time": "08 Jun, 09:48"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "News",
+      "time": "09 Jun 2026, 16:07 UTC",
+      "title": "Moto contro auto a Nuoro, centauro gravissimo",
+      "summary": "Moto contro auto a Nuoro, centauro gravissimo",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMEFLMHpsRjNZNGlSMW1TVm5zMWpXVC1kRjBENG56XzZkWWxGc3BSZWNIb1FESnRyUUNiRGRTYnJUT0ZsX0ZPUmFsdkhMOWEzdjdrY1I1SWM4TGs0TnpDS1VFLW5CN0lIdnlqTUhCVHkzemJqbWZRTFR3UjIxZ3M4cGtDd2Fwb1BQS3hiaVNWQXg2MjQtUFhoVFFmZThyb3R2dkdZQVI1U1VEcnhQVWk2MVFfZFhEamlZRWRxSFBUQS01Tm5lZk9qc2JJUGJKdw?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "09 Jun, 16:07"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Nuoro, moto contro auto: gravissimo un 24enne – Cosa sappiamo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMEFLMHpsRjNZNGlSMW1TVm5zMWpXVC1kRjBENG56XzZkWWxGc3BSZWNIb1FESnRyUUNiRGRTYnJUT0ZsX0ZPUmFsdkhMOWEzdjdrY1I1SWM4TGs0TnpDS1VFLW5CN0lIdnlqTUhCVHkzemJqbWZRTFR3UjIxZ3M4cGtDd2Fwb1BQS3hiaVNWQXg2MjQtUFhoVFFmZThyb3R2dkdZQVI1U1VEcnhQVWk2MVFfZFhEamlZRWRxSFBUQS01Tm5lZk9qc2JJUGJKdw?oc=5",
+          "time": "08 Jun, 18:18"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 16:07 UTC",
+      "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
+      "summary": "OTTANA – Il prefetto di Nuoro, Alessandra Nigro, ha adottato in data odierna il provvedimento di sospensione dalla carica di sindaco nei confronti di Franco Saba, proclamato eletto alla guida del comune di Ottana in esito alle consultazioni elettorali del 7 e 8 giugno 2026. L’atto prefettizio è stato emanato ai sensi della cosiddetta legge […] L'articolo Ott…",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Nuoro",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/09/ottana-il-prefetto-firma-la-sospensione-del-nuovo-sindaco-franco-saba-dopo-il-plebiscito/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "09 Jun, 16:07"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
+          "url": "https://www.cronachenuoresi.it/2026/06/09/ottana-il-prefetto-firma-la-sospensione-del-nuovo-sindaco-franco-saba-dopo-il-plebiscito/",
+          "time": "09 Jun, 07:43"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 16:07 UTC",
+      "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
+          "time": "09 Jun, 16:07"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "09 Jun 2026, 16:07 UTC",
+      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Mamoiada"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
+          "time": "09 Jun, 16:07"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Cronaca",
+      "time": "09 Jun 2026, 16:07 UTC",
+      "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+      "summary": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "tags": [
+        "Nuoro",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "09 Jun, 16:07"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "09 Jun 2026, 13:04 UTC",
+      "title": "Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento",
+      "summary": "Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento La Nuova Sardegna",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
       ],
       "image": {
         "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100880770:1781010291/image%20(2).jpg?f=detail_558&h=720&w=1280&$p$f$h$w=5e9a868",
@@ -258,14 +464,6 @@
         {
           "name": "La Nuova Sardegna",
           "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQN1VHMTB0Mk55TVJGaHRieTQ3dnoyMU9DQmNXNzJRNTlNRkd4RER5VHIwcWMzX3hpZnQ3c255TEhIVFRVdE1qSHlVWThZZnF3YjVFMk9FVjVZdjZ3V1JZTl9waUJVRHVvd3VqX1hjZG1wVTFmSWNCbkJKNE5qU2hyMTF6NEs0Rl9ZWUNSQVVBTjNtS0xXOGlfT0Y3aG1LRUxNMFFVOHhOMW45akdGT2d2WlRkN3Mya0g0RlhWSmdPWEY0YVFMdUxQS3p0MWFxc2c4QWd5amVPMS04cXkyVUFlSDVHaEpESENaMkpiQVl2LXdHWUhLZV8tTmhnMDR5YlBBanlLbTdKTkZ6eklGWThEdWFKRQ?oc=5"
-        },
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/09/ottana-il-prefetto-firma-la-sospensione-del-nuovo-sindaco-franco-saba-dopo-il-plebiscito/"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
         }
       ],
       "variants": [
@@ -280,119 +478,22 @@
           "title": "p L’indiscrezione Elezioni a Ottana, il colpo di coda di Saba: prima di essere sospeso nomina la giunta ed evita il commissariamento di Alessandro Mele",
           "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/elezioni-a-ottana-il-colpo-di-coda-di-saba-prima-di-essere-sospeso-nomina-la-giunta-ed-evita-il-commissariamento-1.100880771",
           "time": "09 Jun, 00:00"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Dopo il voto Sindaco ai domiciliari, la prefetta commissaria il Comune di Ottana: cosa succede adesso di Alessandro Mele",
-          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/sindaco-ai-domiciliari-la-prefetta-commissaria-il-comune-di-ottana-1.100880608",
-          "time": "09 Jun, 00:00"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
-          "url": "https://www.cronachenuoresi.it/2026/06/09/ottana-il-prefetto-firma-la-sospensione-del-nuovo-sindaco-franco-saba-dopo-il-plebiscito/",
-          "time": "09 Jun, 07:43"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
-          "time": "09 Jun, 13:59"
         }
       ],
-      "grouped_count": 7,
-      "confidence": "alta"
-    },
-    {
-      "section": "Cronaca",
-      "time": "09 Jun 2026, 07:31 UTC",
-      "title": "Nuoro, morto il motociclista di 24 anni coinvolto nello scontro con un’auto",
-      "summary": "Le testate locali e ANSA riportano la morte del giovane motociclista coinvolto nello scontro tra moto e auto avvenuto a Nuoro, in viale Murichessa. Cronache Nuoresi identifica la vittima come Luigi Canna.",
-      "why": "La notizia ha forte impatto sulla comunità nuorese e aggiorna un incidente seguito nelle ore precedenti come gravissimo.",
-      "tags": [
-        "Nuoro",
-        "Cronaca",
-        "Incidente stradale"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNzA5TG84UDBwWlF2NklZUmZHU1BFSnFLSlpNeW43c19Td21TeTYzVzNXMDEyTHE5SWtfVWg2OGFYb2o4UTNQcHNaUnU2NzR4cGhZbHdjbEhWS3hKSlhfdEo2Zl9SVjd0VmxzOTJpd2JCMDFGVDJIbGRqVW5XdktxUUJtVmZxT2dUUlNhQTlxdUxja2tTVEpfcGZ2Q3lUWjFlTzdERnkwUkNLbTJSaEVrNmhiQmtIUGM0SFEyS0N3c3BDQkxVdnUzNGpGazV1emVOek9yNk5rWTg2X0tYWnNzUG5jYjhsWm1J0gHuAUFVX3lxTFBlVk5xalhuMjh4ZTJRRHpoUXc3RzdTQUFNcVR4aEhKU0RyZllFaGpYcWNNNzdkQmhxZFUzWHBfZm9NS1ZKSDY0VExramE4aDNfQTZLVEdxRjRuR1c5dVowYzVZck1NTUZzczliRHJjbHpONHdOdmJsaWJSeEVkbTdvVWVhM1IxeEJPb3U4a3BLX1BOVHZObGpTc2g2QUtjaXA3TUNyQ1NSR1g4OGo0eWdsLVZDanNXNDZuYllNSlNyTm5nWlFJWDBBejR1R0daTkdRWmUxSl9YTnh4anc4cTRfRFh1RUJFZWo5SkJQdEE?oc=5"
-        },
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/08/schianto-a-nuoro-morto-il-giovane-motociclista-nuorese/"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
-        }
-      ],
-      "variants": [
-        {
-          "source": "ANSA Sardegna",
-          "title": "Motociclista di 24 anni muore in uno scontro con un'auto a Nuoro",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNzA5TG84UDBwWlF2NklZUmZHU1BFSnFLSlpNeW43c19Td21TeTYzVzNXMDEyTHE5SWtfVWg2OGFYb2o4UTNQcHNaUnU2NzR4cGhZbHdjbEhWS3hKSlhfdEo2Zl9SVjd0VmxzOTJpd2JCMDFGVDJIbGRqVW5XdktxUUJtVmZxT2dUUlNhQTlxdUxja2tTVEpfcGZ2Q3lUWjFlTzdERnkwUkNLbTJSaEVrNmhiQmtIUGM0SFEyS0N3c3BDQkxVdnUzNGpGazV1emVOek9yNk5rWTg2X0tYWnNzUG5jYjhsWm1J0gHuAUFVX3lxTFBlVk5xalhuMjh4ZTJRRHpoUXc3RzdTQUFNcVR4aEhKU0RyZllFaGpYcWNNNzdkQmhxZFUzWHBfZm9NS1ZKSDY0VExramE4aDNfQTZLVEdxRjRuR1c5dVowYzVZck1NTUZzczliRHJjbHpONHdOdmJsaWJSeEVkbTdvVWVhM1IxeEJPb3U4a3BLX1BOVHZObGpTc2g2QUtjaXA3TUNyQ1NSR1g4OGo0eWdsLVZDanNXNDZuYllNSlNyTm5nWlFJWDBBejR1R0daTkdRWmUxSl9YTnh4anc4cTRfRFh1RUJFZWo5SkJQdEE?oc=5",
-          "time": "09 Jun, 07:31"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Schianto a Nuoro. Morto il giovane motociclista nuorese",
-          "url": "https://www.cronachenuoresi.it/2026/06/08/schianto-a-nuoro-morto-il-giovane-motociclista-nuorese/",
-          "time": "08 Jun, 20:04"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Schianto a Nuoro. Scontro tra auto e moto in via Murichessa: gravissimo 24enne",
-          "url": "https://www.cronachenuoresi.it/2026/06/08/schianto-a-nuoro-scontro-tra-auto-e-moto-in-via-murichessa-gravissimo-25enne/",
-          "time": "08 Jun, 18:13"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Moto contro auto a Nuoro, centauro gravissimo",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
-          "time": "09 Jun, 13:59"
-        }
-      ],
-      "grouped_count": 5,
-      "confidence": "alta"
+      "grouped_count": 2
     },
     {
       "section": "Elezioni / Politica",
       "time": "09 Jun 2026, 09:55 UTC",
-      "title": "Comunali, nel Nuorese raffica di sindaci eletti e quorum raggiunti",
-      "summary": "La tornata amministrativa porta conferme e nuove elezioni in diversi centri del Nuorese. Tra i titoli raccolti: quorum raggiunto a Osidda e Olzai, elezioni ad Atzara, Austis e Tiana, conferma a Seulo e Mamoiada, risultati anche a Posada, Tonara, Ollolai, Desulo, Onifai, Lodè e Ilbono. ANSA segnala 147 sindaci eletti in Sardegna e ballottaggio a Tempio Pausania.",
-      "why": "Il voto ridisegna amministrazioni comunali in molti paesi della provincia e offre il quadro regionale del primo turno.",
+      "title": "Comunali in Sardegna, 147 sindaci eletti e ballottaggio a Tempio Pausania",
+      "summary": "Comunali in Sardegna, 147 sindaci eletti e ballottaggio a Tempio Pausania ANSA",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
       "tags": [
-        "Elezioni",
-        "Comuni",
-        "Sardegna"
+        "Sardegna",
+        "Elezioni"
       ],
       "image": null,
       "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/09/elezioni-comunali-nel-nuorese-ecco-gli-eletti-le-sfide-e-i-paesi-a-lista-unica/"
-        },
         {
           "name": "ANSA Sardegna",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVWFYcXUyYnBPX1h2azBkcHk5d3JmWVo4NHNWU0RFRzRQN0NONGd5cC1Gcy1XUC11eXZ5LXFEenZRcjEzNWJZZlVRcTdxdnp4UzVHM1FuOWI2UFJwcFltMFNjNk81XzE4RFYzajVPN2dqR1FKOFNCbDdnSWtQZzU1WS1sOXVqbmVLS3JuWWNHdDhrUXBVaHJuY2dVMUg1UzRlVWVodF84TmNrcWNyRFI2cGo1UkMyOVAwakdheFE5T1FsbXg3OXF5TVBXQ2JxUDZJelR4RDBsY3FEWkhkODJkVjlvdEZScmVueVl1YmxLYWx1X0hJ0gH6AUFVX3lxTE9UNmFXeFJBcFJjeTZ2cTBUUHhrTTVtQlJYTVVuRURVZk85WndFTVU5WWFfREZCNjFzLUdmeFpreTVvRHlZMXhvZE5RYy13c2JxLXFRMTNvRXZHV05VV255cnBzdjVQT1pRaXV4aldsQTFQR1V2MTBBa2ZwcWdMZ2JtdENZN3BzNllGU1Yyd21uR3NXcElnbW5GaWI0azlJQTF4cWs3R0ZaenltUWpCSDRXdU9fQ240MzJPTjJFWGFmWFFkS3Azd0xsOThZVmxXMmV4MkpvRE1JcXY4ZlZuTDlRSk9OZS1ZMDljV0NTTzRIQlV1TDRIVkhldnc?oc=5"
@@ -400,240 +501,27 @@
       ],
       "variants": [
         {
-          "source": "Cronache Nuoresi",
-          "title": "Elezioni comunali nel Nuorese: ecco gli eletti, le sfide e i paesi a lista unica",
-          "url": "https://www.cronachenuoresi.it/2026/06/09/elezioni-comunali-nel-nuorese-ecco-gli-eletti-le-sfide-e-i-paesi-a-lista-unica/",
-          "time": "09 Jun, 09:04"
-        },
-        {
           "source": "ANSA Sardegna",
           "title": "Comunali in Sardegna, 147 sindaci eletti e ballottaggio a Tempio Pausania",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVWFYcXUyYnBPX1h2azBkcHk5d3JmWVo4NHNWU0RFRzRQN0NONGd5cC1Gcy1XUC11eXZ5LXFEenZRcjEzNWJZZlVRcTdxdnp4UzVHM1FuOWI2UFJwcFltMFNjNk81XzE4RFYzajVPN2dqR1FKOFNCbDdnSWtQZzU1WS1sOXVqbmVLS3JuWWNHdDhrUXBVaHJuY2dVMUg1UzRlVWVodF84TmNrcWNyRFI2cGo1UkMyOVAwakdheFE5T1FsbXg3OXF5TVBXQ2JxUDZJelR4RDBsY3FEWkhkODJkVjlvdEZScmVueVl1YmxLYWx1X0hJ0gH6AUFVX3lxTE9UNmFXeFJBcFJjeTZ2cTBUUHhrTTVtQlJYTVVuRURVZk85WndFTVU5WWFfREZCNjFzLUdmeFpreTVvRHlZMXhvZE5RYy13c2JxLXFRMTNvRXZHV05VV255cnBzdjVQT1pRaXV4aldsQTFQR1V2MTBBa2ZwcWdMZ2JtdENZN3BzNllGU1Yyd21uR3NXcElnbW5GaWI0azlJQTF4cWs3R0ZaenltUWpCSDRXdU9fQ240MzJPTjJFWGFmWFFkS3Azd0xsOThZVmxXMmV4MkpvRE1JcXY4ZlZuTDlRSk9OZS1ZMDljV0NTTzRIQlV1TDRIVkhldnc?oc=5",
           "time": "09 Jun, 09:55"
         },
         {
-          "source": "L'Unione Sarda",
-          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
-          "time": "09 Jun, 13:59"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Posada ridà piena fiducia al sindaco Barore Ruiu – I dati",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTXRhUU5rRUlVT2NBcDNxWTFPd3Btazc3RWdJYlVCOXU0X3VwZU9RU08xck9QXzcwOFZ4c1lzcF8yMlNybzhqTERQUE1LN2ZoNk9UNUZlQzM3eEpKeWp4X0dSWlFiVnI3UVF2Vm5pbHJodWRjamdIbEFFd19fVTdFYklRVWxtTlpQWWVpMHFyWnZiYURJYzJXOG15NDlWNmNZWEE1cHVFby1vamhMYVRDdF9QbHJhQ3l2bFNsOVUzZnlfTnJUbE53?oc=5",
-          "time": "08 Jun, 20:13"
-        }
-      ],
-      "grouped_count": 14,
-      "confidence": "media"
-    },
-    {
-      "section": "Cronaca",
-      "time": "09 Jun 2026, 13:02 UTC",
-      "title": "Donazione di sangue a Nuoro, successo per le Isole del Dono",
-      "summary": "Al centro commerciale Pratosardo si è svolta una giornata dedicata alla donazione del sangue, promossa con la questura di Nuoro e DonatoriNati nell’ambito del progetto nazionale “Le Isole del Dono”.",
-      "why": "Un’iniziativa civica e sanitaria locale che mette insieme forze dell’ordine, volontariato e raccolta sangue.",
-      "tags": [
-        "Nuoro",
-        "Solidarietà",
-        "Sanità"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/09/donazione-di-sangue-a-nuoro-il-successo-delle-isole-del-dono/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Donazione di sangue a Nuoro: il successo delle Isole del Dono",
-          "url": "https://www.cronachenuoresi.it/2026/06/09/donazione-di-sangue-a-nuoro-il-successo-delle-isole-del-dono/",
-          "time": "09 Jun 2026, 13:02 UTC"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "media"
-    },
-    {
-      "section": "Cronaca",
-      "time": "09 Jun 2026, 13:59 UTC",
-      "title": "Nuoro, droga nascosta in casa: arrestato uno spacciatore",
-      "summary": "Secondo L’Unione Sarda, a Nuoro cocaina e marijuana sono state trovate nascoste in un’abitazione e una persona è stata arrestata per spaccio.",
-      "why": "Aggiornamento di cronaca giudiziaria con ricaduta diretta sulla sicurezza locale.",
-      "tags": [
-        "Nuoro",
-        "Cronaca"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-cocaina-e-marijuana-nascoste-in-casa-spacciatore-in-arresto-vuppol2s"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Nuoro, cocaina e marijuana nascoste in casa: spacciatore in arresto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-cocaina-e-marijuana-nascoste-in-casa-spacciatore-in-arresto-vuppol2s",
-          "time": "09 Jun 2026, 13:59 UTC"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "media"
-    },
-    {
-      "section": "News",
-      "time": "09 Jun 2026, 13:59 UTC",
-      "title": "Incendi, da Nuoro un patto per rafforzare la prevenzione in Sardegna",
-      "summary": "Da Nuoro arriva un’intesa per la prevenzione degli incendi che coinvolge agricoltori e istituzioni. ANSA riporta anche il richiamo del Corpo forestale regionale al peso degli incendi colposi.",
-      "why": "Il tema è centrale all’inizio della stagione a rischio: prevenzione e comportamenti incidono sulla protezione del territorio.",
-      "tags": [
-        "Incendi",
-        "Sardegna",
-        "Prevenzione"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendi-da-nuoro-un-patto-per-difendere-la-sardegna-agricoltori-e-istituzioni-insieme-per-la-prevenzione-kgz0nm1x"
-        },
-        {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ05MZ3NydGQ3ZjFmSk1taV91b1ZGdkp5TV9LNmc2cGcweHlnR09aZmJ2djBoSEEzSVlwVFY0WFp4UGQwdC1QODBTa0J0ZEk2LWEyVFdQdklPaEJyc3pjMkw1MUUwWXpySVE5NkhuRmRqbnpaTUU5STRETE1GLWhObGtpNFFWbk5RNXBHSjBiUUNkLV9CTVplWHNsN1lYcjN5bXhleXYyMEZjNEFBWGVUREFrVUY0SVp1ZjZ0V1JmeURQV0RMNWJENUtTZGV4WC1xYUczSXBsWGg4cmR4cFdyb01JWXMtUUNQcmfSAe8BQVVfeXFMUFZLY1JjQldfZ0lpejhkUHVhT3JycXlQaG5zWHE2UW1YdEc2MldIS1JadGo1N09jYjRKcm1SMEpYdWNiejRHMWVTUDR4WVJxTFBqSWdITHJLOVhxWGpDSFhkbjZIRklPV0RXcmRjbFpFeEYyOUxmMlpUSFpia2JtakNYcEMwaXRUZkI3Z1J4Y2Z2YXFneEpSUVRqY2E4YUoxNUItdmxJSDFxUEo5R0V3YU0wckRCSUQzSXUxcC03WHJ2Q18zV1VFU3FZOHU1VnZOWVhhZXpETG93eG5OdEVEdVkwcUNtdDFHTzU4T0RmZ0U?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Incendi, da Nuoro un patto per difendere la Sardegna: «Agricoltori e istituzioni insieme per la prevenzione»",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendi-da-nuoro-un-patto-per-difendere-la-sardegna-agricoltori-e-istituzioni-insieme-per-la-prevenzione-kgz0nm1x",
-          "time": "09 Jun 2026, 13:59 UTC"
-        },
-        {
           "source": "ANSA Sardegna",
-          "title": "Incendi in Sardegna, Corpo forestale regionale 'molti sono colposi'",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ05MZ3NydGQ3ZjFmSk1taV91b1ZGdkp5TV9LNmc2cGcweHlnR09aZmJ2djBoSEEzSVlwVFY0WFp4UGQwdC1QODBTa0J0ZEk2LWEyVFdQdklPaEJyc3pjMkw1MUUwWXpySVE5NkhuRmRqbnpaTUU5STRETE1GLWhObGtpNFFWbk5RNXBHSjBiUUNkLV9CTVplWHNsN1lYcjN5bXhleXYyMEZjNEFBWGVUREFrVUY0SVp1ZjZ0V1JmeURQV0RMNWJENUtTZGV4WC1xYUczSXBsWGg4cmR4cFdyb01JWXMtUUNQcmfSAe8BQVVfeXFMUFZLY1JjQldfZ0lpejhkUHVhT3JycXlQaG5zWHE2UW1YdEc2MldIS1JadGo1N09jYjRKcm1SMEpYdWNiejRHMWVTUDR4WVJxTFBqSWdITHJLOVhxWGpDSFhkbjZIRklPV0RXcmRjbFpFeEYyOUxmMlpUSFpia2JtakNYcEMwaXRUZkI3Z1J4Y2Z2YXFneEpSUVRqY2E4YUoxNUItdmxJSDFxUEo5R0V3YU0wckRCSUQzSXUxcC03WHJ2Q18zV1VFU3FZOHU1VnZOWVhhZXpETG93eG5OdEVEdVkwcUNtdDFHTzU4T0RmZ0U?oc=5",
-          "time": "09 Jun, 09:32"
+          "title": "Le comunali in Sardegna premiano i sindaci uscenti",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT2VQcUNlQVdSWnFnV3ZsVWlNSzRER0hmWm9aVHdQTUd6SGhmd3A3dF9XbFpySDhEeWl0LUxycVJoLWxyLUFvRUNYbHVQY2J3S293UTZFN0JEZjhVYWhhQ1lsX2xQaVBhMzNQNm1OWERYVExnaGhDU3p0UGptTm1GSHFNbXBpVmpvamctWWhlRzRyU016Rmxud1JndU5PLUNUUjFDdlgwa1hOV1M1UDR1bDI4NU90eFpyVWJlS2xLcXVLa0hLUjFOb0RlcXJtb2FqWmwyZ3hIMNIB3AFBVV95cUxQUTdlREl2cDhaNTU2eFBIYjQtRU5iZ1VPbUFLSGV5UGxETllaUjd0d0dNY0RRRk5YWEJzS2tJYjdmdmdRdTBxUi13TTVobjRPZUE0UmtONmdjWWl3V2x6dzRpNUwwRGh6alZzN2dQMGMydzZOZVAxMVdJQnRacU9FSWVkT2g1UC1zbjJPMEhyeE5pajc1WUVWLW1UUmxQY1d6U1JEd0x6azVIY3lIcUFwb0haNlo1ZmlLTE9PXzh3bUwxanl2Y2VRelBpUTVlT190N1pfbkYwSUEzbjVo?oc=5",
+          "time": "08 Jun, 18:10"
         }
       ],
-      "grouped_count": 2,
-      "confidence": "media"
+      "grouped_count": 2
     },
     {
       "section": "News",
-      "time": "09 Jun 2026, 13:59 UTC",
-      "title": "Macomer, partono gli interventi sulle strade interne e periferiche",
-      "summary": "A Macomer prende il via la riqualificazione delle strade interne e periferiche, secondo quanto riportato da L’Unione Sarda.",
-      "why": "Opera pubblica di prossimità, con effetti attesi su viabilità urbana e collegamenti periferici.",
-      "tags": [
-        "Macomer",
-        "Lavori pubblici"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, al via la riqualificazione delle strade interne e periferiche",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd",
-          "time": "09 Jun 2026, 13:59 UTC"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "media"
-    },
-    {
-      "section": "News",
-      "time": "09 Jun 2026, 13:59 UTC",
-      "title": "Macomer, “Le Finestrelle” ancora senza acquirenti: il Comune ritenta con un prezzo più accessibile",
-      "summary": "Dopo tre bandi senza acquirenti per la struttura “Le Finestrelle”, il Comune di Macomer riprova con una base più accessibile, riferisce L’Unione Sarda.",
-      "why": "La vicenda riguarda la gestione del patrimonio comunale e il tentativo di rimettere in circolo una struttura rimasta invenduta.",
-      "tags": [
-        "Macomer",
-        "Comune"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-tre-bandi-ma-nessun-acquirente-per-la-struttura-le-finestrelle-il-comune-ci-riprova-con-un-prezzo-piu-accessibile-sds87mw2"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, tre bandi ma nessun acquirente per la struttura “Le Finestrelle”: il Comune ci riprova con un prezzo più accessibile",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-tre-bandi-ma-nessun-acquirente-per-la-struttura-le-finestrelle-il-comune-ci-riprova-con-un-prezzo-piu-accessibile-sds87mw2",
-          "time": "09 Jun 2026, 13:59 UTC"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "media"
-    },
-    {
-      "section": "Sanità",
-      "time": "09 Jun 2026, 13:59 UTC",
-      "title": "Dalla Barbagia a Siena, veterinari Asl di Nuoro a scuola di Palio",
-      "summary": "I veterinari della Asl di Nuoro partecipano a un percorso a Siena legato al Palio, con l’obiettivo indicato dalle fonti di garantire sicurezza e benessere animale.",
-      "why": "Il tema incrocia sanità veterinaria, tradizioni equestri e tutela degli animali, con competenze che partono dal territorio nuorese.",
-      "tags": [
-        "Nuoro",
-        "Sanità",
-        "Animali"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih",
-          "time": "09 Jun 2026, 13:59 UTC"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "media"
-    },
-    {
-      "section": "Cultura / Società",
       "time": "09 Jun 2026, 08:56 UTC",
-      "title": "Jean Dieuzaide e la Sardegna del 1956: la memoria fotografica torna al centro",
-      "summary": "La Nuova Sardegna segnala l’evento “Yan, 1956”, dedicato al viaggio in Sardegna di Jean Dieuzaide.",
-      "why": "Una proposta culturale che valorizza memoria visiva e racconto dell’isola, utile per la rassegna locale.",
+      "title": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+      "summary": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna La Nuova Sardegna",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
       "tags": [
-        "Cultura",
         "Sardegna"
       ],
       "image": {
@@ -654,7 +542,7 @@
           "source": "La Nuova Sardegna",
           "title": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWW5LTUR6NG00aEZNRGJ0eU1UTzlVUk4wb050dGZKcDdxNW1jQ3lSSjF0ellUa1VjM3JHM1kwNzY5Z2VOS3ZBUWxvcnFHM1FyZkt4WVpMazNGTndkRXJsdzNYX0ZwWU0ybVRIdkt3VjctNm5fbXpYVWJTYlhnamJ5d21YdE1BZk5EcjlXWUpOZTdEMjAzYm1vU3pQbW1QQkRfZUIwajhzaHhGUlNPU2d2Tl8ya0hFallXWmRQa0tkUlF2SEE?oc=5",
-          "time": "09 Jun 2026, 08:56 UTC"
+          "time": "09 Jun, 08:56"
         },
         {
           "source": "La Nuova Sardegna",
@@ -663,8 +551,33 @@
           "time": "09 Jun, 00:00"
         }
       ],
-      "grouped_count": 2,
-      "confidence": "media"
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "08 Jun 2026, 10:35 UTC",
+      "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
+      "summary": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna ANSA",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "ANSA Sardegna",
+          "title": "Nuova anca con protesi su misura 3D e trapianto osso, prima volta in Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQlhibkZEdFpSYVNKVDcyc3NwdWpkeHJaSDAyT2pCOTdsUGxVbXM1bkYzaTRnMFdlQ1lxNGROQlQ3Z1NpdXA1bXpiNUJGTHRCMGpnMHhTZWpLbmdodms4N1djcV9LRlljbWFCNFNHSFUxazV4ZzBXXzhxb3lycUZIdUMtOVZLaTFpYkxteUEtNElOb1hhRVRJdlM4ZndBeElTRHFmRTZESEFmdld0QWU2STBIaHBDYjJPVHFKTUxBNGxETi02ZW9ST0xEdHRlYkY3N0pBSWdBTm5MdXpTVzlpSURBREhydDdUaXBpWEg0MDRibGxoZExqblFR0gH_AUFVX3lxTFBLRjRMMHlzN3hWa0Vzd1hrOGc3RjI2OU42SDN4ODZEUGdBMkRGb2tLYjREQWcyLUxZMnI0cmVqZE0zLWFXanR1RGZvRktCVDh1QUU0djA2MXVsUXhHUFJjQ1hrVmVHWUJKNlJnWWxhVVVHXzYtNFU5MGthMklvNm1Yd1NVX19Yajh3WElwT0hjRFdaa0tyUzZ3VG5FUE9ORkM0bEpscG9HTDcwVXF1XzNPNlFqVzZhYkZtNEY1SkdNTUgyX0RtM2Zyd0VXQWNYSFRDYkplS05GdDNYVXEzcFBfRW5sRjh1eG1MRjgxNWRQR1VNbUdvbVRabUs5YW4yQQ?oc=5",
+          "time": "08 Jun, 10:35"
+        }
+      ],
+      "grouped_count": 2
     }
   ]
 }
