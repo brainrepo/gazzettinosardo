@@ -31,6 +31,15 @@ def render_item(item, index):
         for src in sources[:4]
     )
     primary = esc(sources[0].get('url')) if sources else '#'
+    image = item.get('image') or {}
+    img_url = image.get('url') or item.get('image_url') or ''
+    img_conf = image.get('confidence') or item.get('image_confidence') or ''
+    thumb_html = ''
+    has_image_class = ''
+    if img_url and img_conf in ('high', 'medium'):
+        img_alt = image.get('alt') or item.get('title', '')
+        thumb_html = f'<a class="article-thumb" href="{primary}" target="_blank" rel="noopener"><img src="{esc(img_url)}" alt="{esc(img_alt)}" loading="lazy" referrerpolicy="no-referrer" /></a>'
+        has_image_class = ' has-image'
     grouped_count = int(item.get('grouped_count') or len(variants) or 1)
     grouped_badge = f'<span class="grouped-badge">Raggruppa {grouped_count} articoli</span>' if grouped_count > 1 else ''
     variants_html = ''
@@ -41,8 +50,9 @@ def render_item(item, index):
         )
         variants_html = f'<details class="variants"><summary>Articoli collegati</summary><ul>{variant_rows}</ul></details>'
     return f"""
-<article class="article-row">
+<article class="article-row{has_image_class}">
   <a class="article-number" href="{primary}" target="_blank" rel="noopener">{index + 1:02d}</a>
+  {thumb_html}
   <div class="article-body">
     <div class="article-meta">
       <span>{esc(section)}</span>
@@ -391,6 +401,28 @@ def main():
       padding:24px 0;
       border-bottom:1px solid var(--line);
     }}
+    .article-row.has-image {{
+      grid-template-columns:58px minmax(132px, 168px) 1fr;
+      align-items:start;
+    }}
+    .article-thumb {{
+      display:block;
+      width:100%;
+      aspect-ratio:4 / 3;
+      overflow:hidden;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:var(--soft);
+      box-shadow:0 10px 28px rgba(60,40,25,.08);
+    }}
+    .article-thumb img {{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      transition:transform .18s ease;
+    }}
+    .article-thumb:hover img {{ transform:scale(1.025); }}
     .article-row:first-child {{
       padding-top:4px;
     }}
@@ -521,6 +553,8 @@ def main():
       .fuel-groups {{ grid-template-columns:1fr; }}
       .events-box ol {{ grid-template-columns:1fr; }}
       .article-row {{ grid-template-columns:1fr; gap:8px; padding:22px 0; }}
+      .article-row.has-image {{ grid-template-columns:1fr; }}
+      .article-thumb {{ aspect-ratio:16 / 9; border-radius:16px; margin:3px 0 5px; }}
       .article-number {{ font-size:13px; padding:0; }}
       .article-number::before {{ content:"Articolo "; color:var(--muted); }}
       .article-meta {{ gap:5px; }}
@@ -541,9 +575,9 @@ def main():
       <span>Aggiornato: {esc(updated)}</span>
       <span>Fonti: La Nuova Sardegna · L'Unione Sarda · Cronache Nuoresi · ANSA Sardegna</span>
     </div>
+    <main class="article-list">{rows}</main>
     {fuel_html}
     {events_html}
-    <main class="article-list">{rows}</main>
     <footer>Questa pagina cita e linka le fonti originali. Non aggira paywall e non sostituisce gli articoli completi.</footer>
   </div>
 </body>
