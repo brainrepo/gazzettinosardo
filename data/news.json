@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-09 11:48 UTC",
+  "updated_at": "2026-06-09 11:50 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-09 11:47 UTC",
+    "updated_at": "2026-06-09 11:49 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-09 11:48 UTC",
+    "updated_at": "2026-06-09 11:50 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -238,7 +238,7 @@
   "items": [
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 11:47 UTC",
+      "time": "09 Jun 2026, 11:49 UTC",
       "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
@@ -269,7 +269,7 @@
           "source": "L'Unione Sarda",
           "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "09 Jun, 11:47"
+          "time": "09 Jun, 11:49"
         },
         {
           "source": "ANSA Sardegna",
@@ -288,7 +288,7 @@
     },
     {
       "section": "News",
-      "time": "09 Jun 2026, 11:47 UTC",
+      "time": "09 Jun 2026, 11:49 UTC",
       "title": "Moto contro auto a Nuoro, centauro gravissimo",
       "summary": "Moto contro auto a Nuoro, centauro gravissimo",
       "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
@@ -317,7 +317,7 @@
           "source": "L'Unione Sarda",
           "title": "Moto contro auto a Nuoro, centauro gravissimo",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
-          "time": "09 Jun, 11:47"
+          "time": "09 Jun, 11:49"
         },
         {
           "source": "La Nuova Sardegna",
@@ -336,7 +336,7 @@
     },
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 11:47 UTC",
+      "time": "09 Jun 2026, 11:49 UTC",
       "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
       "summary": "OTTANA – Il prefetto di Nuoro, Alessandra Nigro, ha adottato in data odierna il provvedimento di sospensione dalla carica di sindaco nei confronti di Franco Saba, proclamato eletto alla guida del comune di Ottana in esito alle consultazioni elettorali del 7 e 8 giugno 2026. L’atto prefettizio è stato emanato ai sensi della cosiddetta legge […] L'articolo Ott…",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
@@ -361,7 +361,7 @@
           "source": "L'Unione Sarda",
           "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
-          "time": "09 Jun, 11:47"
+          "time": "09 Jun, 11:49"
         },
         {
           "source": "Cronache Nuoresi",
@@ -374,7 +374,7 @@
     },
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 11:47 UTC",
+      "time": "09 Jun 2026, 11:49 UTC",
       "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -395,14 +395,14 @@
           "source": "L'Unione Sarda",
           "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "09 Jun, 11:47"
+          "time": "09 Jun, 11:49"
         }
       ],
       "grouped_count": 2
     },
     {
       "section": "News",
-      "time": "09 Jun 2026, 11:47 UTC",
+      "time": "09 Jun 2026, 11:49 UTC",
       "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
       "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
       "why": "Da monitorare per impatto locale su Nuoro e provincia.",
@@ -422,14 +422,14 @@
           "source": "L'Unione Sarda",
           "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
-          "time": "09 Jun, 11:47"
+          "time": "09 Jun, 11:49"
         }
       ],
       "grouped_count": 2
     },
     {
       "section": "Cronaca",
-      "time": "09 Jun 2026, 11:47 UTC",
+      "time": "09 Jun 2026, 11:49 UTC",
       "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
       "summary": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
       "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
@@ -449,7 +449,7 @@
           "source": "L'Unione Sarda",
           "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
-          "time": "09 Jun, 11:47"
+          "time": "09 Jun, 11:49"
         }
       ],
       "grouped_count": 2
@@ -483,6 +483,44 @@
           "title": "Le comunali in Sardegna premiano i sindaci uscenti",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT2VQcUNlQVdSWnFnV3ZsVWlNSzRER0hmWm9aVHdQTUd6SGhmd3A3dF9XbFpySDhEeWl0LUxycVJoLWxyLUFvRUNYbHVQY2J3S293UTZFN0JEZjhVYWhhQ1lsX2xQaVBhMzNQNm1OWERYVExnaGhDU3p0UGptTm1GSHFNbXBpVmpvamctWWhlRzRyU016Rmxud1JndU5PLUNUUjFDdlgwa1hOV1M1UDR1bDI4NU90eFpyVWJlS2xLcXVLa0hLUjFOb0RlcXJtb2FqWmwyZ3hIMNIB3AFBVV95cUxQUTdlREl2cDhaNTU2eFBIYjQtRU5iZ1VPbUFLSGV5UGxETllaUjd0d0dNY0RRRk5YWEJzS2tJYjdmdmdRdTBxUi13TTVobjRPZUE0UmtONmdjWWl3V2x6dzRpNUwwRGh6alZzN2dQMGMydzZOZVAxMVdJQnRacU9FSWVkT2g1UC1zbjJPMEhyeE5pajc1WUVWLW1UUmxQY1d6U1JEd0x6azVIY3lIcUFwb0haNlo1ZmlLTE9PXzh3bUwxanl2Y2VRelBpUTVlT190N1pfbkYwSUEzbjVo?oc=5",
           "time": "08 Jun, 18:10"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "09 Jun 2026, 08:56 UTC",
+      "title": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+      "summary": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna La Nuova Sardegna",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100880647:1780995414/s_5bacff92b4.jpeg?f=detail_558&h=720&w=1280&$p$f$h$w=332a1ba",
+        "alt": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/yan-1956-jean-dieuzaide-e-il-suo-viaggio-in-sardegna-1.100880648",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWW5LTUR6NG00aEZNRGJ0eU1UTzlVUk4wb050dGZKcDdxNW1jQ3lSSjF0ellUa1VjM3JHM1kwNzY5Z2VOS3ZBUWxvcnFHM1FyZkt4WVpMazNGTndkRXJsdzNYX0ZwWU0ybVRIdkt3VjctNm5fbXpYVWJTYlhnamJ5d21YdE1BZk5EcjlXWUpOZTdEMjAzYm1vU3pQbW1QQkRfZUIwajhzaHhGUlNPU2d2Tl8ya0hFallXWmRQa0tkUlF2SEE?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWW5LTUR6NG00aEZNRGJ0eU1UTzlVUk4wb050dGZKcDdxNW1jQ3lSSjF0ellUa1VjM3JHM1kwNzY5Z2VOS3ZBUWxvcnFHM1FyZkt4WVpMazNGTndkRXJsdzNYX0ZwWU0ybVRIdkt3VjctNm5fbXpYVWJTYlhnamJ5d21YdE1BZk5EcjlXWUpOZTdEMjAzYm1vU3pQbW1QQkRfZUIwajhzaHhGUlNPU2d2Tl8ya0hFallXWmRQa0tkUlF2SEE?oc=5",
+          "time": "09 Jun, 08:56"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "p L’evento Yan, 1956: Jean Dieuzaide e il suo viaggio in Sardegna",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/09/news/yan-1956-jean-dieuzaide-e-il-suo-viaggio-in-sardegna-1.100880648",
+          "time": "09 Jun, 00:00"
         }
       ],
       "grouped_count": 2
@@ -551,33 +589,6 @@
         }
       ],
       "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "09 Jun 2026, 11:47 UTC",
-      "title": "Macomer, al via la riqualificazione delle strade interne e periferiche",
-      "summary": "Macomer, al via la riqualificazione delle strade interne e periferiche",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Macomer"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, al via la riqualificazione delle strade interne e periferiche",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd",
-          "time": "09 Jun, 11:47"
-        }
-      ],
-      "grouped_count": 1
     }
   ]
 }
