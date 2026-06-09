@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-09 10:08 UTC",
+  "updated_at": "2026-06-09 10:09 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-09 10:08 UTC",
+    "updated_at": "2026-06-09 10:09 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-09 10:08 UTC",
+    "updated_at": "2026-06-09 10:09 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -238,7 +238,7 @@
   "items": [
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
@@ -268,7 +268,7 @@
           "source": "L'Unione Sarda",
           "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         },
         {
           "source": "ANSA Sardegna",
@@ -287,7 +287,7 @@
     },
     {
       "section": "News",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Moto contro auto a Nuoro, centauro gravissimo",
       "summary": "Moto contro auto a Nuoro, centauro gravissimo",
       "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
@@ -309,7 +309,7 @@
           "source": "L'Unione Sarda",
           "title": "Moto contro auto a Nuoro, centauro gravissimo",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         },
         {
           "source": "La Nuova Sardegna",
@@ -328,7 +328,7 @@
     },
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Ottana. Il prefetto firma la sospensione del nuovo sindaco Franco Saba dopo il plebiscito",
       "summary": "OTTANA – Il prefetto di Nuoro, Alessandra Nigro, ha adottato in data odierna il provvedimento di sospensione dalla carica di sindaco nei confronti di Franco Saba, proclamato eletto alla guida del comune di Ottana in esito alle consultazioni elettorali del 7 e 8 giugno 2026. L’atto prefettizio è stato emanato ai sensi della cosiddetta legge […] L'articolo Ott…",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese. Notizia raggruppata da più fonti.",
@@ -352,7 +352,7 @@
           "source": "L'Unione Sarda",
           "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         },
         {
           "source": "Cronache Nuoresi",
@@ -365,7 +365,7 @@
     },
     {
       "section": "Elezioni / Politica",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -385,14 +385,14 @@
           "source": "L'Unione Sarda",
           "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         }
       ],
       "grouped_count": 2
     },
     {
       "section": "News",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
       "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
       "why": "Da monitorare per impatto locale su Nuoro e provincia.",
@@ -411,14 +411,14 @@
           "source": "L'Unione Sarda",
           "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         }
       ],
       "grouped_count": 2
     },
     {
       "section": "Cronaca",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
       "summary": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
       "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
@@ -437,7 +437,7 @@
           "source": "L'Unione Sarda",
           "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         }
       ],
       "grouped_count": 2
@@ -501,7 +501,7 @@
     },
     {
       "section": "News",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Macomer, al via la riqualificazione delle strade interne e periferiche",
       "summary": "Macomer, al via la riqualificazione delle strade interne e periferiche",
       "why": "Da monitorare per impatto locale su Nuoro e provincia.",
@@ -520,14 +520,14 @@
           "source": "L'Unione Sarda",
           "title": "Macomer, al via la riqualificazione delle strade interne e periferiche",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-al-via-la-riqualificazione-delle-strade-interne-e-periferiche-u06phapd",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Economia / Tributi",
-      "time": "09 Jun 2026, 10:07 UTC",
+      "time": "09 Jun 2026, 10:08 UTC",
       "title": "Due incidenti in poche ore a Nuoro, investiti un ciclista e una donna",
       "summary": "Due incidenti in poche ore a Nuoro, investiti un ciclista e una donna",
       "why": "Può avere effetti concreti su cittadini, imprese, agricoltura o risorse pubbliche.",
@@ -546,7 +546,7 @@
           "source": "L'Unione Sarda",
           "title": "Due incidenti in poche ore a Nuoro, investiti un ciclista e una donna",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/due-incidenti-in-poche-ore-a-nuoro-investiti-un-ciclista-e-una-donna-ug8exz7z",
-          "time": "09 Jun, 10:07"
+          "time": "09 Jun, 10:08"
         }
       ],
       "grouped_count": 1
