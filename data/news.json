@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-11 17:02 UTC",
+  "updated_at": "2026-06-11 19:09 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-11 17:01 UTC",
+    "updated_at": "2026-06-11 19:08 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-11 17:02 UTC",
+    "updated_at": "2026-06-11 19:09 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -179,6 +179,17 @@
         "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
       },
       {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
         "title": "Monumenti Aperti",
         "date": "18 apr–8 nov 2026",
         "start_date": "2026-04-18",
@@ -212,17 +223,6 @@
         "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
       },
       {
-        "title": "Aperti per voi sotto le stelle",
-        "date": "12 giu–14 giu 2026",
-        "start_date": "2026-06-12",
-        "end_date": "2026-06-14",
-        "place": "Sardegna",
-        "category": "Cultura",
-        "summary": "Aperti per voi sotto le stelle da venerdì 12 a domenica 14 giugno 2026 è l'evento del Touring Club che apre luoghi solitamente chiusi, prolunga orari e anima palazzi storici, ch…",
-        "source": "Sardegna Turismo",
-        "url": "https://www.sardegnaturismo.it/it/eventi/aperti-voi-sotto-le-stelle"
-      },
-      {
         "title": "Sardinia Archeo Festival",
         "date": "12 giu–14 giu 2026",
         "start_date": "2026-06-12",
@@ -237,136 +237,54 @@
   },
   "items": [
     {
-      "section": "Cronaca",
-      "time": "11 Jun 2026, 16:41 UTC",
-      "title": "Incendio a Siniscola, riaperta la 131 Dcn dopo lo stop al traffico",
-      "summary": "Un incendio nell’area di Siniscola, vicino alla 131 Dcn, ha imposto l’interruzione della circolazione lungo la Statale. Secondo gli aggiornamenti disponibili, la strada è stata riaperta dopo circa un’ora; nelle operazioni è stato impiegato anche un elicottero.",
-      "why": "È un aggiornamento utile per viabilità e sicurezza in Baronia, con effetti diretti sugli spostamenti lungo una delle arterie principali del Nuorese.",
+      "section": "News",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+      "summary": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
       "tags": [
-        "Siniscola",
-        "Cronaca",
-        "Viabilità",
-        "Incendi"
+        "Sardegna",
+        "Macomer"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
         }
       ],
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
-          "time": "11 Jun, 17:01"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb2xzd0NUNFRYMWQ3SFNCcFNLLTBfNmlQRG50YkRqcVdjRlRiR0Nfa1JzOHdVY3JkaUp1aDJReld1NjBibVNuX0c1VEJ3cG9wZTJvWXQxd1ZrSThFWjFmUEo3a2g5dnFsS0lEdjJfemFpTUpabmFuamhKUDVudE1zU2lMRGdScFdWVkhnTWlYVE4zZ2JnUm1DMkhBTldxU1ZiTjJld2U3Q1Y2aXNwOV9aRjFNRUhqNGlrT3N3OXdUZ3Z2eFRJRi1RNDREczFCd9IB1gFBVV95cUxQb09aeFNpWlliMUlyZnpuVDBvM1VHNWs4Q19yZWFEbGtNOWhkZndZZ1ZIWnlSaGJwY1FsY1ZzSlNDb1NHU1FnYjBOWVVmN0FpaFh4blI0d0x5R19ubkhrVE4xa2dLX2xpZENpX18xdFZtN293eUZLMUV3OHV2QzhNVjdBMG54VFpUS2NsUEFaTVZmRjVVdDhUQ0o0LTlEYktJVWZ2cWhJcnBObU5tZGlfWGkyQXVZa2xTRS1MT1g4Qlh6SDZwOXBmZWdZcWo0bjlrSlNoeHJB?oc=5",
-          "time": "11 Jun, 16:41"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
-          "time": "11 Jun, 17:01"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero - L'Unione Sarda.it",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR0cwYXROaWVpRUFvRElXelpQYk5ULUp4eTFYYXlQTklxei1OVWJOdEw1SkhVVUlPcVA3NlNITjJONm9XcWNtS1lRWUN0Z1JQVWVtSjVEV3h2M20tN1MzQk1LcGZFS1RvRkc1OUxkWGMyS1RhZ08tZWhqcWNFbVc2TlFMRk9QeEJwTVNXcXlLbk5lQlB4Nm1BTm5SbkhoMFRZQVdxQUxTbC0ycTFGQUhNbjNuLVRPU3dHN3JRVi1qeldoWWEzOFlqdHFicTJrZVNWeVo2X1hCOGhwQkxnY1R6T2JQV1FoQdIB7gFBVV95cUxQMThQLVZoMERJYnJNdlFDazBrbFJFS3hIV2o4WXl1WXM2aTMyUDRibUllSHRTbDBvcTZWLVFXMWwtX01KX3B5ZEdnSkdBOFZMR1hhUUNTakVkc1JzZ3B3MGhYaVVoRTVEd1JxM2pieVpRcEFNek1HWEtiZ3p3bXMxMUpzMVgxR3VpU3A2dEFELW1hMVVHUXZEZDRLdnVwSHp1YzlzQnJHbWxET3VaTlo0dTJyYkRIYmRyUEhpX1o3eFNEMmNUN1ZNMU1zRkplaWRtTU5zdG03TEdnS2JaajdzUjFFbW94MTFpY3AzSkZn?oc=5",
-          "time": "11 Jun, 15:30"
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
+          "time": "11 Jun, 19:08"
         }
       ],
-      "grouped_count": 4,
-      "confidence": "high"
+      "grouped_count": 2
     },
     {
       "section": "News",
-      "time": "11 Jun 2026, 09:47 UTC",
-      "title": "Nuoro inaugura il parcheggio del Centro Intermodale",
-      "summary": "Il Comune di Nuoro e l’ATP inaugurano il nuovo parcheggio del Centro Intermodale, con accesso da via Trieste. Al taglio del nastro sono annunciate la presidente Todde e le autorità locali.",
-      "why": "L’apertura rappresenta un passaggio rilevante per la mobilità cittadina e per la piena operatività del nodo intermodale.",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+      "summary": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
       "tags": [
-        "Nuoro",
-        "Mobilità",
-        "Trasporti"
+        "Nuoro"
       ],
       "image": null,
       "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Nuoro. Oggi si inaugura il parcheggio del Centro Intermodale: Todde e le autorità al taglio del nastro",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/",
-          "time": "11 Jun, 09:47"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "high"
-    },
-    {
-      "section": "Cronaca",
-      "time": "11 Jun 2026, 17:01 UTC",
-      "title": "Nuoro piange Luigi Canna dopo l’incidente in moto",
-      "summary": "Le notizie raccolte ricostruiscono l’evoluzione dello scontro tra una moto e un’auto a Nuoro: il motociclista, indicato inizialmente in condizioni gravissime, non è sopravvissuto. Il successivo saluto a Luigi Canna è stato accompagnato dal rombo delle moto.",
-      "why": "La vicenda ha segnato la cronaca cittadina e coinvolto la comunità nuorese nel momento dell’ultimo saluto.",
-      "tags": [
-        "Nuoro",
-        "Cronaca",
-        "Incidenti"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
-        },
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
-        },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzhxQURHTFhZOHo3WUpxUm5lQzk5RWZNQjNQa1RqeTc1QkFTaVU2bHBoVl9EYUQzOHZza2hLaXFiVWVEWWo4RXBIY3pfSHd3R2VmV2stUmREQ2FvdzdnTlp6UGI0bjRiZ2E2NGl1dUdremdZc0xGbHVuSzF3VFRhdkh3NjFNX19rRG9mZ0E4ZGxwMHdYQlVQYVhKelNnN0UxNUI1NEg0SWp4Vy1sazNZc0JRak5rZVlONUNSc2dZa0RpSm5xQlJDTVlDT2ZhRmU2Y1lv?oc=5"
         }
       ],
       "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Moto contro auto a Nuoro, centauro gravissimo",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
-          "time": "11 Jun, 17:01"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
-          "time": "11 Jun, 17:01"
-        },
         {
           "source": "L'Unione Sarda",
           "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
-          "time": "11 Jun, 17:01"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Moto rombanti e tanti sportivi per l’ultimo saluto a Luigi Canna – VIDEO",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzhxQURHTFhZOHo3WUpxUm5lQzk5RWZNQjNQa1RqeTc1QkFTaVU2bHBoVl9EYUQzOHZza2hLaXFiVWVEWWo4RXBIY3pfSHd3R2VmV2stUmREQ2FvdzdnTlp6UGI0bjRiZ2E2NGl1dUdremdZc0xGbHVuSzF3VFRhdkh3NjFNX19rRG9mZ0E4ZGxwMHdYQlVQYVhKelNnN0UxNUI1NEg0SWp4Vy1sazNZc0JRak5rZVlONUNSc2dZa0RpSm5xQlJDTVlDT2ZhRmU2Y1lv?oc=5",
-          "time": "10 Jun, 15:34"
+          "time": "11 Jun, 19:08"
         },
         {
           "source": "L'Unione Sarda",
@@ -375,224 +293,17 @@
           "time": "10 Jun, 14:28"
         }
       ],
-      "grouped_count": 5,
-      "confidence": "medium"
+      "grouped_count": 2
     },
     {
       "section": "News",
-      "time": "11 Jun 2026, 09:28 UTC",
-      "title": "Rifiuti tessili, Nuoro rimuove i cassonetti degli indumenti usati",
-      "summary": "Il Comune di Nuoro avvia una riorganizzazione della raccolta degli abiti usati dopo i ripetuti abbandoni di sacchi e rifiuti attorno ai contenitori stradali. L’assessore all’Ambiente Marco Canu annuncia anche telecamere e denunce.",
-      "why": "Il provvedimento tocca decoro urbano, raccolta differenziata e controlli contro l’abbandono illecito dei rifiuti in città.",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+      "summary": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
       "tags": [
-        "Nuoro",
-        "Ambiente",
-        "Rifiuti"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Guerra agli incivili a Nuoro, via i cassonetti degli indumenti usati “presto telecamere e denunce”",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/",
-          "time": "11 Jun, 09:28"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "high"
-    },
-    {
-      "section": "News",
-      "time": "11 Jun 2026, 09:13 UTC",
-      "title": "Affitti a Nuoro, Chessa denuncia l’assenza di un accordo aggiornato",
-      "summary": "La consigliera comunale Maura Chessa, dopo un accesso agli atti, segnala che a Nuoro l’accordo sugli affitti risulta scaduto dal 2015. La questione viene posta come caso politico e sociale legato alla crisi abitativa.",
-      "why": "Il tema incide sulle famiglie e sul mercato delle locazioni in città, con possibili ricadute sulle politiche abitative comunali.",
-      "tags": [
-        "Nuoro",
-        "Casa",
-        "Politica"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Affitti a Nuoro, l’affondo di Chessa: “Accordo scaduto dal 2015, famiglie dimenticate”",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/",
-          "time": "11 Jun, 09:13"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "high"
-    },
-    {
-      "section": "Cronaca",
-      "time": "11 Jun 2026, 08:35 UTC",
-      "title": "Estate 2026, vertice in Prefettura su malamovida e Cala Luna",
-      "summary": "A Nuoro il Comitato provinciale per l’ordine e la sicurezza pubblica ha esaminato le misure per la stagione estiva, dalla malamovida alla situazione di Cala Luna. Il caso del pontile sequestrato è arrivato anche in Prefettura, con la sindaca Testone che parla di grave danno d’immagine.",
-      "why": "Sicurezza estiva, gestione dei flussi turistici e accesso a Cala Luna sono temi centrali per il territorio nuorese e ogliastrino.",
-      "tags": [
-        "Nuoro",
-        "Cala Luna",
-        "Sicurezza",
-        "Turismo"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/"
-        },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Estate 2026. Vertice a Nuoro per contrastare la malamovida e e la corsa contro il tempo per salvare Cala Luna",
-          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/",
-          "time": "11 Jun, 08:35"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Pontile di Cala Luna sotto sequestro, il caso arriva in Prefettura. La sindaca Testone: «Grave danno d’immagine»",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5",
-          "time": "10 Jun, 18:49"
-        }
-      ],
-      "grouped_count": 2,
-      "confidence": "medium"
-    },
-    {
-      "section": "News",
-      "time": "11 Jun 2026, 17:01 UTC",
-      "title": "A Macomer una camera protetta per le vittime di violenza",
-      "summary": "A Macomer è stata inaugurata nella caserma dei carabinieri una stanza dedicata all’accoglienza di donne, e anche uomini, vittime di violenza. Lo spazio nasce con il contributo dell’associazione Soroptimist di Nuoro.",
-      "why": "Il presidio rafforza la rete territoriale di ascolto e tutela per chi subisce violenza, in un punto di riferimento dell’Arma nel Marghine.",
-      "tags": [
-        "Macomer",
-        "Violenza",
-        "Carabinieri",
-        "Servizi"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
-        },
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/10/una-camera-protetta-per-le-vittime-di-violenza-nella-caserma-di-macomer/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
-          "time": "11 Jun, 17:01"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Una camera protetta per le vittime di violenza nella caserma di Macomer",
-          "url": "https://www.cronachenuoresi.it/2026/06/10/una-camera-protetta-per-le-vittime-di-violenza-nella-caserma-di-macomer/",
-          "time": "10 Jun, 08:31"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JLYWtTZE1QeFBmS3VEMkdFNHhCUWR1OGd3bmpJOEowRllrU0h5THk1VnVHZXA5MGlsY0RVVGJkUDdrcERDdUJfaFVaOUdzMTVMSEpqcnl6b254UTNlWks0aU9Bc1BlWjN2XzBIQ3pWbGlSdDhCRzJjanpFTVhweG9rdTYyY3ltWFFocFZzalhnRGxRVWlNdVJneEtpT09VTm1jb2ZuSVRWampCa1I5elRSalAwdjZrQTFHRVducGkwMXdLVGJKRkFkdzB3bkM2U3hGYQ?oc=5",
-          "time": "10 Jun, 07:31"
-        }
-      ],
-      "grouped_count": 3,
-      "confidence": "high"
-    },
-    {
-      "section": "Sanità",
-      "time": "11 Jun 2026, 17:01 UTC",
-      "title": "Veterinari Asl di Nuoro a Siena per studiare il modello Palio",
-      "summary": "I veterinari della Asl di Nuoro partecipano a un percorso a Siena legato al Palio, con l’obiettivo indicato di rafforzare sicurezza e benessere animale.",
-      "why": "La formazione riguarda competenze sanitarie e veterinarie spendibili anche negli eventi con animali del territorio barbaricino.",
-      "tags": [
-        "Nuoro",
-        "Sanità",
-        "Veterinari",
-        "Benessere animale"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih",
-          "time": "11 Jun, 17:01"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "medium"
-    },
-    {
-      "section": "News",
-      "time": "11 Jun 2026, 17:01 UTC",
-      "title": "Macomer, un gemello digitale per la memoria dell’industria casearia",
-      "summary": "A Macomer viene annunciato un gemello digitale per ricostruire e valorizzare la memoria dell’industria casearia locale.",
-      "why": "Il progetto lega innovazione digitale e patrimonio produttivo del territorio, con attenzione alla storia economica del Marghine.",
-      "tags": [
-        "Macomer",
-        "Digitale",
-        "Industria casearia",
-        "Memoria"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq",
-          "time": "11 Jun, 17:01"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "medium"
-    },
-    {
-      "section": "News",
-      "time": "11 Jun 2026, 07:12 UTC",
-      "title": "Macomer apre il Festival della Resilienza 2026 dedicato all’energia",
-      "summary": "A Macomer prende il via il Festival della Resilienza 2026, con un’edizione incentrata sul tema dell’energia.",
-      "why": "L’appuntamento conferma il ruolo della città come sede di confronto su sviluppo locale, sostenibilità e comunità.",
-      "tags": [
-        "Macomer",
-        "Festival",
-        "Energia",
-        "Cultura"
+        "Sardegna",
+        "Macomer"
       ],
       "image": null,
       "sources": [
@@ -606,17 +317,212 @@
           "source": "L'Unione Sarda",
           "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
-          "time": "11 Jun, 17:01"
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Cronaca",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+      "summary": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "tags": [
+        "Sardegna",
+        "Cronaca",
+        "Siniscola"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "11 Jun, 19:08"
         },
         {
           "source": "L'Unione Sarda",
-          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdTdhUDhvY1hkTzFvdVR4ZjRoLTgzQ1BQOTVXUjFoUEdSR2pNTHFLMnpkNDZxekNlemNRM0NjdGtuNnRkNFJVLXVWbzh0YVpiQUsyUHBhc3NQQi1Wb2M0dTZrSnVCMnMtN2U0UWN5NlB4aUVNVFIya25XRFZ1a00xYm8zWF8tdU85d29zSlB0M1ZjbGk4YmtQa0hRNWwyS0dtN3lrSENERklqZjNLejdfZmpCVnZOb1ZfY0paUWtEZkk4aWtJcl8xaHpwVVk2SkM0RUpz?oc=5",
-          "time": "11 Jun, 07:12"
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero - L'Unione Sarda.it",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR0cwYXROaWVpRUFvRElXelpQYk5ULUp4eTFYYXlQTklxei1OVWJOdEw1SkhVVUlPcVA3NlNITjJONm9XcWNtS1lRWUN0Z1JQVWVtSjVEV3h2M20tN1MzQk1LcGZFS1RvRkc1OUxkWGMyS1RhZ08tZWhqcWNFbVc2TlFMRk9QeEJwTVNXcXlLbk5lQlB4Nm1BTm5SbkhoMFRZQVdxQUxTbC0ycTFGQUhNbjNuLVRPU3dHN3JRVi1qeldoWWEzOFlqdHFicTJrZVNWeVo2X1hCOGhwQkxnY1R6T2JQV1FoQdIB7gFBVV95cUxQMThQLVZoMERJYnJNdlFDazBrbFJFS3hIV2o4WXl1WXM2aTMyUDRibUllSHRTbDBvcTZWLVFXMWwtX01KX3B5ZEdnSkdBOFZMR1hhUUNTakVkc1JzZ3B3MGhYaVVoRTVEd1JxM2pieVpRcEFNek1HWEtiZ3p3bXMxMUpzMVgxR3VpU3A2dEFELW1hMVVHUXZEZDRLdnVwSHp1YzlzQnJHbWxET3VaTlo0dTJyYkRIYmRyUEhpX1o3eFNEMmNUN1ZNMU1zRkplaWRtTU5zdG03TEdnS2JaajdzUjFFbW94MTFpY3AzSkZn?oc=5",
+          "time": "11 Jun, 15:30"
         }
       ],
-      "grouped_count": 2,
-      "confidence": "medium"
+      "grouped_count": 2
+    },
+    {
+      "section": "Cronaca",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+      "summary": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "tags": [
+        "Sardegna",
+        "Cronaca",
+        "Siniscola"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Sanità",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
+      "summary": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
+      "why": "Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.",
+      "tags": [
+        "Nuoro",
+        "Sanità",
+        "Barbagia"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih",
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "News",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
+      "summary": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Macomer"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq",
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+      "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Bortigali"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "News",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+      "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Seulo",
+        "Ollolai"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "11 Jun 2026, 19:08 UTC",
+      "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+      "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Olzai",
+        "Osidda"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
+          "time": "11 Jun, 19:08"
+        }
+      ],
+      "grouped_count": 1
     }
   ]
 }
