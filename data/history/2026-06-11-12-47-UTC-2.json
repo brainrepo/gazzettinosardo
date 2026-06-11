@@ -1,0 +1,572 @@
+{
+  "updated_at": "2026-06-11 12:47 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-11 12:46 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.899 €/L, diesel da 1.969 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.899 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.899",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 01:39:48",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:53:27",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:24:57",
+            "distance_km": "1.0"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIA ANTONIO SEGNI 2 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:54:36",
+            "distance_km": "1.5"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIA SAN GIOVANNI BOSCO 13 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:31:11",
+            "distance_km": "1.9"
+          },
+          {
+            "price": "1.917",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:53:07",
+            "distance_km": "0.3"
+          }
+        ],
+        "cheapest": "1.899"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.969 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.969",
+            "mode": "servito",
+            "brand": "Pompe Bianche",
+            "address": "LOCALITA' SU PRADU S.S. 389 KM 76,5  08020",
+            "city": "Orune",
+            "updated": "06/06/2026 07:52:06",
+            "distance_km": "10.6"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Pompe Bianche",
+            "address": "LOCALITA' SU PRADU S.S. 389 KM 76,5  08020",
+            "city": "Orune",
+            "updated": "06/06/2026 07:52:06",
+            "distance_km": "10.6"
+          },
+          {
+            "price": "1.999",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:18:58",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.999",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 01:39:48",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "2.017",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:53:07",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.019",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:52:53",
+            "distance_km": "0.4"
+          }
+        ],
+        "cheapest": "1.969"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-11 12:47 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "Pellizza e Ballero. La divina luce",
+        "date": "13 mar–14 giu 2026",
+        "start_date": "2026-03-13",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "PELLIZZA E BALLERO LA DIVINA LUCE dal 13 marzo al 14 giugno 2026 a cura di Chiara Gatti da un progetto di Rita Moro con il contributo scientiﬁco di Gabriella […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/pellizza-e-ballero-la-divina-luce/"
+      },
+      {
+        "title": "Monica Biancardi. Il capitale che cresce",
+        "date": "24 apr–14 giu 2026",
+        "start_date": "2026-04-24",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "Inaugurazione ore 18:00 Dal 24 aprile al 14 giugno 2026, il MAN ospita la mostra Il capitale che cresce di Monica Biancardi, progetto vincitore del PAC – Piano per l’Arte […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/monica-biancardi-il-capitale-che-cresce/"
+      },
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Si muove la città",
+        "date": "11 giu–10 set 2026",
+        "start_date": "2026-06-11",
+        "end_date": "2026-09-10",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dall’11 giugno al 10 settembre 2026 la cultura si fa itinerante a Cagliari con la rassegna “Si muove la Città”, promossa dall’Assessorato alla Cultura, Spettacolo e Turismo e or…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
+      },
+      {
+        "title": "Sardinia Archeo Festival",
+        "date": "12 giu–14 giu 2026",
+        "start_date": "2026-06-12",
+        "end_date": "2026-06-14",
+        "place": "Sardegna",
+        "category": "Festival",
+        "summary": "Ci sono universi immensi custoditi in spazi apparentemente piccoli: taverne medievali, navi alla deriva, lazzaretti, comunità itineranti e luoghi di culto. Sono i “Micromondi”,…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/sardinia-archeo-festival-0"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Infrastrutture",
+      "time": "11 Jun 2026, 09:47 UTC",
+      "title": "Nuoro inaugura il parcheggio del Centro Intermodale",
+      "summary": "Apre oggi l’area di sosta del Centro Intermodale di Nuoro, con accesso da via Trieste. Alla cerimonia delle 16 sono attese la presidente Todde e le autorità locali.",
+      "why": "È indicato come un passaggio rilevante per la mobilità della Sardegna centrale e per la piena operatività dell’infrastruttura.",
+      "tags": [
+        "Nuoro",
+        "Mobilità",
+        "Centro Intermodale"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro. Oggi si inaugura il parcheggio del Centro Intermodale: Todde e le autorità al taglio del nastro",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/",
+          "time": "11 Jun, 09:47"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Ambiente",
+      "time": "11 Jun 2026, 12:46 UTC",
+      "title": "Incendi, da Nuoro un patto per rafforzare la prevenzione",
+      "summary": "Agricoltori e istituzioni vengono chiamati a collaborare in un accordo nato a Nuoro per difendere la Sardegna dagli incendi, con l’obiettivo di puntare sulla prevenzione.",
+      "why": "La stagione estiva rende centrale il coordinamento tra enti e mondo agricolo per ridurre il rischio incendi sul territorio regionale.",
+      "tags": [
+        "Nuoro",
+        "Incendi",
+        "Prevenzione"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendi-da-nuoro-un-patto-per-difendere-la-sardegna-agricoltori-e-istituzioni-insieme-per-la-prevenzione-kgz0nm1x"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendi, da Nuoro un patto per difendere la Sardegna: «Agricoltori e istituzioni insieme per la prevenzione»",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendi-da-nuoro-un-patto-per-difendere-la-sardegna-agricoltori-e-istituzioni-insieme-per-la-prevenzione-kgz0nm1x",
+          "time": "11 Jun, 12:46"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Ambiente",
+      "time": "10 Jun 2026, 11:11 UTC",
+      "title": "Antincendi, in Sardegna entrano in servizio due Super Puma",
+      "summary": "La Protezione civile regionale schiera due elicotteri Super Puma per la campagna antincendi boschivi. Il rafforzamento del sistema AIB comprende anche misure per la sicurezza dei volontari.",
+      "why": "Il potenziamento dei mezzi antincendio interessa tutta l’isola e arriva in vista della fase più intensa della campagna estiva.",
+      "tags": [
+        "Sardegna",
+        "Antincendi",
+        "Protezione civile"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/antiincendi-boschivi-la-sardegna-schiera-i-super-puma-e-lancia-il-piano-sicurezza-per-i-volontari/"
+        },
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdThldEltaWd5YzFvc00taW1reng2NFlfTzZmTy0tVG1CM0h2b1VZRkdGbnVndnV3ZG16cGhWSzhSLUt5WFVpWFZ0Q2FfOEdWYTQzeEVfdC1YLTlmalduV2RzdWJ4NW9NblZ4MWhPbndmdlJfV3JnaUp5QkUwTml4dEkxM0FSRWtUZkVRLVBMc29PdzFYQ0NFWXNkTjVqWFpIVExfVUxyWWdPR3F3MV9KUHliQmZxeXdpRXM2RThXUExadm5SMFpzVU1mT3hEX1FoZnNpcXlfaDlvbk9uY1ZWNTlSeEs0Y2tDUllsUnlhek3SAfYBQVVfeXFMTjR3Qlp5WmR3d0JKa1E4ZVMtOGxETmlzYk83N1JYalJfekQ1NFRxZU9rZGNwZHhKQ05KeEVFUEMwQkRZQ0FDQzNSSVZjdWV6bEdRWGc3SUJTRk9ILWJaLUFMQ1dzYkZ2Nnhzcy01SWtwT0RPQW1PUmJMcmcxdVduOUR6ZTduNkxmYUZmSExPVHJVZHpaYVhib2ZoY0NhaE9aTDdzWHpwQUd1cDFLQW5lOUl6V0I1a1EyODJPQzU4TXVaalIyNHNfNlJqZlQxdV9Ca0hOc3dPeTZwaUdOaEVJdVNUdFY5SmNVR1pScjh2YklnLVlqcDRn?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "AntiIncendi boschivi. La Sardegna schiera i Super Puma e lancia il piano sicurezza per i volontari",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/antiincendi-boschivi-la-sardegna-schiera-i-super-puma-e-lancia-il-piano-sicurezza-per-i-volontari/",
+          "time": "10 Jun, 09:47"
+        },
+        {
+          "source": "ANSA Sardegna",
+          "title": "Incendi, schierati in Sardegna due Super Puma della P.Civile regionale",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdThldEltaWd5YzFvc00taW1reng2NFlfTzZmTy0tVG1CM0h2b1VZRkdGbnVndnV3ZG16cGhWSzhSLUt5WFVpWFZ0Q2FfOEdWYTQzeEVfdC1YLTlmalduV2RzdWJ4NW9NblZ4MWhPbndmdlJfV3JnaUp5QkUwTml4dEkxM0FSRWtUZkVRLVBMc29PdzFYQ0NFWXNkTjVqWFpIVExfVUxyWWdPR3F3MV9KUHliQmZxeXdpRXM2RThXUExadm5SMFpzVU1mT3hEX1FoZnNpcXlfaDlvbk9uY1ZWNTlSeEs0Y2tDUllsUnlhek3SAfYBQVVfeXFMTjR3Qlp5WmR3d0JKa1E4ZVMtOGxETmlzYk83N1JYalJfekQ1NFRxZU9rZGNwZHhKQ05KeEVFUEMwQkRZQ0FDQzNSSVZjdWV6bEdRWGc3SUJTRk9ILWJaLUFMQ1dzYkZ2Nnhzcy01SWtwT0RPQW1PUmJMcmcxdVduOUR6ZTduNkxmYUZmSExPVHJVZHpaYVhib2ZoY0NhaE9aTDdzWHpwQUd1cDFLQW5lOUl6V0I1a1EyODJPQzU4TXVaalIyNHNfNlJqZlQxdV9Ca0hOc3dPeTZwaUdOaEVJdVNUdFY5SmNVR1pScjh2YklnLVlqcDRn?oc=5",
+          "time": "10 Jun, 11:11"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Cronaca",
+      "time": "11 Jun 2026, 12:46 UTC",
+      "title": "Nuoro, arresto per droga dopo il ritrovamento di cocaina e marijuana",
+      "summary": "A Nuoro un uomo è stato arrestato: secondo il titolo della notizia, cocaina e marijuana erano nascoste in casa.",
+      "why": "L’episodio rientra negli aggiornamenti di cronaca e sicurezza urbana del capoluogo barbaricino.",
+      "tags": [
+        "Nuoro",
+        "Cronaca",
+        "Droga"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-cocaina-e-marijuana-nascoste-in-casa-spacciatore-in-arresto-vuppol2s"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, cocaina e marijuana nascoste in casa: spacciatore in arresto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-cocaina-e-marijuana-nascoste-in-casa-spacciatore-in-arresto-vuppol2s",
+          "time": "11 Jun, 12:46"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Rifiuti",
+      "time": "11 Jun 2026, 09:28 UTC",
+      "title": "Nuoro rimuove i cassonetti degli abiti usati contro gli abbandoni",
+      "summary": "Il Comune avvia una riorganizzazione della raccolta dei rifiuti tessili dopo i ripetuti abbandoni di sacchi e indifferenziata attorno ai contenitori stradali.",
+      "why": "Il provvedimento incide sul decoro urbano e annuncia controlli più severi, con telecamere e denunce richiamate dalla fonte.",
+      "tags": [
+        "Nuoro",
+        "Rifiuti",
+        "Decoro urbano"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Guerra agli incivili a Nuoro, via i cassonetti degli indumenti usati “presto telecamere e denunce”",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/",
+          "time": "11 Jun, 09:28"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Casa",
+      "time": "11 Jun 2026, 09:13 UTC",
+      "title": "Affitti a Nuoro, Chessa denuncia l’assenza di un accordo aggiornato",
+      "summary": "La consigliera comunale Maura Chessa sostiene che Nuoro sia priva di un accordo vigente sugli affitti, scaduto dal 2015, dopo un accesso agli atti al Comune.",
+      "why": "La questione tocca la crisi abitativa e il quadro delle tutele per le famiglie che cercano o mantengono una casa in città.",
+      "tags": [
+        "Nuoro",
+        "Affitti",
+        "Casa"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Affitti a Nuoro, l’affondo di Chessa: “Accordo scaduto dal 2015, famiglie dimenticate”",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/",
+          "time": "11 Jun, 09:13"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Sicurezza",
+      "time": "11 Jun 2026, 08:35 UTC",
+      "title": "Estate, vertice in Prefettura su malamovida e Cala Luna",
+      "summary": "A Nuoro il Comitato provinciale per l’ordine e la sicurezza pubblica ha affrontato le strategie per la stagione estiva, tra contrasto alla malamovida e nodo Cala Luna dopo il sequestro del pontile.",
+      "why": "Le decisioni riguardano sicurezza, turismo e immagine del territorio in una fase cruciale per le località costiere e interne.",
+      "tags": [
+        "Nuoro",
+        "Cala Luna",
+        "Sicurezza"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Estate 2026. Vertice a Nuoro per contrastare la malamovida e e la corsa contro il tempo per salvare Cala Luna",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/",
+          "time": "11 Jun, 08:35"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Pontile di Cala Luna sotto sequestro, il caso arriva in Prefettura. La sindaca Testone: «Grave danno d’immagine»",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5",
+          "time": "10 Jun, 18:49"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    },
+    {
+      "section": "Sanità",
+      "time": "11 Jun 2026, 12:46 UTC",
+      "title": "Veterinari Asl di Nuoro a Siena per la sicurezza del Palio",
+      "summary": "I veterinari della Asl di Nuoro partecipano a un percorso di confronto a Siena sul Palio, con attenzione alla sicurezza e al benessere animale.",
+      "why": "Il tema unisce competenze sanitarie locali, gestione degli eventi con animali e tutela del benessere animale.",
+      "tags": [
+        "Nuoro",
+        "Asl",
+        "Benessere animale"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/dalla-barbagia-a-siena-i-veterinari-della-asl-di-nuoro-a-scuola-di-palio-per-garantire-sicurezza-e-benessere-animale-a8rbizih",
+          "time": "11 Jun, 12:46"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Società",
+      "time": "10 Jun 2026, 08:31 UTC",
+      "title": "Macomer, una camera protetta per le vittime di violenza",
+      "summary": "Nella caserma dei carabinieri di Macomer è stata inaugurata una stanza dedicata all’accoglienza di donne e uomini vittime di violenza, realizzata con il contributo del Soroptimist di Nuoro.",
+      "why": "Il nuovo spazio rafforza la rete locale di ascolto e tutela per chi denuncia violenze, in un presidio territoriale dell’Arma.",
+      "tags": [
+        "Macomer",
+        "Violenza",
+        "Carabinieri"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/una-camera-protetta-per-le-vittime-di-violenza-nella-caserma-di-macomer/"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Una camera protetta per le vittime di violenza nella caserma di Macomer",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/una-camera-protetta-per-le-vittime-di-violenza-nella-caserma-di-macomer/",
+          "time": "10 Jun, 08:31"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
+          "time": "11 Jun, 12:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JLYWtTZE1QeFBmS3VEMkdFNHhCUWR1OGd3bmpJOEowRllrU0h5THk1VnVHZXA5MGlsY0RVVGJkUDdrcERDdUJfaFVaOUdzMTVMSEpqcnl6b254UTNlWks0aU9Bc1BlWjN2XzBIQ3pWbGlSdDhCRzJjanpFTVhweG9rdTYyY3ltWFFocFZzalhnRGxRVWlNdVJneEtpT09VTm1jb2ZuSVRWampCa1I5elRSalAwdjZrQTFHRVducGkwMXdLVGJKRkFkdzB3bkM2U3hGYQ?oc=5",
+          "time": "10 Jun, 07:31"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Cultura",
+      "time": "11 Jun 2026, 12:46 UTC",
+      "title": "Macomer, il Festival della Resilienza riparte dall’energia",
+      "summary": "A Macomer prende il via l’edizione 2026 del Festival della Resilienza, con un programma centrato sul tema dell’energia.",
+      "why": "L’appuntamento conferma il ruolo di Macomer nel calendario culturale e civile del territorio nuorese.",
+      "tags": [
+        "Macomer",
+        "Festival",
+        "Energia"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
+          "time": "11 Jun, 12:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdTdhUDhvY1hkTzFvdVR4ZjRoLTgzQ1BQOTVXUjFoUEdSR2pNTHFLMnpkNDZxekNlemNRM0NjdGtuNnRkNFJVLXVWbzh0YVpiQUsyUHBhc3NQQi1Wb2M0dTZrSnVCMnMtN2U0UWN5NlB4aUVNVFIya25XRFZ1a00xYm8zWF8tdU85d29zSlB0M1ZjbGk4YmtQa0hRNWwyS0dtN3lrSENERklqZjNLejdfZmpCVnZOb1ZfY0paUWtEZkk4aWtJcl8xaHpwVVk2SkM0RUpz?oc=5",
+          "time": "11 Jun, 07:12"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    }
+  ]
+}
