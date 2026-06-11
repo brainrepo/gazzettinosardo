@@ -237,106 +237,29 @@
   },
   "items": [
     {
-      "section": "News",
+      "section": "Ambiente",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
-      "summary": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Macomer"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
-          "time": "11 Jun, 08:31"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
-      "summary": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Nuoro"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
-          "time": "11 Jun, 08:31"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Nuoro, il rombo delle moto per l'addio a Luigi Canna",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTGFBanMyNmtXQkxIcDVpVDZmLVBnanRkT0Jha0Q0RU9faThpN2FCMjdpTnVZZFF2OXoxMGdXdXNCbjd2R1FFQ1VaancyYzVTcEtHQ21tT3NxVDY0VTdFbXphNEhxSFI1Mm5ocHFKNXVfeThxclhZdWN0SFRTYUQ1d2xMRkk2WUVKUHNFU1RnYVp2eUJjOXlLeDI1bFhELU0?oc=5",
-          "time": "10 Jun, 14:28"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-      "summary": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Macomer"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
-          "time": "11 Jun, 08:31"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "Economia / Tributi",
-      "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Incendi, da Nuoro un patto per difendere la Sardegna: «Agricoltori e istituzioni insieme per la prevenzione»",
-      "summary": "Incendi, da Nuoro un patto per difendere la Sardegna: «Agricoltori e istituzioni insieme per la prevenzione»",
-      "why": "Può avere effetti concreti su cittadini, imprese, agricoltura o risorse pubbliche.",
+      "title": "Incendi, da Nuoro un patto per rafforzare la prevenzione in Sardegna",
+      "summary": "Dal Nuorese arriva un accordo che punta a coinvolgere agricoltori e istituzioni nella prevenzione degli incendi. Nella stessa giornata le fonti regionali segnalano anche il rafforzamento della campagna antincendio con due elicotteri Super Puma e misure per la sicurezza dei volontari.",
+      "why": "La stagione antincendio entra nella fase più delicata: prevenzione, mezzi aerei e coordinamento sul territorio incidono direttamente sulla tutela di campagne, centri abitati e volontari.",
       "tags": [
         "Nuoro",
-        "Economia"
+        "incendi",
+        "Protezione civile"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendi-da-nuoro-un-patto-per-difendere-la-sardegna-agricoltori-e-istituzioni-insieme-per-la-prevenzione-kgz0nm1x"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/antiincendi-boschivi-la-sardegna-schiera-i-super-puma-e-lancia-il-piano-sicurezza-per-i-volontari/"
+        },
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdThldEltaWd5YzFvc00taW1reng2NFlfTzZmTy0tVG1CM0h2b1VZRkdGbnVndnV3ZG16cGhWSzhSLUt5WFVpWFZ0Q2FfOEdWYTQzeEVfdC1YLTlmalduV2RzdWJ4NW9NblZ4MWhPbndmdlJfV3JnaUp5QkUwTml4dEkxM0FSRWtUZkVRLVBMc29PdzFYQ0NFWXNkTjVqWFpIVExfVUxyWWdPR3F3MV9KUHliQmZxeXdpRXM2RThXUExadm5SMFpzVU1mT3hEX1FoZnNpcXlfaDlvbk9uY1ZWNTlSeEs0Y2tDUllsUnlhek3SAfYBQVVfeXFMTjR3Qlp5WmR3d0JKa1E4ZVMtOGxETmlzYk83N1JYalJfekQ1NFRxZU9rZGNwZHhKQ05KeEVFUEMwQkRZQ0FDQzNSSVZjdWV6bEdRWGc3SUJTRk9ILWJaLUFMQ1dzYkZ2Nnhzcy01SWtwT0RPQW1PUmJMcmcxdVduOUR6ZTduNkxmYUZmSExPVHJVZHpaYVhib2ZoY0NhaE9aTDdzWHpwQUd1cDFLQW5lOUl6V0I1a1EyODJPQzU4TXVaalIyNHNfNlJqZlQxdV9Ca0hOc3dPeTZwaUdOaEVJdVNUdFY5SmNVR1pScjh2YklnLVlqcDRn?oc=5"
         }
       ],
       "variants": [
@@ -345,19 +268,33 @@
           "title": "Incendi, da Nuoro un patto per difendere la Sardegna: «Agricoltori e istituzioni insieme per la prevenzione»",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendi-da-nuoro-un-patto-per-difendere-la-sardegna-agricoltori-e-istituzioni-insieme-per-la-prevenzione-kgz0nm1x",
           "time": "11 Jun, 08:31"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "AntiIncendi boschivi. La Sardegna schiera i Super Puma e lancia il piano sicurezza per i volontari",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/antiincendi-boschivi-la-sardegna-schiera-i-super-puma-e-lancia-il-piano-sicurezza-per-i-volontari/",
+          "time": "10 Jun, 09:47"
+        },
+        {
+          "source": "ANSA Sardegna",
+          "title": "Incendi, schierati in Sardegna due Super Puma della P.Civile regionale",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdThldEltaWd5YzFvc00taW1reng2NFlfTzZmTy0tVG1CM0h2b1VZRkdGbnVndnV3ZG16cGhWSzhSLUt5WFVpWFZ0Q2FfOEdWYTQzeEVfdC1YLTlmalduV2RzdWJ4NW9NblZ4MWhPbndmdlJfV3JnaUp5QkUwTml4dEkxM0FSRWtUZkVRLVBMc29PdzFYQ0NFWXNkTjVqWFpIVExfVUxyWWdPR3F3MV9KUHliQmZxeXdpRXM2RThXUExadm5SMFpzVU1mT3hEX1FoZnNpcXlfaDlvbk9uY1ZWNTlSeEs0Y2tDUllsUnlhek3SAfYBQVVfeXFMTjR3Qlp5WmR3d0JKa1E4ZVMtOGxETmlzYk83N1JYalJfekQ1NFRxZU9rZGNwZHhKQ05KeEVFUEMwQkRZQ0FDQzNSSVZjdWV6bEdRWGc3SUJTRk9ILWJaLUFMQ1dzYkZ2Nnhzcy01SWtwT0RPQW1PUmJMcmcxdVduOUR6ZTduNkxmYUZmSExPVHJVZHpaYVhib2ZoY0NhaE9aTDdzWHpwQUd1cDFLQW5lOUl6V0I1a1EyODJPQzU4TXVaalIyNHNfNlJqZlQxdV9Ca0hOc3dPeTZwaUdOaEVJdVNUdFY5SmNVR1pScjh2YklnLVlqcDRn?oc=5",
+          "time": "10 Jun, 11:11"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 3,
+      "confidence": "medium"
     },
     {
       "section": "Cronaca",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Nuoro, cocaina e marijuana nascoste in casa: spacciatore in arresto",
-      "summary": "Nuoro, cocaina e marijuana nascoste in casa: spacciatore in arresto",
-      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "title": "Nuoro, droga nascosta in casa: un arresto per spaccio",
+      "summary": "A Nuoro un uomo è stato arrestato dopo il ritrovamento in casa di cocaina e marijuana, secondo quanto riportato da L’Unione Sarda.",
+      "why": "L’episodio riguarda la sicurezza urbana e l’attività di contrasto allo spaccio nel capoluogo barbaricino.",
       "tags": [
         "Nuoro",
-        "Cronaca"
+        "cronaca",
+        "droga"
       ],
       "image": null,
       "sources": [
@@ -374,18 +311,19 @@
           "time": "11 Jun, 08:31"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 1,
+      "confidence": "medium"
     },
     {
       "section": "Sanità",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
-      "summary": "Dalla Barbagia a Siena: i veterinari della Asl di Nuoro a scuola di Palio per garantire sicurezza e benessere animale",
-      "why": "Impatta servizi sanitari, ospedale e cittadini del territorio nuorese.",
+      "title": "Veterinari della Asl di Nuoro a Siena per studiare sicurezza e benessere animale al Palio",
+      "summary": "I veterinari della Asl di Nuoro partecipano a un percorso formativo a Siena dedicato alle pratiche di sicurezza e benessere animale legate al Palio.",
+      "why": "La formazione specialistica può ricadere sui controlli veterinari e sulla gestione degli eventi con animali nel territorio.",
       "tags": [
         "Nuoro",
-        "Sanità",
-        "Barbagia"
+        "Asl",
+        "veterinari"
       ],
       "image": null,
       "sources": [
@@ -402,17 +340,19 @@
           "time": "11 Jun, 08:31"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 1,
+      "confidence": "medium"
     },
     {
-      "section": "News",
+      "section": "Cultura",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
-      "summary": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "title": "Macomer, un gemello digitale per raccontare la memoria dell’industria casearia",
+      "summary": "A Macomer un progetto di “gemello digitale” punta a ricostruire e conservare la memoria legata all’industria casearia locale.",
+      "why": "La valorizzazione della storia produttiva del territorio unisce memoria, innovazione e identità economica del Marghine.",
       "tags": [
-        "Sardegna",
-        "Macomer"
+        "Macomer",
+        "caseario",
+        "memoria"
       ],
       "image": null,
       "sources": [
@@ -429,92 +369,242 @@
           "time": "11 Jun, 08:31"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 1,
+      "confidence": "medium"
     },
     {
-      "section": "Elezioni / Politica",
+      "section": "Cronaca",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
-      "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "title": "Macomer, inaugurata in caserma una stanza protetta per le vittime di violenza",
+      "summary": "Nella caserma dei carabinieri di Macomer è stata inaugurata una camera protetta per accogliere persone vittime di violenza, realizzata con il contributo del Soroptimist di Nuoro.",
+      "why": "Un presidio dedicato può facilitare ascolto e tutela in un momento delicato per chi denuncia violenze.",
       "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Bortigali"
+        "Macomer",
+        "violenza",
+        "carabinieri"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw"
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/una-camera-protetta-per-le-vittime-di-violenza-nella-caserma-di-macomer/"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JLYWtTZE1QeFBmS3VEMkdFNHhCUWR1OGd3bmpJOEowRllrU0h5THk1VnVHZXA5MGlsY0RVVGJkUDdrcERDdUJfaFVaOUdzMTVMSEpqcnl6b254UTNlWks0aU9Bc1BlWjN2XzBIQ3pWbGlSdDhCRzJjanpFTVhweG9rdTYyY3ltWFFocFZzalhnRGxRVWlNdVJneEtpT09VTm1jb2ZuSVRWampCa1I5elRSalAwdjZrQTFHRVducGkwMXdLVGJKRkFkdzB3bkM2U3hGYQ?oc=5"
         }
       ],
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
           "time": "11 Jun, 08:31"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Una camera protetta per le vittime di violenza nella caserma di Macomer",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/una-camera-protetta-per-le-vittime-di-violenza-nella-caserma-di-macomer/",
+          "time": "10 Jun, 08:31"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR3JLYWtTZE1QeFBmS3VEMkdFNHhCUWR1OGd3bmpJOEowRllrU0h5THk1VnVHZXA5MGlsY0RVVGJkUDdrcERDdUJfaFVaOUdzMTVMSEpqcnl6b254UTNlWks0aU9Bc1BlWjN2XzBIQ3pWbGlSdDhCRzJjanpFTVhweG9rdTYyY3ltWFFocFZzalhnRGxRVWlNdVJneEtpT09VTm1jb2ZuSVRWampCa1I5elRSalAwdjZrQTFHRVducGkwMXdLVGJKRkFkdzB3bkM2U3hGYQ?oc=5",
+          "time": "10 Jun, 07:31"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 3,
+      "confidence": "high"
     },
     {
-      "section": "News",
+      "section": "Cultura",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-      "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "title": "Macomer, al via il Festival della Resilienza 2026 dedicato all’energia",
+      "summary": "Il Festival della Resilienza 2026 prende il via a Macomer con un’edizione centrata sul tema dell’energia.",
+      "why": "L’appuntamento mette al centro un tema strategico per comunità locali, imprese e transizione dei territori interni.",
       "tags": [
-        "Sardegna",
-        "Seulo",
-        "Ollolai"
+        "Macomer",
+        "festival",
+        "energia"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeWlhaXByRW5IcFpfOGFOSVQwd3FDdUVjTlNrZU93VVdjZ3o5RmxpR0NLcTJkX3FYYXZBV2V2Q2JnelBCZVI0MTgtd1hSeWNRSVRmWTVReTlybFFxcVhmcC1qY1MySWstYldadXpZMnUwOWZneW5zYTBMSXVvakg2ZDgzVm1CMTNZdG1LSUxEZ0FER3NLa0tJSjNzcHpfWUVvT1VUZ2s5aUIxMF9KUHJQcGdTZDk1ZnJXSkNhZnZ3emFfQXlfYlUzRDY4RQ?oc=5"
         }
       ],
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
+          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
           "time": "11 Jun, 08:31"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeWlhaXByRW5IcFpfOGFOSVQwd3FDdUVjTlNrZU93VVdjZ3o5RmxpR0NLcTJkX3FYYXZBV2V2Q2JnelBCZVI0MTgtd1hSeWNRSVRmWTVReTlybFFxcVhmcC1qY1MySWstYldadXpZMnUwOWZneW5zYTBMSXVvakg2ZDgzVm1CMTNZdG1LSUxEZ0FER3NLa0tJSjNzcHpfWUVvT1VUZ2s5aUIxMF9KUHJQcGdTZDk1ZnJXSkNhZnZ3emFfQXlfYlUzRDY4RQ?oc=5",
+          "time": "11 Jun, 07:12"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 2,
+      "confidence": "high"
     },
     {
-      "section": "Elezioni / Politica",
+      "section": "Cronaca",
       "time": "11 Jun 2026, 08:31 UTC",
-      "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-      "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "title": "Nuoro saluta Luigi Canna con il rombo delle moto",
+      "summary": "A Nuoro motociclisti e sportivi hanno accompagnato l’ultimo saluto a Luigi Canna, dopo l’incidente stradale che lo aveva coinvolto.",
+      "why": "La vicenda ha colpito la comunità nuorese e riporta l’attenzione sulla sicurezza stradale.",
       "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Olzai",
-        "Osidda"
+        "Nuoro",
+        "Luigi Canna",
+        "motociclismo"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzhxQURHTFhZOHo3WUpxUm5lQzk5RWZNQjNQa1RqeTc1QkFTaVU2bHBoVl9EYUQzOHZza2hLaXFiVWVEWWo4RXBIY3pfSHd3R2VmV2stUmREQ2FvdzdnTlp6UGI0bjRiZ2E2NGl1dUdremdZc0xGbHVuSzF3VFRhdkh3NjFNX19rRG9mZ0E4ZGxwMHdYQlVQYVhKelNnN0UxNUI1NEg0SWp4Vy1sazNZc0JRak5rZVlONUNSc2dZa0RpSm5xQlJDTVlDT2ZhRmU2Y1lv?oc=5"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTGFBanMyNmtXQkxIcDVpVDZmLVBnanRkT0Jha0Q0RU9faThpN2FCMjdpTnVZZFF2OXoxMGdXdXNCbjd2R1FFQ1VaancyYzVTcEtHQ21tT3NxVDY0VTdFbXphNEhxSFI1Mm5ocHFKNXVfeThxclhZdWN0SFRTYUQ1d2xMRkk2WUVKUHNFU1RnYVp2eUJjOXlLeDI1bFhELU0?oc=5"
         }
       ],
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
+          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
           "time": "11 Jun, 08:31"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Moto rombanti e tanti sportivi per l’ultimo saluto a Luigi Canna – VIDEO",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzhxQURHTFhZOHo3WUpxUm5lQzk5RWZNQjNQa1RqeTc1QkFTaVU2bHBoVl9EYUQzOHZza2hLaXFiVWVEWWo4RXBIY3pfSHd3R2VmV2stUmREQ2FvdzdnTlp6UGI0bjRiZ2E2NGl1dUdremdZc0xGbHVuSzF3VFRhdkh3NjFNX19rRG9mZ0E4ZGxwMHdYQlVQYVhKelNnN0UxNUI1NEg0SWp4Vy1sazNZc0JRak5rZVlONUNSc2dZa0RpSm5xQlJDTVlDT2ZhRmU2Y1lv?oc=5",
+          "time": "10 Jun, 15:34"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, il rombo delle moto per l'addio a Luigi Canna",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTGFBanMyNmtXQkxIcDVpVDZmLVBnanRkT0Jha0Q0RU9faThpN2FCMjdpTnVZZFF2OXoxMGdXdXNCbjd2R1FFQ1VaancyYzVTcEtHQ21tT3NxVDY0VTdFbXphNEhxSFI1Mm5ocHFKNXVfeThxclhZdWN0SFRTYUQ1d2xMRkk2WUVKUHNFU1RnYVp2eUJjOXlLeDI1bFhELU0?oc=5",
+          "time": "10 Jun, 14:28"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Cronaca",
+      "time": "10 Jun 2026, 06:35 UTC",
+      "title": "Orosei, arrestato dopo il furto in pizzeria: viaggiava su un’auto rubata",
+      "summary": "A Orosei un uomo di 36 anni è stato arrestato dai carabinieri dopo un furto in una pizzeria di Sos Alinos; secondo le fonti viaggiava su un’auto rubata con targhe false.",
+      "why": "Il caso riguarda furti, ricettazione e controlli sul territorio costiero della provincia di Nuoro.",
+      "tags": [
+        "Orosei",
+        "furto",
+        "carabinieri"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/orosei-arrestato-dopo-un-furto-al-suo-ex-datore-di-lavoro-viaggiava-su-unauto-rubata/"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaElnYUI5UHE4ZTJkZUFiWWtWbVpTMWNJeU9OS2V3bVgtTWVXTFVhRHhzOUFTOWw0OTVpdEEwNFZ5NnN3elFWeEs2SndUSjFzVGRPYzFGMkRXSWIzNkdMal8xLUlxRjBRMVhPRXpwV0VYbHMtU0JodFBEYXBxZ1JISmtRT0Z3MHpoT1Z1cTNFRmxYQ28zanhNbTZzNC1RenJqdFZzYXJYa1ZycnJXVTBYc0U0OExfU3FWWV83R2tXZGk1SFJPeGZVZTAzbjBvZmFHOThyQ3FmVzNXQUd6cVZvMmVFZ2ZMaENVcTZfenkwcjk?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Orosei. Arrestato dopo un furto al suo ex datore di lavoro: viaggiava su un’auto rubata",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/orosei-arrestato-dopo-un-furto-al-suo-ex-datore-di-lavoro-viaggiava-su-unauto-rubata/",
+          "time": "10 Jun, 06:35"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Sassarese arrestato dopo il furto in pizzeria, era su un’auto rubata con targhe false",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaElnYUI5UHE4ZTJkZUFiWWtWbVpTMWNJeU9OS2V3bVgtTWVXTFVhRHhzOUFTOWw0OTVpdEEwNFZ5NnN3elFWeEs2SndUSjFzVGRPYzFGMkRXSWIzNkdMal8xLUlxRjBRMVhPRXpwV0VYbHMtU0JodFBEYXBxZ1JISmtRT0Z3MHpoT1Z1cTNFRmxYQ28zanhNbTZzNC1RenJqdFZzYXJYa1ZycnJXVTBYc0U0OExfU3FWWV83R2tXZGk1SFJPeGZVZTAzbjBvZmFHOThyQ3FmVzNXQUd6cVZvMmVFZ2ZMaENVcTZfenkwcjk?oc=5",
+          "time": "10 Jun, 06:22"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Territorio",
+      "time": "10 Jun 2026, 18:49 UTC",
+      "title": "Cala Luna, il sequestro del pontile arriva in Prefettura",
+      "summary": "Il caso del pontile di Cala Luna sotto sequestro approda in Prefettura; la sindaca Testone parla di grave danno d’immagine.",
+      "why": "La vicenda pesa sull’accesso e sull’immagine di una delle mete più note della costa orientale sarda.",
+      "tags": [
+        "Cala Luna",
+        "turismo",
+        "Prefettura"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Pontile di Cala Luna sotto sequestro, il caso arriva in Prefettura. La sindaca Testone: «Grave danno d’immagine»",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5",
+          "time": "10 Jun, 18:49"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Sanità",
+      "time": "10 Jun 2026, 12:59 UTC",
+      "title": "Nuoro, corso Asl 3 sulla diagnosi precoce dei disturbi alimentari",
+      "summary": "L’Asl 3 di Nuoro ha promosso un evento formativo dedicato alla diagnosi precoce dei disturbi della nutrizione e dell’alimentazione.",
+      "why": "Intercettare prima queste patologie può migliorare presa in carico e percorsi di cura nel servizio sanitario locale.",
+      "tags": [
+        "Nuoro",
+        "Asl 3",
+        "disturbi alimentari"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/nuoro-corso-asl-3-per-la-diagnosi-precoce-dei-disturbi-alimentari/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro, corso Asl 3 per la diagnosi precoce dei disturbi alimentari",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/nuoro-corso-asl-3-per-la-diagnosi-precoce-dei-disturbi-alimentari/",
+          "time": "10 Jun, 12:59"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
     }
   ]
 }
