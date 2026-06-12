@@ -237,45 +237,188 @@
   },
   "items": [
     {
-      "section": "News",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-      "summary": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "section": "Mobilità",
+      "time": "12 Jun 2026, 07:25 UTC",
+      "title": "Nuoro, aperto il centro intermodale: primo passo per la nuova mobilità cittadina",
+      "summary": "Il centro intermodale di Nuoro ha avviato la sua operatività dopo l’inaugurazione del parcheggio con accesso da via Trieste, indicato come primo tassello di un progetto più ampio per trasporti e turismo nella Sardegna centrale.",
+      "why": "La struttura riguarda direttamente gli spostamenti in città e i collegamenti territoriali: l’apertura segna un passaggio atteso per la rete dei trasporti nuorese.",
       "tags": [
-        "Sardegna",
-        "Macomer"
+        "Nuoro",
+        "Trasporti",
+        "Centro intermodale"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-aperto-il-centro-intermodale-svolta-per-trasporti-e-turismo/"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro. Aperto il centro intermodale: svolta per trasporti e turismo",
+          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-aperto-il-centro-intermodale-svolta-per-trasporti-e-turismo/",
+          "time": "12 Jun, 07:25"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro. Oggi si inaugura il parcheggio del Centro Intermodale: Todde e le autorità al taglio del nastro",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/",
+          "time": "11 Jun, 09:47"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Sanità",
+      "time": "11 Jun 2026, 18:45 UTC",
+      "title": "Radioterapia, una sola macchina e 130 pazienti in attesa",
+      "summary": "La Nuova Sardegna segnala il caso della radioterapia: una sola macchina disponibile e 130 malate di tumore al seno in lista d’attesa.",
+      "why": "Il tema tocca l’accesso alle cure oncologiche e la capacità del sistema sanitario di rispondere a prestazioni urgenti e programmate.",
+      "tags": [
+        "Sanità",
+        "Radioterapia",
+        "Sardegna"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOGdrcUN1c1JaQ3U0aTZVX2p0UGFrb3lNOVUzalU5SlJnVFU4Z0d1OEx5YUtaM1VfUXkxLWozdmJRemRrVzZReGtvWUp4UGZvVmpwS2hWZ3BlQVpuXzdzbWNGVTIyTzUxQXB6WkVBeThXblZ0ZGU1Qlh5T2pxLW9UWWp3eFU5SUxrY01BN2RmWnhWTnhSVkVLSG94X3dZUTdJZTRTV2I0NXJzNkZEam9EMEQtRjZlbDYzWUg1YXB1WDBlSW9OVUhpLUY3M2o5WllZQXlvcmdHWHMyc3hDNXVvU3lRZno?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Radioterapia, una sola macchina e 130 malate di tumore al seno in attesa – Che cosa è successo",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOGdrcUN1c1JaQ3U0aTZVX2p0UGFrb3lNOVUzalU5SlJnVFU4Z0d1OEx5YUtaM1VfUXkxLWozdmJRemRrVzZReGtvWUp4UGZvVmpwS2hWZ3BlQVpuXzdzbWNGVTIyTzUxQXB6WkVBeThXblZ0ZGU1Qlh5T2pxLW9UWWp3eFU5SUxrY01BN2RmWnhWTnhSVkVLSG94X3dZUTdJZTRTV2I0NXJzNkZEam9EMEQtRjZlbDYzWUg1YXB1WDBlSW9OVUhpLUY3M2o5WllZQXlvcmdHWHMyc3hDNXVvU3lRZno?oc=5",
+          "time": "11 Jun, 18:45"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "12 Jun 2026, 07:46 UTC",
+      "title": "Nuoro, morto il motociclista coinvolto nello scontro con un’auto",
+      "summary": "Dopo l’incidente tra moto e auto a Nuoro, le fonti locali riportano la morte del motociclista. Un successivo articolo riferisce dell’ultimo saluto accompagnato dal rombo delle moto.",
+      "why": "La vicenda unisce cronaca stradale e cordoglio cittadino, con aggiornamenti successivi sul decesso e sui funerali.",
+      "tags": [
+        "Nuoro",
+        "Incidente",
+        "Cronaca"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje"
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
         }
       ],
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "12 Jun, 07:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "12 Jun, 07:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
           "time": "12 Jun, 07:46"
         }
       ],
-      "grouped_count": 2
+      "grouped_count": 3,
+      "confidence": "high"
     },
     {
-      "section": "Cronaca",
+      "section": "Politica",
       "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
-      "summary": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
-      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "title": "Ottana, il caso Saba tra rielezione, domiciliari e nuova sospensione",
+      "summary": "A Ottana Franco Saba è stato rieletto sindaco, ma gli articoli raccolti riportano la conferma dei domiciliari da parte del Riesame, la proclamazione seguita da una nuova sospensione prefettizia e il sostegno espresso in paese.",
+      "why": "La vicenda ha effetti sull’amministrazione comunale di Ottana e resta al centro del confronto politico locale.",
       "tags": [
-        "Sardegna",
-        "Cronaca",
-        "Siniscola"
+        "Ottana",
+        "Franco Saba",
+        "Politica"
       ],
       "image": null,
       "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
+          "time": "12 Jun, 07:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "12 Jun, 07:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
+          "time": "12 Jun, 07:46"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Ambiente",
+      "time": "12 Jun 2026, 07:46 UTC",
+      "title": "Siniscola, incendio vicino alla 131 Dcn: viabilità riaperta dopo lo stop",
+      "summary": "A Siniscola un incendio lungo la Statale ha interrotto il traffico e richiesto anche l’intervento di un elicottero; l’aggiornamento successivo indica la riapertura della strada dopo circa un’ora.",
+      "why": "La notizia riguarda sicurezza, incendi e viabilità in un’area strategica per i collegamenti del Nuorese.",
+      "tags": [
+        "Siniscola",
+        "Incendi",
+        "Viabilità"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
+        },
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
@@ -284,89 +427,88 @@
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
-          "time": "12 Jun, 07:46"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero - L'Unione Sarda.it",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR0cwYXROaWVpRUFvRElXelpQYk5ULUp4eTFYYXlQTklxei1OVWJOdEw1SkhVVUlPcVA3NlNITjJONm9XcWNtS1lRWUN0Z1JQVWVtSjVEV3h2M20tN1MzQk1LcGZFS1RvRkc1OUxkWGMyS1RhZ08tZWhqcWNFbVc2TlFMRk9QeEJwTVNXcXlLbk5lQlB4Nm1BTm5SbkhoMFRZQVdxQUxTbC0ycTFGQUhNbjNuLVRPU3dHN3JRVi1qeldoWWEzOFlqdHFicTJrZVNWeVo2X1hCOGhwQkxnY1R6T2JQV1FoQdIB7gFBVV95cUxQMThQLVZoMERJYnJNdlFDazBrbFJFS3hIV2o4WXl1WXM2aTMyUDRibUllSHRTbDBvcTZWLVFXMWwtX01KX3B5ZEdnSkdBOFZMR1hhUUNTakVkc1JzZ3B3MGhYaVVoRTVEd1JxM2pieVpRcEFNek1HWEtiZ3p3bXMxMUpzMVgxR3VpU3A2dEFELW1hMVVHUXZEZDRLdnVwSHp1YzlzQnJHbWxET3VaTlo0dTJyYkRIYmRyUEhpX1o3eFNEMmNUN1ZNMU1zRkplaWRtTU5zdG03TEdnS2JaajdzUjFFbW94MTFpY3AzSkZn?oc=5",
-          "time": "11 Jun, 15:30"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "Cronaca",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
-      "summary": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
-      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
-      "tags": [
-        "Sardegna",
-        "Cronaca",
-        "Siniscola"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
           "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
           "time": "12 Jun, 07:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "12 Jun, 07:46"
         }
       ],
-      "grouped_count": 2
+      "grouped_count": 4,
+      "confidence": "high"
     },
     {
-      "section": "News",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
-      "summary": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "section": "Ambiente",
+      "time": "11 Jun 2026, 09:28 UTC",
+      "title": "Nuoro rimuove i cassonetti degli indumenti usati: annunciate telecamere e denunce",
+      "summary": "Il Comune di Nuoro interviene sulla raccolta degli abiti usati dopo l’abbandono di sacchi e rifiuti vicino ai contenitori stradali, con la rimozione dei cassonetti e controlli annunciati.",
+      "why": "Il provvedimento incide su decoro urbano, raccolta dei rifiuti tessili e contrasto agli abbandoni irregolari.",
       "tags": [
-        "Sardegna",
-        "Macomer"
+        "Nuoro",
+        "Rifiuti",
+        "Decoro urbano"
       ],
       "image": null,
       "sources": [
         {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l"
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/"
         }
       ],
       "variants": [
         {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l",
-          "time": "12 Jun, 07:46"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione - L'Unione Sarda.it",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSdIBywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSQ?oc=5",
-          "time": "12 Jun, 06:29"
+          "source": "Cronache Nuoresi",
+          "title": "Guerra agli incivili a Nuoro, via i cassonetti degli indumenti usati “presto telecamere e denunce”",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/",
+          "time": "11 Jun, 09:28"
         }
       ],
-      "grouped_count": 2
+      "grouped_count": 1,
+      "confidence": "high"
     },
     {
-      "section": "News",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
-      "summary": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "section": "Società",
+      "time": "11 Jun 2026, 09:13 UTC",
+      "title": "Affitti a Nuoro, Chessa attacca: accordo scaduto dal 2015",
+      "summary": "La consigliera comunale Maura Chessa, dopo un accesso agli atti, denuncia l’assenza di un accordo vigente sugli affitti a Nuoro, fermo secondo la ricostruzione dal 2015.",
+      "why": "La questione apre un fronte politico e sociale sulla crisi abitativa e sugli strumenti disponibili per le famiglie.",
       "tags": [
-        "Sardegna",
-        "Macomer"
+        "Nuoro",
+        "Casa",
+        "Affitti"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Affitti a Nuoro, l’affondo di Chessa: “Accordo scaduto dal 2015, famiglie dimenticate”",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/",
+          "time": "11 Jun, 09:13"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Cultura",
+      "time": "12 Jun 2026, 07:46 UTC",
+      "title": "Macomer, un gemello digitale per la memoria dell’industria casearia",
+      "summary": "A Macomer prende forma un progetto di gemello digitale dedicato alla ricostruzione della memoria dell’industria casearia locale.",
+      "why": "Il progetto intreccia innovazione digitale, memoria produttiva e identità economica di un territorio storicamente legato alla filiera casearia.",
+      "tags": [
+        "Macomer",
+        "Digitale",
+        "Memoria"
       ],
       "image": null,
       "sources": [
@@ -383,148 +525,76 @@
           "time": "12 Jun, 07:46"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 1,
+      "confidence": "medium"
     },
     {
-      "section": "Elezioni / Politica",
+      "section": "Cultura",
       "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
-      "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "title": "Macomer, Sant’Antonio de su Monte richiama migliaia di fedeli",
+      "summary": "La processione per Sant’Antonio de su Monte a Macomer ha richiamato migliaia di partecipanti, secondo quanto riportato dalle fonti raccolte.",
+      "why": "L’appuntamento conferma il peso delle tradizioni religiose e comunitarie nel calendario del territorio.",
       "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Bortigali"
+        "Macomer",
+        "Tradizioni",
+        "Sant’Antonio"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw"
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSdIBywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSQ?oc=5"
         }
       ],
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
+          "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l",
           "time": "12 Jun, 07:46"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione - L'Unione Sarda.it",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSQ?oc=5",
+          "time": "12 Jun, 06:29"
         }
       ],
-      "grouped_count": 1
+      "grouped_count": 2,
+      "confidence": "high"
     },
     {
-      "section": "News",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-      "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "section": "Territorio",
+      "time": "11 Jun 2026, 08:35 UTC",
+      "title": "Estate 2026, vertice a Nuoro su sicurezza, malamovida e Cala Luna",
+      "summary": "Il Comitato provinciale per l’ordine e la sicurezza pubblica si è riunito a Nuoro per definire interventi in vista dell’estate, con focus su malamovida e sulla situazione di Cala Luna.",
+      "why": "Le decisioni estive incidono sulla sicurezza del territorio e sulla gestione di luoghi turistici sensibili.",
       "tags": [
-        "Sardegna",
-        "Seulo",
-        "Ollolai"
+        "Nuoro",
+        "Estate",
+        "Cala Luna"
       ],
       "image": null,
       "sources": [
         {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/"
         }
       ],
       "variants": [
         {
-          "source": "L'Unione Sarda",
-          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
-          "time": "12 Jun, 07:46"
+          "source": "Cronache Nuoresi",
+          "title": "Estate 2026. Vertice a Nuoro per contrastare la malamovida e e la corsa contro il tempo per salvare Cala Luna",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/",
+          "time": "11 Jun, 08:35"
         }
       ],
-      "grouped_count": 1
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-      "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Olzai",
-        "Osidda"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
-          "time": "12 Jun, 07:46"
-        }
-      ],
-      "grouped_count": 1
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-      "summary": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Seulo"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
-          "time": "12 Jun, 07:46"
-        }
-      ],
-      "grouped_count": 1
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "12 Jun 2026, 07:46 UTC",
-      "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-      "summary": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
-      "tags": [
-        "Sardegna",
-        "Elezioni",
-        "Ottana"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
-          "time": "12 Jun, 07:46"
-        }
-      ],
-      "grouped_count": 1
+      "grouped_count": 1,
+      "confidence": "high"
     }
   ]
 }
