@@ -1,0 +1,559 @@
+{
+  "updated_at": "2026-06-11 23:25 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-11 23:25 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.899 €/L, diesel da 1.969 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.899 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.899",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 01:39:48",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:53:27",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:24:57",
+            "distance_km": "1.0"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIA ANTONIO SEGNI 2 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:54:36",
+            "distance_km": "1.5"
+          },
+          {
+            "price": "1.909",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIA SAN GIOVANNI BOSCO 13 08100",
+            "city": "Nuoro",
+            "updated": "09/06/2026 23:31:11",
+            "distance_km": "1.9"
+          },
+          {
+            "price": "1.917",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:53:07",
+            "distance_km": "0.3"
+          }
+        ],
+        "cheapest": "1.899"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.969 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.969",
+            "mode": "servito",
+            "brand": "Pompe Bianche",
+            "address": "LOCALITA' SU PRADU S.S. 389 KM 76,5  08020",
+            "city": "Orune",
+            "updated": "06/06/2026 07:52:06",
+            "distance_km": "10.6"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Pompe Bianche",
+            "address": "LOCALITA' SU PRADU S.S. 389 KM 76,5  08020",
+            "city": "Orune",
+            "updated": "06/06/2026 07:52:06",
+            "distance_km": "10.6"
+          },
+          {
+            "price": "1.999",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:18:58",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.999",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 01:39:48",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "2.017",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:53:07",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.019",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "10/06/2026 07:52:53",
+            "distance_km": "0.4"
+          }
+        ],
+        "cheapest": "1.969"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-11 23:25 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "Pellizza e Ballero. La divina luce",
+        "date": "13 mar–14 giu 2026",
+        "start_date": "2026-03-13",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "PELLIZZA E BALLERO LA DIVINA LUCE dal 13 marzo al 14 giugno 2026 a cura di Chiara Gatti da un progetto di Rita Moro con il contributo scientiﬁco di Gabriella […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/pellizza-e-ballero-la-divina-luce/"
+      },
+      {
+        "title": "Monica Biancardi. Il capitale che cresce",
+        "date": "24 apr–14 giu 2026",
+        "start_date": "2026-04-24",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "Inaugurazione ore 18:00 Dal 24 aprile al 14 giugno 2026, il MAN ospita la mostra Il capitale che cresce di Monica Biancardi, progetto vincitore del PAC – Piano per l’Arte […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/monica-biancardi-il-capitale-che-cresce/"
+      },
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Si muove la città",
+        "date": "11 giu–10 set 2026",
+        "start_date": "2026-06-11",
+        "end_date": "2026-09-10",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dall’11 giugno al 10 settembre 2026 la cultura si fa itinerante a Cagliari con la rassegna “Si muove la Città”, promossa dall’Assessorato alla Cultura, Spettacolo e Turismo e or…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
+      },
+      {
+        "title": "Sardinia Archeo Festival",
+        "date": "12 giu–14 giu 2026",
+        "start_date": "2026-06-12",
+        "end_date": "2026-06-14",
+        "place": "Sardegna",
+        "category": "Festival",
+        "summary": "Ci sono universi immensi custoditi in spazi apparentemente piccoli: taverne medievali, navi alla deriva, lazzaretti, comunità itineranti e luoghi di culto. Sono i “Micromondi”,…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/sardinia-archeo-festival-0"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Sanità",
+      "time": "11 Jun 2026, 18:45 UTC",
+      "title": "Radioterapia, segnalata una sola macchina e 130 pazienti in attesa",
+      "summary": "La rassegna segnala il caso della radioterapia: secondo il titolo raccolto, una sola macchina sarebbe disponibile e 130 malate di tumore al seno sarebbero in attesa.",
+      "why": "Tema sensibile per l’accesso alle cure e i tempi dei servizi sanitari in Sardegna.",
+      "tags": [
+        "Sardegna",
+        "Sanità"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOGdrcUN1c1JaQ3U0aTZVX2p0UGFrb3lNOVUzalU5SlJnVFU4Z0d1OEx5YUtaM1VfUXkxLWozdmJRemRrVzZReGtvWUp4UGZvVmpwS2hWZ3BlQVpuXzdzbWNGVTIyTzUxQXB6WkVBeThXblZ0ZGU1Qlh5T2pxLW9UWWp3eFU5SUxrY01BN2RmWnhWTnhSVkVLSG94X3dZUTdJZTRTV2I0NXJzNkZEam9EMEQtRjZlbDYzWUg1YXB1WDBlSW9OVUhpLUY3M2o5WllZQXlvcmdHWHMyc3hDNXVvU3lRZno?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Radioterapia, una sola macchina e 130 malate di tumore al seno in attesa – Che cosa è successo",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOGdrcUN1c1JaQ3U0aTZVX2p0UGFrb3lNOVUzalU5SlJnVFU4Z0d1OEx5YUtaM1VfUXkxLWozdmJRemRrVzZReGtvWUp4UGZvVmpwS2hWZ3BlQVpuXzdzbWNGVTIyTzUxQXB6WkVBeThXblZ0ZGU1Qlh5T2pxLW9UWWp3eFU5SUxrY01BN2RmWnhWTnhSVkVLSG94X3dZUTdJZTRTV2I0NXJzNkZEam9EMEQtRjZlbDYzWUg1YXB1WDBlSW9OVUhpLUY3M2o5WllZQXlvcmdHWHMyc3hDNXVvU3lRZno?oc=5",
+          "time": "11 Jun, 18:45"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "11 Jun 2026, 23:25 UTC",
+      "title": "Siniscola, incendio sulla Statale e 131 Dcn: traffico interrotto poi riaperto",
+      "summary": "Due lanci riferiscono dell’incendio nell’area di Siniscola: traffico interrotto lungo la Statale, intervento anche di un elicottero e successiva riapertura vicino alla 131 Dcn.",
+      "why": "Notizia rilevante per viabilità, sicurezza e spostamenti nel Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Cronaca",
+        "Siniscola"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "11 Jun, 23:25"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
+          "time": "11 Jun, 23:25"
+        }
+      ],
+      "grouped_count": 4,
+      "confidence": "high"
+    },
+    {
+      "section": "Trasporti",
+      "time": "11 Jun 2026, 09:47 UTC",
+      "title": "Nuoro, inaugurazione del parcheggio del Centro Intermodale",
+      "summary": "Il Comune di Nuoro e l’ATP inaugurano il nuovo parcheggio del Centro Intermodale, con accesso da via Trieste; l’apertura è indicata come primo tassello verso la piena operatività dell’area.",
+      "why": "Intervento con ricadute dirette sulla mobilità urbana e sui servizi di trasporto pubblico.",
+      "tags": [
+        "Nuoro",
+        "Trasporti"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro. Oggi si inaugura il parcheggio del Centro Intermodale: Todde e le autorità al taglio del nastro",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/nuoro-oggi-si-inaugura-il-parcheggio-del-centro-intermodale-todde-e-le-autorita-al-taglio-del-nastro/",
+          "time": "11 Jun, 09:47"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Ambiente",
+      "time": "11 Jun 2026, 09:28 UTC",
+      "title": "Nuoro, rimossi i cassonetti degli indumenti usati contro gli abbandoni",
+      "summary": "L’amministrazione comunale riorganizza la raccolta dei rifiuti tessili dopo accumuli e abbandoni attorno ai contenitori stradali; nel titolo si annunciano telecamere e denunce.",
+      "why": "Riguarda decoro urbano, gestione dei rifiuti e controlli sul territorio cittadino.",
+      "tags": [
+        "Nuoro",
+        "Ambiente"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Guerra agli incivili a Nuoro, via i cassonetti degli indumenti usati “presto telecamere e denunce”",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/guerra-agli-incivili-a-nuoro-via-i-cassonetti-degli-indumenti-usati-presto-telecamere-e-denunce/",
+          "time": "11 Jun, 09:28"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Casa / Politica",
+      "time": "11 Jun 2026, 09:13 UTC",
+      "title": "Affitti a Nuoro, Chessa denuncia l’accordo scaduto dal 2015",
+      "summary": "La consigliera Maura Chessa, dopo un accesso agli atti, segnala l’assenza di un accordo vigente sugli affitti a Nuoro e parla di famiglie dimenticate.",
+      "why": "La questione abitativa incide su famiglie, amministrazione comunale e politiche sociali.",
+      "tags": [
+        "Nuoro",
+        "Casa",
+        "Politica"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Affitti a Nuoro, l’affondo di Chessa: “Accordo scaduto dal 2015, famiglie dimenticate”",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/affitti-a-nuoro-laffondo-di-chessa-accordo-scaduto-dal-2015-famiglie-dimenticate/",
+          "time": "11 Jun, 09:13"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Cronaca",
+      "time": "11 Jun 2026, 23:25 UTC",
+      "title": "Nuoro, l’addio a Luigi Canna accompagnato dalle moto",
+      "summary": "Più fonti raccontano l’ultimo saluto a Luigi Canna, con moto rombanti e la partecipazione di sportivi a Nuoro.",
+      "why": "È una notizia di comunità legata a un fatto di cronaca che ha coinvolto la città.",
+      "tags": [
+        "Nuoro",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzhxQURHTFhZOHo3WUpxUm5lQzk5RWZNQjNQa1RqeTc1QkFTaVU2bHBoVl9EYUQzOHZza2hLaXFiVWVEWWo4RXBIY3pfSHd3R2VmV2stUmREQ2FvdzdnTlp6UGI0bjRiZ2E2NGl1dUdremdZc0xGbHVuSzF3VFRhdkh3NjFNX19rRG9mZ0E4ZGxwMHdYQlVQYVhKelNnN0UxNUI1NEg0SWp4Vy1sazNZc0JRak5rZVlONUNSc2dZa0RpSm5xQlJDTVlDT2ZhRmU2Y1lv?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
+          "time": "11 Jun, 23:25"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Moto rombanti e tanti sportivi per l’ultimo saluto a Luigi Canna – VIDEO",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNXzhxQURHTFhZOHo3WUpxUm5lQzk5RWZNQjNQa1RqeTc1QkFTaVU2bHBoVl9EYUQzOHZza2hLaXFiVWVEWWo4RXBIY3pfSHd3R2VmV2stUmREQ2FvdzdnTlp6UGI0bjRiZ2E2NGl1dUdremdZc0xGbHVuSzF3VFRhdkh3NjFNX19rRG9mZ0E4ZGxwMHdYQlVQYVhKelNnN0UxNUI1NEg0SWp4Vy1sazNZc0JRak5rZVlONUNSc2dZa0RpSm5xQlJDTVlDT2ZhRmU2Y1lv?oc=5",
+          "time": "10 Jun, 15:34"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, il rombo delle moto per l'addio a Luigi Canna",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTGFBanMyNmtXQkxIcDVpVDZmLVBnanRkT0Jha0Q0RU9faThpN2FCMjdpTnVZZFF2OXoxMGdXdXNCbjd2R1FFQ1VaancyYzVTcEtHQ21tT3NxVDY0VTdFbXphNEhxSFI1Mm5ocHFKNXVfeThxclhZdWN0SFRTYUQ1d2xMRkk2WUVKUHNFU1RnYVp2eUJjOXlLeDI1bFhELU0?oc=5",
+          "time": "10 Jun, 14:28"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Sicurezza / Turismo",
+      "time": "11 Jun 2026, 08:35 UTC",
+      "title": "Estate 2026, vertice a Nuoro su malamovida e Cala Luna",
+      "summary": "In Prefettura si è discusso di strategie per la sicurezza estiva: nel focus anche il contrasto alla malamovida e la corsa contro il tempo per salvare Cala Luna.",
+      "why": "Il tema riguarda ordine pubblico, tutela del territorio e stagione turistica nella Sardegna centrale.",
+      "tags": [
+        "Nuoro",
+        "Sicurezza",
+        "Turismo",
+        "Cala Luna"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Estate 2026. Vertice a Nuoro per contrastare la malamovida e e la corsa contro il tempo per salvare Cala Luna",
+          "url": "https://www.cronachenuoresi.it/2026/06/11/estate-2026-vertice-a-nuoro-per-contrastare-la-malamovida-e-e-la-corsa-contro-il-tempo-per-salvare-cala-luna/",
+          "time": "11 Jun, 08:35"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Pontile di Cala Luna sotto sequestro, il caso arriva in Prefettura. La sindaca Testone: «Grave danno d’immagine»",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQX3RVVGdVdVFDa3YzWjhUeklsZjlUdVZ4SmVNaTFNZ085LVA0U3ZxRVoxSVFwSEE1M1JBaVZqYkJrNUdZbU45MTN3QmlheDl4OEpFX0JFRHBmNjk2eUxzVU1Rd3BGN0hjSE5YYVprSnR3ZktZbTBxbHJOUnVMTzBhdFN0aVpZQjQ1akQyd2J1a2NwRmFoMWxETnZfRnpsOHU5LXBrLXZhaEhBVmpfNUF3bHctbk9LMVNYWWdOOGRYaXZ0cl9BdmFlX251UHVGRnk3SDAwUzVXay04X3hxQVNwS3UxLUkya19NaW5SaDM0THRqNk9mY2JyRXI1OXRSSjc4QnRybzJoXzdfcHdGUG5BZTZUdzlEbWpnUnFKMWw2YjExQXFlTmFj?oc=5",
+          "time": "10 Jun, 18:49"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Cultura / Ambiente",
+      "time": "11 Jun 2026, 23:25 UTC",
+      "title": "Macomer, il Festival della Resilienza 2026 mette al centro l’energia",
+      "summary": "A Macomer prende il via il Festival della Resilienza 2026, con un programma dedicato al tema dell’energia.",
+      "why": "Appuntamento culturale con ricadute sul dibattito locale su sostenibilità e comunità.",
+      "tags": [
+        "Sardegna",
+        "Macomer",
+        "Cultura"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
+          "time": "11 Jun, 23:25"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Innovazione / Memoria",
+      "time": "11 Jun 2026, 23:25 UTC",
+      "title": "Macomer, un gemello digitale per la memoria dell’industria casearia",
+      "summary": "Il progetto segnalato a Macomer punta a ricostruire la memoria dell’industria casearia attraverso un gemello digitale.",
+      "why": "Unisce memoria produttiva locale, cultura industriale e strumenti digitali.",
+      "tags": [
+        "Sardegna",
+        "Macomer",
+        "Innovazione"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq",
+          "time": "11 Jun, 23:25"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Sanità",
+      "time": "10 Jun 2026, 12:59 UTC",
+      "title": "Asl 3 Nuoro, corso sulla diagnosi precoce dei disturbi alimentari",
+      "summary": "Il Servizio Disturbi Alimentazione e Nutrizione dell’ASL 3 di Nuoro ha promosso un evento formativo sulla diagnosi precoce dei disturbi della nutrizione e dell’alimentazione.",
+      "why": "Formazione e prevenzione sanitaria sono temi rilevanti per servizi e cittadini del territorio.",
+      "tags": [
+        "Nuoro",
+        "Sanità",
+        "ASL 3"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/nuoro-corso-asl-3-per-la-diagnosi-precoce-dei-disturbi-alimentari/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro, corso Asl 3 per la diagnosi precoce dei disturbi alimentari",
+          "url": "https://www.cronachenuoresi.it/2026/06/10/nuoro-corso-asl-3-per-la-diagnosi-precoce-dei-disturbi-alimentari/",
+          "time": "10 Jun, 12:59"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    }
+  ]
+}
