@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-13 21:25 UTC",
+  "updated_at": "2026-06-13 23:27 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-13 21:24 UTC",
+    "updated_at": "2026-06-13 23:26 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-13 21:25 UTC",
+    "updated_at": "2026-06-13 23:27 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -238,10 +238,10 @@
   "items": [
     {
       "section": "Cronaca",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
       "summary": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
-      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale. Notizia raggruppata da più fonti.",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
       "tags": [
         "Sardegna",
         "Cronaca",
@@ -252,14 +252,6 @@
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8"
-        },
-        {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR2pEWGRQR2p5aFFQRFRUTG5MaTRTUzh0OGVFdHdUTEg1c0ZyRUFIYktBd0p2dWFKNWZpTEY3SzdWYnA3b1pYbjZrNXl3b3BOMHZsdHNINDRZM3dSbzROTWhxcG5fUHRVbU9RLTlRcDN3Y0R4WXFTbHFxam9yNEczNUlCc29fSVZIR2RFeXFsc2NCY3BNNWlvcjRGNkZqUTB5QkpzTVowZmJkd3dfWnVVVU1TVFB6NUF6NXMycExoMnlscnlpOV9yOXNVUXBEQ3dFdUHSAdcBQVVfeXFMT3JQV2pHRGZZdlJoQWhSYXA3b3FhMll4eTFHTlp4RWJkR0podUtFREpzeWlpUDM0OV9rTkRTQTAybHZWU2M0b05yNnBnVk5ELUxxcS1TRWhGRE5VUWVwWXE2MHlIZW9uc2dHUlhkeXh2NnZrNEx4N2gwZ2c4VlNZRFNGZDd0dUhKajZyZFZxMlhuOE1tYnliM2dfeDR0MUVjZEI1UEZ6WnNBMzJWYjc2TDFTeU1jUUNKcmdyV3BfMy1lZF9CQmc2cjk1SmlHbUd1Zl9OWVJMZTQ?oc=5"
-        },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcUtHM21uenUwRFhxVVlGV2tFcTRjeFlyNjViSUdoUHdnenB6cXE0b2ZUTWx5bXVkNFM2V3JmY0JoRVQ2TWxDSzE0RjBYMzJuTzVKRGN1RkVqWm4zVE4zOXVlM3dsR2xCUTd0OFpFYXZqYXBIUXFVa21ZQnlXUGpIM2E2dVZ4cUg2Z0NCUGN5YXVUWkRGRDlDSk1yQ0Mxdnk4endZQ3QxaXlYdEJDYUxkS21VbXNmcHdzdmM1RFd1djVUcHd5YkI4SE8zXy1NazZXdGd1aVBR?oc=5"
         }
       ],
       "variants": [
@@ -267,22 +259,10 @@
           "source": "L'Unione Sarda",
           "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8",
-          "time": "13 Jun, 21:24"
-        },
-        {
-          "source": "ANSA Sardegna",
-          "title": "Auto fuori strada, tre giovani feriti a Macomer",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR2pEWGRQR2p5aFFQRFRUTG5MaTRTUzh0OGVFdHdUTEg1c0ZyRUFIYktBd0p2dWFKNWZpTEY3SzdWYnA3b1pYbjZrNXl3b3BOMHZsdHNINDRZM3dSbzROTWhxcG5fUHRVbU9RLTlRcDN3Y0R4WXFTbHFxam9yNEczNUlCc29fSVZIR2RFeXFsc2NCY3BNNWlvcjRGNkZqUTB5QkpzTVowZmJkd3dfWnVVVU1TVFB6NUF6NXMycExoMnlscnlpOV9yOXNVUXBEQ3dFdUHSAdcBQVVfeXFMT3JQV2pHRGZZdlJoQWhSYXA3b3FhMll4eTFHTlp4RWJkR0podUtFREpzeWlpUDM0OV9rTkRTQTAybHZWU2M0b05yNnBnVk5ELUxxcS1TRWhGRE5VUWVwWXE2MHlIZW9uc2dHUlhkeXh2NnZrNEx4N2gwZ2c4VlNZRFNGZDd0dUhKajZyZFZxMlhuOE1tYnliM2dfeDR0MUVjZEI1UEZ6WnNBMzJWYjc2TDFTeU1jUUNKcmdyV3BfMy1lZF9CQmc2cjk1SmlHbUd1Zl9OWVJMZTQ?oc=5",
-          "time": "13 Jun, 14:44"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Auto fuori strada per evitare un animale selvatico, tre giovani feriti: uno è grave",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcUtHM21uenUwRFhxVVlGV2tFcTRjeFlyNjViSUdoUHdnenB6cXE0b2ZUTWx5bXVkNFM2V3JmY0JoRVQ2TWxDSzE0RjBYMzJuTzVKRGN1RkVqWm4zVE4zOXVlM3dsR2xCUTd0OFpFYXZqYXBIUXFVa21ZQnlXUGpIM2E2dVZ4cUg2Z0NCUGN5YXVUWkRGRDlDSk1yQ0Mxdnk4endZQ3QxaXlYdEJDYUxkS21VbXNmcHdzdmM1RFd1djVUcHd5YkI4SE8zXy1NazZXdGd1aVBR?oc=5",
-          "time": "13 Jun, 09:15"
+          "time": "13 Jun, 23:26"
         }
       ],
-      "grouped_count": 4
+      "grouped_count": 2
     },
     {
       "section": "News",
@@ -356,7 +336,7 @@
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
       "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -377,14 +357,14 @@
           "source": "L'Unione Sarda",
           "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "News",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
       "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
       "why": "Da monitorare per impatto locale su Nuoro e provincia.",
@@ -405,14 +385,14 @@
           "source": "L'Unione Sarda",
           "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
       "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -434,14 +414,14 @@
           "source": "L'Unione Sarda",
           "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
       "summary": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -462,14 +442,14 @@
           "source": "L'Unione Sarda",
           "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
       "summary": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -490,14 +470,14 @@
           "source": "L'Unione Sarda",
           "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -520,14 +500,14 @@
           "source": "L'Unione Sarda",
           "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 21:24 UTC",
+      "time": "13 Jun 2026, 23:26 UTC",
       "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -548,7 +528,7 @@
           "source": "L'Unione Sarda",
           "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "13 Jun, 21:24"
+          "time": "13 Jun, 23:26"
         }
       ],
       "grouped_count": 1
