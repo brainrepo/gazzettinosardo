@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-13 09:03 UTC",
+  "updated_at": "2026-06-13 11:10 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-13 09:02 UTC",
+    "updated_at": "2026-06-13 11:09 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-13 09:03 UTC",
+    "updated_at": "2026-06-13 11:10 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -238,7 +238,7 @@
   "items": [
     {
       "section": "News",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
       "summary": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
       "why": "Da monitorare per impatto locale su Nuoro e provincia.",
@@ -258,7 +258,7 @@
           "source": "L'Unione Sarda",
           "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         },
         {
           "source": "L'Unione Sarda",
@@ -271,7 +271,7 @@
     },
     {
       "section": "Cronaca",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
       "summary": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
       "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
@@ -292,14 +292,52 @@
           "source": "L'Unione Sarda",
           "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "13 Jun 2026, 09:44 UTC",
+      "title": "Il vescovo Mura cambia le geografia della diocesi di Nuoro – Tutte le nomine",
+      "summary": "Il vescovo Mura cambia le geografia della diocesi di Nuoro – Tutte le nomine La Nuova Sardegna",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100882531:1781343868/image/image.jpg?f=detail_558&h=720&w=1280&$p$f$h$w=d5eb06a",
+        "alt": "Il vescovo Mura cambia le geografia della diocesi di Nuoro – Tutte le nomine",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/13/news/il-vescovo-mura-cambia-le-geografia-della-diocesi-di-nuoro-tutte-le-nomine-1.100882532",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWmxoTUFtUEMtTHdtRVlOdnJwYVVtbGs1MGpUSFJOX1dPUXFBY1c0NFFqM1UybTBkcEVYeXl5XzVpcGNLZ2JqZHo4MVdZRzZKSGJfLTQ2Vy1Oai1jekhReFByZTY0TDR0dFdab3JQcmttb2xwREpsQXpfT0p4aTIzb05yZ3laVFNMWG80clFwWWllRGtkQWpUaDhOUkhhVnBINk00ZHFxSWExQnFqbDVIS0hsTW96V2ttZHpNYkJDcHQ3akZ5WEszVEJoSUQ3THhlRWd3MDJvSG5HdXJzNV9JNg?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Il vescovo Mura cambia le geografia della diocesi di Nuoro – Tutte le nomine",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWmxoTUFtUEMtTHdtRVlOdnJwYVVtbGs1MGpUSFJOX1dPUXFBY1c0NFFqM1UybTBkcEVYeXl5XzVpcGNLZ2JqZHo4MVdZRzZKSGJfLTQ2Vy1Oai1jekhReFByZTY0TDR0dFdab3JQcmttb2xwREpsQXpfT0p4aTIzb05yZ3laVFNMWG80clFwWWllRGtkQWpUaDhOUkhhVnBINk00ZHFxSWExQnFqbDVIS0hsTW96V2ttZHpNYkJDcHQ3akZ5WEszVEJoSUQ3THhlRWd3MDJvSG5HdXJzNV9JNg?oc=5",
+          "time": "13 Jun, 09:44"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "p L’annuncio Il vescovo Mura cambia le geografia della diocesi di Nuoro – Tutte le nomine di Alessandro Mele",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/13/news/il-vescovo-mura-cambia-le-geografia-della-diocesi-di-nuoro-tutte-le-nomine-1.100882532",
+          "time": "13 Jun, 00:00"
         }
       ],
       "grouped_count": 2
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
       "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -320,14 +358,14 @@
           "source": "L'Unione Sarda",
           "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "News",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
       "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
       "why": "Da monitorare per impatto locale su Nuoro e provincia.",
@@ -348,14 +386,14 @@
           "source": "L'Unione Sarda",
           "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
       "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -377,14 +415,14 @@
           "source": "L'Unione Sarda",
           "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
       "summary": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -405,14 +443,14 @@
           "source": "L'Unione Sarda",
           "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
       "summary": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -433,14 +471,14 @@
           "source": "L'Unione Sarda",
           "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -463,14 +501,14 @@
           "source": "L'Unione Sarda",
           "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 09:02 UTC",
+      "time": "13 Jun 2026, 11:09 UTC",
       "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
       "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
@@ -491,34 +529,7 @@
           "source": "L'Unione Sarda",
           "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "13 Jun, 09:02"
-        }
-      ],
-      "grouped_count": 1
-    },
-    {
-      "section": "News",
-      "time": "13 Jun 2026, 09:02 UTC",
-      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
-      "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Mamoiada"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
-          "time": "13 Jun, 09:02"
+          "time": "13 Jun, 11:09"
         }
       ],
       "grouped_count": 1
