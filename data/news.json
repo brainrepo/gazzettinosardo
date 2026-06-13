@@ -1,80 +1,89 @@
 {
-  "updated_at": "2026-06-13 04:50 UTC",
+  "updated_at": "2026-06-13 06:57 UTC",
   "fuel": {
     "title": "Benzina e diesel a Nuoro",
-    "updated_at": "2026-06-13 04:49 UTC",
+    "updated_at": "2026-06-13 06:56 UTC",
     "source": "MIMIT Osservaprezzi carburanti",
     "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
     "radius_km": 20,
-    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.879 €/L, diesel da 1.969 €/L.",
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.869 €/L, diesel da 1.969 €/L.",
     "groups": [
       {
         "kind": "benzina",
         "title": "Benzina",
-        "summary": "Prezzo minimo rilevato: 1.879 €/L entro 20 km.",
+        "summary": "Prezzo minimo rilevato: 1.869 €/L entro 20 km.",
         "items": [
+          {
+            "price": "1.869",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 01:11:54",
+            "distance_km": "1.1"
+          },
           {
             "price": "1.879",
             "mode": "self",
             "brand": "Api-Ip",
             "address": "PIAZZA ITALIA 15 08100",
             "city": "Nuoro",
-            "updated": "11/06/2026 07:52:26",
+            "updated": "12/06/2026 07:49:37",
             "distance_km": "0.4"
           },
           {
-            "price": "1.899",
+            "price": "1.879",
             "mode": "self",
             "brand": "Q8",
-            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "address": "VIA VENETO SNC 08100",
             "city": "Nuoro",
-            "updated": "10/06/2026 01:39:48",
-            "distance_km": "1.1"
+            "updated": "12/06/2026 07:15:12",
+            "distance_km": "0.5"
           },
           {
-            "price": "1.909",
+            "price": "1.889",
             "mode": "self",
             "brand": "Agip Eni",
             "address": "VIALE TRIESTE 64 08100",
             "city": "Nuoro",
-            "updated": "10/06/2026 23:16:38",
+            "updated": "11/06/2026 10:50:05",
             "distance_km": "0.5"
           },
           {
-            "price": "1.909",
+            "price": "1.899",
             "mode": "self",
             "brand": "Agip Eni",
             "address": "Viale Sardegna 20 08100",
             "city": "Nuoro",
-            "updated": "10/06/2026 23:45:19",
+            "updated": "11/06/2026 18:28:09",
             "distance_km": "1.0"
           },
           {
-            "price": "1.909",
+            "price": "1.899",
             "mode": "self",
             "brand": "Agip Eni",
             "address": "VIA ANTONIO SEGNI 2 08100",
             "city": "Nuoro",
-            "updated": "10/06/2026 23:44:24",
+            "updated": "12/06/2026 00:56:05",
             "distance_km": "1.5"
-          },
-          {
-            "price": "1.909",
-            "mode": "self",
-            "brand": "Agip Eni",
-            "address": "VIA SAN GIOVANNI BOSCO 13 08100",
-            "city": "Nuoro",
-            "updated": "10/06/2026 23:47:30",
-            "distance_km": "1.9"
           }
         ],
-        "cheapest": "1.879"
+        "cheapest": "1.869"
       },
       {
         "kind": "diesel",
         "title": "Diesel / Gasolio",
         "summary": "Prezzo minimo rilevato: 1.969 €/L entro 20 km.",
         "items": [
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 01:11:54",
+            "distance_km": "1.1"
+          },
           {
             "price": "1.969",
             "mode": "servito",
@@ -99,35 +108,26 @@
             "brand": "Api-Ip",
             "address": "PIAZZA ITALIA 15 08100",
             "city": "Nuoro",
-            "updated": "11/06/2026 07:52:26",
+            "updated": "12/06/2026 07:49:37",
             "distance_km": "0.4"
           },
           {
-            "price": "1.999",
+            "price": "1.979",
             "mode": "self",
             "brand": "Q8",
             "address": "VIA VENETO SNC 08100",
             "city": "Nuoro",
-            "updated": "10/06/2026 07:18:58",
+            "updated": "12/06/2026 07:15:12",
             "distance_km": "0.5"
           },
           {
-            "price": "1.999",
+            "price": "2.009",
             "mode": "self",
-            "brand": "Q8",
-            "address": "VIALE DELLA SOLITUDINE SNC 08100",
-            "city": "Nuoro",
-            "updated": "10/06/2026 01:39:48",
-            "distance_km": "1.1"
-          },
-          {
-            "price": "2.017",
-            "mode": "self",
-            "brand": "Itala Petroli",
-            "address": "TRIESTE 55 08100",
-            "city": "Nuoro",
-            "updated": "11/06/2026 07:52:37",
-            "distance_km": "0.3"
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "11/06/2026 17:08:28",
+            "distance_km": "7.6"
           }
         ],
         "cheapest": "1.969"
@@ -136,7 +136,7 @@
   },
   "events": {
     "title": "Eventi in Sardegna centrale",
-    "updated_at": "2026-06-13 04:50 UTC",
+    "updated_at": "2026-06-13 06:57 UTC",
     "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
     "sources": [
       "MAN Nuoro",
@@ -237,16 +237,47 @@
   },
   "items": [
     {
-      "section": "Cultura / Società",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Macomer, un gemello digitale per la memoria dell’industria casearia",
-      "summary": "A Macomer si lavora a un gemello digitale per ricostruire e valorizzare la memoria dell’industria casearia locale.",
-      "why": "Il progetto riguarda un tassello dell’identità produttiva del Marghine e può diventare uno strumento di racconto storico e territoriale.",
+      "section": "News",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
+      "summary": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
       "tags": [
-        "Macomer",
-        "Cultura",
-        "Memoria",
-        "Industria casearia"
+        "Sardegna",
+        "Macomer"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-e-santantonio-de-su-monte-migliaia-alla-processione-ezrtp09l",
+          "time": "13 Jun, 06:56"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, è Sant'Antonio de su Monte: migliaia alla processione - L'Unione Sarda.it",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSdIBywFBVV95cUxQWW5VaFE3QXNqbVZnRUl1Z0Z5SHdUR0VvZHlPM2hQeXhkWkstMno0bTY4c3BGQkQ1U3hLQUcwaFhzWFJwV3g1cy1LSXdZU0Nzd1dRcHIwand1c29UZWlEdkhDRVdsQVdzVGd0a2N0R0NHS1pZWUkyeElqUEZiSHRnVnhzcXYybjllWldqT2xMdy13bXg1Q21jMXpIRmdRa2tISjRTNFM3eF9JbG1MZGlNV1JMT3plWFBTOVB5bm5QUkIyZXZCbzA0WjVKSQ?oc=5",
+          "time": "12 Jun, 06:29"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
+      "summary": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Macomer"
       ],
       "image": null,
       "sources": [
@@ -260,22 +291,21 @@
           "source": "L'Unione Sarda",
           "title": "Macomer, un gemello digitale per ricostruire la memoria dell’industria casearia",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-un-gemello-digitale-per-ricostruire-la-memoria-dellindustria-casearia-dm2dbteq",
-          "time": "13 Jun, 04:49"
+          "time": "13 Jun, 06:56"
         }
       ],
-      "grouped_count": 1,
-      "confidence": "medium"
+      "grouped_count": 1
     },
     {
-      "section": "Cultura / Società",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Bortigali intitola una sala palestra a Gianstefano Fara",
-      "summary": "Una sala palestra comunale di Bortigali viene dedicata alla memoria di Gianstefano Fara.",
-      "why": "La scelta dell’amministrazione comunale lega uno spazio pubblico alla memoria civile della comunità.",
+      "section": "Elezioni / Politica",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+      "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
       "tags": [
-        "Bortigali",
-        "Comunità",
-        "Memoria"
+        "Sardegna",
+        "Elezioni",
+        "Bortigali"
       ],
       "image": null,
       "sources": [
@@ -289,42 +319,194 @@
           "source": "L'Unione Sarda",
           "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
-          "time": "13 Jun, 04:49"
+          "time": "13 Jun, 06:56"
         }
       ],
-      "grouped_count": 1,
-      "confidence": "medium"
+      "grouped_count": 1
+    },
+    {
+      "section": "News",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+      "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Seulo",
+        "Ollolai"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
+          "time": "13 Jun, 06:56"
+        }
+      ],
+      "grouped_count": 1
     },
     {
       "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Nei piccoli comuni quorum e conferme: il voto ridisegna diverse amministrazioni",
-      "summary": "Tra Osidda, Olzai, Seulo, Atzara, Austis, Tiana e Mamoiada arrivano quorum raggiunti, elezioni e conferme alla guida dei paesi.",
-      "why": "Le amministrative nei centri del Nuorese e della Sardegna interna incidono sulla gestione locale dei servizi e sulle priorità dei prossimi anni.",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+      "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
       "tags": [
+        "Sardegna",
         "Elezioni",
-        "Osidda",
         "Olzai",
-        "Seulo",
-        "Atzara",
-        "Austis",
-        "Tiana",
-        "Mamoiada"
+        "Osidda"
       ],
       "image": null,
       "sources": [
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
-        },
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
+          "time": "13 Jun, 06:56"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+      "summary": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Seulo"
+      ],
+      "image": null,
+      "sources": [
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a"
-        },
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
+          "time": "13 Jun, 06:56"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+      "summary": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
+          "time": "13 Jun, 06:56"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Tiana",
+        "Austis",
+        "Atzara"
+      ],
+      "image": null,
+      "sources": [
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea"
-        },
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
+          "time": "13 Jun, 06:56"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
+          "time": "13 Jun, 06:56"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "News",
+      "time": "13 Jun 2026, 06:56 UTC",
+      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Mamoiada"
+      ],
+      "image": null,
+      "sources": [
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
@@ -333,311 +515,12 @@
       "variants": [
         {
           "source": "L'Unione Sarda",
-          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
           "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
-          "time": "13 Jun, 04:49"
+          "time": "13 Jun, 06:56"
         }
       ],
-      "grouped_count": 4,
-      "confidence": "medium"
-    },
-    {
-      "section": "Elezioni / Politica",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Caso Ottana, Saba proclamato sindaco ma resta il nodo dei domiciliari",
-      "summary": "A Ottana Franco Saba è stato rieletto e proclamato sindaco, ma gli articoli segnalano la conferma dei domiciliari, una nuova sospensione prefettizia e il sostegno di parte del paese.",
-      "why": "La vicenda tiene insieme amministrazione comunale, provvedimenti giudiziari e continuità istituzionale in un centro del Nuorese.",
-      "tags": [
-        "Ottana",
-        "Franco Saba",
-        "Comune",
-        "Giustizia"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
-          "time": "13 Jun, 04:49"
-        }
-      ],
-      "grouped_count": 3,
-      "confidence": "medium"
-    },
-    {
-      "section": "Cronaca",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Nuoro, morto il motociclista coinvolto nello scontro con un’auto",
-      "summary": "Dopo l’incidente tra moto e auto a Nuoro, il motociclista indicato inizialmente come gravissimo non ce l’ha fatta; la comunità ha poi accompagnato l’ultimo saluto a Luigi Canna.",
-      "why": "La notizia segue l’evoluzione di un grave incidente stradale cittadino e il suo impatto sulla comunità nuorese.",
-      "tags": [
-        "Nuoro",
-        "Incidente",
-        "Cronaca",
-        "Moto"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Moto contro auto a Nuoro, centauro gravissimo",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
-          "time": "13 Jun, 04:49"
-        }
-      ],
-      "grouped_count": 3,
-      "confidence": "medium"
-    },
-    {
-      "section": "News",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Macomer inaugura una stanza per accogliere le donne vittime di violenza",
-      "summary": "A Macomer è stata inaugurata una stanza dedicata all’accoglienza delle donne vittime di violenza.",
-      "why": "Il presidio rafforza la rete territoriale di ascolto e protezione in un ambito sociale sensibile.",
-      "tags": [
-        "Macomer",
-        "Donne",
-        "Violenza",
-        "Servizi"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
-          "time": "13 Jun, 04:49"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "medium"
-    },
-    {
-      "section": "News",
-      "time": "12 Jun 2026, 16:49 UTC",
-      "title": "Nuoro, via libera alla riapertura estiva della piscina di Farcana",
-      "summary": "La piscina di Farcana a Nuoro si prepara alla riapertura: la Giunta ha approvato l’affidamento e Cronache Nuoresi indica uno stanziamento di 20 mila euro.",
-      "why": "L’impianto è rilevante per sport, attività ricreative e servizi sociali della città durante la stagione estiva.",
-      "tags": [
-        "Nuoro",
-        "Farcana",
-        "Sport",
-        "Comune"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTGxKeU93SEhjLXJob2YxbFRQTkJMNjl0X2ZQR0ljVmNTWjRWNUJmMG9Od1VxbzZ1cE9aZXZYSEd0bXc1UlB6WlN0al9oUGJRcGhGV1d4QmQ3RjNMRExRRTlzSGdJSllZQWQyMmdTcmhQblA0Y0RSbnowZExtQW9pNHpLYzRRR0ZtRU80cUF6OGFOcFktdjRMTDd2SG5rRFRSZkxzMHVR?oc=5"
-        },
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-via-libera-allaffidamento-della-piscina-di-farcana-stanziati-20-mila-euro-per-la-riapertura-estiva/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Nuoro, la piscina di Farcana aprirà: tra dubbi e polemiche",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTGxKeU93SEhjLXJob2YxbFRQTkJMNjl0X2ZQR0ljVmNTWjRWNUJmMG9Od1VxbzZ1cE9aZXZYSEd0bXc1UlB6WlN0al9oUGJRcGhGV1d4QmQ3RjNMRExRRTlzSGdJSllZQWQyMmdTcmhQblA0Y0RSbnowZExtQW9pNHpLYzRRR0ZtRU80cUF6OGFOcFktdjRMTDd2SG5rRFRSZkxzMHVR?oc=5",
-          "time": "12 Jun, 16:49"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Nuoro. Via libera all’affidamento della piscina di Farcana: stanziati 20 mila euro per la riapertura estiva",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-via-libera-allaffidamento-della-piscina-di-farcana-stanziati-20-mila-euro-per-la-riapertura-estiva/",
-          "time": "12 Jun, 13:40"
-        }
-      ],
-      "grouped_count": 2,
-      "confidence": "high"
-    },
-    {
-      "section": "Cronaca",
-      "time": "13 Jun 2026, 04:49 UTC",
-      "title": "Siniscola, incendio lungo la 131 Dcn: traffico interrotto e poi riaperto",
-      "summary": "Un incendio vicino alla 131 Dcn a Siniscola ha causato l’interruzione del traffico; le notizie segnalano l’intervento anche di un elicottero e la riapertura dopo circa un’ora.",
-      "why": "L’episodio ha avuto effetti immediati sulla viabilità in una direttrice importante della zona.",
-      "tags": [
-        "Siniscola",
-        "Incendio",
-        "Viabilità",
-        "131 Dcn"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
-        },
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
-          "time": "13 Jun, 04:49"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
-          "time": "13 Jun, 04:49"
-        }
-      ],
-      "grouped_count": 2,
-      "confidence": "medium"
-    },
-    {
-      "section": "News",
-      "time": "12 Jun 2026, 08:23 UTC",
-      "title": "Nuoro apre il centro intermodale, nuova tappa per trasporti e turismo",
-      "summary": "Il nuovo centro intermodale di Nuoro è stato inaugurato e avviato come infrastruttura per integrare trasporto urbano, extraurbano e ferroviario, con servizi anche per l’accoglienza turistica.",
-      "why": "L’opera punta a rafforzare la mobilità cittadina e i collegamenti della Sardegna centrale.",
-      "tags": [
-        "Nuoro",
-        "Trasporti",
-        "Turismo",
-        "Centro intermodale"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-inaugurato-il-centro-intermodale-le-interviste-ai-protagonisti/"
-        },
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-aperto-il-centro-intermodale-svolta-per-trasporti-e-turismo/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Nuoro. Inaugurato il centro intermodale: le interviste ai protagonisti – VIDEO",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-inaugurato-il-centro-intermodale-le-interviste-ai-protagonisti/",
-          "time": "12 Jun, 08:23"
-        },
-        {
-          "source": "Cronache Nuoresi",
-          "title": "Nuoro. Aperto il centro intermodale: svolta per trasporti e turismo",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/nuoro-aperto-il-centro-intermodale-svolta-per-trasporti-e-turismo/",
-          "time": "12 Jun, 07:25"
-        }
-      ],
-      "grouped_count": 2,
-      "confidence": "high"
-    },
-    {
-      "section": "Cultura / Società",
-      "time": "12 Jun 2026, 15:14 UTC",
-      "title": "All’ISRE di Nuoro gli scatti di Jean Dieuzaide sulla Sardegna del 1956",
-      "summary": "Il Museo del Costume di Nuoro ospita la mostra dedicata a Jean Dieuzaide e al suo viaggio fotografico in Sardegna nel 1956.",
-      "why": "L’esposizione porta a Nuoro un progetto di fotografia internazionale centrato sulla memoria visiva dell’isola.",
-      "tags": [
-        "Nuoro",
-        "ISRE",
-        "Fotografia",
-        "Mostre"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "Cronache Nuoresi",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/la-sardegna-del-1956-negli-scatti-di-jean-dieuzaide-allisre-di-nuoro/"
-        }
-      ],
-      "variants": [
-        {
-          "source": "Cronache Nuoresi",
-          "title": "La Sardegna del 1956 negli scatti di Jean Dieuzaide all’ISRE di Nuoro",
-          "url": "https://www.cronachenuoresi.it/2026/06/12/la-sardegna-del-1956-negli-scatti-di-jean-dieuzaide-allisre-di-nuoro/",
-          "time": "12 Jun, 15:14"
-        }
-      ],
-      "grouped_count": 1,
-      "confidence": "high"
+      "grouped_count": 1
     }
   ]
 }
