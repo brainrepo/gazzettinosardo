@@ -1,0 +1,526 @@
+{
+  "updated_at": "2026-06-14 13:41 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-14 13:41 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.849 €/L, diesel da 1.959 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.849 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.849",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.869",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "12/06/2026 13:11:53",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 23:21:46",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 17:32:08",
+            "distance_km": "1.0"
+          }
+        ],
+        "cheapest": "1.849"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.959 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.959",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "12/06/2026 13:11:53",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.997",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:54",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.014",
+            "mode": "servito",
+            "brand": "AMG Carburanti",
+            "address": "131 Diramazione Centrale Nuorese, Km. 50+530, Sassari - Cagliari - Olbia SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 16:28:08",
+            "distance_km": "4.1"
+          }
+        ],
+        "cheapest": "1.959"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-14 13:41 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "Pellizza e Ballero. La divina luce",
+        "date": "13 mar–14 giu 2026",
+        "start_date": "2026-03-13",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "PELLIZZA E BALLERO LA DIVINA LUCE dal 13 marzo al 14 giugno 2026 a cura di Chiara Gatti da un progetto di Rita Moro con il contributo scientiﬁco di Gabriella […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/pellizza-e-ballero-la-divina-luce/"
+      },
+      {
+        "title": "Monica Biancardi. Il capitale che cresce",
+        "date": "24 apr–14 giu 2026",
+        "start_date": "2026-04-24",
+        "end_date": "2026-06-14",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "Inaugurazione ore 18:00 Dal 24 aprile al 14 giugno 2026, il MAN ospita la mostra Il capitale che cresce di Monica Biancardi, progetto vincitore del PAC – Piano per l’Arte […]",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/monica-biancardi-il-capitale-che-cresce/"
+      },
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Si muove la città",
+        "date": "11 giu–10 set 2026",
+        "start_date": "2026-06-11",
+        "end_date": "2026-09-10",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dall’11 giugno al 10 settembre 2026 la cultura si fa itinerante a Cagliari con la rassegna “Si muove la Città”, promossa dall’Assessorato alla Cultura, Spettacolo e Turismo e or…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
+      },
+      {
+        "title": "Aperti per voi sotto le stelle",
+        "date": "12 giu–14 giu 2026",
+        "start_date": "2026-06-12",
+        "end_date": "2026-06-14",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Aperti per voi sotto le stelle da venerdì 12 a domenica 14 giugno 2026 è l'evento del Touring Club che apre luoghi solitamente chiusi, prolunga orari e anima palazzi storici, ch…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/aperti-voi-sotto-le-stelle"
+      },
+      {
+        "title": "Sardinia Archeo Festival",
+        "date": "12 giu–14 giu 2026",
+        "start_date": "2026-06-12",
+        "end_date": "2026-06-14",
+        "place": "Sardegna",
+        "category": "Festival",
+        "summary": "Ci sono universi immensi custoditi in spazi apparentemente piccoli: taverne medievali, navi alla deriva, lazzaretti, comunità itineranti e luoghi di culto. Sono i “Micromondi”,…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/sardinia-archeo-festival-0"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Cronaca",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
+      "summary": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "tags": [
+        "Sardegna",
+        "Cronaca",
+        "Macomer"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "13 Jun 2026, 12:45 UTC",
+      "title": "Iosonouncane with \"guitar and voice\" on tour between Cagliari and Nuoro",
+      "summary": "Iosonouncane with \"guitar and voice\" on tour between Cagliari and Nuoro L'Unione Sarda.it",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNWNXTm9sdm1LQlhEY2VTYl9NeFJaeF9Kb1VUSEswZllvY21JRlhqOUZORlQ0d0lBTTNmUXNabDk5TFQ2MTRBdWFUM1pabkotWHFQVm9lNHNiSDhTT3pVWDZjWUZWU29ITVBpMjJ4TDNVUDd1SHRHbGs0ZWJ1cHpkamFEal8yXzJqS0VueWJJbE0tanJTcTJnSDBXclpyZl91TGpCVTc2cURDY2t6dXNncWhqb3JuN3A10gHAAUFVX3lxTE4wSWNYN1YtV0dwTFpyRTZJUDdkYVUzZ1JUeFlQYktXazZjc29sVEtDQ3BZSm5xMENPLXlyTnQybXVwT3FaQThfYkRreDVXcEt3dkdLN3ZoSGlnTklLMkdVYnlSUXdsa0tScEZxMm9DSW9uUlYxclNZaGhhbzJXRVdVeXozUU56Tk1ZUTlYMm45U3N5UXg4M0VQV2kydHVoOEx6R1hwQkRMUzVUWXc1cWNFb3lIcXFwVEpaUU9oa2F5cg?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Iosonouncane with \"guitar and voice\" on tour between Cagliari and Nuoro",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNWNXTm9sdm1LQlhEY2VTYl9NeFJaeF9Kb1VUSEswZllvY21JRlhqOUZORlQ0d0lBTTNmUXNabDk5TFQ2MTRBdWFUM1pabkotWHFQVm9lNHNiSDhTT3pVWDZjWUZWU29ITVBpMjJ4TDNVUDd1SHRHbGs0ZWJ1cHpkamFEal8yXzJqS0VueWJJbE0tanJTcTJnSDBXclpyZl91TGpCVTc2cURDY2t6dXNncWhqb3JuN3A10gHAAUFVX3lxTE4wSWNYN1YtV0dwTFpyRTZJUDdkYVUzZ1JUeFlQYktXazZjc29sVEtDQ3BZSm5xMENPLXlyTnQybXVwT3FaQThfYkRreDVXcEt3dkdLN3ZoSGlnTklLMkdVYnlSUXdsa0tScEZxMm9DSW9uUlYxclNZaGhhbzJXRVdVeXozUU56Tk1ZUTlYMm45U3N5UXg4M0VQV2kydHVoOEx6R1hwQkRMUzVUWXc1cWNFb3lIcXFwVEpaUU9oa2F5cg?oc=5",
+          "time": "13 Jun, 12:45"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Iosonouncane con \"chitarra e voce\", il tour tra Cagliari e Nuoro",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYjRuUE1CWEZVWk12UHpyNDA2c0gxY0hkeG90STFNM1VCN2tTWVFUU1lTUEVOOVYtaWRBbzVkd2JUQ1h3VW44OFd1U21sQmVuOVBfSUpJX3FqU2VtaWIwVE5zRkZmU1BQdlRhTFZIN2V6UDhtZjRrYkZ3VXRubXg3ay1sSElSckRxdm5tdWhua2FxbHAxa0NDRVBCWGp1bVp6N0kxbEhfdWtrVmNz0gG0AUFVX3lxTE5CUUMtSWV6Y0xMa1czaFIwd3lyTTBjc3hsMnV0bXdGQWNnako2NTRwTWxIdDhzRU5UYlJ1NldnUTdxZ2RQY0tWMU5kSjZYQk5QSXh1S0VlRGJyTU8zX2RrUlZUT1ZyLXZhTVNoUEJlWnVfZnU4V0pOeUxYNFFwQW03Z3U3bHZob2dqZHBxWllhcGJpbXVRbVN4VzdVMXQ0YWhXdEdwOGRRMlpkOThNNFdEUzZpUQ?oc=5",
+          "time": "13 Jun, 12:43"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+      "summary": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Bortigali"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Bortigali, una sala palestra comunale intitolata alla memoria di Gianstefano Fara",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/bortigali-una-sala-palestra-comunale-intitolata-alla-memoria-di-gianstefano-fara-bym6vmtw",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "News",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+      "summary": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Seulo",
+        "Ollolai"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+      "summary": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Olzai",
+        "Osidda"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+      "summary": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Seulo"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+      "summary": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "summary": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Tiana",
+        "Austis",
+        "Atzara"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "summary": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+      "why": "Riguarda amministrazioni locali e nuovi equilibri istituzionali nei comuni del Nuorese.",
+      "tags": [
+        "Sardegna",
+        "Elezioni",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "News",
+      "time": "14 Jun 2026, 13:40 UTC",
+      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Mamoiada"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
+          "time": "14 Jun, 13:40"
+        }
+      ],
+      "grouped_count": 1
+    }
+  ]
+}
