@@ -1,6 +1,18 @@
 {
   "snapshots": [
     {
+      "file": "data/history/2026-06-15-04-12-UTC-2.json",
+      "updated_at": "2026-06-15 04:12 UTC",
+      "items_count": 10,
+      "archived_at": "2026-06-15 06:19 UTC"
+    },
+    {
+      "file": "data/history/2026-06-15-04-12-UTC.json",
+      "updated_at": "2026-06-15 04:12 UTC",
+      "items_count": 10,
+      "archived_at": "2026-06-15 04:13 UTC"
+    },
+    {
       "file": "data/history/2026-06-15-02-05-UTC-2.json",
       "updated_at": "2026-06-15 02:05 UTC",
       "items_count": 10,
@@ -287,18 +299,6 @@
       "updated_at": "2026-06-12 09:56 UTC",
       "items_count": 10,
       "archived_at": "2026-06-12 12:00 UTC"
-    },
-    {
-      "file": "data/history/2026-06-12-09-53-UTC.json",
-      "updated_at": "2026-06-12 09:53 UTC",
-      "items_count": 10,
-      "archived_at": "2026-06-12 09:57 UTC"
-    },
-    {
-      "file": "data/history/2026-06-12-07-47-UTC-2.json",
-      "updated_at": "2026-06-12 07:47 UTC",
-      "items_count": 10,
-      "archived_at": "2026-06-12 09:53 UTC"
     }
   ]
 }
