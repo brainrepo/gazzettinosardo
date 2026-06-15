@@ -1,0 +1,594 @@
+{
+  "updated_at": "2026-06-15 06:19 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-15 06:19 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.849 €/L, diesel da 1.959 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.849 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.849",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.869",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "12/06/2026 13:11:53",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 23:21:46",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 17:32:08",
+            "distance_km": "1.0"
+          }
+        ],
+        "cheapest": "1.849"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.959 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.959",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "12/06/2026 13:11:53",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.997",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:54",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.014",
+            "mode": "servito",
+            "brand": "AMG Carburanti",
+            "address": "131 Diramazione Centrale Nuorese, Km. 50+530, Sassari - Cagliari - Olbia SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 16:28:08",
+            "distance_km": "4.1"
+          }
+        ],
+        "cheapest": "1.959"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-15 06:19 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Si muove la città",
+        "date": "11 giu–10 set 2026",
+        "start_date": "2026-06-11",
+        "end_date": "2026-09-10",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dall’11 giugno al 10 settembre 2026 la cultura si fa itinerante a Cagliari con la rassegna “Si muove la Città”, promossa dall’Assessorato alla Cultura, Spettacolo e Turismo e or…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
+      },
+      {
+        "title": "Anteprima Festival del Cinema di Tavolara",
+        "date": "13 giu–26 giu 2026",
+        "start_date": "2026-06-13",
+        "end_date": "2026-06-26",
+        "place": "Sardegna",
+        "category": "Festival",
+        "summary": "Quattro appuntamenti - previsti per il 13, 14, 21 e 27 giugno 2026 - fungono da anteprima alla 36esima edizione di Una Notte in Italia - Festival del Cinema di Tavolara. Prima d…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/anteprima-festival-del-cinema-di-tavolara"
+      },
+      {
+        "title": "Fressada. Mostra di tappeti sardi",
+        "date": "14 giu–21 giu 2026",
+        "start_date": "2026-06-14",
+        "end_date": "2026-06-21",
+        "place": "Sardegna",
+        "category": "Mostre",
+        "summary": "Al via da domenica 14 al 21 giugno 2026 l’esposizione “Fressada. Mostra di Tappeti Sardi” negli spazi di Su Palatu a Villanova Monteleone. Sei comunità in mostra per celebrare u…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/fressada-mostra-di-tappeti-sardi"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Cultura / Società",
+      "time": "14 giu 2026, 16:37 UTC",
+      "title": "Macomer, raid e insulti razzisti alla festa di Sant’Antonio",
+      "summary": "Alla festa sul monte Sant’Antonio di Macomer viene segnalata una sassaiola contro gli ambulanti, con insulti razzisti e danni alle bancarelle.",
+      "why": "L’episodio tocca sicurezza e convivenza durante una delle feste più partecipate del territorio.",
+      "tags": [
+        "Macomer",
+        "Sant’Antonio",
+        "Cronaca"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100882988:1781455334/ChatGPT%20Image%2014%20giu%202026,%2018_41_58.png?f=detail_558&h=720&w=1280&$p$f$h$w=5748acd",
+        "alt": "Macomer, sassaiola e insulti razzisti contro gli ambulanti alla festa di Sant’Antonio",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/14/news/vandali-scatenati-al-monte-sant-antonio-di-macomer-1.100882976",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-raid-vandalico-alle-bancarelle-e-insulti-razzisti-durante-la-festa-sulla-montagna-co3bmvpv"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/14/news/vandali-scatenati-al-monte-sant-antonio-di-macomer-1.100882976"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, raid vandalico alle bancarelle e insulti razzisti durante la festa sulla montagna",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-raid-vandalico-alle-bancarelle-e-insulti-razzisti-durante-la-festa-sulla-montagna-co3bmvpv",
+          "time": "14 giu 2026, 16:37 UTC"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Macomer, sassaiola e insulti razzisti contro gli ambulanti alla festa di Sant’Antonio",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS0dqMnhhLWRlekhYNFFPX2pfeHU4MnQ3QkNGNVRVal92dDRIclRkZWVGMHVobUNoZTZkV1pfZkJsTkVhV3lYUm16UnMtUUxtc3hJZ0VyaWVYQjc1NWRnaUhlelJsRFk5ZmZaV1NoZzBZTmp0S1ZHTW5wUG9vakJNZk94WU1uUkZPRHp6cURtdVNIR3RCdnRXT3ljRDZjRlFEUjcyeExkZFIwVi1LYzdqRm8wbDZ0aHRaZU0yZF80LU4?oc=5",
+          "time": "14 giu 2026, 16:11 UTC"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "p La denuncia Macomer, sassaiola e insulti razzisti contro gli ambulanti alla festa di Sant’Antonio di Alessandra Deledda",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/14/news/vandali-scatenati-al-monte-sant-antonio-di-macomer-1.100882976",
+          "time": "14 giu 2026"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Cronaca",
+      "time": "14 giu 2026, 15:29 UTC",
+      "title": "Incendi nel Nuorese, fiamme tra Siniscola, Capo Comino e Berchida",
+      "summary": "Le cronache locali segnalano roghi nel Nuorese: a Siniscola il traffico sulla Statale è stato interrotto e poi riaperto, mentre tra Capo Comino e Berchida sono intervenuti anche mezzi aerei.",
+      "why": "Con l’arrivo della stagione calda, gli incendi incidono su viabilità, ambiente e attività costiere.",
+      "tags": [
+        "Siniscola",
+        "Incendi",
+        "131 Dcn"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/14/vasto-incendio-nel-nuorese-fiamme-domate-grazie-ai-mezzi-aerei/"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Vasto incendio nel Nuorese: fiamme domate grazie ai mezzi aerei",
+          "url": "https://www.cronachenuoresi.it/2026/06/14/vasto-incendio-nel-nuorese-fiamme-domate-grazie-ai-mezzi-aerei/",
+          "time": "14 giu 2026, 15:29 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Pomeriggio di fuoco in Sardegna: allarme roghi da nord a sud dell’Isola",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONnpDYmNZbm54V3BoaGtCR1Atek5vRUdxc2UyWHJ5azN2ZkdvNHdsMTQ4U3NPZ2hGNkRBN3dwMkJvUmRKdWJyZzhoeXZKaVk2dWFwTUxMZUZmOUZxV1czNHNKVnNvdXFFUUhTd2lRVzJoOTNhVmdQRkxxU3pmakg5MDZza1VBakhLMWJlajN2LW1MemltbS1jNWhxVlI3QmpTMUVfWmpSclpyQWtHM2xwekVEajAxdHIyeFMtZVFIN3h3WjNmMEk3WmhtVzZlRDdWWGtucVBTYXZINXRGdEV4VFhB0gHqAUFVX3lxTE01SG9wUmlSNVRNaDlWM1RxT1FBYmlvb1ZJanZaSFlmWUxnQlFLNnpKUHRQaHQ2OTlKWEhlODg2X055d0J1V2twRjhPUzlhRHg1VU12XzNCeVBPTng0YldJeXBsT2NTaFZBbG42SXl0eURnMmpneHF5cGJucElhWlp0aWsyb3BRLVgteTJjM2FUbVN4eTF5YWdWbElPSk5OS1Z6U3IxYV80X1hZdHdEbXZRMVl5NW8wWGlxY2JuMF81WlRNZE1iTzdIQTRHVE1FUlFLRkNraVBHNWhBck5EeG16bDkyajR2OGlHUQ?oc=5",
+          "time": "14 giu 2026, 16:06 UTC"
+        }
+      ],
+      "grouped_count": 4,
+      "confidence": "high"
+    },
+    {
+      "section": "Cronaca",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Nuoro, muore il motociclista coinvolto nello scontro con un’auto",
+      "summary": "Dopo l’incidente tra una moto e un’auto a Nuoro, l’uomo alla guida della moto non ce l’ha fatta. Un altro articolo racconta l’ultimo saluto a Luigi Canna.",
+      "why": "La vicenda richiama l’attenzione sulla sicurezza stradale in città e sulla comunità raccolta attorno alla vittima.",
+      "tags": [
+        "Nuoro",
+        "Incidente",
+        "Moto"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "medium"
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Ottana, il caso Saba tra rielezione, domiciliari e sospensione",
+      "summary": "Franco Saba è stato rieletto sindaco di Ottana, ma resta ai domiciliari secondo il Riesame ed è stato nuovamente sospeso dal prefetto; in paese viene registrato sostegno al primo cittadino.",
+      "why": "La situazione intreccia voto amministrativo, provvedimenti giudiziari e gestione istituzionale del Comune.",
+      "tags": [
+        "Ottana",
+        "Franco Saba",
+        "Comune"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, il paese si schiera dalla parte del sindaco Saba ai domiciliari",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-il-paese-si-schiera-dalla-parte-del-sindaco-saba-ai-domiciliari-q73htz3k",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Il Riesame conferma i domiciliari per Franco Saba, rieletto sindaco di Ottana",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/il-riesame-conferma-i-domiciliari-per-franco-saba-rieletto-sindaco-di-ottana-cli1f5w2",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Elezioni / Politica",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Comuni del Nuorese, nuove conferme e quorum raggiunti",
+      "summary": "Dalle amministrative arrivano conferme e proclamazioni: Enrico Murgia a Seulo, Luciano Barone a Mamoiada, Serafino Doneddu a Osidda e Angelo Loddo a Olzai; quorum superato anche ad Atzara, Austis e Tiana.",
+      "why": "Le elezioni ridisegnano la guida di diversi piccoli Comuni dell’interno e segnalano la partecipazione al voto nei centri chiamati alle urne.",
+      "tags": [
+        "Elezioni",
+        "Nuorese",
+        "Sindaci"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Osidda e Olzai, quorum raggiunto: Serafino Doneddu e Angelo Loddo i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/osidda-e-olzai-quorum-raggiunto-serafino-doneddu-e-angelo-loddo-i-nuovi-sindaci-rpw6z9hj",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Seulo, Enrico Murgia per la terza volta sindaco del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/seulo-enrico-murgia-per-la-terza-volta-sindaco-del-paese-et65ey1a",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Atzara , Austis e Tiana, quorum superato: eletti i nuovi sindaci",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/atzara-austis-e-tiana-quorum-superato-eletti-i-nuovi-sindaci-t5c802ea",
+          "time": "15 giu 2026, 06:19 UTC"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 4,
+      "confidence": "high"
+    },
+    {
+      "section": "News",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Da Seulo a Ollolai, le centenarie vanno al voto",
+      "summary": "Nella tornata elettorale locale, le centenarie di Seulo e Ollolai non rinunciano a partecipare al voto.",
+      "why": "La notizia racconta il legame civico con le urne anche tra le elettrici più anziane delle comunità interne.",
+      "tags": [
+        "Seulo",
+        "Ollolai",
+        "Voto"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Da Seulo a Ollolai, le centenarie non rinunciano al voto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/da-seulo-a-ollolai-le-centenarie-non-rinunciano-al-voto-xcpij20v",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Sanità / Società",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Macomer, inaugurata una stanza per le donne vittime di violenza",
+      "summary": "A Macomer è stata inaugurata una stanza destinata ad accogliere le donne vittime di violenza.",
+      "why": "Il presidio rafforza i servizi di ascolto e protezione in un ambito sociale particolarmente sensibile.",
+      "tags": [
+        "Macomer",
+        "Violenza di genere",
+        "Servizi"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cultura / Ambiente",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Macomer, il Festival della Resilienza 2026 apre sul tema dell’energia",
+      "summary": "A Macomer prende il via il Festival della Resilienza 2026, con un focus dedicato all’energia.",
+      "why": "L’appuntamento porta nel centro del Marghine un confronto pubblico su transizione e risorse energetiche.",
+      "tags": [
+        "Macomer",
+        "Festival",
+        "Energia"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, via al Festival della Resilienza 2026: si parla di energia",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-via-al-festival-della-resilienza-2026-si-parla-di-energia-ydhx3cje",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "15 giu 2026, 06:19 UTC",
+      "title": "Macomer, auto fuori strada con tre giovani a bordo: uno è grave",
+      "summary": "A Macomer un’auto è finita fuori strada nella notte con tre giovani a bordo; uno di loro risulta grave secondo il titolo della cronaca locale.",
+      "why": "L’episodio richiama l’attenzione sulla sicurezza stradale nelle ore notturne nel territorio del Marghine.",
+      "tags": [
+        "Macomer",
+        "Incidente",
+        "Giovani"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8",
+          "time": "15 giu 2026, 06:19 UTC"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Economia / Agricoltura",
+      "time": "14 giu 2026, 06:38 UTC",
+      "title": "Coldiretti: vitelli bloccati nei porti, allevamenti sardi a rischio",
+      "summary": "Coldiretti Sardegna denuncia centinaia di vitelli fermi nei porti e danni per le aziende dopo l’emergenza dermatite nodulare bovina, chiedendo interventi su Regione, Governo e continuità territoriale delle merci.",
+      "why": "Il blocco dei trasporti marittimi pesa su filiere zootecniche già provate dall’emergenza sanitaria.",
+      "tags": [
+        "Coldiretti",
+        "Allevamenti",
+        "Trasporti"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/14/coldiretti-sardegna-centinaia-di-vitelli-bloccati-nei-porti-allevamenti-a-rischio-dopo-lemergenza-dermatite/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Coldiretti Sardegna: centinaia di vitelli bloccati nei porti, allevamenti a rischio dopo l’emergenza dermatite",
+          "url": "https://www.cronachenuoresi.it/2026/06/14/coldiretti-sardegna-centinaia-di-vitelli-bloccati-nei-porti-allevamenti-a-rischio-dopo-lemergenza-dermatite/",
+          "time": "14 giu 2026, 06:38 UTC"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    }
+  ]
+}
