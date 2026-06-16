@@ -1,0 +1,546 @@
+{
+  "updated_at": "2026-06-16 16:14 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-16 16:13 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.849 €/L, diesel da 1.959 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.849 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.849",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.869",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "14/06/2026 09:13:09",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:31:40",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:32:21",
+            "distance_km": "1.0"
+          }
+        ],
+        "cheapest": "1.849"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.959 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.959",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "14/06/2026 09:13:09",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.997",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:54",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.014",
+            "mode": "servito",
+            "brand": "AMG Carburanti",
+            "address": "131 Diramazione Centrale Nuorese, Km. 50+530, Sassari - Cagliari - Olbia SNC 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:44:20",
+            "distance_km": "4.1"
+          }
+        ],
+        "cheapest": "1.959"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-16 16:14 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Si muove la città",
+        "date": "11 giu–10 set 2026",
+        "start_date": "2026-06-11",
+        "end_date": "2026-09-10",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dall’11 giugno al 10 settembre 2026 la cultura si fa itinerante a Cagliari con la rassegna “Si muove la Città”, promossa dall’Assessorato alla Cultura, Spettacolo e Turismo e or…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
+      },
+      {
+        "title": "Fressada. Mostra di tappeti sardi",
+        "date": "14 giu–21 giu 2026",
+        "start_date": "2026-06-14",
+        "end_date": "2026-06-21",
+        "place": "Sardegna",
+        "category": "Mostre",
+        "summary": "Al via da domenica 14 al 21 giugno 2026 l’esposizione “Fressada. Mostra di Tappeti Sardi” negli spazi di Su Palatu a Villanova Monteleone. Sei comunità in mostra per celebrare u…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/fressada-mostra-di-tappeti-sardi"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
+      "summary": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Sardegna",
+        "Cronaca",
+        "Ottana"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-aggredisce-i-poliziotti-con-un-appendiabiti-chiodato-arrestata-s9zb78o2"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYkkwbGZWVU5MMzFWbkJsV0ZibVU4LTJUbEJPcFdnbHhicHhwVDc2ck9aVjlLaXM3NFJrVHg0a1k4T2VNY1daQ3haTjg5T3NTdHFONVpfXzBtNktaUTUzY3M4NS0xazloSWZxUEtfNXdpUURrbUJhNDNxY2Zkd2lFOXVqQTRuaVJRQURZck9oYS1JYjRYZlIyMVEzT3p4dnJncXFKdzhtVkhFdi1PdnA3V0g2eFMyYXExWjJpOEVRcm5yS2gwZXBMVE5BZnhKZw?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-aggredisce-i-poliziotti-con-un-appendiabiti-chiodato-arrestata-s9zb78o2",
+          "time": "16 Jun, 16:13"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Aggredisce gli agenti con un appendiabiti chiodato: arrestata",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYkkwbGZWVU5MMzFWbkJsV0ZibVU4LTJUbEJPcFdnbHhicHhwVDc2ck9aVjlLaXM3NFJrVHg0a1k4T2VNY1daQ3haTjg5T3NTdHFONVpfXzBtNktaUTUzY3M4NS0xazloSWZxUEtfNXdpUURrbUJhNDNxY2Zkd2lFOXVqQTRuaVJRQURZck9oYS1JYjRYZlIyMVEzT3p4dnJncXFKdzhtVkhFdi1PdnA3V0g2eFMyYXExWjJpOEVRcm5yS2gwZXBMVE5BZnhKZw?oc=5",
+          "time": "15 Jun, 17:48"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Ottana, dopo la rissa aggredisce i poliziotti con un appendiabiti chiodato: arrestata una donna",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeGhpdWxsS2lLQkF5elBzdlFqSXlJMGlmY2gtQjF0ZTYtTnhKdGJkdmkwVTBaTEZhV1V0cl9HbFdZekRiYkJsQkt3TnNwWDVOUnZ0RmtCalF0X0JQV3hhQ2tmZFh5Z1B1bHRuZUN4bTNoekhZMGtZRVNDWUpsNFRQVGM0c3NybTFaaXQ0blprdS03azU5S04yNVpXcFM0ZmFkd21xU0JKTDQ5VWNyUVQ0c25yWWtnVENMSWQ0STV6VVlPelBvNklKUHRVOUZSYkNfN0QyUlYybjIyME0?oc=5",
+          "time": "15 Jun, 08:45"
+        }
+      ],
+      "grouped_count": 4
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
+      "summary": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Sardegna",
+        "Ollolai"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/tragedia-a-ollolai-neonata-di-tre-mesi-muore-dopo-un-malore-durante-una-festa-on7g8ex1"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS1Eyd3NXclJvSUhpSk1oLU9IazkyN1QzYm9UOExha3JLUTM3Ukd4bFYtczJGanZlSzFjUmw1SG12Z0syLVZUU2xmXzJYcFZ4UUNPbDBNSEk0S0o5ckFMYVh5ZkhPaTlrNnhNMEV1ZXhNN3F3cHNlNGNjNjJhT0J0QVIxVTBScEdid1NNdVg0Rk82MkNCVU1yZnE5M01jcEhQeUx2ZS1IR2RNbUcyOVladE51R1JlVTc2MzBaLTE1dkp5cTdfR0lxOW1scnNUUQ?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/tragedia-a-ollolai-neonata-di-tre-mesi-muore-dopo-un-malore-durante-una-festa-on7g8ex1",
+          "time": "16 Jun, 16:13"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Dramma a Ollolai, muore una neonata di tre mesi – Cosa sappiamo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS1Eyd3NXclJvSUhpSk1oLU9IazkyN1QzYm9UOExha3JLUTM3Ukd4bFYtczJGanZlSzFjUmw1SG12Z0syLVZUU2xmXzJYcFZ4UUNPbDBNSEk0S0o5ckFMYVh5ZkhPaTlrNnhNMEV1ZXhNN3F3cHNlNGNjNjJhT0J0QVIxVTBScEdid1NNdVg0Rk82MkNCVU1yZnE5M01jcEhQeUx2ZS1IR2RNbUcyOVladE51R1JlVTc2MzBaLTE1dkp5cTdfR0lxOW1scnNUUQ?oc=5",
+          "time": "15 Jun, 10:05"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Tragedia a Ollolai, neonata di tre mesi muore dopo un malore durante una festa",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObUdMcEQzems5czhLeUY5clVZRktJSFhmeGNxNS13TlpoNDI4TXp5eTFSUG1fRUpYNGx0ZmF3aHp2eU1ZWnpCYzBGZUxvcjFFb01oS1RLcUZnM3FEeFYzejQ5ZUhvTzdDempfaE1ZcEt2TUYwdWd5dzQ1NlRBUE1lSWFEY3VjX05jRmY1VDFSSDRqc3dMNTFPYzJDUmRESjA5XzJROE9SLTBXbXpBNUt6U3hiejd5bE9ISkhpcS0wcS1LSzc0T0tNcWtWYzN5OHlzTndReDBZUmpDYnfSAeMBQVVfeXFMTnc1UGNybFVIME1GQ0NuclNSNUk4aml2Y0RVbGVoOXZXUWhqU2JlWFJaS09XMTNoZzNUbUlBSGVXTnFCeUNFSkloWGlOVFR0eVoxRWpMNm9OdHRfenV3cTFmcjd0ZVlVaWdpTGl6VUQzTjVRNEJRQVF3c0gxRnNkbWZFNVpXV0I3M1NxMlZhMnJwYjZHZ3BrTjYzYTNTMkFnWWFuTENsNFJ3cnh1R0E1djFmenl0NVFrZFg0ckF6UTNvYlBYb0dIRWI1OV9scXF2VFRiYjNpSVZBVGwwYzdDUEs1V0E?oc=5",
+          "time": "15 Jun, 09:40"
+        }
+      ],
+      "grouped_count": 3
+    },
+    {
+      "section": "News",
+      "time": "15 Jun 2026, 08:14 UTC",
+      "title": "Fallisce assalto al bancomat nella notte nel Nuorese",
+      "summary": "Fallisce assalto al bancomat nella notte nel Nuorese ANSA",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
+      "tags": [
+        "Nuoro",
+        "Nuorese"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdGhGWFlBZTN3X2JCaTFLdVcwV3pLaVZpbVVOZ3ZFU09LTzZ4R0s3TmRKYWlrdzFOZWJDLURZbzJFWV9mbTljLWphdFVXeW8ySXFPaGpreUE4SHhrUjFJUHhZMXhnUkJYb2tqQ0pvalBoZFBLenJ0dERoS2lGQ19YNFZlcmNxdWJLcmdCYk4xU0RpRExpTHRJWFFtOXdvQktvb0RmNjFSdVFlLWxXTlFmSWIxS2NoLWpWd1dEMHFmUXVOclVWYkVic2R5ZGJiZ2R2Skl3SVdJUWNkZ9IB3wFBVV95cUxPdDNBUTQ2Tl9kTHpaSjJTdmstSWNaNzdFajAtYU80M1dLUFMyeDIyNGhVbjFoeXd3TWQzTnVMel84RzRKWmgyTnZQWE12SDAxYlJtUWgzeXVDbVRZdVBLR05fNFZSdjl6ZjZHbF9sV2IwUElreTNMYUFuVWNoUEo4ZDdYa29EMXh3bXl3aEpCR2VPMzdDN2Q5MkVUYWt5dkFEa05BTE1adWdQODJoUERhRDJfZWdyUVh2dmx4THFfRV9qVUNaYjZmQTNVVm5YWlN5Ym53T2JEMUp1RzlhcXcw?oc=5"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVRoSmZRWFJrOF95RnRKUlZGU3pUMm16X2hldW1FQWJjaTViYVk1OFVOQXpHN2xmSFZtM3kwWGhKTFNlTHpBdmdJdC1LNkx6cDNfRF9mZ2RodFh3bkMwU044UW1DSlJqeHpTVHB4TmhZQ1ptN0p6SW4wT3Zfb3NNRU9KY19Id0h3T01icWlZaWdRanpkQjdSYzNWNHpkb19DQ3NGaF9TUU5uYjQxN21vX2xYbUp5d0hUN0hOUDBGQktJYlkyajVwTVMtQTMySzNqanJnWmlSOWtOdzJlOGp1aFpR?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "ANSA Sardegna",
+          "title": "Fallisce assalto al bancomat nella notte nel Nuorese",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdGhGWFlBZTN3X2JCaTFLdVcwV3pLaVZpbVVOZ3ZFU09LTzZ4R0s3TmRKYWlrdzFOZWJDLURZbzJFWV9mbTljLWphdFVXeW8ySXFPaGpreUE4SHhrUjFJUHhZMXhnUkJYb2tqQ0pvalBoZFBLenJ0dERoS2lGQ19YNFZlcmNxdWJLcmdCYk4xU0RpRExpTHRJWFFtOXdvQktvb0RmNjFSdVFlLWxXTlFmSWIxS2NoLWpWd1dEMHFmUXVOclVWYkVic2R5ZGJiZ2R2Skl3SVdJUWNkZ9IB3wFBVV95cUxPdDNBUTQ2Tl9kTHpaSjJTdmstSWNaNzdFajAtYU80M1dLUFMyeDIyNGhVbjFoeXd3TWQzTnVMel84RzRKWmgyTnZQWE12SDAxYlJtUWgzeXVDbVRZdVBLR05fNFZSdjl6ZjZHbF9sV2IwUElreTNMYUFuVWNoUEo4ZDdYa29EMXh3bXl3aEpCR2VPMzdDN2Q5MkVUYWt5dkFEa05BTE1adWdQODJoUERhRDJfZWdyUVh2dmx4THFfRV9qVUNaYjZmQTNVVm5YWlN5Ym53T2JEMUp1RzlhcXcw?oc=5",
+          "time": "15 Jun, 08:14"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Assalto al bancomat con esplosivo nella notte: banditi in fuga – Cosa sappiamo",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVRoSmZRWFJrOF95RnRKUlZGU3pUMm16X2hldW1FQWJjaTViYVk1OFVOQXpHN2xmSFZtM3kwWGhKTFNlTHpBdmdJdC1LNkx6cDNfRF9mZ2RodFh3bkMwU044UW1DSlJqeHpTVHB4TmhZQ1ptN0p6SW4wT3Zfb3NNRU9KY19Id0h3T01icWlZaWdRanpkQjdSYzNWNHpkb19DQ3NGaF9TUU5uYjQxN21vX2xYbUp5d0hUN0hOUDBGQktJYlkyajVwTVMtQTMySzNqanJnWmlSOWtOdzJlOGp1aFpR?oc=5",
+          "time": "15 Jun, 07:36"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
+      "summary": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Fonni"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of",
+          "time": "16 Jun, 16:13"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Fonni, tentato assalto al bancomat: indagini in corso",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaE5aRi14QUd2am8tMFpKWHRBcDBiZ3JoYk53WEhmbFZBYVEyOGdxMURRajNWdmVqNVZuS3VxOGdiMEFqUk9IeUp1cHVhaWd2TzFRMUY5VWotYTI4ZWFFazFLMzViX1JTdVZXX2xYN2pKeDNERndvNF81aktNenFWd2pJdTdzZUx2dXRoNW02OGVjYnJTSno3RTJIWDhHaGh3cV9HNVhDR29BM3M4aWh1MlVPSVBCNUFB0gHAAUFVX3lxTE1pX1g2UmtEUEVqNGNIU2hqV01wZ0VPYnpubkl0ajN2eS1VMU4tRUp6R3c5b2RtUG9wQWJnUjk0Znczdk9IR3FxSmdUMVJ6UDhMWTljUGVGcUpYdktfTjQ4Y21oblJ3SnYtbURDWlV3MTFWc0RkOXh3LXJpZmc3cDVBRnhfVUxJQlpsV3ZnNXdYX2VveWlwVkFUdk41b1lsbTVNZEJWOEZOanY3ODRUSHhuUV9TSlRqdnB0N1JyQTF3UQ?oc=5",
+          "time": "15 Jun, 07:22"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
+      "summary": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Oliena"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/oliena-precipita-dal-terrazzino-di-casa-e-batte-la-testa-gravissimo-hmk9ol66"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/oliena-precipita-dal-terrazzino-di-casa-e-batte-la-testa-gravissimo-hmk9ol66",
+          "time": "16 Jun, 16:13"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
+      "summary": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/piscina-di-farcana-dopo-laffidamento-esplodono-le-polemiche-interrogazione-urgente-di-siamo-nuoro-h11dcc7o"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/piscina-di-farcana-dopo-laffidamento-esplodono-le-polemiche-interrogazione-urgente-di-siamo-nuoro-h11dcc7o",
+          "time": "16 Jun, 16:13"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
+      "summary": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-crolla-il-tetto-di-una-vecchia-abitazione-nel-quartiere-di-santu-predu-n6kebewq"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-crolla-il-tetto-di-una-vecchia-abitazione-nel-quartiere-di-santu-predu-n6kebewq",
+          "time": "16 Jun, 16:13"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 12:26 UTC",
+      "title": "Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo",
+      "summary": "Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo La Nuova Sardegna",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Sardegna",
+        "Orgosolo"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100883763:1781612818/onecms_731f5538-c95a-48f2-b795-790007825d8e_710ee613-d4be-405c-a4f3-a9e6b60172b4.jpg?f=detail_558&h=720&w=1280&$p$f$h$w=145515c",
+        "alt": "Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/16/news/spettacolo-equestre-senza-autorizzazione-otto-condanne-per-sa-vardia-1.100883764",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbHAwS0Vhb0w3ZDRXbkV5dUJITDJNNXZqNjVXWlVEc3hpRUhUQ3NkZ1A1ejRPZ0xEOTNOM05nRGEzMnJ2aXIyMVN5WWJ6T3d5ZlFSWWdLTzRrcXU4TWUyckJOdEZtRHNNVnowZzlhSHVva09LUUo3dmVVZjd3Q0Y4bjZqcU16REhlYkhmaGpqVF90NlVXNWcxbWROc1FpRHdZVl8tZlltMlM4emQwRHBCZ0JPRzZqM2MwbF9hWEQ4MVlwNDlpLXJHUDlsZU9ad1pmXzlFTWdaQU0?oc=5"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbHAwS0Vhb0w3ZDRXbkV5dUJITDJNNXZqNjVXWlVEc3hpRUhUQ3NkZ1A1ejRPZ0xEOTNOM05nRGEzMnJ2aXIyMVN5WWJ6T3d5ZlFSWWdLTzRrcXU4TWUyckJOdEZtRHNNVnowZzlhSHVva09LUUo3dmVVZjd3Q0Y4bjZqcU16REhlYkhmaGpqVF90NlVXNWcxbWROc1FpRHdZVl8tZlltMlM4emQwRHBCZ0JPRzZqM2MwbF9hWEQ4MVlwNDlpLXJHUDlsZU9ad1pmXzlFTWdaQU0?oc=5",
+          "time": "16 Jun, 12:26"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "p La sentenza Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/16/news/spettacolo-equestre-senza-autorizzazione-otto-condanne-per-sa-vardia-1.100883764",
+          "time": "16 Jun, 00:00"
+        }
+      ],
+      "grouped_count": 2
+    },
+    {
+      "section": "News",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Moto contro auto a Nuoro, centauro gravissimo",
+      "summary": "Moto contro auto a Nuoro, centauro gravissimo",
+      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
+      "tags": [
+        "Nuoro"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "16 Jun, 16:13"
+        }
+      ],
+      "grouped_count": 1
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 16:13 UTC",
+      "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+      "summary": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale.",
+      "tags": [
+        "Nuoro",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "16 Jun, 16:13"
+        }
+      ],
+      "grouped_count": 1
+    }
+  ]
+}
