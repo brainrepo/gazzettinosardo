@@ -1,0 +1,584 @@
+{
+  "updated_at": "2026-06-16 11:59 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-16 11:59 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.849 €/L, diesel da 1.959 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.849 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.849",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.869",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "14/06/2026 09:13:09",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:31:40",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:32:21",
+            "distance_km": "1.0"
+          }
+        ],
+        "cheapest": "1.849"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.959 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.959",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "14/06/2026 09:13:09",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.997",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:54",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.014",
+            "mode": "servito",
+            "brand": "AMG Carburanti",
+            "address": "131 Diramazione Centrale Nuorese, Km. 50+530, Sassari - Cagliari - Olbia SNC 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:44:20",
+            "distance_km": "4.1"
+          }
+        ],
+        "cheapest": "1.959"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-16 11:59 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Tutankhamon. La tomba, il tesoro, la scoperta",
+        "date": "28 feb–31 lug 2026",
+        "start_date": "2026-02-28",
+        "end_date": "2026-07-31",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Fino al 31 luglio 2026 la Passeggiata Coperta del Bastione di Saint Remy di Cagliari ospita “Tutankhamon. La tomba, il tesoro, la scoperta”, una mostra che porta in città le uni…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/tutankhamon-la-tomba-il-tesoro-la-scoperta"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Si muove la città",
+        "date": "11 giu–10 set 2026",
+        "start_date": "2026-06-11",
+        "end_date": "2026-09-10",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dall’11 giugno al 10 settembre 2026 la cultura si fa itinerante a Cagliari con la rassegna “Si muove la Città”, promossa dall’Assessorato alla Cultura, Spettacolo e Turismo e or…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/si-muove-la-citta-1"
+      },
+      {
+        "title": "Anteprima Festival del Cinema di Tavolara",
+        "date": "13 giu–26 giu 2026",
+        "start_date": "2026-06-13",
+        "end_date": "2026-06-26",
+        "place": "Sardegna",
+        "category": "Festival",
+        "summary": "Quattro appuntamenti - previsti per il 13, 14, 21 e 27 giugno 2026 - fungono da anteprima alla 36esima edizione di Una Notte in Italia - Festival del Cinema di Tavolara. Prima d…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/anteprima-festival-del-cinema-di-tavolara"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 11:59 UTC",
+      "title": "Nuoro, morto il motociclista coinvolto nello scontro con un’auto",
+      "summary": "L’aggiornamento raccolto da L’Unione Sarda segnala il decesso del motociclista coinvolto nello scontro tra moto e auto a Nuoro, dopo una prima notizia che lo indicava in condizioni gravissime.",
+      "why": "È un fatto di cronaca stradale con forte impatto locale e aggiorna una notizia diffusa poche ore prima.",
+      "tags": [
+        "Nuoro",
+        "Cronaca",
+        "Incidenti"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "16 Jun, 11:59"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "16 Jun, 11:59"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Politica",
+      "time": "16 Jun 2026, 11:59 UTC",
+      "title": "Ottana, Franco Saba proclamato sindaco e nuovamente sospeso dal prefetto",
+      "summary": "A Ottana Franco Saba è stato proclamato sindaco, ma secondo L’Unione Sarda è arrivata una nuova sospensione disposta dal prefetto.",
+      "why": "La vicenda incide direttamente sull’amministrazione comunale e sugli equilibri istituzionali del paese.",
+      "tags": [
+        "Ottana",
+        "Politica",
+        "Comune"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "16 Jun, 11:59"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cultura / Società",
+      "time": "16 Jun 2026, 11:59 UTC",
+      "title": "Macomer, inaugurata una stanza per accogliere le donne vittime di violenza",
+      "summary": "A Macomer è stata inaugurata una stanza dedicata all’accoglienza delle donne vittime di violenza.",
+      "why": "Il presidio riguarda i servizi di prossimità e la rete locale di sostegno alle persone vulnerabili.",
+      "tags": [
+        "Macomer",
+        "Donne",
+        "Servizi"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
+          "time": "16 Jun, 11:59"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 11:59 UTC",
+      "title": "Siniscola, incendio lungo la 131 Dcn: traffico riaperto dopo circa un’ora",
+      "summary": "Un incendio vicino alla 131 Dcn a Siniscola ha causato l’interruzione temporanea del traffico; un successivo aggiornamento riferisce la riapertura della strada dopo un’ora.",
+      "why": "La notizia interessa viabilità e sicurezza in Baronia, con interventi di spegnimento segnalati dalle fonti raccolte.",
+      "tags": [
+        "Siniscola",
+        "Incendi",
+        "Viabilità"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "16 Jun, 11:59"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
+          "time": "16 Jun, 11:59"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "high"
+    },
+    {
+      "section": "Trasporti",
+      "time": "16 Jun 2026, 08:28 UTC",
+      "title": "Nuoro, il 17 giugno cambiano percorso le linee 2S, 2S/ e 9 per le Sardiadi",
+      "summary": "A Nuoro sono previste modifiche temporanee al trasporto pubblico per la chiusura al traffico di viale Repubblica, nel tratto indicato dall’ordinanza comunale per le Sardiadi 2026.",
+      "why": "L’avviso è utile per chi si muove in città con autobus e mezzi privati nella giornata del 17 giugno.",
+      "tags": [
+        "Nuoro",
+        "Trasporti",
+        "Viabilità"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/16/cambio-di-percorso-a-nuoro-il-17-giugno-per-le-sardiadi-2026-deviate-le-linee-2s-2s-e-9/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Cambio di percorso a Nuoro il 17 giugno per le “Sardiadi 2026”: deviate le linee 2S, 2S/ e 9",
+          "url": "https://www.cronachenuoresi.it/2026/06/16/cambio-di-percorso-a-nuoro-il-17-giugno-per-le-sardiadi-2026-deviate-le-linee-2s-2s-e-9/",
+          "time": "16 Jun, 08:28"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "high"
+    },
+    {
+      "section": "Sanità",
+      "time": "16 Jun 2026, 09:58 UTC",
+      "title": "“Cuore di Barbagia”, il 17 giugno incontro sulla donazione davanti a un caffè",
+      "summary": "Il 17 giugno, dalle 9 alle 11, è in programma un nuovo appuntamento di “Cuore di Barbagia” per informare i cittadini sulla donazione con un incontro informale nella hall.",
+      "why": "L’iniziativa promuove informazione sanitaria e cultura della donazione nel territorio nuorese.",
+      "tags": [
+        "Nuoro",
+        "Sanità",
+        "Donazione"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/16/cuore-di-barbagia-il-17-giugno-liniziativa-per-informare-sulla-donazione-davanti-a-un-caffe/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Cuore di Barbagia”: il 17 giugno l’iniziativa per informare sulla donazione davanti a un caffè",
+          "url": "https://www.cronachenuoresi.it/2026/06/16/cuore-di-barbagia-il-17-giugno-liniziativa-per-informare-sulla-donazione-davanti-a-un-caffe/",
+          "time": "16 Jun, 09:58"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cultura / Società",
+      "time": "16 Jun 2026, 07:18 UTC",
+      "title": "Nuoro, i quartieri entrano in gioco: al via l’estate sportiva per i ragazzi",
+      "summary": "Dal 18 giugno al 19 luglio Nuoro ospita un mese di gare sportive e giochi popolari nei quartieri, con 85 ragazzi coinvolti nelle classi di età dal 2013 al 2017.",
+      "why": "L’appuntamento anima l’estate cittadina con attività per giovani e quartieri.",
+      "tags": [
+        "Nuoro",
+        "Giovani",
+        "Sport"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/16/a-nuoro-i-quartieri-entrano-in-gioco-al-via-lestate-per-i-ragazzi/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "Cronache Nuoresi",
+          "title": "A Nuoro “i quartieri entrano in gioco”: al via l’estate per i ragazzi",
+          "url": "https://www.cronachenuoresi.it/2026/06/16/a-nuoro-i-quartieri-entrano-in-gioco-al-via-lestate-per-i-ragazzi/",
+          "time": "16 Jun, 07:18"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 11:59 UTC",
+      "title": "Nuoro, crolla il tetto di un rudere in centro: paura ma muri perimetrali stabili",
+      "summary": "A Nuoro è crollato il tetto di una vecchia abitazione nel quartiere di Santu Predu; Cronache Nuoresi riferisce che il cedimento è avvenuto in via Sulis e che i controlli non hanno rilevato compromissioni dei muri perimetrali.",
+      "why": "Il caso riporta l’attenzione sulla sicurezza degli edifici abbandonati nel centro cittadino.",
+      "tags": [
+        "Nuoro",
+        "Cronaca",
+        "Sicurezza"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-crolla-il-tetto-di-una-vecchia-abitazione-nel-quartiere-di-santu-predu-n6kebewq"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXRsMUp5akh6aEtaZnhsZ0d6bV81TktEczRiWkZQd0xMU2V6WWRlYzliOFd4LUhldnpWQ01PajgzQnM5cTBpdGlKSkNYeURJRHluUFZ4RUthOVU1cnVGSkw1Z051cnpzYnhwSWZxVWJuV1J2OFJvMFh3SVJuRVZKOTNrWmEwcDhIUVpQMEN1alU4eGUycy03S1lrMU5JN3NDbnlQSUotSkttazRPWjFsSnBreVFzdGVaVm5lcC1fVndpYVlFOE01QTZoeGNuRFQ3Q3pvWjdtdXUwd9IB4gFBVV95cUxPSlYzbWE2Y2RENk1LSGlxbkhKMTg5TW9vZDNNRlRKQk92ckk1WjRYbnNiWVdrb280RUs1ak9udWtSMjQzWU9OQUEwYlJVd0VxMVRNeWZqN3BDVUNHYmJRMU5hQTAxc0VfakhabWVBd3k2RlpDNHFOLXZ2NmxZX1VsM1EtbTRfb2N0dEhHaWk1MUdhLUtDcUdYSFFGLXNZTDdTYWR6clZhbTNkUWtWTHhNMnlUSVh3TmZTNmFrSlF4WWdBMzVhWGxjaElNZ2hkQlpMNm5GQnVKbm85YlpmdlhqSDFn?oc=5"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/nuoro-paura-in-centro-per-il-crollo-di-un-rudere-riaffiora-il-dramma-di-ythan-e-patrick/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-crolla-il-tetto-di-una-vecchia-abitazione-nel-quartiere-di-santu-predu-n6kebewq",
+          "time": "16 Jun, 11:59"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXRsMUp5akh6aEtaZnhsZ0d6bV81TktEczRiWkZQd0xMU2V6WWRlYzliOFd4LUhldnpWQ01PajgzQnM5cTBpdGlKSkNYeURJRHluUFZ4RUthOVU1cnVGSkw1Z051cnpzYnhwSWZxVWJuV1J2OFJvMFh3SVJuRVZKOTNrWmEwcDhIUVpQMEN1alU4eGUycy03S1lrMU5JN3NDbnlQSUotSkttazRPWjFsSnBreVFzdGVaVm5lcC1fVndpYVlFOE01QTZoeGNuRFQ3Q3pvWjdtdXUwd9IB4gFBVV95cUxPSlYzbWE2Y2RENk1LSGlxbkhKMTg5TW9vZDNNRlRKQk92ckk1WjRYbnNiWVdrb280RUs1ak9udWtSMjQzWU9OQUEwYlJVd0VxMVRNeWZqN3BDVUNHYmJRMU5hQTAxc0VfakhabWVBd3k2RlpDNHFOLXZ2NmxZX1VsM1EtbTRfb2N0dEhHaWk1MUdhLUtDcUdYSFFGLXNZTDdTYWR6clZhbTNkUWtWTHhNMnlUSVh3TmZTNmFrSlF4WWdBMzVhWGxjaElNZ2hkQlpMNm5GQnVKbm85YlpmdlhqSDFn?oc=5",
+          "time": "15 Jun, 19:05"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro. Paura in centro per il crollo di un rudere: riaffiora il dramma di Ythan e Patrick",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/nuoro-paura-in-centro-per-il-crollo-di-un-rudere-riaffiora-il-dramma-di-ythan-e-patrick/",
+          "time": "15 Jun, 18:39"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    },
+    {
+      "section": "Giustizia",
+      "time": "15 Jun 2026, 19:34 UTC",
+      "title": "La Procura di Nuoro torna a pieno organico con due nuovi pm",
+      "summary": "La Nuova Sardegna segnala l’arrivo in città di due nuovi pubblici ministeri, con la Procura di Nuoro indicata di nuovo a pieno organico.",
+      "why": "Il rafforzamento degli uffici giudiziari è un passaggio rilevante per il funzionamento della giustizia nel territorio.",
+      "tags": [
+        "Nuoro",
+        "Giustizia",
+        "Procura"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100883464:1781552070/PM_1781535452756_COLORE.jpg?f=detail_558&h=720&w=1280&$p$f$h$w=8452cf1",
+        "alt": "La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/15/news/la-procura-di-nuoro-e-a-pieno-organico-due-nuovi-pm-sono-arrivati-in-citta-ecco-chi-sono-1.100883465",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQkg0ZWlnNTRWR1BCblJ0QzN4YnhNNnh3OE85WE1oQ3NSOERQZnI4UUU3anEwOW9IOHB4ZlF3WXdHX3kxRnU0ZlVYV3Ftc3FLQ0dfMXRNNDRTNUxhdFlIZzg3akhtVXVXbFhrYXM2UW1iMXdFdmJsWjNjVUlrYU4wRWJzaTJwMklMQ2dzOUJmWFVVVE4xVDZTYUpzTkhCYTJ6c0NVMzBSWHpSZzg5RmtKM0hmTUNfMjZSSUtISXYxcWlsbWFkTGN0eTJCZldPOFRvRTJpX3hja3NhY2V1REV5WUNEWlQ1QTN0N3dQLWh6VmJIRUU?oc=5"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/15/news/la-procura-di-nuoro-e-a-pieno-organico-due-nuovi-pm-sono-arrivati-in-citta-ecco-chi-sono-1.100883465"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQkg0ZWlnNTRWR1BCblJ0QzN4YnhNNnh3OE85WE1oQ3NSOERQZnI4UUU3anEwOW9IOHB4ZlF3WXdHX3kxRnU0ZlVYV3Ftc3FLQ0dfMXRNNDRTNUxhdFlIZzg3akhtVXVXbFhrYXM2UW1iMXdFdmJsWjNjVUlrYU4wRWJzaTJwMklMQ2dzOUJmWFVVVE4xVDZTYUpzTkhCYTJ6c0NVMzBSWHpSZzg5RmtKM0hmTUNfMjZSSUtISXYxcWlsbWFkTGN0eTJCZldPOFRvRTJpX3hja3NhY2V1REV5WUNEWlQ1QTN0N3dQLWh6VmJIRUU?oc=5",
+          "time": "15 Jun, 19:34"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "p Tribunale La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/15/news/la-procura-di-nuoro-e-a-pieno-organico-due-nuovi-pm-sono-arrivati-in-citta-ecco-chi-sono-1.100883465",
+          "time": "15 Jun, 00:00"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    },
+    {
+      "section": "Politica",
+      "time": "16 Jun 2026, 11:59 UTC",
+      "title": "Piscina di Farcana, interrogazione urgente sull’affidamento",
+      "summary": "Il futuro della piscina di Farcana finisce al centro di un’interrogazione urgente di SiAmo Nuoro dopo l’affidamento della struttura; Cronache Nuoresi richiama anche il tema del milione regionale.",
+      "why": "La questione riguarda la gestione di un impianto pubblico e l’uso di risorse destinate allo sport e al territorio.",
+      "tags": [
+        "Nuoro",
+        "Farcana",
+        "Sport"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/piscina-di-farcana-dopo-laffidamento-esplodono-le-polemiche-interrogazione-urgente-di-siamo-nuoro-h11dcc7o"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMC03WTg5emwyanJSS2NMQ2xfeXBKdUFUSzhxQWdwZEVkeHFkRFowaVRtUEJDSnJHWUZKODlVcHhmSFh6OTVDcjNPdGw0d2wwdGNMVkdhMFhUUkhod0Mxa1BpWnVPMlo5VTRuYnJSTWVpVzdVSThhemxPX1J6V2pIRURuOGc5OWNfV3NMenlua2Z6UlVmc0t2X3Bfd1JUWkpQZFcyQ0c1RFhEaHI1Nzk4SXBUXzBMUXF5QlJRVGtJczZ4ZUVqUmVZTTZRUDN3bEtJVXZrdUZHT2dMM1pjSDd4Q1ZxckxCLTNUVXFVUnFycU9pT3gzSFHSAf4BQVVfeXFMTzY4VnByOWttUWhiSloyajRFUVpFV3dfV1VSWFVkanY5THJiUG5Jd2c1aDMxTTNhbzV2ZXpESVNXYTNnMXo0bDY0clNsR09rNXZwdWdiTjBjQ3lKUkVKRzJ0Z2haMVU5VVRvLURMWjJleDBnUUhKTjkzV3gwZ3Z4UEdfbTZBLTB1b29OZFJ3c21mejFra25ibXFOdEZkZEJsQXpPZU9JamZJUjBWZ1lQc0h1TUxiRktDSWdOQVFBSFhxUE5oamVjOGNRYXlnVjVrdmQzR1R0bkpWczVXb3dCV3hvVldXZmVFR3pFdDRXVGljSnFzcFNpSm9QSHA5M1E?oc=5"
+        },
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/farcana-saiu-si-faccia-chiarezza-su-affidamento-e-milione-regionale/"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/piscina-di-farcana-dopo-laffidamento-esplodono-le-polemiche-interrogazione-urgente-di-siamo-nuoro-h11dcc7o",
+          "time": "16 Jun, 11:59"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMC03WTg5emwyanJSS2NMQ2xfeXBKdUFUSzhxQWdwZEVkeHFkRFowaVRtUEJDSnJHWUZKODlVcHhmSFh6OTVDcjNPdGw0d2wwdGNMVkdhMFhUUkhod0Mxa1BpWnVPMlo5VTRuYnJSTWVpVzdVSThhemxPX1J6V2pIRURuOGc5OWNfV3NMenlua2Z6UlVmc0t2X3Bfd1JUWkpQZFcyQ0c1RFhEaHI1Nzk4SXBUXzBMUXF5QlJRVGtJczZ4ZUVqUmVZTTZRUDN3bEtJVXZrdUZHT2dMM1pjSDd4Q1ZxckxCLTNUVXFVUnFycU9pT3gzSFHSAf4BQVVfeXFMTzY4VnByOWttUWhiSloyajRFUVpFV3dfV1VSWFVkanY5THJiUG5Jd2c1aDMxTTNhbzV2ZXpESVNXYTNnMXo0bDY0clNsR09rNXZwdWdiTjBjQ3lKUkVKRzJ0Z2haMVU5VVRvLURMWjJleDBnUUhKTjkzV3gwZ3Z4UEdfbTZBLTB1b29OZFJ3c21mejFra25ibXFOdEZkZEJsQXpPZU9JamZJUjBWZ1lQc0h1TUxiRktDSWdOQVFBSFhxUE5oamVjOGNRYXlnVjVrdmQzR1R0bkpWczVXb3dCV3hvVldXZmVFR3pFdDRXVGljSnFzcFNpSm9QSHA5M1E?oc=5",
+          "time": "15 Jun, 11:58"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Farcana. Saiu: «Si faccia chiarezza su affidamento e milione regionale»",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/farcana-saiu-si-faccia-chiarezza-su-affidamento-e-milione-regionale/",
+          "time": "15 Jun, 10:23"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "high"
+    }
+  ]
+}
