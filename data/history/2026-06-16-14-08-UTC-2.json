@@ -1,0 +1,532 @@
+{
+  "updated_at": "2026-06-16 14:08 UTC",
+  "fuel": {
+    "title": "Benzina e diesel a Nuoro",
+    "updated_at": "2026-06-16 14:07 UTC",
+    "source": "MIMIT Osservaprezzi carburanti",
+    "source_url": "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv",
+    "radius_km": 20,
+    "summary": "I prezzi più convenienti entro 20 km da Nuoro: benzina da 1.849 €/L, diesel da 1.959 €/L.",
+    "groups": [
+      {
+        "kind": "benzina",
+        "title": "Benzina",
+        "summary": "Prezzo minimo rilevato: 1.849 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.849",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.869",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.879",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "14/06/2026 09:13:09",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "VIALE TRIESTE 64 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:31:40",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.889",
+            "mode": "self",
+            "brand": "Agip Eni",
+            "address": "Viale Sardegna 20 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:32:21",
+            "distance_km": "1.0"
+          }
+        ],
+        "cheapest": "1.849"
+      },
+      {
+        "kind": "diesel",
+        "title": "Diesel / Gasolio",
+        "summary": "Prezzo minimo rilevato: 1.959 €/L entro 20 km.",
+        "items": [
+          {
+            "price": "1.959",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIALE DELLA SOLITUDINE SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:57",
+            "distance_km": "1.1"
+          },
+          {
+            "price": "1.969",
+            "mode": "self",
+            "brand": "Q8",
+            "address": "VIA VENETO SNC 08100",
+            "city": "Nuoro",
+            "updated": "12/06/2026 13:37:55",
+            "distance_km": "0.5"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "PIAZZA ITALIA 15 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:29",
+            "distance_km": "0.4"
+          },
+          {
+            "price": "1.979",
+            "mode": "self",
+            "brand": "Api-Ip",
+            "address": "VIA NUORO snc 08025",
+            "city": "Oliena",
+            "updated": "14/06/2026 09:13:09",
+            "distance_km": "7.6"
+          },
+          {
+            "price": "1.997",
+            "mode": "self",
+            "brand": "Itala Petroli",
+            "address": "TRIESTE 55 08100",
+            "city": "Nuoro",
+            "updated": "13/06/2026 07:54:54",
+            "distance_km": "0.3"
+          },
+          {
+            "price": "2.014",
+            "mode": "servito",
+            "brand": "AMG Carburanti",
+            "address": "131 Diramazione Centrale Nuorese, Km. 50+530, Sassari - Cagliari - Olbia SNC 08100",
+            "city": "Nuoro",
+            "updated": "14/06/2026 23:44:20",
+            "distance_km": "4.1"
+          }
+        ],
+        "cheapest": "1.959"
+      }
+    ]
+  },
+  "events": {
+    "title": "Eventi in Sardegna centrale",
+    "updated_at": "2026-06-16 14:08 UTC",
+    "summary": "Mostre, incontri e appuntamenti selezionati da fonti locali e regionali.",
+    "sources": [
+      "MAN Nuoro",
+      "Biblioteca Satta",
+      "Sardegna Turismo",
+      "ISRE"
+    ],
+    "items": [
+      {
+        "title": "FUTURAMA. NOSTALGIA DI FUTURO",
+        "date": "3 lug–15 nov 2026",
+        "start_date": "2026-07-03",
+        "end_date": "2026-11-15",
+        "place": "Nuoro",
+        "category": "Mostre",
+        "summary": "A cura di Chiara Gatti e Elisabetta Masala, in collaborazione con Storyville dal 3 luglio al 15 novembre 2026 FUTURAMA conclude la trilogia espositiva del MAN dedicata alle moda…",
+        "source": "MAN Nuoro",
+        "url": "https://www.museoman.it/event/futurama-nostalgia-di-futuro/"
+      },
+      {
+        "title": "Monumenti Aperti",
+        "date": "18 apr–8 nov 2026",
+        "start_date": "2026-04-18",
+        "end_date": "2026-11-08",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "A primavera è sempre tempo di Monumenti Aperti, la storica manifestazione coordinata dall'associazione Imago Mundi OdV nata nel 1997, che contribuisce a far conoscere i territor…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/monumenti-aperti"
+      },
+      {
+        "title": "Primavera nel cuore della Sardegna",
+        "date": "25 apr–28 giu 2026",
+        "start_date": "2026-04-25",
+        "end_date": "2026-06-28",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 25 aprile al 28 giugno, quattordici paesi di Baronia, Ogliastra e Planargia sono protagonisti dell'edizione 2026 di Primavera nel Cuore della Sardegna. La manifestazione per…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/primavera-nel-cuore-della-sardegna-0"
+      },
+      {
+        "title": "Anteprima Festival del Cinema di Tavolara",
+        "date": "13 giu–26 giu 2026",
+        "start_date": "2026-06-13",
+        "end_date": "2026-06-26",
+        "place": "Sardegna",
+        "category": "Festival",
+        "summary": "Quattro appuntamenti - previsti per il 13, 14, 21 e 27 giugno 2026 - fungono da anteprima alla 36esima edizione di Una Notte in Italia - Festival del Cinema di Tavolara. Prima d…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/anteprima-festival-del-cinema-di-tavolara"
+      },
+      {
+        "title": "Fressada. Mostra di tappeti sardi",
+        "date": "14 giu–21 giu 2026",
+        "start_date": "2026-06-14",
+        "end_date": "2026-06-21",
+        "place": "Sardegna",
+        "category": "Mostre",
+        "summary": "Al via da domenica 14 al 21 giugno 2026 l’esposizione “Fressada. Mostra di Tappeti Sardi” negli spazi di Su Palatu a Villanova Monteleone. Sei comunità in mostra per celebrare u…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/fressada-mostra-di-tappeti-sardi"
+      },
+      {
+        "title": "Borsa Int.le Siti Patrimonio UNESCO della Sardegna",
+        "date": "17 giu–20 giu 2026",
+        "start_date": "2026-06-17",
+        "end_date": "2026-06-20",
+        "place": "Sardegna",
+        "category": "Cultura",
+        "summary": "Dal 17 al 20 giugno, nella caratteristica sede del Museo Archeologico Nazionale di Olbia, si svolge la prima edizione della BISPM – Borsa Internazionale dei Siti Patrimonio Mond…",
+        "source": "Sardegna Turismo",
+        "url": "https://www.sardegnaturismo.it/it/eventi/borsa-intle-siti-patrimonio-unesco-della-sardegna"
+      }
+    ]
+  },
+  "items": [
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Scontro auto-moto a Nuoro, muore il motociclista",
+      "summary": "A Nuoro un motociclista coinvolto in uno scontro con un’auto è deceduto: un primo aggiornamento lo indicava in condizioni gravissime.",
+      "why": "La vicenda riguarda la cronaca cittadina e gli aggiornamenti sulla sicurezza stradale nel capoluogo barbaricino.",
+      "tags": [
+        "Nuoro",
+        "Cronaca",
+        "Incidenti stradali"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "16 Jun, 14:07"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    },
+    {
+      "section": "Politica",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Ottana, Saba proclamato sindaco e sospeso dal prefetto",
+      "summary": "Franco Saba è stato proclamato sindaco di Ottana, ma il prefetto ne ha disposto nuovamente la sospensione.",
+      "why": "L’aggiornamento incide sull’amministrazione comunale e sugli equilibri istituzionali del paese.",
+      "tags": [
+        "Ottana",
+        "Politica",
+        "Comuni"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Società",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Macomer, inaugurata una stanza per le donne vittime di violenza",
+      "summary": "A Macomer è stata inaugurata una stanza dedicata all’accoglienza delle donne vittime di violenza.",
+      "why": "Il servizio rafforza la rete locale di tutela e ascolto per le persone in situazione di vulnerabilità.",
+      "tags": [
+        "Macomer",
+        "Donne",
+        "Servizi"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Siniscola, incendio lungo la Statale: strada riaperta dopo lo stop",
+      "summary": "Un incendio vicino alla 131 Dcn a Siniscola ha causato l’interruzione temporanea del traffico; la strada è stata poi riaperta dopo circa un’ora.",
+      "why": "La notizia interessa viabilità e sicurezza in una direttrice importante del territorio.",
+      "tags": [
+        "Siniscola",
+        "Incendi",
+        "Viabilità"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
+          "time": "16 Jun, 14:07"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Macomer, auto fuori strada nella notte: un giovane è grave",
+      "summary": "A Macomer un’auto con tre giovani a bordo è finita fuori strada durante la notte; uno dei passeggeri risulta in gravi condizioni.",
+      "why": "È un aggiornamento di cronaca locale con ricadute sulla sicurezza stradale.",
+      "tags": [
+        "Macomer",
+        "Cronaca",
+        "Incidenti stradali"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Fonni, tentato assalto al bancomat con esplosivo",
+      "summary": "A Fonni è in corso l’indagine su un tentato assalto al bancomat con l’uso di esplosivo.",
+      "why": "Il caso è al centro dell’attenzione per la sicurezza nel Nuorese e per gli sviluppi investigativi.",
+      "tags": [
+        "Fonni",
+        "Cronaca",
+        "Sicurezza"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Ottana, arrestata dopo l’aggressione ai poliziotti",
+      "summary": "A Ottana una donna è stata arrestata dopo aver aggredito i poliziotti con un appendiabiti chiodato.",
+      "why": "La vicenda rientra negli aggiornamenti di cronaca e sicurezza pubblica del territorio.",
+      "tags": [
+        "Ottana",
+        "Cronaca",
+        "Sicurezza"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-aggredisce-i-poliziotti-con-un-appendiabiti-chiodato-arrestata-s9zb78o2"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-aggredisce-i-poliziotti-con-un-appendiabiti-chiodato-arrestata-s9zb78o2",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Ollolai, muore una neonata dopo un malore durante una festa",
+      "summary": "A Ollolai una neonata di tre mesi è morta dopo un improvviso malore accusato durante una festa.",
+      "why": "La tragedia coinvolge la comunità locale e resta tra le principali notizie di cronaca della provincia.",
+      "tags": [
+        "Ollolai",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/tragedia-a-ollolai-neonata-di-tre-mesi-muore-dopo-un-malore-durante-una-festa-on7g8ex1"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/tragedia-a-ollolai-neonata-di-tre-mesi-muore-dopo-un-malore-durante-una-festa-on7g8ex1",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 14:07 UTC",
+      "title": "Oliena, grave dopo una caduta in casa",
+      "summary": "A Oliena una persona è in condizioni gravissime dopo essere precipitata da un terrazzino di casa e aver battuto la testa.",
+      "why": "È un aggiornamento di cronaca locale seguito dalla comunità del paese.",
+      "tags": [
+        "Oliena",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/oliena-precipita-dal-terrazzino-di-casa-e-batte-la-testa-gravissimo-hmk9ol66"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/oliena-precipita-dal-terrazzino-di-casa-e-batte-la-testa-gravissimo-hmk9ol66",
+          "time": "16 Jun, 14:07"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 12:26 UTC",
+      "title": "Orgosolo, otto condanne per le pariglie non autorizzate di Sa Vardia",
+      "summary": "Otto condanne sono state riportate per le pariglie non autorizzate legate a Sa Vardia di Orgosolo.",
+      "why": "La sentenza riguarda una manifestazione tradizionale del territorio e ha rilievo giudiziario locale.",
+      "tags": [
+        "Orgosolo",
+        "Giustizia",
+        "Tradizioni"
+      ],
+      "image": {
+        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100883763:1781612818/onecms_731f5538-c95a-48f2-b795-790007825d8e_710ee613-d4be-405c-a4f3-a9e6b60172b4.jpg?f=detail_558&h=720&w=1280&$p$f$h$w=145515c",
+        "alt": "Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo",
+        "credit": "La Nuova Sardegna",
+        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/16/news/spettacolo-equestre-senza-autorizzazione-otto-condanne-per-sa-vardia-1.100883764",
+        "confidence": "medium"
+      },
+      "sources": [
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/16/news/spettacolo-equestre-senza-autorizzazione-otto-condanne-per-sa-vardia-1.100883764"
+        }
+      ],
+      "variants": [
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Pariglie non autorizzate, otto condanne per Sa Vardia di Orgosolo",
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/16/news/spettacolo-equestre-senza-autorizzazione-otto-condanne-per-sa-vardia-1.100883764",
+          "time": "16 Jun, 00:00"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    }
+  ]
+}
