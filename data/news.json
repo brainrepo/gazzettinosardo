@@ -217,13 +217,288 @@
     {
       "section": "Cronaca",
       "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
-      "summary": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
-      "why": "È rilevante per sicurezza, viabilità o aggiornamenti di cronaca locale. Notizia raggruppata da più fonti.",
+      "title": "Nuoro, muore il motociclista coinvolto nello scontro con un’auto",
+      "summary": "La cronaca locale aggiorna l’incidente tra moto e auto a Nuoro: dopo le prime notizie sulle condizioni gravissime del centauro, L’Unione Sarda riferisce che il motociclista coinvolto non ce l’ha fatta.",
+      "why": "La vicenda riguarda la sicurezza stradale nel capoluogo e ha avuto un forte impatto sulla comunità, raccontato anche nel resoconto dell’ultimo saluto a Luigi Canna.",
       "tags": [
-        "Sardegna",
+        "Nuoro",
         "Cronaca",
-        "Ottana"
+        "Incidenti"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incidente a Nuoro, non ce l’ha fatta il motociclista coinvolto nello scontro con un’auto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incidente-a-nuoro-non-ce-lha-fatta-il-motociclista-coinvolto-nello-scontro-con-unauto-s579q6ir",
+          "time": "16 Jun, 05:37"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Moto contro auto a Nuoro, centauro gravissimo",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
+          "time": "16 Jun, 05:37"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Nuoro, il rombo delle moto accompagna l’ultimo viaggio di Luigi Canna",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-il-rombo-delle-moto-accompagna-lultimo-viaggio-di-luigi-canna-jqymcm8e",
+          "time": "16 Jun, 05:37"
+        }
+      ],
+      "grouped_count": 3,
+      "confidence": "medium"
+    },
+    {
+      "section": "Politica",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+      "summary": "A Mamoiada Luciano Barone viene indicato come confermato alla guida del Comune, secondo il titolo pubblicato da L’Unione Sarda nella sezione della provincia di Nuoro.",
+      "why": "Il risultato amministrativo definisce la continuità alla guida del paese e incide sull’agenda locale dei prossimi mesi.",
+      "tags": [
+        "Mamoiada",
+        "Politica",
+        "Comuni"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
+          "time": "16 Jun, 05:37"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Politica",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Ottana, Franco Saba proclamato sindaco e sospeso di nuovo dal prefetto",
+      "summary": "A Ottana Franco Saba risulta proclamato sindaco, ma L’Unione Sarda segnala una nuova sospensione da parte del prefetto.",
+      "why": "Il passaggio istituzionale apre una fase delicata per l’amministrazione comunale e per la piena operatività degli organi locali.",
+      "tags": [
+        "Ottana",
+        "Politica",
+        "Comune"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, Franco Saba proclamato sindaco ma sospeso (di nuovo) dal prefetto",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/ottana-franco-saba-proclamato-sindaco-ma-sospeso-di-nuovo-dal-prefetto-lck5ymmj",
+          "time": "16 Jun, 05:37"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Società",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Macomer, inaugurata una stanza per accogliere le donne vittime di violenza",
+      "summary": "A Macomer è stata inaugurata una stanza dedicata all’accoglienza delle donne vittime di violenza, notizia riportata da L’Unione Sarda.",
+      "why": "Il presidio rafforza sul territorio un servizio sensibile di ascolto e protezione per chi denuncia o cerca aiuto.",
+      "tags": [
+        "Macomer",
+        "Violenza di genere",
+        "Servizi"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, inaugurata la stanza per accogliere le donne vittime di violenza",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-inaugurata-la-stanza-per-accogliere-le-donne-vittime-di-violenza-yu2icd5p",
+          "time": "16 Jun, 05:37"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Siniscola, incendio vicino alla 131 Dcn: strada riaperta dopo lo stop al traffico",
+      "summary": "Le notizie raccolte segnalano un incendio lungo la Statale a Siniscola, con traffico interrotto e intervento anche di un elicottero; un successivo aggiornamento riferisce la riapertura dopo un’ora.",
+      "why": "L’episodio ha avuto ricadute immediate sulla viabilità della zona e richiesto l’intervento dei soccorsi antincendio.",
+      "tags": [
+        "Siniscola",
+        "Incendi",
+        "Viabilità"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Incendio vicino alla 131 Dcn a Siniscola: strada riaperta dopo un’ora",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/incendio-vicino-alla-131-dcn-a-siniscola-strada-riaperta-dopo-unora-ikopyxl7",
+          "time": "16 Jun, 05:37"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Siniscola, incendio lungo la Statale: traffico interrotto, in azione anche un elicottero",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/siniscola-incendio-lungo-la-statale-traffico-interrotto-in-azione-anche-un-elicottero-fmabh3n7",
+          "time": "16 Jun, 05:37"
+        }
+      ],
+      "grouped_count": 2,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Macomer, auto fuori strada nella notte: tre giovani a bordo, uno è grave",
+      "summary": "A Macomer un’auto è finita fuori strada durante la notte con tre giovani a bordo; secondo L’Unione Sarda uno di loro è in gravi condizioni.",
+      "why": "È una notizia di cronaca locale con ricadute sulla sicurezza stradale e attenzione alta nella comunità.",
+      "tags": [
+        "Macomer",
+        "Incidenti",
+        "Cronaca"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Macomer, schianto nella notte: auto finisce fuori strada con tre giovani a bordo, uno è grave",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/macomer-schianto-nella-notte-auto-finisce-fuori-strada-con-tre-giovani-a-bordo-uno-e-grave-p6amc5c8",
+          "time": "16 Jun, 05:37"
+        }
+      ],
+      "grouped_count": 1,
+      "confidence": "medium"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Fonni, fallito assalto al bancomat con esplosivo: indagini in corso",
+      "summary": "Nel Nuorese è fallito un assalto al bancomat di Fonni: le fonti parlano di un ordigno posizionato allo sportello, banditi in fuga e strada cosparsa di chiodi per ostacolare le forze dell’ordine.",
+      "why": "Il caso riguarda la sicurezza del territorio e mobilita le indagini su un episodio con modalità potenzialmente pericolose per residenti e soccorritori.",
+      "tags": [
+        "Fonni",
+        "Cronaca",
+        "Sicurezza"
+      ],
+      "image": null,
+      "sources": [
+        {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/fallito-assalto-al-bancomat-di-fonni-posizionano-un-ordigno-allo-sportello-ma-fuggono/"
+        },
+        {
+          "name": "ANSA Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdGhGWFlBZTN3X2JCaTFLdVcwV3pLaVZpbVVOZ3ZFU09LTzZ4R0s3TmRKYWlrdzFOZWJDLURZbzJFWV9mbTljLWphdFVXeW8ySXFPaGpreUE4SHhrUjFJUHhZMXhnUkJYb2tqQ0pvalBoZFBLenJ0dERoS2lGQ19YNFZlcmNxdWJLcmdCYk4xU0RpRExpTHRJWFFtOXdvQktvb0RmNjFSdVFlLWxXTlFmSWIxS2NoLWpWd1dEMHFmUXVOclVWYkVic2R5ZGJiZ2R2Skl3SVdJUWNkZ9IB3wFBVV95cUxPdDNBUTQ2Tl9kTHpaSjJTdmstSWNaNzdFajAtYU80M1dLUFMyeDIyNGhVbjFoeXd3TWQzTnVMel84RzRKWmgyTnZQWE12SDAxYlJtUWgzeXVDbVRZdVBLR05fNFZSdjl6ZjZHbF9sV2IwUElreTNMYUFuVWNoUEo4ZDdYa29EMXh3bXl3aEpCR2VPMzdDN2Q5MkVUYWt5dkFEa05BTE1adWdQODJoUERhRDJfZWdyUVh2dmx4THFfRV9qVUNaYjZmQTNVVm5YWlN5Ym53T2JEMUp1RzlhcXcw?oc=5"
+        },
+        {
+          "name": "La Nuova Sardegna",
+          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOZ2xjTFgxdGMtOEdjRnRzMUV0NXU3UlZCcXNfUjhHQ1pQMkh4NDA0NnlqdTFJMHJqNzF3QUNPUTJ2cGttYVI0NFBxSmNoQ2tEc3hvZUpKX3dsODZERWhMX0hHaU9kdUZvRFEwcEt5U0ZSUGswVXU0STBLY3ZicE5CMHJVSWx0MVVVa204SU9XRUI4QVNEbFpPU1VReklheFJzNHlwaTZoU1hTVUk1OERCNThQOHJvZ0xYdUpVR3gyZnJjYXN4aFpUTlRkSTNaOXR5X3VqRl8zQWlJQXdlMGlnUVZDU3pLRmhKdHFJcm1RbGpZZ0ZLWnE2M1JmTV9jdk9GSFhaaldTdjdqcUZWOC1aNkU5UGw1dko3b3hzcFNsd1hoSjAwbm1ibGJCS0RhZVk?oc=5"
+        },
+        {
+          "name": "L'Unione Sarda",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of"
+        }
+      ],
+      "variants": [
+        {
+          "source": "L'Unione Sarda",
+          "title": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
+          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of",
+          "time": "16 Jun, 05:37"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Fallito assalto al Bancomat di Fonni: posizionano un ordigno allo sportello ma fuggono",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/fallito-assalto-al-bancomat-di-fonni-posizionano-un-ordigno-allo-sportello-ma-fuggono/",
+          "time": "15 Jun, 08:03"
+        },
+        {
+          "source": "ANSA Sardegna",
+          "title": "Fallisce assalto al bancomat nella notte nel Nuorese",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdGhGWFlBZTN3X2JCaTFLdVcwV3pLaVZpbVVOZ3ZFU09LTzZ4R0s3TmRKYWlrdzFOZWJDLURZbzJFWV9mbTljLWphdFVXeW8ySXFPaGpreUE4SHhrUjFJUHhZMXhnUkJYb2tqQ0pvalBoZFBLenJ0dERoS2lGQ19YNFZlcmNxdWJLcmdCYk4xU0RpRExpTHRJWFFtOXdvQktvb0RmNjFSdVFlLWxXTlFmSWIxS2NoLWpWd1dEMHFmUXVOclVWYkVic2R5ZGJiZ2R2Skl3SVdJUWNkZ9IB3wFBVV95cUxPdDNBUTQ2Tl9kTHpaSjJTdmstSWNaNzdFajAtYU80M1dLUFMyeDIyNGhVbjFoeXd3TWQzTnVMel84RzRKWmgyTnZQWE12SDAxYlJtUWgzeXVDbVRZdVBLR05fNFZSdjl6ZjZHbF9sV2IwUElreTNMYUFuVWNoUEo4ZDdYa29EMXh3bXl3aEpCR2VPMzdDN2Q5MkVUYWt5dkFEa05BTE1adWdQODJoUERhRDJfZWdyUVh2dmx4THFfRV9qVUNaYjZmQTNVVm5YWlN5Ym53T2JEMUp1RzlhcXcw?oc=5",
+          "time": "15 Jun, 08:14"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Assalto al bancomat con l’esplosivo, almeno tre i banditi in fuga: hanno cosparso la strada di chiodi per bloccare le forze dell’ordine",
+          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOZ2xjTFgxdGMtOEdjRnRzMUV0NXU3UlZCcXNfUjhHQ1pQMkh4NDA0NnlqdTFJMHJqNzF3QUNPUTJ2cGttYVI0NFBxSmNoQ2tEc3hvZUpKX3dsODZERWhMX0hHaU9kdUZvRFEwcEt5U0ZSUGswVXU0STBLY3ZicE5CMHJVSWx0MVVVa204SU9XRUI4QVNEbFpPU1VReklheFJzNHlwaTZoU1hTVUk1OERCNThQOHJvZ0xYdUpVR3gyZnJjYXN4aFpUTlRkSTNaOXR5X3VqRl8zQWlJQXdlMGlnUVZDU3pLRmhKdHFJcm1RbGpZZ0ZLWnE2M1JmTV9jdk9GSFhaaldTdjdqcUZWOC1aNkU5UGw1dko3b3hzcFNsd1hoSjAwbm1ibGJCS0RhZVk?oc=5",
+          "time": "15 Jun, 08:38"
+        },
+        {
+          "source": "La Nuova Sardegna",
+          "title": "Assalto al bancomat con esplosivo nella notte: banditi in fuga – Cosa sappiamo",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVRoSmZRWFJrOF95RnRKUlZGU3pUMm16X2hldW1FQWJjaTViYVk1OFVOQXpHN2xmSFZtM3kwWGhKTFNlTHpBdmdJdC1LNkx6cDNfRF9mZ2RodFh3bkMwU044UW1DSlJqeHpTVHB4TmhZQ1ptN0p6SW4wT3Zfb3NNRU9KY19Id0h3T01icWlZaWdRanpkQjdSYzNWNHpkb19DQ3NGaF9TUU5uYjQxN21vX2xYbUp5d0hUN0hOUDBGQktJYlkyajVwTVMtQTMySzNqanJnWmlSOWtOdzJlOGp1aFpR?oc=5",
+          "time": "15 Jun, 07:36"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Fonni, tentato assalto al bancomat: indagini in corso",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaE5aRi14QUd2am8tMFpKWHRBcDBiZ3JoYk53WEhmbFZBYVEyOGdxMURRajNWdmVqNVZuS3VxOGdiMEFqUk9IeUp1cHVhaWd2TzFRMUY5VWotYTI4ZWFFazFLMzViX1JTdVZXX2xYN2pKeDNERndvNF81aktNenFWd2pJdTdzZUx2dXRoNW02OGVjYnJTSno3RTJIWDhHaGh3cV9HNVhDR29BM3M4aWh1MlVPSVBCNUFB0gHAAUFVX3lxTE1pX1g2UmtEUEVqNGNIU2hqV01wZ0VPYnpubkl0ajN2eS1VMU4tRUp6R3c5b2RtUG9wQWJnUjk0Znczdk9IR3FxSmdUMVJ6UDhMWTljUGVGcUpYdktfTjQ4Y21oblJ3SnYtbURDWlV3MTFWc0RkOXh3LXJpZmc3cDVBRnhfVUxJQlpsV3ZnNXdYX2VveWlwVkFUdk41b1lsbTVNZEJWOEZOanY3ODRUSHhuUV9TSlRqdnB0N1JyQTF3UQ?oc=5",
+          "time": "15 Jun, 07:22"
+        }
+      ],
+      "grouped_count": 6,
+      "confidence": "high"
+    },
+    {
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Ottana, aggredisce gli agenti con un appendiabiti chiodato: arrestata",
+      "summary": "A Ottana una donna è stata arrestata dopo aver aggredito i poliziotti con un appendiabiti chiodato; alcune ricostruzioni collegano l’intervento a una rissa precedente.",
+      "why": "La notizia segnala un episodio di ordine pubblico seguito da un arresto e riportato da più testate locali.",
+      "tags": [
+        "Ottana",
+        "Cronaca",
+        "Ordine pubblico"
       ],
       "image": null,
       "sources": [
@@ -233,7 +508,7 @@
         },
         {
           "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYkkwbGZWVU5MMzFWbkJsV0ZibVU4LTJUbEJPcFdnbHhicHhwVDc2ck9aVjlLaXM3NFJrVHg0a1k4T2VNY1daQ3haTjg5T3NTdHFONVpfXzBtNktaUTUzY3M4NS0xazloSWZxUEtfNXdpUURrbUJhNDNxY2Zkd2lFOXVqQTRuaVJRQURZck9oYS1JYjRYZlIyMVEzT3p4dnJncXFKdzhtVkhFdi1PdnA3V0g2eFMyYXExWjJpOEVRcm5yS2gwZXBMVE5BZnhKZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeGhpdWxsS2lLQkF5elBzdlFqSXlJMGlmY2gtQjF0ZTYtTnhKdGJkdmkwVTBaTEZhV1V0cl9HbFdZekRiYkJsQkt3TnNwWDVOUnZ0RmtCalF0X0JQV3hhQ2tmZFh5Z1B1bHRuZUN4bTNoekhZMGtZRVNDWUpsNFRQVGM0c3NybTFaaXQ0blprdS03azU5S04yNVpXcFM0ZmFkd21xU0JKTDQ5VWNyUVQ0c25yWWtnVENMSWQ0STV6VVlPelBvNklKUHRVOUZSYkNfN0QyUlYybjIyME0?oc=5"
         }
       ],
       "variants": [
@@ -254,19 +529,27 @@
           "title": "Ottana, dopo la rissa aggredisce i poliziotti con un appendiabiti chiodato: arrestata una donna",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeGhpdWxsS2lLQkF5elBzdlFqSXlJMGlmY2gtQjF0ZTYtTnhKdGJkdmkwVTBaTEZhV1V0cl9HbFdZekRiYkJsQkt3TnNwWDVOUnZ0RmtCalF0X0JQV3hhQ2tmZFh5Z1B1bHRuZUN4bTNoekhZMGtZRVNDWUpsNFRQVGM0c3NybTFaaXQ0blprdS03azU5S04yNVpXcFM0ZmFkd21xU0JKTDQ5VWNyUVQ0c25yWWtnVENMSWQ0STV6VVlPelBvNklKUHRVOUZSYkNfN0QyUlYybjIyME0?oc=5",
           "time": "15 Jun, 08:45"
+        },
+        {
+          "source": "L'Unione Sarda",
+          "title": "Ottana, aggredisce i poliziotti con un appendiabiti chiodato: arrestata",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWWtmTzVocjIzTWZydldZdGE1eDNIajdRZjd6aVlmOUNfM2ttbV84WWY2UmpmelZLZFMzWmU0Wk9tcU04YkRWUnBERzB4ZnRCVXlFcXZXOEFtX1cwUGhhRXJua2t4eVpiSy1LTDdJUkp4RDh0RGpQaE5mMjQ1VUI1cHp5UkUzRU0wblozMExxOS0tb1lhTVZzQVdqOGlNWFR6ckVRejJOdkxTV1VwM25UYWlBOGNXNjZNRkJIMFBCUkoweHhGbXlCeXd0R0ZISGpl0gHYAUFVX3lxTE5qcWNLRGI2NElLY0xpZkNNb0ZmNThGYTJ4VndfZ1IyWFliS3c2ekF3M3VsVjF5S0o1eFhrQzA4ZWRLTGI3TTd6bVNQaTFYSHVtTkxKTUdVNWdBc3Rnam41amNJUnExU2V5WTdfdmtwYXE3ekFjeHJHZGxYUGxORDBlcThFd3E1c1I4OFdzZ1BVejBMdkEzWG54SE42Y1VGSzFPT2hsSlYzNjJ2UGUwcWtwQ2tGUElhMXRsQkY0UjZtNTVTb0Rybjk1eVpZc1Q5d1VPUExnQ2pheA?oc=5",
+          "time": "15 Jun, 07:58"
         }
       ],
-      "grouped_count": 4
+      "grouped_count": 4,
+      "confidence": "high"
     },
     {
-      "section": "News",
+      "section": "Cronaca",
       "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
-      "summary": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
+      "title": "Ollolai, neonata di tre mesi muore dopo un malore durante una festa",
+      "summary": "A Ollolai una bambina di tre mesi è morta dopo un malore durante una festa; Cronache Nuoresi riferisce il decesso all’ospedale di Nuoro dopo l’allarme lanciato dalla madre.",
+      "why": "È una tragedia che coinvolge una comunità del Nuorese e sulla quale più testate hanno raccolto aggiornamenti e ricostruzioni.",
       "tags": [
-        "Sardegna",
-        "Ollolai"
+        "Ollolai",
+        "Cronaca",
+        "Sanità"
       ],
       "image": {
         "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100883181:1781517934/image/image.jpg?f=detail_558&h=720&w=1280&$p$f$h$w=d5eb06a",
@@ -277,12 +560,16 @@
       },
       "sources": [
         {
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/dramma-a-ollolai-bimba-di-tre-mesi-si-sente-male-a-una-festa-e-muore-in-ospedale/"
+        },
+        {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/tragedia-a-ollolai-neonata-di-tre-mesi-muore-dopo-un-malore-durante-una-festa-on7g8ex1"
         },
         {
           "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS1Eyd3NXclJvSUhpSk1oLU9IazkyN1QzYm9UOExha3JLUTM3Ukd4bFYtczJGanZlSzFjUmw1SG12Z0syLVZUU2xmXzJYcFZ4UUNPbDBNSEk0S0o5ckFMYVh5ZkhPaTlrNnhNMEV1ZXhNN3F3cHNlNGNjNjJhT0J0QVIxVTBScEdid1NNdVg0Rk82MkNCVU1yZnE5M01jcEhQeUx2ZS1IR2RNbUcyOVladE51R1JlVTc2MzBaLTE1dkp5cTdfR0lxOW1scnNUUQ?oc=5"
+          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/15/news/dramma-a-ollolai-muore-una-neonata-di-tre-mesi-cosa-sappiamo-1.100883182"
         }
       ],
       "variants": [
@@ -291,6 +578,12 @@
           "title": "Ollolai, malore improvviso durante una festa: muore neonata di tre mesi",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/tragedia-a-ollolai-neonata-di-tre-mesi-muore-dopo-un-malore-durante-una-festa-on7g8ex1",
           "time": "16 Jun, 05:37"
+        },
+        {
+          "source": "Cronache Nuoresi",
+          "title": "Dramma a Ollolai: bimba di tre mesi si sente male a una festa e muore in ospedale",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/dramma-a-ollolai-bimba-di-tre-mesi-si-sente-male-a-una-festa-e-muore-in-ospedale/",
+          "time": "15 Jun, 11:29"
         },
         {
           "source": "La Nuova Sardegna",
@@ -311,142 +604,26 @@
           "time": "15 Jun, 00:00"
         }
       ],
-      "grouped_count": 4
+      "grouped_count": 5,
+      "confidence": "high"
     },
     {
-      "section": "News",
-      "time": "15 Jun 2026, 08:14 UTC",
-      "title": "Fallisce assalto al bancomat nella notte nel Nuorese",
-      "summary": "Fallisce assalto al bancomat nella notte nel Nuorese ANSA",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia. Notizia raggruppata da più fonti.",
+      "section": "Cronaca",
+      "time": "16 Jun 2026, 05:37 UTC",
+      "title": "Nuoro, crolla il tetto di un rudere nel centro cittadino",
+      "summary": "A Nuoro è crollato il tetto di una vecchia abitazione: Cronache Nuoresi colloca l’episodio in via Sulis, nel cuore della città, e riferisce che i vigili del fuoco hanno verificato i muri perimetrali.",
+      "why": "Il cedimento riporta l’attenzione sulla sicurezza degli edifici abbandonati e sul presidio del centro urbano.",
       "tags": [
         "Nuoro",
-        "Nuorese"
+        "Crolli",
+        "Centro storico"
       ],
       "image": null,
       "sources": [
         {
-          "name": "ANSA Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdGhGWFlBZTN3X2JCaTFLdVcwV3pLaVZpbVVOZ3ZFU09LTzZ4R0s3TmRKYWlrdzFOZWJDLURZbzJFWV9mbTljLWphdFVXeW8ySXFPaGpreUE4SHhrUjFJUHhZMXhnUkJYb2tqQ0pvalBoZFBLenJ0dERoS2lGQ19YNFZlcmNxdWJLcmdCYk4xU0RpRExpTHRJWFFtOXdvQktvb0RmNjFSdVFlLWxXTlFmSWIxS2NoLWpWd1dEMHFmUXVOclVWYkVic2R5ZGJiZ2R2Skl3SVdJUWNkZ9IB3wFBVV95cUxPdDNBUTQ2Tl9kTHpaSjJTdmstSWNaNzdFajAtYU80M1dLUFMyeDIyNGhVbjFoeXd3TWQzTnVMel84RzRKWmgyTnZQWE12SDAxYlJtUWgzeXVDbVRZdVBLR05fNFZSdjl6ZjZHbF9sV2IwUElreTNMYUFuVWNoUEo4ZDdYa29EMXh3bXl3aEpCR2VPMzdDN2Q5MkVUYWt5dkFEa05BTE1adWdQODJoUERhRDJfZWdyUVh2dmx4THFfRV9qVUNaYjZmQTNVVm5YWlN5Ym53T2JEMUp1RzlhcXcw?oc=5"
+          "name": "Cronache Nuoresi",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/nuoro-paura-in-centro-per-il-crollo-di-un-rudere-riaffiora-il-dramma-di-ythan-e-patrick/"
         },
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVRoSmZRWFJrOF95RnRKUlZGU3pUMm16X2hldW1FQWJjaTViYVk1OFVOQXpHN2xmSFZtM3kwWGhKTFNlTHpBdmdJdC1LNkx6cDNfRF9mZ2RodFh3bkMwU044UW1DSlJqeHpTVHB4TmhZQ1ptN0p6SW4wT3Zfb3NNRU9KY19Id0h3T01icWlZaWdRanpkQjdSYzNWNHpkb19DQ3NGaF9TUU5uYjQxN21vX2xYbUp5d0hUN0hOUDBGQktJYlkyajVwTVMtQTMySzNqanJnWmlSOWtOdzJlOGp1aFpR?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "ANSA Sardegna",
-          "title": "Fallisce assalto al bancomat nella notte nel Nuorese",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdGhGWFlBZTN3X2JCaTFLdVcwV3pLaVZpbVVOZ3ZFU09LTzZ4R0s3TmRKYWlrdzFOZWJDLURZbzJFWV9mbTljLWphdFVXeW8ySXFPaGpreUE4SHhrUjFJUHhZMXhnUkJYb2tqQ0pvalBoZFBLenJ0dERoS2lGQ19YNFZlcmNxdWJLcmdCYk4xU0RpRExpTHRJWFFtOXdvQktvb0RmNjFSdVFlLWxXTlFmSWIxS2NoLWpWd1dEMHFmUXVOclVWYkVic2R5ZGJiZ2R2Skl3SVdJUWNkZ9IB3wFBVV95cUxPdDNBUTQ2Tl9kTHpaSjJTdmstSWNaNzdFajAtYU80M1dLUFMyeDIyNGhVbjFoeXd3TWQzTnVMel84RzRKWmgyTnZQWE12SDAxYlJtUWgzeXVDbVRZdVBLR05fNFZSdjl6ZjZHbF9sV2IwUElreTNMYUFuVWNoUEo4ZDdYa29EMXh3bXl3aEpCR2VPMzdDN2Q5MkVUYWt5dkFEa05BTE1adWdQODJoUERhRDJfZWdyUVh2dmx4THFfRV9qVUNaYjZmQTNVVm5YWlN5Ym53T2JEMUp1RzlhcXcw?oc=5",
-          "time": "15 Jun, 08:14"
-        },
-        {
-          "source": "La Nuova Sardegna",
-          "title": "Assalto al bancomat con esplosivo nella notte: banditi in fuga – Cosa sappiamo",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVRoSmZRWFJrOF95RnRKUlZGU3pUMm16X2hldW1FQWJjaTViYVk1OFVOQXpHN2xmSFZtM3kwWGhKTFNlTHpBdmdJdC1LNkx6cDNfRF9mZ2RodFh3bkMwU044UW1DSlJqeHpTVHB4TmhZQ1ptN0p6SW4wT3Zfb3NNRU9KY19Id0h3T01icWlZaWdRanpkQjdSYzNWNHpkb19DQ3NGaF9TUU5uYjQxN21vX2xYbUp5d0hUN0hOUDBGQktJYlkyajVwTVMtQTMySzNqanJnWmlSOWtOdzJlOGp1aFpR?oc=5",
-          "time": "15 Jun, 07:36"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
-      "summary": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Fonni"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Fonni, tentato assalto al bancomat con l’esplosivo: indagini in corso",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/fonni-tentato-assalto-al-bancomat-indagini-in-corso-bs8zb2of",
-          "time": "16 Jun, 05:37"
-        },
-        {
-          "source": "L'Unione Sarda",
-          "title": "Fonni, tentato assalto al bancomat: indagini in corso",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaE5aRi14QUd2am8tMFpKWHRBcDBiZ3JoYk53WEhmbFZBYVEyOGdxMURRajNWdmVqNVZuS3VxOGdiMEFqUk9IeUp1cHVhaWd2TzFRMUY5VWotYTI4ZWFFazFLMzViX1JTdVZXX2xYN2pKeDNERndvNF81aktNenFWd2pJdTdzZUx2dXRoNW02OGVjYnJTSno3RTJIWDhHaGh3cV9HNVhDR29BM3M4aWh1MlVPSVBCNUFB0gHAAUFVX3lxTE1pX1g2UmtEUEVqNGNIU2hqV01wZ0VPYnpubkl0ajN2eS1VMU4tRUp6R3c5b2RtUG9wQWJnUjk0Znczdk9IR3FxSmdUMVJ6UDhMWTljUGVGcUpYdktfTjQ4Y21oblJ3SnYtbURDWlV3MTFWc0RkOXh3LXJpZmc3cDVBRnhfVUxJQlpsV3ZnNXdYX2VveWlwVkFUdk41b1lsbTVNZEJWOEZOanY3ODRUSHhuUV9TSlRqdnB0N1JyQTF3UQ?oc=5",
-          "time": "15 Jun, 07:22"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
-      "summary": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Oliena"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/oliena-precipita-dal-terrazzino-di-casa-e-batte-la-testa-gravissimo-hmk9ol66"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Oliena, precipita dal terrazzino di casa e batte la testa: gravissimo",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/oliena-precipita-dal-terrazzino-di-casa-e-batte-la-testa-gravissimo-hmk9ol66",
-          "time": "16 Jun, 05:37"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
-      "summary": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Nuoro"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/piscina-di-farcana-dopo-laffidamento-esplodono-le-polemiche-interrogazione-urgente-di-siamo-nuoro-h11dcc7o"
-        }
-      ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Piscina di Farcana, dopo l’affidamento esplodono le polemiche: interrogazione urgente di SiAmo Nuoro",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/piscina-di-farcana-dopo-laffidamento-esplodono-le-polemiche-interrogazione-urgente-di-siamo-nuoro-h11dcc7o",
-          "time": "16 Jun, 05:37"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
-      "summary": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Nuoro"
-      ],
-      "image": null,
-      "sources": [
         {
           "name": "L'Unione Sarda",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-crolla-il-tetto-di-una-vecchia-abitazione-nel-quartiere-di-santu-predu-n6kebewq"
@@ -458,101 +635,22 @@
           "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
           "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/nuoro-crolla-il-tetto-di-una-vecchia-abitazione-nel-quartiere-di-santu-predu-n6kebewq",
           "time": "16 Jun, 05:37"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "Economia / Tributi",
-      "time": "15 Jun 2026, 19:34 UTC",
-      "title": "La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
-      "summary": "La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono La Nuova Sardegna",
-      "why": "Può avere effetti concreti su cittadini, imprese, agricoltura o risorse pubbliche.",
-      "tags": [
-        "Nuoro",
-        "Economia"
-      ],
-      "image": {
-        "url": "https://api-sites-prd.saegroup.abinsula.com/api/media/image/contentid/policy:1.100883464:1781552070/PM_1781535452756_COLORE.jpg?f=detail_558&h=720&w=1280&$p$f$h$w=8452cf1",
-        "alt": "La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
-        "credit": "La Nuova Sardegna",
-        "source_article_url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/15/news/la-procura-di-nuoro-e-a-pieno-organico-due-nuovi-pm-sono-arrivati-in-citta-ecco-chi-sono-1.100883465",
-        "confidence": "medium"
-      },
-      "sources": [
-        {
-          "name": "La Nuova Sardegna",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQkg0ZWlnNTRWR1BCblJ0QzN4YnhNNnh3OE85WE1oQ3NSOERQZnI4UUU3anEwOW9IOHB4ZlF3WXdHX3kxRnU0ZlVYV3Ftc3FLQ0dfMXRNNDRTNUxhdFlIZzg3akhtVXVXbFhrYXM2UW1iMXdFdmJsWjNjVUlrYU4wRWJzaTJwMklMQ2dzOUJmWFVVVE4xVDZTYUpzTkhCYTJ6c0NVMzBSWHpSZzg5RmtKM0hmTUNfMjZSSUtISXYxcWlsbWFkTGN0eTJCZldPOFRvRTJpX3hja3NhY2V1REV5WUNEWlQ1QTN0N3dQLWh6VmJIRUU?oc=5"
-        }
-      ],
-      "variants": [
-        {
-          "source": "La Nuova Sardegna",
-          "title": "La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQkg0ZWlnNTRWR1BCblJ0QzN4YnhNNnh3OE85WE1oQ3NSOERQZnI4UUU3anEwOW9IOHB4ZlF3WXdHX3kxRnU0ZlVYV3Ftc3FLQ0dfMXRNNDRTNUxhdFlIZzg3akhtVXVXbFhrYXM2UW1iMXdFdmJsWjNjVUlrYU4wRWJzaTJwMklMQ2dzOUJmWFVVVE4xVDZTYUpzTkhCYTJ6c0NVMzBSWHpSZzg5RmtKM0hmTUNfMjZSSUtISXYxcWlsbWFkTGN0eTJCZldPOFRvRTJpX3hja3NhY2V1REV5WUNEWlQ1QTN0N3dQLWh6VmJIRUU?oc=5",
-          "time": "15 Jun, 19:34"
         },
         {
-          "source": "La Nuova Sardegna",
-          "title": "p Tribunale La Procura di Nuoro è a pieno organico, due nuovi pm sono arrivati in città: ecco chi sono",
-          "url": "https://www.lanuovasardegna.it/nuoro/cronaca/2026/06/15/news/la-procura-di-nuoro-e-a-pieno-organico-due-nuovi-pm-sono-arrivati-in-citta-ecco-chi-sono-1.100883465",
-          "time": "15 Jun, 00:00"
-        }
-      ],
-      "grouped_count": 2
-    },
-    {
-      "section": "News",
-      "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
-      "summary": "Mamoiada, Luciano Barone confermato alla guida del paese",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Sardegna",
-        "Mamoiada"
-      ],
-      "image": null,
-      "sources": [
-        {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75"
-        }
-      ],
-      "variants": [
-        {
           "source": "L'Unione Sarda",
-          "title": "Mamoiada, Luciano Barone confermato alla guida del paese",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/mamoiada-luciano-barone-confermato-alla-guida-del-paese-w5dguj75",
-          "time": "16 Jun, 05:37"
-        }
-      ],
-      "grouped_count": 1
-    },
-    {
-      "section": "News",
-      "time": "16 Jun 2026, 05:37 UTC",
-      "title": "Moto contro auto a Nuoro, centauro gravissimo",
-      "summary": "Moto contro auto a Nuoro, centauro gravissimo",
-      "why": "Da monitorare per impatto locale su Nuoro e provincia.",
-      "tags": [
-        "Nuoro"
-      ],
-      "image": null,
-      "sources": [
+          "title": "Nuoro, crolla il tetto di una vecchia abitazione nel quartiere di Santu Predu",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeXRsMUp5akh6aEtaZnhsZ0d6bV81TktEczRiWkZQd0xMU2V6WWRlYzliOFd4LUhldnpWQ01PajgzQnM5cTBpdGlKSkNYeURJRHluUFZ4RUthOVU1cnVGSkw1Z051cnpzYnhwSWZxVWJuV1J2OFJvMFh3SVJuRVZKOTNrWmEwcDhIUVpQMEN1alU4eGUycy03S1lrMU5JN3NDbnlQSUotSkttazRPWjFsSnBreVFzdGVaVm5lcC1fVndpYVlFOE01QTZoeGNuRFQ3Q3pvWjdtdXUwd9IB4gFBVV95cUxPSlYzbWE2Y2RENk1LSGlxbkhKMTg5TW9vZDNNRlRKQk92ckk1WjRYbnNiWVdrb280RUs1ak9udWtSMjQzWU9OQUEwYlJVd0VxMVRNeWZqN3BDVUNHYmJRMU5hQTAxc0VfakhabWVBd3k2RlpDNHFOLXZ2NmxZX1VsM1EtbTRfb2N0dEhHaWk1MUdhLUtDcUdYSFFGLXNZTDdTYWR6clZhbTNkUWtWTHhNMnlUSVh3TmZTNmFrSlF4WWdBMzVhWGxjaElNZ2hkQlpMNm5GQnVKbm85YlpmdlhqSDFn?oc=5",
+          "time": "15 Jun, 19:05"
+        },
         {
-          "name": "L'Unione Sarda",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2"
+          "source": "Cronache Nuoresi",
+          "title": "Nuoro. Paura in centro per il crollo di un rudere: riaffiora il dramma di Ythan e Patrick",
+          "url": "https://www.cronachenuoresi.it/2026/06/15/nuoro-paura-in-centro-per-il-crollo-di-un-rudere-riaffiora-il-dramma-di-ythan-e-patrick/",
+          "time": "15 Jun, 18:39"
         }
       ],
-      "variants": [
-        {
-          "source": "L'Unione Sarda",
-          "title": "Moto contro auto a Nuoro, centauro gravissimo",
-          "url": "https://www.unionesarda.it/news-sardegna/nuoro-provincia/moto-contro-bmw-a-nuoro-centauro-gravissimo-nggil6p2",
-          "time": "16 Jun, 05:37"
-        }
-      ],
-      "grouped_count": 1
+      "grouped_count": 3,
+      "confidence": "high"
     }
   ]
 }
