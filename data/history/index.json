@@ -1,6 +1,12 @@
 {
   "snapshots": [
     {
+      "file": "data/history/2026-06-16-14-08-UTC-2.json",
+      "updated_at": "2026-06-16 14:08 UTC",
+      "items_count": 10,
+      "archived_at": "2026-06-16 16:14 UTC"
+    },
+    {
       "file": "data/history/2026-06-16-14-08-UTC.json",
       "updated_at": "2026-06-16 14:08 UTC",
       "items_count": 10,
@@ -293,12 +299,6 @@
       "updated_at": "2026-06-14 01:29 UTC",
       "items_count": 10,
       "archived_at": "2026-06-14 03:31 UTC"
-    },
-    {
-      "file": "data/history/2026-06-13-23-27-UTC.json",
-      "updated_at": "2026-06-13 23:27 UTC",
-      "items_count": 10,
-      "archived_at": "2026-06-14 01:29 UTC"
     }
   ]
 }
